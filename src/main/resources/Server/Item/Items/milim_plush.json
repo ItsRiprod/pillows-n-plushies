@@ -1,0 +1,110 @@
+{
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.milim_plush.name",
+    "Description": "pillows_n_plushies.items.milim_plush.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "MaxStack": 100,
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "Set": "Furniture_Misc",
+  "Icon": "Icons/ItemsGenerated/milim_plush.png",
+  "Model": "Blocks/milim_plush.blockymodel",
+  "Texture": "Blocks/milim_plush.png",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/milim_plush.blockymodel",
+    "VariantRotation": "NESW",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/milim_plush.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Wood",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Plushie",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "Simple",
+            "Effects": {
+              "WorldSoundEventId": "SFX_Plushie_Build"
+            }
+          }
+        ]
+      }
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "East": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "West": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_Pink",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 8
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Misc"
+        ]
+      }
+    ],
+    "TimeSeconds": 4
+  },
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -8
+    ]
+  }
+}

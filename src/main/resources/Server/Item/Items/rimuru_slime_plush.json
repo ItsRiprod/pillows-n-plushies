@@ -1,0 +1,121 @@
+{
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.rimuru_slime_plush.name",
+    "Description": "pillows_n_plushies.items.rimuru_slime_plush.description"
+  },
+  "PlayerAnimationsId": "Item",
+  "MaxStack": 100,
+  "Categories": [
+    "Blocks.Deco",
+    "Items.Weapons"
+  ],
+  "Tags": {
+    "Type": [
+      "Deco",
+      "Weapon"
+    ]
+  },
+  "Set": "Furniture_Misc",
+  "Icon": "Icons/ItemsGenerated/rimuru_slime_plush.png",
+  "Model": "Blocks/rimuru_slime_plush.blockymodel",
+  "Texture": "Blocks/rimuru_slime_plush.png",
+  "Weapon": {},
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        "Block_Secondary"
+      ]
+    }
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/rimuru_slime_plush.blockymodel",
+    "VariantRotation": "NESW",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/rimuru_slime_plush.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Wood",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Plushie",
+    "Seats": [
+      {
+        "Offset": {
+          "X": 0,
+          "Y": 0.08,
+          "Z": 0.2
+        },
+        "Yaw": 0
+      }
+    ],
+    "Interactions": {
+      "Use": "Plush_Seat"
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "East": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "West": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_Blue",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 8
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Misc"
+        ]
+      }
+    ],
+    "TimeSeconds": 4
+  },
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -8
+    ]
+  }
+}
