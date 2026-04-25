@@ -1,0 +1,23 @@
+{
+    "Group": "com.oruuke",
+    "Name": "pillows-n-plushies",
+    "Version": "3.0.0",
+    "Description": "weaponised femboy body pillows + squeezable plushies such as astolfo, felix, rimuru, veldora, milim!",
+    "Authors": [
+        {
+            "Name": "oruuke"
+        }
+    ],
+    "Website": "https://www.curseforge.com/hytale/mods/pillows-n-plushies",
+    "ServerVersion": "2026.03.26-89796e57b",
+    "Dependencies": {
+        "Hytale:AssetModule": "*"
+    },
+    "OptionalDependencies": {},
+    "DisabledByDefault": false,
+    "Main": "com.oruuke.pillowsnplushies.PillowsNPlushies",
+    "IncludesAssetPack": true,
+    "UpdateChecker": {
+        "CurseForge": ""
+    }
+}
