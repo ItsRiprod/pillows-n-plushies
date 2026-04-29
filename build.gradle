@@ -2,7 +2,7 @@ plugins {
     id 'idea'
     id 'java'
     id 'com.azuredoom.hytale-tools' version '1.0.+'
-    id 'com.azuredoom.hytalepublisher' version '1.0.0'
+    id 'com.azuredoom.hytalepublisher' version '1.0.1'
 }
 
 javadoc {
@@ -36,7 +36,6 @@ repositories {
     mavenCentral()
 }
 
-
 idea {
     module {
         downloadSources = true
@@ -47,18 +46,16 @@ idea {
 hytalePublisher {
     modtale {
         enabled = true
-        projectId = "06HMSQ"
+        projectId = project.modtale_project_id.toString()
     }
 
     curseforge {
         enabled = true
-        projectId = "1429098"
+        projectId = project.curseforge_project_id.toString()
     }
 
     modifold {
         enabled = true
-        projectId = "pillows-n-plushies"
-        gameVersions = [project.hytale_version]
-        loaders = ["vanilla"]
+        projectId = project.modifold_project_slug.toString()
     }
 }

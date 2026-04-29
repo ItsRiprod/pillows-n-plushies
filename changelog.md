@@ -1,1 +1,0 @@
-transitioned to plugin via azuredoom's template generator!
