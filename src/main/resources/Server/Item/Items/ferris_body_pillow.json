@@ -1,11 +1,11 @@
 {
   "Parent": "Template_Weapon_Mace",
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.felix_body_pillow.name",
-    "Description": "pillows_n_plushies.items.felix_body_pillow.description"
+    "Name": "pillows_n_plushies.items.ferris_body_pillow.name",
+    "Description": "pillows_n_plushies.items.ferris_body_pillow.description"
   },
-  "Model": "Blocks/felix_body_pillow.blockymodel",
-  "Texture": "Blocks/felix_body_pillow.png",
+  "Model": "Blocks/ferris_body_pillow.blockymodel",
+  "Texture": "Blocks/ferris_body_pillow.png",
   "Set": "Furniture_Misc",
   "Scale": 2.0,
   "MaxStack": 100,
@@ -299,10 +299,10 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/felix_body_pillow.blockymodel",
+    "CustomModel": "Blocks/ferris_body_pillow.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/felix_body_pillow.png",
+        "Texture": "Blocks/ferris_body_pillow.png",
         "Weight": 1
       }
     ],
@@ -354,5 +354,5 @@
       -17
     ]
   },
-  "Icon": "Icons/ItemsGenerated/felix_body_pillow.png"
+  "Icon": "Icons/ItemsGenerated/ferris_body_pillow.png"
 }
