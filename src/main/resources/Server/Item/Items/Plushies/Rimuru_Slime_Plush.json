@@ -17,8 +17,8 @@
   },
   "Set": "Furniture_Misc",
   "Icon": "Icons/ItemsGenerated/Rimuru_Slime_Plush.png",
-  "Model": "Blocks/Rimuru_Slime_Plush.blockymodel",
-  "Texture": "Blocks/Rimuru_Slime_Plush.png",
+  "Model": "Blocks/Plushies/Rimuru_Slime_Plush.blockymodel",
+  "Texture": "Blocks/Plushies/Rimuru_Slime_Plush.png",
   "Weapon": {},
   "Interactions": {
     "Secondary": {
@@ -31,11 +31,11 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Rimuru_Slime_Plush.blockymodel",
+    "CustomModel": "Blocks/Plushies/Rimuru_Slime_Plush.blockymodel",
     "VariantRotation": "NESW",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Rimuru_Slime_Plush.png",
+        "Texture": "Blocks/Plushies/Rimuru_Slime_Plush.png",
         "Weight": 1
       }
     ],

@@ -4,8 +4,8 @@
     "Name": "pillows_n_plushies.items.Ferris_Body_Pillow.name",
     "Description": "pillows_n_plushies.items.Ferris_Body_Pillow.description"
   },
-  "Model": "Blocks/Ferris_Body_Pillow.blockymodel",
-  "Texture": "Blocks/Ferris_Body_Pillow.png",
+  "Model": "Blocks/Pillows/Body_Pillow.blockymodel",
+  "Texture": "Blocks/Pillows/Ferris_Body_Pillow.png",
   "Set": "Furniture_Misc",
   "Scale": 2.0,
   "MaxStack": 100,
@@ -299,10 +299,10 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/Ferris_Body_Pillow.blockymodel",
+    "CustomModel": "Blocks/Pillows/Body_Pillow.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Ferris_Body_Pillow.png",
+        "Texture": "Blocks/Pillows/Ferris_Body_Pillow.png",
         "Weight": 1
       }
     ],
@@ -323,7 +323,7 @@
         "Quantity": 4
       },
       {
-        "ItemId": "Cloth_Block_Wool_Blue",
+        "ItemId": "Cloth_Block_Wool_Blue_Light",
         "Quantity": 4
       },
       {

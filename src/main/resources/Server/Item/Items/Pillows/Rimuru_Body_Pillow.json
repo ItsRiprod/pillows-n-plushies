@@ -1,11 +1,11 @@
 {
   "Parent": "Template_Weapon_Mace",
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Gaia_Body_Pillow.name",
-    "Description": "pillows_n_plushies.items.Gaia_Body_Pillow.description"
+    "Name": "pillows_n_plushies.items.Rimuru_Body_Pillow.name",
+    "Description": "pillows_n_plushies.items.Rimuru_Body_Pillow.description"
   },
-  "Model": "Blocks/Gaia_Body_Pillow.blockymodel",
-  "Texture": "Blocks/Gaia_Body_Pillow.png",
+  "Model": "Blocks/Pillows/Body_Pillow.blockymodel",
+  "Texture": "Blocks/Pillows/Rimuru_Body_Pillow.png",
   "Set": "Furniture_Misc",
   "Scale": 2.0,
   "MaxStack": 100,
@@ -299,10 +299,10 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/Gaia_Body_Pillow.blockymodel",
+    "CustomModel": "Blocks/Pillows/Body_Pillow.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Gaia_Body_Pillow.png",
+        "Texture": "Blocks/Pillows/Rimuru_Body_Pillow.png",
         "Weight": 1
       }
     ],
@@ -323,7 +323,7 @@
         "Quantity": 4
       },
       {
-        "ItemId": "Cloth_Block_Wool_Green",
+        "ItemId": "Cloth_Block_Wool_Blue",
         "Quantity": 4
       },
       {
@@ -354,5 +354,5 @@
       -17
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Gaia_Body_Pillow.png"
+  "Icon": "Icons/ItemsGenerated/Rimuru_Body_Pillow.png"
 }

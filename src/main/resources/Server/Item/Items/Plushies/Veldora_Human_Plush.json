@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Milim_Plush.name",
-    "Description": "pillows_n_plushies.items.Milim_Plush.description"
+    "Name": "pillows_n_plushies.items.Veldora_Human_Plush.name",
+    "Description": "pillows_n_plushies.items.Veldora_Human_Plush.description"
   },
   "PlayerAnimationsId": "Block",
   "MaxStack": 100,
@@ -14,18 +14,18 @@
     ]
   },
   "Set": "Furniture_Misc",
-  "Icon": "Icons/ItemsGenerated/Milim_Plush.png",
-  "Model": "Blocks/Milim_Plush.blockymodel",
-  "Texture": "Blocks/Milim_Plush.png",
+  "Icon": "Icons/ItemsGenerated/Veldora_Human_Plush.png",
+  "Model": "Blocks/Plushies/Veldora_Human_Plush.blockymodel",
+  "Texture": "Blocks/Plushies/Veldora_Human_Plush.png",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Milim_Plush.blockymodel",
+    "CustomModel": "Blocks/Plushies/Veldora_Human_Plush.blockymodel",
     "VariantRotation": "NESW",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Milim_Plush.png",
+        "Texture": "Blocks/Plushies/Veldora_Human_Plush.png",
         "Weight": 1
       }
     ],
@@ -76,7 +76,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Cloth_Block_Wool_Pink",
+        "ItemId": "Cloth_Block_Wool_Yellow",
         "Quantity": 4
       },
       {
@@ -108,3 +108,4 @@
     ]
   }
 }
+

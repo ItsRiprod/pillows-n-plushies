@@ -1,7 +1,7 @@
 # currently contains content from:
 
-- tensura / slime isekai / that time i got reincarnated as a slime (rimuru, veldora, milim)
-- re:zero (felix or felis or ferris or wotever you use lol)
+- tensura / slime isekai / reincarnated as a slime (rimuru, veldora, milim)
+- re:zero (ferris or felis or felix or wotever you use lol)
 - fate (astolfo)
 - gaia (hytale)
 
