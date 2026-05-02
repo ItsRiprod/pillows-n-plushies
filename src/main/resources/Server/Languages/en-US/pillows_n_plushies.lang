@@ -20,3 +20,7 @@ items.veldora_human_plush.description = i am fully revived!
 
 items.milim_plush.name = milim plushie
 items.milim_plush.description = wh-what is all this?!
+
+# ==== furniture ====
+items.Furniture_Tavern_Bed.name = cute bed
+items.Furniture_Tavern_Bed.description = aaaa so soft
