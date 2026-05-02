@@ -1,6 +1,6 @@
 {
-  "Model": "Items/Rimuru/rimuru_slime_projectile.blockymodel",
-  "Texture": "Items/Rimuru/rimuru_slime_projectile.png",
+  "Model": "Items/Rimuru/Rimuru_Slime_Projectile.blockymodel",
+  "Texture": "Items/Rimuru/Rimuru_Slime_Projectile.png",
   "EyeHeight": 0.4,
   "HitBox": {
     "Max": {

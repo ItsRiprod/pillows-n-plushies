@@ -1,2 +1,3 @@
-added cute bed
-fixed textures and uv mapping to go right-way-up
+finally... rimuru body pillow!!
+
+switched all items to pascal snake case (items are preserved, all pillows are safe)

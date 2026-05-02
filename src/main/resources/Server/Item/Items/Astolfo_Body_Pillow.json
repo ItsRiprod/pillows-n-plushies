@@ -1,11 +1,12 @@
 {
   "Parent": "Template_Weapon_Mace",
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.ferris_body_pillow.name",
-    "Description": "pillows_n_plushies.items.ferris_body_pillow.description"
+    "Name": "pillows_n_plushies.items.Astolfo_Body_Pillow.name",
+    "Description": "pillows_n_plushies.items.Astolfo_Body_Pillow.description"
   },
-  "Model": "Blocks/ferris_body_pillow.blockymodel",
-  "Texture": "Blocks/ferris_body_pillow.png",
+  "Icon": "Icons/ItemsGenerated/Astolfo_Body_Pillow.png",
+  "Model": "Blocks/Astolfo_Body_Pillow.blockymodel",
+  "Texture": "Blocks/Astolfo_Body_Pillow.png",
   "Set": "Furniture_Misc",
   "Scale": 2.0,
   "MaxStack": 100,
@@ -299,10 +300,10 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/ferris_body_pillow.blockymodel",
+    "CustomModel": "Blocks/Astolfo_Body_Pillow.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/ferris_body_pillow.png",
+        "Texture": "Blocks/Astolfo_Body_Pillow.png",
         "Weight": 1
       }
     ],
@@ -323,7 +324,7 @@
         "Quantity": 4
       },
       {
-        "ItemId": "Cloth_Block_Wool_Blue",
+        "ItemId": "Cloth_Block_Wool_Red",
         "Quantity": 4
       },
       {
@@ -353,6 +354,5 @@
       -9,
       -17
     ]
-  },
-  "Icon": "Icons/ItemsGenerated/ferris_body_pillow.png"
+  }
 }

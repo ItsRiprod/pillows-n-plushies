@@ -1,31 +1,41 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.milim_plush.name",
-    "Description": "pillows_n_plushies.items.milim_plush.description"
+    "Name": "pillows_n_plushies.items.Rimuru_Slime_Plush.name",
+    "Description": "pillows_n_plushies.items.Rimuru_Slime_Plush.description"
   },
-  "PlayerAnimationsId": "Block",
+  "PlayerAnimationsId": "Item",
   "MaxStack": 100,
   "Categories": [
-    "Blocks.Deco"
+    "Blocks.Deco",
+    "Items.Weapons"
   ],
   "Tags": {
     "Type": [
-      "Deco"
+      "Deco",
+      "Weapon"
     ]
   },
   "Set": "Furniture_Misc",
-  "Icon": "Icons/ItemsGenerated/milim_plush.png",
-  "Model": "Blocks/milim_plush.blockymodel",
-  "Texture": "Blocks/milim_plush.png",
+  "Icon": "Icons/ItemsGenerated/Rimuru_Slime_Plush.png",
+  "Model": "Blocks/Rimuru_Slime_Plush.blockymodel",
+  "Texture": "Blocks/Rimuru_Slime_Plush.png",
+  "Weapon": {},
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        "Block_Secondary"
+      ]
+    }
+  },
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/milim_plush.blockymodel",
+    "CustomModel": "Blocks/Rimuru_Slime_Plush.blockymodel",
     "VariantRotation": "NESW",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/milim_plush.png",
+        "Texture": "Blocks/Rimuru_Slime_Plush.png",
         "Weight": 1
       }
     ],
@@ -38,17 +48,18 @@
     },
     "BlockParticleSetId": "Stone",
     "BlockSoundSetId": "Plushie",
-    "Interactions": {
-      "Use": {
-        "Interactions": [
-          {
-            "Type": "Simple",
-            "Effects": {
-              "WorldSoundEventId": "SFX_Plushie_Build"
-            }
-          }
-        ]
+    "Seats": [
+      {
+        "Offset": {
+          "X": 0,
+          "Y": 0.08,
+          "Z": 0.2
+        },
+        "Yaw": 0
       }
+    ],
+    "Interactions": {
+      "Use": "Plush_Seat"
     },
     "Support": {
       "Down": [
@@ -76,7 +87,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Cloth_Block_Wool_Pink",
+        "ItemId": "Cloth_Block_Wool_Blue",
         "Quantity": 4
       },
       {

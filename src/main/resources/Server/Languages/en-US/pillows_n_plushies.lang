@@ -1,25 +1,25 @@
 # ==== pillows ====
 
-items.astolfo_body_pillow.name = astolfo body pillow
-items.astolfo_body_pillow.description = player, is something wrong? you're making a weird face.
+items.Astolfo_Body_Pillow.name = astolfo body pillow
+items.Astolfo_Body_Pillow.description = player, is something wrong? you're making a weird face.
 
-items.ferris_body_pillow.name = ferris body pillow
-items.ferris_body_pillow.description = i swear, player-kun, you're so easy to read!
+items.Ferris_Body_Pillow.name = ferris body pillow
+items.Ferris_Body_Pillow.description = i swear, player-kun, you're so easy to read!
 
-items.gaia_body_pillow.name = gaia body pillow
-items.gaia_body_pillow.description = ...
+items.Gaia_Body_Pillow.name = gaia body pillow
+items.Gaia_Body_Pillow.description = ...
 
 
 # ==== plushies ====
 
-items.rimuru_slime_plush.name = rimuru slime plushie
-items.rimuru_slime_plush.description = i'm not a bad slime!
+items.Rimuru_Slime_Plush.name = rimuru slime plushie
+items.Rimuru_Slime_Plush.description = i'm not a bad slime!
 
-items.veldora_human_plush.name = veldora human plushie
-items.veldora_human_plush.description = i am fully revived!
+items.Veldora_Human_Plush.name = veldora human plushie
+items.Veldora_Human_Plush.description = i am fully revived!
 
-items.milim_plush.name = milim plushie
-items.milim_plush.description = wh-what is all this?!
+items.Milim_Plush.name = milim plushie
+items.Milim_Plush.description = wh-what is all this?!
 
 # ==== furniture ====
 items.Furniture_Tavern_Bed.name = cute bed
