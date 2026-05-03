@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Rock_Stone.name"
+    "Name": "pillows_n_plushies.items.Double_Pillow_Light.name",
+    "Description": "pillows_n_plushies.items.Double_Pillow_Light.description"
   },
   "ItemLevel": 10,
   "MaxStack": 100,
@@ -23,19 +24,22 @@
     "BlockParticleSetId": "Stone",
     "Textures": [
       {
-        "Sides": "BlockTextures/Double_Pillow_Cyan.png",
-        "Up": "BlockTextures/Double_Pillow_Cyan_2.png",
-        "Down": "BlockTextures/Double_Pillow_Cyan_2.png",
+        "Sides": "BlockTextures/Double_Pillow_Light.png",
+        "Up": "BlockTextures/Double_Pillow_Light_2.png",
+        "Down": "BlockTextures/Double_Pillow_Light_2.png",
         "Weight": 4
       }
     ],
-    "ParticleColor": "#737055",
+    "ParticleColor": "#b55088",
     "BlockSoundSetId": "Stone",
     "Aliases": [
       "stone",
       "stone00"
     ],
-    "BlockBreakingDecalId": "Breaking_Decals_Rock"
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "Tint": [
+      "#b55088"
+    ]
   },
   "ResourceTypes": [
     {
@@ -63,5 +67,5 @@
       -13.5
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Double_Pillow_Cyan.png"
+  "Icon": "Icons/ItemsGenerated/Double_Pillow_Light.png"
 }

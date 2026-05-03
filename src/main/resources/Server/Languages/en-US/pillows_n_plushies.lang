@@ -12,6 +12,12 @@ items.Rimuru_Body_Pillow.description = hue hue hue~
 items.Gaia_Body_Pillow.name = gaia body pillow
 items.Gaia_Body_Pillow.description = ...
 
+items.Double_Pillow_Light.name = double pillow light
+items.Double_Pillow_Light.description = looks sturdy enough for a fort!
+
+items.Double_Pillow_Dark.name = double pillow dark
+items.Double_Pillow_Dark.description = looks sturdy enough for a fort!
+
 
 # ==== plushies ====
 
@@ -25,5 +31,5 @@ items.Milim_Plush.name = milim plushie
 items.Milim_Plush.description = wh-what is all this?!
 
 # ==== furniture ====
-items.Furniture_Tavern_Bed.name = cute bed
-items.Furniture_Tavern_Bed.description = aaaa so soft
+items.Furniture_Cute_Bed.name = cute bed
+items.Furniture_Cute_Bed.description = aaaa so soft
