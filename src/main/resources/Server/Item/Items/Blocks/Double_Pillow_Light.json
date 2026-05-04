@@ -39,7 +39,12 @@
     "BlockBreakingDecalId": "Breaking_Decals_Rock",
     "Tint": [
       "#b55088"
-    ]
+    ],
+    "BlockEntity": {
+      "Components": {
+        "TintBlockState": {}
+      }
+    }
   },
   "ResourceTypes": [
     {

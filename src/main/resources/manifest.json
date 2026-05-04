@@ -11,7 +11,9 @@
     "Website": "https://github.com/oruuke/pillows-n-plushies",
     "ServerVersion": "2026.03.26-89796e57b",
     "Dependencies": {
-        "Hytale:AssetModule": "*"
+        "Hytale:AssetModule": "*",
+        "Hytale:EntityModule": "*",
+        "Hytale:BlockModule": "*"
     },
     "OptionalDependencies": {
         
