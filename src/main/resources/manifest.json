@@ -19,7 +19,7 @@
         
     },
     "DisabledByDefault": false,
-    "Main": "com.oruuke.pillow.Pillow",
+    "Main": "com.oruuke.pillow.PillowsNPlushies",
     "IncludesAssetPack": true,
     "UpdateChecker": {
         "CurseForge": ""

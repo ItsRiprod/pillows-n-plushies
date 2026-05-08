@@ -77,11 +77,11 @@
     "Input": [
       {
         "ItemId": "Cloth_Block_Wool_Yellow",
-        "Quantity": 4
+        "Quantity": 2
       },
       {
         "ItemId": "Ingredient_Fibre",
-        "Quantity": 8
+        "Quantity": 4
       }
     ],
     "BenchRequirement": [

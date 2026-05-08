@@ -12,12 +12,6 @@ items.Rimuru_Body_Pillow.description = hue hue hue~
 items.Gaia_Body_Pillow.name = gaia body pillow
 items.Gaia_Body_Pillow.description = ...
 
-items.Double_Pillow_Light.name = double pillow light
-items.Double_Pillow_Light.description = looks sturdy enough for a fort!
-
-items.Double_Pillow_Dark.name = double pillow dark
-items.Double_Pillow_Dark.description = looks sturdy enough for a fort!
-
 
 # ==== plushies ====
 
@@ -31,5 +25,58 @@ items.Milim_Plush.name = milim plushie
 items.Milim_Plush.description = wh-what is all this?!
 
 # ==== furniture ====
+
 items.Furniture_Cute_Bed.name = cute bed
 items.Furniture_Cute_Bed.description = aaaa so soft
+
+# ==== blocks ====
+
+items.Pillow_Block_Black.name = black pillow block
+items.Pillow_Block_Black.description = looks sturdy enough for a fort!
+items.Pillow_Block_White.name = white pillow block
+items.Pillow_Block_White.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Blue.name = blue pillow block
+items.Pillow_Block_Blue.description = looks sturdy enough for a fort!
+items.Pillow_Block_Blue_Light.name = light blue pillow block
+items.Pillow_Block_Blue_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Cyan.name = cyan pillow block
+items.Pillow_Block_Cyan.description = looks sturdy enough for a fort!
+items.Pillow_Block_Cyan_Light.name = light cyan pillow block
+items.Pillow_Block_Cyan_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Grey.name = grey pillow block
+items.Pillow_Block_Grey.description = looks sturdy enough for a fort!
+items.Pillow_Block_Grey_Light.name = light grey pillow block
+items.Pillow_Block_Grey_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Green.name = green pillow block
+items.Pillow_Block_Green.description = looks sturdy enough for a fort!
+items.Pillow_Block_Green_Light.name = light green pillow block
+items.Pillow_Block_Green_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Orange.name = orange pillow block
+items.Pillow_Block_Orange.description = looks sturdy enough for a fort!
+items.Pillow_Block_Orange_Light.name = light orange pillow block
+items.Pillow_Block_Orange_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Pink.name = pink pillow block
+items.Pillow_Block_Pink.description = looks sturdy enough for a fort!
+items.Pillow_Block_Pink_Light.name = light pink pillow block
+items.Pillow_Block_Pink_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Purple.name = purple pillow block
+items.Pillow_Block_Purple.description = looks sturdy enough for a fort!
+items.Pillow_Block_Purple_Light.name = light purple pillow block
+items.Pillow_Block_Purple_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Red.name = red pillow block
+items.Pillow_Block_Red.description = looks sturdy enough for a fort!
+items.Pillow_Block_Red_Light.name = light red pillow block
+items.Pillow_Block_Red_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Yellow.name = yellow pillow block
+items.Pillow_Block_Yellow.description = looks sturdy enough for a fort!
+items.Pillow_Block_Yellow_Light.name = light yellow pillow block
+items.Pillow_Block_Yellow_Light.description = looks sturdy enough for a fort!

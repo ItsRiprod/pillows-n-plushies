@@ -4,6 +4,7 @@
     "Name": "pillows_n_plushies.items.Ferris_Body_Pillow.name",
     "Description": "pillows_n_plushies.items.Ferris_Body_Pillow.description"
   },
+  "Icon": "Icons/ItemsGenerated/Ferris_Body_Pillow.png",
   "Model": "Blocks/Pillows/Body_Pillow.blockymodel",
   "Texture": "Blocks/Pillows/Ferris_Body_Pillow.png",
   "Set": "Furniture_Misc",
@@ -307,28 +308,28 @@
       }
     ],
     "VariantRotation": "NESW",
-    "Group": "Wood",
+    "Group": "Cloth",
     "Flags": {},
     "Gathering": {
       "Breaking": {
-        "GatherType": "Woods"
+        "GatherType": "SoftBlocks"
       }
     },
-    "BlockParticleSetId": "Stone"
+    "BlockParticleSetId": "Dust"
   },
   "Recipe": {
     "Input": [
       {
         "ItemId": "Cloth_Block_Wool_White",
-        "Quantity": 4
+        "Quantity": 1
       },
       {
         "ItemId": "Cloth_Block_Wool_Blue_Light",
-        "Quantity": 4
+        "Quantity": 1
       },
       {
         "ItemId": "Ingredient_Fibre",
-        "Quantity": 16
+        "Quantity": 8
       }
     ],
     "BenchRequirement": [
@@ -353,6 +354,5 @@
       -9,
       -17
     ]
-  },
-  "Icon": "Icons/ItemsGenerated/Ferris_Body_Pillow.png"
+  }
 }

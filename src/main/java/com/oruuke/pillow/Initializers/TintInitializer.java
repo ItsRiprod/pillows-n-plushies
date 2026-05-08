@@ -6,7 +6,7 @@ import com.hypixel.hytale.component.system.RefSystem;
 import com.hypixel.hytale.math.util.ChunkUtil;
 import com.hypixel.hytale.server.core.modules.block.BlockModule;
 import com.hypixel.hytale.server.core.universe.world.chunk.WorldChunk;
-import com.oruuke.pillow.Pillow;
+import com.oruuke.pillow.PillowsNPlushies;
 import com.oruuke.pillow.states.TintBlockState;
 
 import javax.annotation.Nonnull;
@@ -18,7 +18,7 @@ public class TintInitializer extends RefSystem {
         BlockModule.BlockStateInfo info = (BlockModule.BlockStateInfo) commandBuffer.getComponent(ref, BlockModule.BlockStateInfo.getComponentType());
         if (info == null) return;
 
-        TintBlockState generator = (TintBlockState) commandBuffer.getComponent(ref, Pillow.get().getTintBlockComponentType());
+        TintBlockState generator = (TintBlockState) commandBuffer.getComponent(ref, PillowsNPlushies.get().getTintBlockComponentType());
         if (generator != null) {
             int x = ChunkUtil.xFromBlockInColumn(info.getIndex());
             int y = ChunkUtil.yFromBlockInColumn(info.getIndex());
@@ -37,6 +37,6 @@ public class TintInitializer extends RefSystem {
 
     @Override
     public Query getQuery() {
-        return Query.and(BlockModule.BlockStateInfo.getComponentType(), Pillow.get().getTintBlockComponentType());
+        return Query.and(BlockModule.BlockStateInfo.getComponentType(), PillowsNPlushies.get().getTintBlockComponentType());
     }
 }

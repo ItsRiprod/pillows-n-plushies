@@ -1,0 +1,74 @@
+{
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Pillow_Block_Cyan_Light.name",
+    "Description": "pillows_n_plushies.items.Pillow_Block_Cyan_Light.description"
+  },
+  "ItemLevel": 2,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_Cyan_Light",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 8
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Textiles"
+        ]
+      }
+    ],
+    "TimeSeconds": 8
+  },
+  "Categories": [
+    "Blocks.Cloth"
+  ],
+  "SubCategory": "BlockSets",
+  "Set": "Cloth_Wool_Cyan_Light",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Cloth",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Dust",
+    "Textures": [
+      {
+        "All": "BlockTextures/Pillow_Block_Cyan_Light.png",
+        "Weight": 4
+      }
+    ],
+    "BlockSoundSetId": "Cloth",
+    "ParticleColor": "#f5f5f5"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Cloth"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Pillow_Block_Cyan_Light.png"
+}
