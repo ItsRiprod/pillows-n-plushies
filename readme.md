@@ -17,6 +17,7 @@
 - whackable (explainer: wage war by weaponising body pillows to dish out a whole zero damage... and infinite envy)
 - squeezable (explainer: compress the living daylights outta your favourite slime and hear the cries!)
 - sitable (explainer: stake yer claim atop rimuru as he sweats it out underneath your weight!)
+- buildable (explainer: construct an architectural masterpiece via pillow blocks of erry cloth colour in hytale)
 
 ## ux of features
 
@@ -26,3 +27,4 @@
 - victory through pillow
 - schadenfreude :3
 - flawless utility
+- goated pillow fort
