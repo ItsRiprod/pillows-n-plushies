@@ -28,3 +28,16 @@
 - schadenfreude :3
 - flawless utility
 - goated pillow fort
+
+
+
+# todo
+
+- [ ] fix body pillow as weapon
+- [ ] pillowcode
+- [ ] particle effects
+- [ ] sound effects
+- [ ] make plushies throwable
+- [ ] pillowmage onesie
+- [ ] pillowpeople npcs
+- [ ] pillow dimension
