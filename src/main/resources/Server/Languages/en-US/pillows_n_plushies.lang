@@ -29,6 +29,11 @@ items.Milim_Plush.description = wh-what is all this?!
 items.Furniture_Cute_Bed.name = cute bed
 items.Furniture_Cute_Bed.description = aaaa so soft
 
+# ==== pillowcode ====
+
+items.Hexbook_Pillow.name = pillow grimoire
+items.Hexbook_Pillow.description = softest book i ever held!
+
 # ==== blocks ====
 
 items.Pillow_Block_Black.name = black pillow block

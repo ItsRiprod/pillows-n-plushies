@@ -1,0 +1,72 @@
+{
+  "Parent": "Template_HexBook",
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Hexbook_Pillow.name",
+    "Description": "pillows_n_plushies.items.Hexbook_Pillow.description"
+  },
+  "Categories": [
+    "Hexcode.Books",
+    "Items.Weapons"
+  ],
+  "Quality": "Legendary",
+  "ItemLevel": 40,
+  "Model": "Items/Tools/Book/Grimoire_Pillow.blockymodel",
+  "Texture": "Items/Tools/Book/Grimoire_Pillow.png",
+  "IconProperties": {
+    "Scale": 0.745,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -7.8,
+      -7.8
+    ]
+  },
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "MaxStack": 1,
+  "Scale": 1.2,
+  "Tags": {
+    "Type": [
+      "ArcaneHexBook"
+    ]
+  },
+  "Weapon": {},
+  "ItemSoundSetId": "ISS_Weapons_Books",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Life_Hexbook",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Rock_Gem_Diamond"
+      },
+      {
+        "ItemId": "Void_Hexbook",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ice_Hexbook",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Fire_Hexbook",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 30
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Categories": [
+          "Arcane_Hexcode"
+        ],
+        "Id": "Arcanebench"
+      }
+    ]
+  }
+}
