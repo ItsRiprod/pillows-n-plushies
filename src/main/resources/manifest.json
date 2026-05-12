@@ -16,7 +16,9 @@
         "Hytale:BlockModule": "*"
     },
     "OptionalDependencies": {
-        
+        "Hexcode:AssetModule": "*",
+        "Hexcode:EntityModule": "*",
+        "Hexcode:BlockModule": "*"
     },
     "DisabledByDefault": false,
     "Main": "com.oruuke.pillow.PillowsNPlushies",

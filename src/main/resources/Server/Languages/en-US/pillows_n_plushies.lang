@@ -34,6 +34,9 @@ items.Furniture_Cute_Bed.description = aaaa so soft
 items.Hexbook_Pillow.name = pillow grimoire
 items.Hexbook_Pillow.description = softest book i ever held!
 
+items.Hexstaff_Pillow.name = pillow staff
+items.Hexstaff_Pillow.description = mrow! nya!!
+
 # ==== blocks ====
 
 items.Pillow_Block_Black.name = black pillow block

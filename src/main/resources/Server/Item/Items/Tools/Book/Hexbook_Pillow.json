@@ -1,0 +1,26 @@
+{
+  "TranslationProperties": {
+    "Name": "pillow grimoire",
+    "Description": "softest book i ever held!"
+  },
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Quality": "Legendary",
+  "ItemLevel": 40,
+  "Model": "Items/Tools/Book/Grimoire_Pillow.blockymodel",
+  "Texture": "Items/Tools/Book/Grimoire_Pillow.png",
+  "IconProperties": {
+    "Scale": 0.37,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -24.6,
+      -24.6
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Hexbook_Pillow.png"
+}
