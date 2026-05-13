@@ -790,7 +790,7 @@
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": false,
-                "shadingMode": "flat"
+                "shadingMode": "fullbright"
               },
               "children": [
                 {
@@ -842,7 +842,7 @@
                     "unwrapMode": "custom",
                     "visible": true,
                     "doubleSided": false,
-                    "shadingMode": "flat"
+                    "shadingMode": "fullbright"
                   }
                 },
                 {
@@ -894,7 +894,7 @@
                     "unwrapMode": "custom",
                     "visible": true,
                     "doubleSided": false,
-                    "shadingMode": "flat"
+                    "shadingMode": "fullbright"
                   }
                 },
                 {
@@ -946,7 +946,7 @@
                     "unwrapMode": "custom",
                     "visible": true,
                     "doubleSided": false,
-                    "shadingMode": "flat"
+                    "shadingMode": "fullbright"
                   }
                 },
                 {
@@ -998,7 +998,7 @@
                     "unwrapMode": "custom",
                     "visible": true,
                     "doubleSided": false,
-                    "shadingMode": "flat"
+                    "shadingMode": "fullbright"
                   }
                 },
                 {
@@ -1050,7 +1050,7 @@
                     "unwrapMode": "custom",
                     "visible": true,
                     "doubleSided": false,
-                    "shadingMode": "flat"
+                    "shadingMode": "fullbright"
                   }
                 },
                 {
@@ -1102,7 +1102,7 @@
                     "unwrapMode": "custom",
                     "visible": true,
                     "doubleSided": false,
-                    "shadingMode": "flat"
+                    "shadingMode": "fullbright"
                   }
                 }
               ]
@@ -1326,7 +1326,7 @@
                         "unwrapMode": "custom",
                         "visible": true,
                         "doubleSided": true,
-                        "shadingMode": "flat"
+                        "shadingMode": "fullbright"
                       }
                     },
                     {
@@ -1354,7 +1354,7 @@
                         "unwrapMode": "custom",
                         "visible": true,
                         "doubleSided": true,
-                        "shadingMode": "flat"
+                        "shadingMode": "fullbright"
                       }
                     },
                     {
@@ -1382,7 +1382,7 @@
                         "unwrapMode": "custom",
                         "visible": true,
                         "doubleSided": true,
-                        "shadingMode": "flat"
+                        "shadingMode": "fullbright"
                       }
                     },
                     {
@@ -1410,7 +1410,7 @@
                         "unwrapMode": "custom",
                         "visible": true,
                         "doubleSided": true,
-                        "shadingMode": "flat"
+                        "shadingMode": "fullbright"
                       }
                     },
                     {
@@ -1438,7 +1438,7 @@
                         "unwrapMode": "custom",
                         "visible": true,
                         "doubleSided": true,
-                        "shadingMode": "flat"
+                        "shadingMode": "fullbright"
                       }
                     },
                     {
@@ -1466,14 +1466,14 @@
                         "unwrapMode": "custom",
                         "visible": true,
                         "doubleSided": true,
-                        "shadingMode": "flat"
+                        "shadingMode": "fullbright"
                       }
                     },
                     {
                       "id": "40",
                       "name": "cube--C7",
                       "position": {"x": -5.67737, "y": 1, "z": -28.03883},
-                      "orientation": {"x": 0.21263, "y": 0.67438, "z": 0.67438, "w": -0.21263},
+                      "orientation": {"x": -0.21263, "y": -0.67438, "z": -0.67438, "w": 0.21263},
                       "shape": {
                         "type": "quad",
                         "offset": {"x": 8, "y": -3.7, "z": 0},
@@ -1494,7 +1494,7 @@
                         "unwrapMode": "custom",
                         "visible": true,
                         "doubleSided": true,
-                        "shadingMode": "flat"
+                        "shadingMode": "fullbright"
                       }
                     },
                     {
@@ -1522,7 +1522,7 @@
                         "unwrapMode": "custom",
                         "visible": true,
                         "doubleSided": true,
-                        "shadingMode": "flat"
+                        "shadingMode": "fullbright"
                       }
                     }
                   ]
@@ -1656,7 +1656,7 @@
                 {
                   "id": "45",
                   "name": "tassel5",
-                  "position": {"x": 13, "y": 9, "z": -19},
+                  "position": {"x": 26, "y": -8, "z": -32},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                   "shape": {
                     "type": "box",
@@ -1765,7 +1765,7 @@
                 {
                   "id": "48",
                   "name": "tassel6",
-                  "position": {"x": -19, "y": 9, "z": -19},
+                  "position": {"x": -6, "y": -8, "z": -32},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                   "shape": {
                     "type": "box",
@@ -1874,7 +1874,7 @@
                 {
                   "id": "51",
                   "name": "tassel7",
-                  "position": {"x": -19, "y": 9, "z": 13},
+                  "position": {"x": -6, "y": -8, "z": 0},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                   "shape": {
                     "type": "box",
@@ -1983,7 +1983,7 @@
                 {
                   "id": "54",
                   "name": "tassel8",
-                  "position": {"x": 13, "y": 9, "z": 13},
+                  "position": {"x": 26, "y": -8, "z": 0},
                   "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                   "shape": {
                     "type": "box",
@@ -3286,36 +3286,36 @@
               ]
             }
           ]
-        },
-        {
-          "id": "92",
-          "name": "cube--C1",
-          "position": {"x": 0, "y": 0, "z": 0},
-          "orientation": {"x": -0.65328, "y": -0.2706, "z": -0.2706, "w": 0.65328},
-          "shape": {
-            "type": "quad",
-            "offset": {"x": 0, "y": 0, "z": 3},
-            "stretch": {"x": 1, "y": 1, "z": 1},
-            "settings": {
-              "isPiece": false,
-              "size": {"x": 34, "y": 34},
-              "normal": "+Z",
-              "isStaticBox": true
-            },
-            "textureLayout": {
-              "front": {
-                "offset": {"x": 93, "y": 93},
-                "mirror": {"x": false, "y": false},
-                "angle": 0
-              }
-            },
-            "unwrapMode": "custom",
-            "visible": true,
-            "doubleSided": true,
-            "shadingMode": "flat"
-          }
         }
       ]
+    },
+    {
+      "id": "92",
+      "name": "cube",
+      "position": {"x": 0, "y": 0, "z": 0},
+      "orientation": {"x": -0.65328, "y": -0.2706, "z": -0.2706, "w": 0.65328},
+      "shape": {
+        "type": "quad",
+        "offset": {"x": 0, "y": 0, "z": 3},
+        "stretch": {"x": 1, "y": 1, "z": 1},
+        "settings": {
+          "isPiece": false,
+          "size": {"x": 34, "y": 34},
+          "normal": "+Z",
+          "isStaticBox": true
+        },
+        "textureLayout": {
+          "front": {
+            "offset": {"x": 93, "y": 93},
+            "mirror": {"x": false, "y": false},
+            "angle": 0
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": true,
+        "shadingMode": "fullbright"
+      }
     }
   ],
   "format": "prop",

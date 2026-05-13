@@ -1,0 +1,36 @@
+{
+  "Tags": {
+    "Family": [
+      "HexStaff"
+    ],
+    "Type": [
+      "Weapon"
+    ]
+  },
+  "Utility": {
+    "Compatible": true
+  },
+  "ItemAppearanceConditions": {
+    "SignatureEnergy": [
+      {
+        "Condition": [
+          100,
+          100
+        ],
+        "ConditionValueType": "Percent"
+      }
+    ]
+  },
+  "Weapon": {
+    "RenderDualWielded": false
+  },
+  "Categories": [
+    "Items.Weapons",
+    "Hexcode.Staves"
+  ],
+  "Quality": "Template",
+  "MaxStack": 1,
+  "DisplayEntityStatsHUD": [
+    "SignatureEnergy"
+  ]
+}

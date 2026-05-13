@@ -1,0 +1,20 @@
+{
+  "Tags": {
+    "Family": [
+      "HexBook"
+    ],
+    "Type": [
+      "BaseHexBook"
+    ]
+  },
+  "Categories": [
+    "Hexcode.Books",
+    "Items.Weapons"
+  ],
+  "MaxStack": 1,
+  "MaxCapacity": 8,
+  "Utility": {
+    "Usable": true
+  },
+  "Quality": "Template"
+}

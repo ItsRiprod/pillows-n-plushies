@@ -1,9 +1,0 @@
-{
-  "Parent": "Template_Hexstaff",
-  "ItemId": "Hexstaff_Pillow",
-  "CastStyleId": "ring",
-  "Style": {
-    "PrimaryColor": "#0D47A1",
-    "SecondaryColor": "#42A5F5"
-  }
-}

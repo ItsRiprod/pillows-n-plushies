@@ -37,6 +37,12 @@ items.Hexbook_Pillow.description = softest book i ever held!
 items.Hexstaff_Pillow.name = pillow staff
 items.Hexstaff_Pillow.description = mrow! nya!!
 
+items.Hexcode_Pedestal_Pillow.name = pillow pedestal
+items.Hexcode_Pedestal_Pillow.description = oooo spinny!
+
+items.Hexcode_Obelisk_Pillow.name = pillow obelisk
+items.Hexcode_Obelisk_Pillow.description = a pillow so dense it could kill just by falling on you...
+
 # ==== blocks ====
 
 items.Pillow_Block_Black.name = black pillow block
