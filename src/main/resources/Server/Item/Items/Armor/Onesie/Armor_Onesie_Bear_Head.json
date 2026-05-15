@@ -1,19 +1,19 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Armor_Cloth_Linen_Legs.name"
+    "Name": "server.items.Armor_Cloth_Linen_Head.name"
   },
-  "Parent": "Armor_Iron_Legs",
+  "Parent": "Armor_Iron_Head",
   "Quality": "Common",
   "ItemLevel": 15,
-  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Legs.png",
-  "Model": "Items/Armors/Onesie/Legs.blockymodel",
-  "Texture": "Items/Armors/Onesie/Legs_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Head.png",
+  "Model": "Items/Armors/Onesie/Bear/Head.blockymodel",
+  "Texture": "Items/Armors/Onesie/Bear/Head_Texture.png",
   "Recipe": {
     "TimeSeconds": 2,
     "Input": [
       {
         "ItemId": "Ingredient_Bolt_Linen",
-        "Quantity": 4
+        "Quantity": 3
       },
       {
         "ResourceTypeId": "Wood_Trunk",
@@ -21,7 +21,7 @@
       },
       {
         "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 3
+        "Quantity": 2
       }
     ],
     "BenchRequirement": [
@@ -29,35 +29,37 @@
         "Id": "TODO",
         "Type": "Crafting",
         "Categories": [
-          "Armor_Legs"
+          "Armor_Head"
         ]
       }
     ],
     "KnowledgeRequired": false
   },
   "Armor": {
-    "ArmorSlot": "Legs",
+    "ArmorSlot": "Head",
     "BaseDamageResistance": 0,
     "CosmeticsToHide": [
-      "Shoes",
-      "Pants"
+      "EarAccessory",
+      "Ear",
+      "Haircut",
+      "HeadAccessory"
     ],
     "StatModifiers": {
       "Health": [
         {
-          "Amount": 13,
+          "Amount": 9,
           "CalculationType": "Additive"
         }
       ],
       "Mana": [
         {
-          "Amount": 54,
+          "Amount": 36,
           "CalculationType": "Additive"
         }
       ],
       "Volatility": [
         {
-          "Amount": 7,
+          "Amount": 5,
           "CalculationType": "Additive"
         }
       ]
@@ -65,13 +67,13 @@
     "DamageResistance": {
       "Physical": [
         {
-          "Amount": 0.07,
+          "Amount": 0.05,
           "CalculationType": "Multiplicative"
         }
       ],
       "Projectile": [
         {
-          "Amount": 0.07,
+          "Amount": 0.05,
           "CalculationType": "Multiplicative"
         }
       ]
@@ -88,15 +90,15 @@
   "MaxDurability": 120,
   "ItemSoundSetId": "ISS_Armor_Cloth",
   "IconProperties": {
-    "Scale": 0.6,
+    "Scale": 0.5,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
     "Translation": [
-      0,
-      -14
+      -4,
+      -3
     ]
   }
 }

@@ -1,19 +1,19 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Armor_Cloth_Linen_Head.name"
+    "Name": "server.items.Armor_Cloth_Linen_Chest.name"
   },
-  "Parent": "Armor_Iron_Head",
+  "Parent": "Armor_Iron_Chest",
   "Quality": "Common",
   "ItemLevel": 15,
-  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Head.png",
-  "Model": "Items/Armors/Onesie/Head.blockymodel",
-  "Texture": "Items/Armors/Onesie/Head_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Chest.png",
+  "Model": "Items/Armors/Onesie/Bear/Chest.blockymodel",
+  "Texture": "Items/Armors/Onesie/Bear/Chest_Texture.png",
   "Recipe": {
     "TimeSeconds": 2,
     "Input": [
       {
         "ItemId": "Ingredient_Bolt_Linen",
-        "Quantity": 3
+        "Quantity": 6
       },
       {
         "ResourceTypeId": "Wood_Trunk",
@@ -29,37 +29,34 @@
         "Id": "TODO",
         "Type": "Crafting",
         "Categories": [
-          "Armor_Head"
+          "Armor_Chest"
         ]
       }
     ],
     "KnowledgeRequired": false
   },
   "Armor": {
-    "ArmorSlot": "Head",
+    "ArmorSlot": "Chest",
     "BaseDamageResistance": 0,
     "CosmeticsToHide": [
-      "EarAccessory",
-      "Ear",
-      "Haircut",
-      "HeadAccessory"
+      "Overtop"
     ],
     "StatModifiers": {
       "Health": [
         {
-          "Amount": 9,
+          "Amount": 17,
           "CalculationType": "Additive"
         }
       ],
       "Mana": [
         {
-          "Amount": 36,
+          "Amount": 72,
           "CalculationType": "Additive"
         }
       ],
       "Volatility": [
         {
-          "Amount": 5,
+          "Amount": 9,
           "CalculationType": "Additive"
         }
       ]
@@ -67,13 +64,13 @@
     "DamageResistance": {
       "Physical": [
         {
-          "Amount": 0.05,
+          "Amount": 0.09,
           "CalculationType": "Multiplicative"
         }
       ],
       "Projectile": [
         {
-          "Amount": 0.05,
+          "Amount": 0.09,
           "CalculationType": "Multiplicative"
         }
       ]
@@ -97,8 +94,8 @@
       22.5
     ],
     "Translation": [
-      -4,
-      -3
+      0,
+      -28
     ]
   }
 }

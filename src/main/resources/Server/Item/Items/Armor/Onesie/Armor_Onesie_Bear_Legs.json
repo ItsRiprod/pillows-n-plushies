@@ -1,26 +1,27 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Armor_Cloth_Linen_Hands.name"
+    "Name": "server.items.Armor_Cloth_Linen_Legs.name"
   },
-  "Parent": "Armor_Iron_Hands",
+  "Parent": "Armor_Iron_Legs",
   "Quality": "Common",
   "ItemLevel": 15,
-  "Model": "Items/Armors/Onesie/Hands.blockymodel",
-  "Texture": "Items/Armors/Onesie/Hands_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Legs.png",
+  "Model": "Items/Armors/Onesie/Bear/Legs.blockymodel",
+  "Texture": "Items/Armors/Onesie/Bear/Legs_Texture.png",
   "Recipe": {
     "TimeSeconds": 2,
     "Input": [
       {
         "ItemId": "Ingredient_Bolt_Linen",
-        "Quantity": 2
+        "Quantity": 4
       },
       {
         "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 1
+        "Quantity": 2
       },
       {
         "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 2
+        "Quantity": 3
       }
     ],
     "BenchRequirement": [
@@ -28,31 +29,35 @@
         "Id": "TODO",
         "Type": "Crafting",
         "Categories": [
-          "Armor_Hands"
+          "Armor_Legs"
         ]
       }
     ],
     "KnowledgeRequired": false
   },
   "Armor": {
-    "ArmorSlot": "Hands",
+    "ArmorSlot": "Legs",
     "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Shoes",
+      "Pants"
+    ],
     "StatModifiers": {
       "Health": [
         {
-          "Amount": 7,
+          "Amount": 13,
           "CalculationType": "Additive"
         }
       ],
       "Mana": [
         {
-          "Amount": 18,
+          "Amount": 54,
           "CalculationType": "Additive"
         }
       ],
       "Volatility": [
         {
-          "Amount": 2,
+          "Amount": 7,
           "CalculationType": "Additive"
         }
       ]
@@ -60,13 +65,13 @@
     "DamageResistance": {
       "Physical": [
         {
-          "Amount": 0.04,
+          "Amount": 0.07,
           "CalculationType": "Multiplicative"
         }
       ],
       "Projectile": [
         {
-          "Amount": 0.04,
+          "Amount": 0.07,
           "CalculationType": "Multiplicative"
         }
       ]
@@ -82,17 +87,16 @@
   },
   "MaxDurability": 120,
   "ItemSoundSetId": "ISS_Armor_Cloth",
-  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Hands.png",
   "IconProperties": {
-    "Scale": 0.7,
+    "Scale": 0.6,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
     "Translation": [
-      1,
-      -7
+      0,
+      -14
     ]
   }
 }

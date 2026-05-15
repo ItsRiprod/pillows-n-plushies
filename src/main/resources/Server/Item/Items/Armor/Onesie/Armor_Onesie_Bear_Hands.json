@@ -1,22 +1,23 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Armor_Cloth_Linen_Chest.name"
+    "Name": "server.items.Armor_Cloth_Linen_Hands.name"
   },
-  "Parent": "Armor_Iron_Chest",
+  "Parent": "Armor_Iron_Hands",
   "Quality": "Common",
   "ItemLevel": 15,
-  "Model": "Items/Armors/Onesie/Chest.blockymodel",
-  "Texture": "Items/Armors/Onesie/Chest_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Hands.png",
+  "Model": "Items/Armors/Onesie/Bear/Hands.blockymodel",
+  "Texture": "Items/Armors/Onesie/Bear/Hands_Texture.png",
   "Recipe": {
     "TimeSeconds": 2,
     "Input": [
       {
         "ItemId": "Ingredient_Bolt_Linen",
-        "Quantity": 6
+        "Quantity": 2
       },
       {
         "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 2
+        "Quantity": 1
       },
       {
         "ItemId": "Ingredient_Bar_Iron",
@@ -28,34 +29,31 @@
         "Id": "TODO",
         "Type": "Crafting",
         "Categories": [
-          "Armor_Chest"
+          "Armor_Hands"
         ]
       }
     ],
     "KnowledgeRequired": false
   },
   "Armor": {
-    "ArmorSlot": "Chest",
+    "ArmorSlot": "Hands",
     "BaseDamageResistance": 0,
-    "CosmeticsToHide": [
-      "Overtop"
-    ],
     "StatModifiers": {
       "Health": [
         {
-          "Amount": 17,
+          "Amount": 7,
           "CalculationType": "Additive"
         }
       ],
       "Mana": [
         {
-          "Amount": 72,
+          "Amount": 18,
           "CalculationType": "Additive"
         }
       ],
       "Volatility": [
         {
-          "Amount": 9,
+          "Amount": 2,
           "CalculationType": "Additive"
         }
       ]
@@ -63,13 +61,13 @@
     "DamageResistance": {
       "Physical": [
         {
-          "Amount": 0.09,
+          "Amount": 0.04,
           "CalculationType": "Multiplicative"
         }
       ],
       "Projectile": [
         {
-          "Amount": 0.09,
+          "Amount": 0.04,
           "CalculationType": "Multiplicative"
         }
       ]
@@ -85,17 +83,16 @@
   },
   "MaxDurability": 120,
   "ItemSoundSetId": "ISS_Armor_Cloth",
-  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Chest.png",
   "IconProperties": {
-    "Scale": 0.5,
+    "Scale": 0.7,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
     "Translation": [
-      0,
-      -28
+      1,
+      -7
     ]
   }
 }
