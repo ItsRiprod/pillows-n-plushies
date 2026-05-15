@@ -5,19 +5,6 @@
   "Parent": "Armor_Iron_Hands",
   "Quality": "Common",
   "ItemLevel": 15,
-  "Icon": "Icons/ItemsGenerated/Armor_Cloth_Linen_Hands.png",
-  "IconProperties": {
-    "Rotation": [
-      29.815,
-      45.565,
-      25.315
-    ],
-    "Scale": 0.645,
-    "Translation": [
-      -0.9,
-      -0.3
-    ]
-  },
   "Model": "Items/Armors/Onesie/Hands.blockymodel",
   "Texture": "Items/Armors/Onesie/Hands_Texture.png",
   "Recipe": {
@@ -94,5 +81,18 @@
     ]
   },
   "MaxDurability": 120,
-  "ItemSoundSetId": "ISS_Armor_Cloth"
+  "ItemSoundSetId": "ISS_Armor_Cloth",
+  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Hands.png",
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      1,
+      -7
+    ]
+  }
 }

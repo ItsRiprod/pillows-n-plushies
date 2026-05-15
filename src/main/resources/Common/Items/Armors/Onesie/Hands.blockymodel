@@ -3,11 +3,11 @@
     {
       "id": "1",
       "name": "L-Forearm",
-      "position": {"x": 15, "y": 7, "z": -1},
-      "orientation": {"x": 0.00266, "y": 0.06099, "z": 0.04354, "w": 0.99719},
+      "position": {"x": 15, "y": 8, "z": -2},
+      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "none",
-        "offset": {"x": 0, "y": -5, "z": 0},
+        "offset": {"x": 0, "y": 0, "z": 0},
         "stretch": {"x": 1, "y": 1, "z": 1},
         "settings": {
           "isPiece": true
@@ -21,42 +21,47 @@
       "children": [
         {
           "id": "2",
-          "name": "L-Glove2",
-          "position": {"x": 0.05615, "y": 0.43253, "z": -0.60935},
+          "name": "L-Glove3",
+          "position": {"x": 0.67643, "y": 0.00003, "z": 0.16451},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
-            "offset": {"x": 0, "y": -5, "z": 0},
-            "stretch": {"x": -1, "y": 1, "z": 1},
+            "offset": {"x": -1, "y": -1, "z": 0},
+            "stretch": {"x": 1, "y": 1, "z": 1},
             "settings": {
               "isPiece": false,
-              "size": {"x": 10, "y": 8, "z": 14}
+              "size": {"x": 12, "y": 20, "z": 16}
             },
             "textureLayout": {
               "back": {
-                "offset": {"x": 10, "y": 6},
-                "mirror": {"x": true, "y": false},
+                "offset": {"x": 40, "y": 50},
+                "mirror": {"x": false, "y": false},
                 "angle": 0
               },
               "right": {
-                "offset": {"x": 0, "y": 6},
+                "offset": {"x": 24, "y": 50},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               },
               "front": {
-                "offset": {"x": 0, "y": 6},
+                "offset": {"x": 68, "y": 50},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               },
               "left": {
-                "offset": {"x": 10, "y": 6},
+                "offset": {"x": 52, "y": 50},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               },
-              "bottom": {
-                "offset": {"x": 14, "y": 17},
+              "top": {
+                "offset": {"x": 52, "y": 50},
                 "mirror": {"x": true, "y": true},
-                "angle": 270
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {"x": 64, "y": 34},
+                "mirror": {"x": true, "y": false},
+                "angle": 0
               }
             },
             "unwrapMode": "custom",
@@ -67,82 +72,92 @@
           "children": [
             {
               "id": "3",
-              "name": "Fold",
-              "position": {"x": 0, "y": 4.00034, "z": 7},
-              "orientation": {"x": 0.21644, "y": 0, "z": 0, "w": 0.9763},
+              "name": "Fur",
+              "position": {"x": 0, "y": 4.99973, "z": 0},
+              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
-                "type": "quad",
-                "offset": {"x": 0, "y": 3, "z": 0},
+                "type": "none",
+                "offset": {"x": 0, "y": 0, "z": 0},
                 "stretch": {"x": 1, "y": 1, "z": 1},
                 "settings": {
-                  "isPiece": false,
-                  "size": {"x": 10, "y": 6},
-                  "normal": "+Z"
+                  "isPiece": false
                 },
-                "textureLayout": {
-                  "front": {
-                    "offset": {"x": 0, "y": 0},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  }
-                },
+                "textureLayout": {},
                 "unwrapMode": "custom",
                 "visible": true,
-                "doubleSided": true,
+                "doubleSided": false,
                 "shadingMode": "flat"
               }
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "L-Hand",
+          "position": {"x": 0.86182, "y": -11.99615, "z": 0.446},
+          "orientation": {"x": 0.00266, "y": 0.06099, "z": 0.04354, "w": 0.99719},
+          "shape": {
+            "type": "none",
+            "offset": {"x": 0, "y": -5, "z": 0},
+            "stretch": {"x": 1, "y": 1, "z": 1},
+            "settings": {
+              "isPiece": true
             },
-            {
-              "id": "4",
-              "name": "Fold",
-              "position": {"x": 0.00626, "y": 3.88588, "z": -7.16688},
-              "orientation": {"x": -0.21894, "y": 0, "z": 0, "w": 0.97574},
-              "shape": {
-                "type": "quad",
-                "offset": {"x": 0, "y": 3, "z": 0},
-                "stretch": {"x": 1, "y": 1, "z": -1},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 10, "y": 6},
-                  "normal": "+Z"
-                },
-                "textureLayout": {
-                  "front": {
-                    "offset": {"x": 0, "y": 0},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  }
-                },
-                "unwrapMode": "custom",
-                "visible": true,
-                "doubleSided": true,
-                "shadingMode": "flat"
-              }
-            },
+            "textureLayout": {},
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          },
+          "children": [
             {
               "id": "5",
-              "name": "Fold",
-              "position": {"x": 5, "y": 4, "z": 0},
-              "orientation": {"x": 0.15305, "y": 0.69035, "z": -0.15305, "w": 0.69035},
+              "name": "R-Glove",
+              "position": {"x": 0, "y": 5, "z": 0},
+              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
-                "type": "quad",
-                "offset": {"x": 0, "y": 3, "z": 0},
+                "type": "box",
+                "offset": {"x": -0.5, "y": 0, "z": 0.16451},
                 "stretch": {"x": 1, "y": 1, "z": 1},
                 "settings": {
                   "isPiece": false,
-                  "size": {"x": 14, "y": 6},
-                  "normal": "+Z"
+                  "size": {"x": 10, "y": 3, "z": 15}
                 },
                 "textureLayout": {
-                  "front": {
-                    "offset": {"x": 10, "y": 0},
+                  "back": {
+                    "offset": {"x": 33, "y": 19},
                     "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 18, "y": 19},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 58, "y": 19},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 43, "y": 19},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 43, "y": 19},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {"x": 53, "y": 4},
+                    "mirror": {"x": true, "y": false},
                     "angle": 0
                   }
                 },
                 "unwrapMode": "custom",
                 "visible": true,
-                "doubleSided": true,
+                "doubleSided": false,
                 "shadingMode": "flat"
               }
             }
@@ -153,11 +168,11 @@
     {
       "id": "6",
       "name": "R-Forearm",
-      "position": {"x": -10, "y": 7, "z": -1},
-      "orientation": {"x": 0.00266, "y": -0.06099, "z": -0.04354, "w": 0.99719},
+      "position": {"x": -14, "y": 8, "z": -2},
+      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "none",
-        "offset": {"x": 0, "y": -5, "z": 0},
+        "offset": {"x": 0, "y": 0, "z": 0},
         "stretch": {"x": 1, "y": 1, "z": 1},
         "settings": {
           "isPiece": true
@@ -171,42 +186,47 @@
       "children": [
         {
           "id": "7",
-          "name": "L-Glove2",
-          "position": {"x": 0, "y": 0, "z": 0},
+          "name": "L-Glove3",
+          "position": {"x": -0.67643, "y": 0.00003, "z": 0.16451},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
-            "offset": {"x": 0, "y": -5, "z": 0},
-            "stretch": {"x": 1, "y": 1, "z": 1},
+            "offset": {"x": 1, "y": -1, "z": 0},
+            "stretch": {"x": -1, "y": 1, "z": 1},
             "settings": {
               "isPiece": false,
-              "size": {"x": 10, "y": 8, "z": 14}
+              "size": {"x": 12, "y": 20, "z": 16}
             },
             "textureLayout": {
               "back": {
-                "offset": {"x": 10, "y": 6},
-                "mirror": {"x": true, "y": false},
+                "offset": {"x": 24, "y": 50},
+                "mirror": {"x": false, "y": false},
                 "angle": 0
               },
               "right": {
-                "offset": {"x": 0, "y": 6},
+                "offset": {"x": 8, "y": 50},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               },
               "front": {
-                "offset": {"x": 0, "y": 6},
+                "offset": {"x": 52, "y": 50},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               },
               "left": {
-                "offset": {"x": 10, "y": 6},
+                "offset": {"x": 36, "y": 50},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               },
-              "bottom": {
-                "offset": {"x": 14, "y": 17},
+              "top": {
+                "offset": {"x": 36, "y": 50},
                 "mirror": {"x": true, "y": true},
-                "angle": 270
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {"x": 48, "y": 34},
+                "mirror": {"x": true, "y": false},
+                "angle": 0
               }
             },
             "unwrapMode": "custom",
@@ -217,274 +237,92 @@
           "children": [
             {
               "id": "8",
-              "name": "Fold",
-              "position": {"x": 0, "y": 4.00034, "z": 7},
-              "orientation": {"x": 0.21644, "y": 0, "z": 0, "w": 0.9763},
+              "name": "Fur",
+              "position": {"x": 0.00001, "y": 4.99973, "z": 0},
+              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
-                "type": "quad",
-                "offset": {"x": 0, "y": 3, "z": 0},
-                "stretch": {"x": -1, "y": 1, "z": 1},
+                "type": "none",
+                "offset": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 1, "y": 1, "z": 1},
                 "settings": {
-                  "isPiece": false,
-                  "size": {"x": 10, "y": 6},
-                  "normal": "+Z"
+                  "isPiece": false
                 },
-                "textureLayout": {
-                  "front": {
-                    "offset": {"x": 0, "y": 0},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  }
-                },
+                "textureLayout": {},
                 "unwrapMode": "custom",
                 "visible": true,
-                "doubleSided": true,
+                "doubleSided": false,
                 "shadingMode": "flat"
               }
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "name": "R-Hand",
+          "position": {"x": -0.86182, "y": -11.99615, "z": 0.446},
+          "orientation": {"x": 0.00266, "y": -0.06099, "z": -0.04354, "w": 0.99719},
+          "shape": {
+            "type": "none",
+            "offset": {"x": 0, "y": -5, "z": 0},
+            "stretch": {"x": 1, "y": 1, "z": 1},
+            "settings": {
+              "isPiece": true
             },
-            {
-              "id": "9",
-              "name": "Fold",
-              "position": {"x": -0.00626, "y": 3.88588, "z": -7.16688},
-              "orientation": {"x": -0.21894, "y": 0, "z": 0, "w": 0.97574},
-              "shape": {
-                "type": "quad",
-                "offset": {"x": 0, "y": 3, "z": 0},
-                "stretch": {"x": -1, "y": 1, "z": -1},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 10, "y": 6},
-                  "normal": "+Z"
-                },
-                "textureLayout": {
-                  "front": {
-                    "offset": {"x": 0, "y": 0},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  }
-                },
-                "unwrapMode": "custom",
-                "visible": true,
-                "doubleSided": true,
-                "shadingMode": "flat"
-              }
-            },
+            "textureLayout": {},
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "flat"
+          },
+          "children": [
             {
               "id": "10",
-              "name": "Fold",
-              "position": {"x": -5, "y": 4, "z": 0},
-              "orientation": {"x": 0.15305, "y": -0.69035, "z": 0.15305, "w": 0.69035},
+              "name": "R-Glove",
+              "position": {"x": 0, "y": 5, "z": 0},
+              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
-                "type": "quad",
-                "offset": {"x": 0, "y": 3, "z": 0},
+                "type": "box",
+                "offset": {"x": 0, "y": 0, "z": 0.16451},
                 "stretch": {"x": -1, "y": 1, "z": 1},
                 "settings": {
                   "isPiece": false,
-                  "size": {"x": 14, "y": 6},
-                  "normal": "+Z"
+                  "size": {"x": 9, "y": 3, "z": 13}
                 },
                 "textureLayout": {
-                  "front": {
-                    "offset": {"x": 10, "y": 0},
+                  "back": {
+                    "offset": {"x": 33, "y": 19},
                     "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  },
+                  "right": {
+                    "offset": {"x": 20, "y": 19},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  },
+                  "front": {
+                    "offset": {"x": 55, "y": 19},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  },
+                  "left": {
+                    "offset": {"x": 42, "y": 19},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  },
+                  "top": {
+                    "offset": {"x": 42, "y": 19},
+                    "mirror": {"x": true, "y": true},
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {"x": 51, "y": 6},
+                    "mirror": {"x": true, "y": false},
                     "angle": 0
                   }
                 },
                 "unwrapMode": "custom",
                 "visible": true,
-                "doubleSided": true,
-                "shadingMode": "flat"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "11",
-      "name": "R-Hand",
-      "position": {"x": -11.66017, "y": -12.11832, "z": -1.20384},
-      "orientation": {"x": 0.00266, "y": -0.06099, "z": -0.04354, "w": 0.99719},
-      "shape": {
-        "type": "none",
-        "offset": {"x": 0, "y": 0, "z": 0},
-        "stretch": {"x": 1, "y": 1, "z": 1},
-        "settings": {
-          "isPiece": true
-        },
-        "textureLayout": {},
-        "unwrapMode": "custom",
-        "visible": true,
-        "doubleSided": false,
-        "shadingMode": "flat"
-      },
-      "children": [
-        {
-          "id": "12",
-          "name": "L-Glove2",
-          "position": {"x": 0, "y": 5, "z": 0},
-          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
-          "shape": {
-            "type": "box",
-            "offset": {"x": 0, "y": 0, "z": 0},
-            "stretch": {"x": 1.03272, "y": 1, "z": 1.03689},
-            "settings": {
-              "isPiece": false,
-              "size": {"x": 10, "y": 3, "z": 14}
-            },
-            "textureLayout": {
-              "back": {
-                "offset": {"x": 10, "y": 14},
-                "mirror": {"x": true, "y": false},
-                "angle": 0
-              },
-              "right": {
-                "offset": {"x": 0, "y": 14},
-                "mirror": {"x": false, "y": false},
-                "angle": 0
-              },
-              "front": {
-                "offset": {"x": 0, "y": 14},
-                "mirror": {"x": false, "y": false},
-                "angle": 0
-              },
-              "left": {
-                "offset": {"x": 10, "y": 14},
-                "mirror": {"x": false, "y": false},
-                "angle": 0
-              },
-              "bottom": {
-                "offset": {"x": 14, "y": 17},
-                "mirror": {"x": true, "y": true},
-                "angle": 270
-              }
-            },
-            "unwrapMode": "custom",
-            "visible": true,
-            "doubleSided": false,
-            "shadingMode": "flat"
-          },
-          "children": [
-            {
-              "id": "13",
-              "name": "Fold",
-              "position": {"x": -5.05878, "y": -1.46866, "z": 0},
-              "orientation": {"x": -0.08617, "y": -0.70184, "z": -0.08617, "w": 0.70184},
-              "shape": {
-                "type": "quad",
-                "offset": {"x": 0, "y": -4, "z": 0},
-                "stretch": {"x": -1, "y": -1, "z": 1},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 14, "y": 8},
-                  "normal": "+Z"
-                },
-                "textureLayout": {
-                  "front": {
-                    "offset": {"x": 14, "y": 17},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  }
-                },
-                "unwrapMode": "custom",
-                "visible": true,
-                "doubleSided": true,
-                "shadingMode": "flat"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "14",
-      "name": "L-Hand",
-      "position": {"x": 16.60401, "y": -11.68254, "z": -1.81087},
-      "orientation": {"x": 0.00266, "y": 0.06099, "z": 0.04354, "w": 0.99719},
-      "shape": {
-        "type": "none",
-        "offset": {"x": 0, "y": 0, "z": 0},
-        "stretch": {"x": 1, "y": 1, "z": 1},
-        "settings": {
-          "isPiece": true
-        },
-        "textureLayout": {},
-        "unwrapMode": "custom",
-        "visible": true,
-        "doubleSided": false,
-        "shadingMode": "flat"
-      },
-      "children": [
-        {
-          "id": "15",
-          "name": "L-Glove2",
-          "position": {"x": 0, "y": 5, "z": 0},
-          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
-          "shape": {
-            "type": "box",
-            "offset": {"x": 0, "y": 0, "z": 0},
-            "stretch": {"x": -1.03272, "y": 1, "z": 1.03689},
-            "settings": {
-              "isPiece": false,
-              "size": {"x": 10, "y": 3, "z": 14}
-            },
-            "textureLayout": {
-              "back": {
-                "offset": {"x": 10, "y": 14},
-                "mirror": {"x": true, "y": false},
-                "angle": 0
-              },
-              "right": {
-                "offset": {"x": 0, "y": 14},
-                "mirror": {"x": false, "y": false},
-                "angle": 0
-              },
-              "front": {
-                "offset": {"x": 0, "y": 14},
-                "mirror": {"x": false, "y": false},
-                "angle": 0
-              },
-              "left": {
-                "offset": {"x": 10, "y": 14},
-                "mirror": {"x": false, "y": false},
-                "angle": 0
-              },
-              "bottom": {
-                "offset": {"x": 14, "y": 17},
-                "mirror": {"x": true, "y": true},
-                "angle": 270
-              }
-            },
-            "unwrapMode": "custom",
-            "visible": true,
-            "doubleSided": false,
-            "shadingMode": "flat"
-          },
-          "children": [
-            {
-              "id": "16",
-              "name": "Fold",
-              "position": {"x": 5.21569, "y": -1.49171, "z": 0},
-              "orientation": {"x": -0.08553, "y": 0.70191, "z": 0.08553, "w": 0.70191},
-              "shape": {
-                "type": "quad",
-                "offset": {"x": 0, "y": -4, "z": 0},
-                "stretch": {"x": 1, "y": -1, "z": 1},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 14, "y": 8},
-                  "normal": "+Z"
-                },
-                "textureLayout": {
-                  "front": {
-                    "offset": {"x": 14, "y": 17},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  }
-                },
-                "unwrapMode": "custom",
-                "visible": true,
-                "doubleSided": true,
+                "doubleSided": false,
                 "shadingMode": "flat"
               }
             }

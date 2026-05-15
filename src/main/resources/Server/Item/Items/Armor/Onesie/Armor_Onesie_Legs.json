@@ -5,19 +5,7 @@
   "Parent": "Armor_Iron_Legs",
   "Quality": "Common",
   "ItemLevel": 15,
-  "Icon": "Icons/ItemsGenerated/Armor_Cloth_Linen_Legs.png",
-  "IconProperties": {
-    "Rotation": [
-      22.5,
-      45,
-      22.5
-    ],
-    "Scale": 0.6,
-    "Translation": [
-      0.6,
-      -11.7
-    ]
-  },
+  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Legs.png",
   "Model": "Items/Armors/Onesie/Legs.blockymodel",
   "Texture": "Items/Armors/Onesie/Legs_Texture.png",
   "Recipe": {
@@ -98,5 +86,17 @@
     ]
   },
   "MaxDurability": 120,
-  "ItemSoundSetId": "ISS_Armor_Cloth"
+  "ItemSoundSetId": "ISS_Armor_Cloth",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -14
+    ]
+  }
 }

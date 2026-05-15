@@ -71,16 +71,65 @@
                     "offset": {"x": 31, "y": 58},
                     "mirror": {"x": false, "y": false},
                     "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {"x": 0, "y": 6},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
                   }
                 },
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": true,
                 "shadingMode": "flat"
-              }
+              },
+              "children": [
+                {
+                  "id": "4",
+                  "name": "Scarf--C1",
+                  "position": {"x": 0, "y": 0, "z": 0},
+                  "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": 0, "z": 0},
+                    "stretch": {"x": 1.07, "y": 1.1, "z": 1.16},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 31, "y": 15, "z": 28},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 64, "y": 78},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {"x": 95, "y": 113},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 64, "y": 113},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {"x": 95, "y": 113},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": true,
+                    "shadingMode": "flat"
+                  }
+                }
+              ]
             },
             {
-              "id": "4",
+              "id": "5",
               "name": "Helmet",
               "position": {"x": 0, "y": -11, "z": -3},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -126,13 +175,60 @@
               },
               "children": [
                 {
-                  "id": "5",
+                  "id": "6",
+                  "name": "Helmet--C1",
+                  "position": {"x": 0, "y": 0, "z": 0},
+                  "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": 0, "z": 0},
+                    "stretch": {"x": 1.09, "y": 0.99, "z": 1.15},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 31, "y": 23, "z": 29},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 64, "y": 62},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {"x": 66, "y": 62},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 64, "y": 90},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {"x": 95, "y": 62},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 64, "y": 62},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": true,
+                    "shadingMode": "flat"
+                  }
+                },
+                {
+                  "id": "7",
                   "name": "PointyEnd",
                   "position": {"x": -15, "y": 4.50972, "z": -7.10428},
                   "orientation": {"x": -0.37751, "y": -0.91139, "z": 0.15142, "w": -0.06272},
                   "shape": {
                     "type": "box",
-                    "offset": {"x": -21.83011, "y": 22.01056, "z": -13.21707},
+                    "offset": {"x": -20.68691, "y": 23.15381, "z": -8.48568},
                     "stretch": {"x": 1, "y": 1, "z": 1},
                     "settings": {
                       "isPiece": false,
@@ -165,7 +261,7 @@
                         "angle": 0
                       },
                       "bottom": {
-                        "offset": {"x": 16, "y": 7},
+                        "offset": {"x": 64, "y": 62},
                         "mirror": {"x": false, "y": false},
                         "angle": 0
                       }
@@ -177,13 +273,13 @@
                   },
                   "children": [
                     {
-                      "id": "6",
+                      "id": "8",
                       "name": "PointyEnd--C1",
-                      "position": {"x": 22.18258, "y": -21.6581, "z": 13.2705},
+                      "position": {"x": 21.03938, "y": -22.80135, "z": 8.53911},
                       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                       "shape": {
                         "type": "box",
-                        "offset": {"x": 0.44474, "y": -0.96942, "z": -13.27066},
+                        "offset": {"x": 1.58794, "y": 0.17383, "z": -8.53927},
                         "stretch": {"x": 1, "y": 1, "z": 1},
                         "settings": {
                           "isPiece": false,
@@ -207,7 +303,7 @@
                             "angle": 0
                           },
                           "left": {
-                            "offset": {"x": 7, "y": 16},
+                            "offset": {"x": 64, "y": 62},
                             "mirror": {"x": false, "y": false},
                             "angle": 0
                           },
@@ -233,41 +329,46 @@
               ]
             },
             {
-              "id": "7",
+              "id": "9",
               "name": "Scarf",
               "position": {"x": 0.03584, "y": -33.9315, "z": -6.63639},
               "orientation": {"x": 0.10666, "y": 0.00229, "z": 0.00626, "w": 0.99427},
               "shape": {
                 "type": "box",
-                "offset": {"x": 0, "y": 15, "z": 0.99996},
+                "offset": {"x": 0.5, "y": 15, "z": 0.99996},
                 "stretch": {"x": 1.15062, "y": 1, "z": 1.2147},
                 "settings": {
                   "isPiece": false,
-                  "size": {"x": 31, "y": 11, "z": 26}
+                  "size": {"x": 26, "y": 11, "z": 24}
                 },
                 "textureLayout": {
                   "back": {
-                    "offset": {"x": 31, "y": 24},
+                    "offset": {"x": 33, "y": 24},
                     "mirror": {"x": false, "y": false},
                     "angle": 0
                   },
                   "right": {
-                    "offset": {"x": 31, "y": 69},
+                    "offset": {"x": 32, "y": 69},
                     "mirror": {"x": false, "y": false},
                     "angle": 0
                   },
                   "front": {
-                    "offset": {"x": 0, "y": 69},
+                    "offset": {"x": 3, "y": 69},
                     "mirror": {"x": false, "y": false},
                     "angle": 0
                   },
                   "left": {
-                    "offset": {"x": 57, "y": 73},
+                    "offset": {"x": 56, "y": 73},
                     "mirror": {"x": true, "y": false},
                     "angle": 0
                   },
                   "top": {
-                    "offset": {"x": 31, "y": 0},
+                    "offset": {"x": 100, "y": 1},
+                    "mirror": {"x": false, "y": false},
+                    "angle": 0
+                  },
+                  "bottom": {
+                    "offset": {"x": 3, "y": 7},
                     "mirror": {"x": false, "y": false},
                     "angle": 0
                   }
@@ -283,7 +384,7 @@
       ]
     },
     {
-      "id": "8",
+      "id": "10",
       "name": "Origin",
       "position": {"x": 0, "y": 0, "z": 0},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
