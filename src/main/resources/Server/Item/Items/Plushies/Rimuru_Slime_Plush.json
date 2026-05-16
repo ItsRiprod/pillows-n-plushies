@@ -48,6 +48,7 @@
     },
     "BlockParticleSetId": "Stone",
     "BlockSoundSetId": "Plushie",
+    "HitboxType": "Block_Plushie_Slime",
     "Seats": [
       {
         "Offset": {

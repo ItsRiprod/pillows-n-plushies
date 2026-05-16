@@ -38,6 +38,7 @@
     },
     "BlockParticleSetId": "Stone",
     "BlockSoundSetId": "Plushie",
+    "HitboxType": "Block_Plushie_Standing",
     "Interactions": {
       "Use": {
         "Interactions": [
