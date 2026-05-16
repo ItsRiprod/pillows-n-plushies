@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Furniture_Bed_Cute.name",
-    "Description": "pillows_n_plushies.items.Furniture_Bed_Cute.description"
+    "Name": "pillows_n_plushies.items.Bed_Futon_Purple.name",
+    "Description": "pillows_n_plushies.items.Bed_Futon_Purple.description"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
@@ -11,15 +11,11 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Wood_Darkwood_Planks",
-        "Quantity": 3
-      },
-      {
         "ItemId": "Ingredient_Fibre",
         "Quantity": 4
       },
       {
-        "ItemId": "Cloth_Block_Wool_Pink",
+        "ItemId": "Cloth_Block_Wool_Purple",
         "Quantity": 2
       },
       {
@@ -37,25 +33,23 @@
     ]
   },
   "IconProperties": {
-    "Scale": 0.295,
+    "Scale": 0.4,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
     "Translation": [
-      -26,
-      -12
+      -33,
+      5
     ]
   },
   "BlockType": {
-    "BlockParticleSetId": "Wood",
-    "BlockSoundSetId": "Wood",
     "Beds": [
       {
         "Offset": {
           "X": 0.4,
-          "Y": 0.4,
+          "Y": -0.3,
           "Z": 1.0
         },
         "Yaw": 0
@@ -71,10 +65,10 @@
       },
       "Primary": "Check_Can_Break_Respawn"
     },
-    "CustomModel": "Blocks/Furniture/Bed_Cute.blockymodel",
+    "CustomModel": "Blocks/Furniture/Bed_Futon.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Furniture/Bed_Cute.png",
+        "Texture": "Blocks/Furniture/Bed_Futon_Purple.png",
         "Weight": 1
       }
     ],
@@ -82,10 +76,13 @@
     "Flags": {},
     "Gathering": {
       "Breaking": {
-        "GatherType": "Woods"
+        "GatherType": "SoftBlocks"
       }
     },
-    "HitboxType": "Bed_Tavern",
+    "BlockParticleSetId": "Dust",
+    "BlockSoundSetId": "Cloth",
+    "Group": "Cloth",
+    "HitboxType": "Bed_Futon",
     "Material": "Solid",
     "Opacity": "Transparent",
     "ParticleColor": "#b55088",
@@ -123,5 +120,5 @@
   "ItemSoundSetId": "ISS_Blocks_Wood",
   "MaxStack": 1,
   "ItemLevel": 2,
-  "Icon": "Icons/ItemsGenerated/Bed_Cute.png"
+  "Icon": "Icons/ItemsGenerated/Bed_Futon_Purple.png"
 }

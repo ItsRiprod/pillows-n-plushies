@@ -27,7 +27,7 @@
       }
     },
     "BlockParticleSetId": "Dust",
-    "HitboxType": "Block_Pillow"
+    "HitboxType": "Block_Body_Pillow"
   },
   "Recipe": {
     "Input": [

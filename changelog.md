@@ -1,3 +1,4 @@
+- changed Bed_Cute to Bed_Futon
 - fixed body pillow ground slam crash
 - redesigned body pillow model
 - added custom hitboxes
