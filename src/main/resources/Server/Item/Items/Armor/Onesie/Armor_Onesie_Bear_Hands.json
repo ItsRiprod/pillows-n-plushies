@@ -5,7 +5,6 @@
   "Parent": "Armor_Iron_Hands",
   "Quality": "Developer",
   "ItemLevel": 15,
-  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Hands.png",
   "Model": "Items/Armors/Onesie/Bear/Hands.blockymodel",
   "Texture": "Items/Armors/Onesie/Bear/Hands_Texture.png",
   "Armor": {
@@ -67,5 +66,6 @@
       1,
       -7
     ]
-  }
+  },
+  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Hands.png"
 }

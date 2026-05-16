@@ -5,7 +5,6 @@
   "Parent": "Armor_Iron_Legs",
   "Quality": "Developer",
   "ItemLevel": 15,
-  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Legs.png",
   "Model": "Items/Armors/Onesie/Bear/Legs.blockymodel",
   "Texture": "Items/Armors/Onesie/Bear/Legs_Texture.png",
   "Armor": {
@@ -71,5 +70,6 @@
       0,
       -14
     ]
-  }
+  },
+  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Legs.png"
 }

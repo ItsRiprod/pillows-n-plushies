@@ -5,7 +5,6 @@
   "Parent": "Armor_Iron_Chest",
   "Quality": "Developer",
   "ItemLevel": 15,
-  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Chest.png",
   "Model": "Items/Armors/Onesie/Bear/Chest.blockymodel",
   "Texture": "Items/Armors/Onesie/Bear/Chest_Texture.png",
   "Armor": {
@@ -63,12 +62,13 @@
     "Scale": 0.5,
     "Rotation": [
       22.5,
-      45,
-      22.5
+      34,
+      15
     ],
     "Translation": [
       0,
       -28
     ]
-  }
+  },
+  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Chest.png"
 }

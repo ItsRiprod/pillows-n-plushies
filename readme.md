@@ -38,6 +38,6 @@
 - [ ] particle effects
 - [ ] sound effects
 - [ ] make plushies throwable
-- [ ] pillowmage onesie
+- [x] pillowmage onesie
 - [ ] pillowpeople npcs
 - [ ] pillow dimension

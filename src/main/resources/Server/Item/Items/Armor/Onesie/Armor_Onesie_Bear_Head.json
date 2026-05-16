@@ -5,7 +5,6 @@
   "Parent": "Armor_Iron_Head",
   "Quality": "Developer",
   "ItemLevel": 15,
-  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Head.png",
   "Model": "Items/Armors/Onesie/Bear/Head.blockymodel",
   "Texture": "Items/Armors/Onesie/Bear/Head_Texture.png",
   "Armor": {
@@ -73,5 +72,6 @@
       -4,
       -3
     ]
-  }
+  },
+  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Head.png"
 }
