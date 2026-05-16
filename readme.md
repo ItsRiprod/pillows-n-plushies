@@ -34,10 +34,14 @@
 # todo
 
 - [ ] fix body pillow as weapon
-- [ ] pillowcode
+- [ ] remodel body pillows
+- [ ] pillowcode extension wit hexcode
 - [ ] particle effects
 - [ ] sound effects
+- [ ] crafting overhaul
 - [ ] make plushies throwable
+- [ ] expand on pillow weaponry
+- [ ] custom body pillow designs
 - [x] pillowmage onesie
 - [ ] pillowpeople npcs
 - [ ] pillow dimension
