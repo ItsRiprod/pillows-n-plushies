@@ -26,7 +26,8 @@
         "GatherType": "SoftBlocks"
       }
     },
-    "BlockParticleSetId": "Dust"
+    "BlockParticleSetId": "Dust",
+    "HitboxType": "Block_Pillow"
   },
   "Recipe": {
     "Input": [

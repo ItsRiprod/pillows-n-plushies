@@ -27,8 +27,8 @@ items.Milim_Plush.description = wh-what is all this?!
 
 # ==== furniture ====
 
-items.Furniture_Cute_Bed.name = cute bed
-items.Furniture_Cute_Bed.description = aaaa so soft
+items.Furniture_Bed_Cute.name = cute bed
+items.Furniture_Bed_Cute.description = aaaa so soft
 
 
 # ==== pillowcode ====

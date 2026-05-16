@@ -35,10 +35,12 @@
 
 - [ ] fix body pillow as weapon
 - [ ] templates for all item sets
-- [ ] remodel body pillows
+- [x] remodel body pillows
+- [ ] custom block states for pillows
 - [ ] pillowcode extension wit hexcode
 - [ ] particle effects
 - [ ] sound effects
+- [ ] bendy pillow animations
 - [ ] crafting overhaul
 - [ ] make plushies throwable
 - [ ] expand on pillow weaponry
