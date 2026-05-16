@@ -1,40 +1,13 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Armor_Cloth_Linen_Hands.name"
+    "Name": "pillows_n_plushies.items.Armor_Onesie_Bear_Hands.name"
   },
   "Parent": "Armor_Iron_Hands",
-  "Quality": "Common",
+  "Quality": "Developer",
   "ItemLevel": 15,
   "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Hands.png",
   "Model": "Items/Armors/Onesie/Bear/Hands.blockymodel",
   "Texture": "Items/Armors/Onesie/Bear/Hands_Texture.png",
-  "Recipe": {
-    "TimeSeconds": 2,
-    "Input": [
-      {
-        "ItemId": "Ingredient_Bolt_Linen",
-        "Quantity": 2
-      },
-      {
-        "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 2
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "TODO",
-        "Type": "Crafting",
-        "Categories": [
-          "Armor_Hands"
-        ]
-      }
-    ],
-    "KnowledgeRequired": false
-  },
   "Armor": {
     "ArmorSlot": "Hands",
     "BaseDamageResistance": 0,

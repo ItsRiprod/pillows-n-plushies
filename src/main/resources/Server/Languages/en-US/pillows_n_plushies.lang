@@ -24,10 +24,12 @@ items.Veldora_Human_Plush.description = i am fully revived!
 items.Milim_Plush.name = milim plushie
 items.Milim_Plush.description = wh-what is all this?!
 
+
 # ==== furniture ====
 
 items.Furniture_Cute_Bed.name = cute bed
 items.Furniture_Cute_Bed.description = aaaa so soft
+
 
 # ==== pillowcode ====
 
@@ -37,11 +39,20 @@ items.Hexbook_Pillow.description = softest book i ever held!
 items.Hexstaff_Pillow.name = pillow staff
 items.Hexstaff_Pillow.description = mrow! nya!!
 
-items.Hexcode_Pedestal_Pillow.name = pillow pedestal
-items.Hexcode_Pedestal_Pillow.description = oooo spinny!
+items.Pedestal_Pillow.name = pillow pedestal
+items.Pedestal_Pillow.description = oooo spinny!
 
-items.Hexcode_Obelisk_Pillow.name = pillow obelisk
-items.Hexcode_Obelisk_Pillow.description = a pillow so dense it could kill just by falling on you...
+items.Obelisk_Pillow.name = pillow obelisk
+items.Obelisk_Pillow.description = a pillow so dense it could kill just by falling on you...
+
+items.Armor_Onesie_Bear_Head.name = onesie pillowmage bear hood
+
+items.Armor_Onesie_Bear_Chest.name = onesie pillowmage bear robe
+
+items.Armor_Onesie_Bear_Hands.name = onesie pillowmage bear sleeves
+
+items.Armor_Onesie_Bear_Legs.name = onesie pillowmage bear slippers
+
 
 # ==== blocks ====
 

@@ -1,10 +1,9 @@
 {
-  "Parent": "Template_HexStaff",
   "TranslationProperties": {
-    "Name": "items.Hexstaff_Pillow.name",
-    "Description": "items.Hexstaff_Pillow.description"
+    "Name": "pillows_n_plushies.items.Hexstaff_Pillow.name",
+    "Description": "pillows_n_plushies.items.Hexstaff_Pillow.description"
   },
-  "Quality": "Rare",
+  "Quality": "Developer",
   "ItemLevel": 35,
   "Model": "Items/Weapons/Staff/Wand_Pillow.blockymodel",
   "Texture": "Items/Weapons/Staff/Wand_Pillow.png",

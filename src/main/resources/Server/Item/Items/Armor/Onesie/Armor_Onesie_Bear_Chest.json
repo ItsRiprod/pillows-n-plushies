@@ -1,40 +1,13 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Armor_Cloth_Linen_Chest.name"
+    "Name": "pillows_n_plushies.items.Armor_Onesie_Bear_Chest.name"
   },
   "Parent": "Armor_Iron_Chest",
-  "Quality": "Common",
+  "Quality": "Developer",
   "ItemLevel": 15,
   "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Chest.png",
   "Model": "Items/Armors/Onesie/Bear/Chest.blockymodel",
   "Texture": "Items/Armors/Onesie/Bear/Chest_Texture.png",
-  "Recipe": {
-    "TimeSeconds": 2,
-    "Input": [
-      {
-        "ItemId": "Ingredient_Bolt_Linen",
-        "Quantity": 6
-      },
-      {
-        "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 2
-      },
-      {
-        "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 2
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "TODO",
-        "Type": "Crafting",
-        "Categories": [
-          "Armor_Chest"
-        ]
-      }
-    ],
-    "KnowledgeRequired": false
-  },
   "Armor": {
     "ArmorSlot": "Chest",
     "BaseDamageResistance": 0,

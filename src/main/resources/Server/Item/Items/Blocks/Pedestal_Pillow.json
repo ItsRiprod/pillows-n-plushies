@@ -1,27 +1,29 @@
 {
   "TranslationProperties": {
-    "Name": "items.Hexcode_Obelisk_Pillow.name",
-    "Description": "items.Hexcode_Obelisk_Pillow.description"
+    "Name": "pillows_n_plushies.items.Pedestal_Pillow.name",
+    "Description": "pillows_n_plushies.items.Pedestal_Pillow.description"
   },
   "Categories": [
-    "Hexcode.Obelisks"
+    "Hexcode.Pedestals"
   ],
   "PlayerAnimationsId": "Block",
   "BlockType": {
     "DrawType": "Model",
     "Material": "Solid",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Hexcode/Obelisks/Obelisk_Pillow.blockymodel",
+    "CustomModel": "Blocks/Hexcode/Pedestals/Pedestal_Pillow.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Hexcode/Obelisks/Obelisk_Pillow.png",
+        "Texture": "Blocks/Hexcode/Pedestals/Pedestal_Pillow.png",
         "Weight": 1
       }
     ],
     "HitboxType": "Full",
     "BlockSoundSetId": "Stone",
     "BlockParticleSetId": "Stone",
-    "Flags": {},
+    "Flags": {
+      "IsUsable": true
+    },
     "Gathering": {
       "Breaking": {
         "GatherType": "SoftBlocks"
@@ -34,17 +36,8 @@
         }
       ]
     },
-    "Supporting": {
-      "Down": [
-        {}
-      ],
-      "Up": [
-        {}
-      ]
-    },
     "VariantRotation": "NESW",
-    "Looping": true,
-    "CustomModelScale": 1.5
+    "CustomModelScale": 1
   },
   "Tags": {
     "Type": [
@@ -55,18 +48,18 @@
     ]
   },
   "ItemSoundSetId": "ISS_Blocks_Stone",
-  "Quality": "Rare",
-  "Icon": "Icons/ItemsGenerated/Hexcode_Obelisk_Pillow.png",
+  "Quality": "Developer",
+  "Icon": "Icons/ItemsGenerated/Pedestal_Pillow.png",
   "IconProperties": {
-    "Scale": 0.4,
+    "Scale": 0.58823,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
     "Translation": [
-      0,
-      -26
+      2,
+      -13.5
     ]
   }
 }

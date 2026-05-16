@@ -1,13 +1,12 @@
 {
-  "Parent": "Template_HexBook",
   "TranslationProperties": {
-    "Name": "items.Hexbook_Pillow.name",
-    "Description": "items.Hexbook_Pillow.description"
+    "Name": "pillows_n_plushies.items.Hexbook_Pillow.name",
+    "Description": "pillows_n_plushies.items.Hexbook_Pillow.description"
   },
   "Categories": [
     "Items.Weapons"
   ],
-  "Quality": "Rare",
+  "Quality": "Developer",
   "ItemLevel": 40,
   "Model": "Items/Tools/Book/Grimoire_Pillow.blockymodel",
   "Texture": "Items/Tools/Book/Grimoire_Pillow.png",
