@@ -34,6 +34,7 @@
 # todo
 
 - [ ] fix body pillow as weapon
+- [ ] templates for all item sets
 - [ ] remodel body pillows
 - [ ] pillowcode extension wit hexcode
 - [ ] particle effects
