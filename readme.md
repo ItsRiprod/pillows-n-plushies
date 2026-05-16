@@ -33,7 +33,7 @@
 
 # todo
 
-- [ ] fix body pillow as weapon
+- [x] fix body pillow as weapon
 - [ ] templates for all item sets
 - [x] remodel body pillows
 - [ ] custom block states for pillows
