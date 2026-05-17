@@ -13,11 +13,13 @@
   "MaxDurability": 69,
   "DurabilityLossOnHit": 0.5,
   "Categories": [
-    "Items.Weapons"
+    "Items.Weapons",
+    "Blocks.Deco"
   ],
   "Tags": {
     "Type": [
-      "Weapon"
+      "Weapon",
+      "Deco"
     ],
     "Family": [
       "Mace"

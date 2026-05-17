@@ -1,7 +1,2 @@
-- changed Bed_Cute to Bed_Futon
-- fixed body pillow ground slam crash
-- redesigned body pillow model
-- added custom hitboxes
-- created template for body pillows
-- prepped for pillowcode extension to hexcode
-- updated description
+- added block tagging back to body pillows
+- updated futon texture
