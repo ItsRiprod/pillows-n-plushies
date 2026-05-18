@@ -46,12 +46,16 @@ items.Obelisk_Pillow.name = pillow obelisk
 items.Obelisk_Pillow.description = a pillow so dense it could kill just by falling on you...
 
 items.Armor_Onesie_Bear_Head.name = onesie pillowmage bear hood
+items.Armor_Onesie_Bear_Head.description = attuned to the wired, high mana regen unless damaged
 
 items.Armor_Onesie_Bear_Chest.name = onesie pillowmage bear robe
+items.Armor_Onesie_Bear_Chest.description = attuned to the wired, high mana regen unless damaged
 
 items.Armor_Onesie_Bear_Hands.name = onesie pillowmage bear sleeves
+items.Armor_Onesie_Bear_Hands.description = attuned to the wired, high mana regen unless damaged
 
 items.Armor_Onesie_Bear_Legs.name = onesie pillowmage bear slippers
+items.Armor_Onesie_Bear_Legs.description = attuned to the wired, high mana regen unless damaged
 
 
 # ==== blocks ====

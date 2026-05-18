@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Armor_Onesie_Bear_Head.name"
+    "Name": "pillows_n_plushies.items.Armor_Onesie_Bear_Head.name",
+    "Description": "pillows_n_plushies.items.Armor_Onesie_Bear_Head.description"
   },
   "Parent": "Armor_Iron_Head",
   "Quality": "Developer",
