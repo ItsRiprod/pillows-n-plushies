@@ -3,9 +3,7 @@
     "Name": "pillows_n_plushies.items.Hexbook_Pillow.name",
     "Description": "pillows_n_plushies.items.Hexbook_Pillow.description"
   },
-  "Categories": [
-    "Items.Weapons"
-  ],
+  "Parent": "Weapon_Spellbook_Grimoire_Purple",
   "Quality": "Developer",
   "ItemLevel": 40,
   "Model": "Items/Tools/Book/Grimoire_Pillow.blockymodel",
@@ -21,6 +19,9 @@
       -28,
       -57
     ]
+  },
+  "Utility": {
+    "Compatible": true
   },
   "Icon": "Icons/ItemsGenerated/Hexbook_Pillow.png"
 }

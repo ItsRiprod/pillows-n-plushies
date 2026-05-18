@@ -3,7 +3,8 @@
     "Name": "pillows_n_plushies.items.Hexstaff_Pillow.name",
     "Description": "pillows_n_plushies.items.Hexstaff_Pillow.description"
   },
-  "Quality": "Developer",
+  "Parent": "Weapon_Staff_Crystal_Purple",
+  "Quality": "Epic",
   "ItemLevel": 35,
   "Model": "Items/Weapons/Staff/Wand_Pillow.blockymodel",
   "Texture": "Items/Weapons/Staff/Wand_Pillow.png",
@@ -21,18 +22,84 @@
   },
   "Particles": [],
   "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
-  "Tags": {
-    "Type": [
-      "Weapon"
-    ],
-    "Family": [
-      "Staff"
-    ]
-  },
-  "ItemSoundSetId": "ISS_Weapons_Wood",
   "Utility": {
     "Compatible": true
   },
+  "Tags": {
+    "Family": [
+      "Staff"
+    ],
+    "Type": [
+      "Weapon"
+    ]
+  },
+  "InteractionVars": {
+    "Staff_Cast_Summon_Charged": {
+      "Interactions": [
+        {
+          "Parent": "Staff_Cast_Summon_Charged",
+          "Costs": {
+            "Mana": 50
+          }
+        }
+      ]
+    },
+    "Staff_Cast_Summon_Cost": {
+      "Interactions": [
+        {
+          "Parent": "Staff_Cast_Cost",
+          "StatModifiers": {
+            "Mana": -50
+          }
+        }
+      ]
+    },
+    "Staff_Cast_Summon_Launch": "Staff_Cast_Launch",
+    "Staff_Cast_Summon_Effect": "Staff_Cast_Effect",
+    "Staff_Cast_Summon_Fail": "Staff_Cast_Fail",
+    "Spear_Swing_Left_Damage": "Spear_Swing_Left_Damage",
+    "Spear_Swing_Right_Damage": "Spear_Swing_Right_Damage",
+    "Spear_Swing_Left_Effect": "Spear_Swing_Left_Effect",
+    "Spear_Swing_Right_Effect": "Spear_Swing_Right_Effect"
+  },
+  "ItemSoundSetId": "ISS_Weapons_Wood",
   "MaxStack": 1,
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Void_Essence_Concentrated",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 15
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Pink",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 1
+      }
+    ]
+  },
   "Icon": "Icons/ItemsGenerated/Hexstaff_Pillow.png"
 }

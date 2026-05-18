@@ -56,15 +56,15 @@
     "TimeSeconds": 8
   },
   "IconProperties": {
-    "Scale": 1.6,
+    "Scale": 1.4,
     "Rotation": [
-      172,
-      71,
+      178,
+      72,
       81
     ],
     "Translation": [
-      -9,
-      -17
+      -10,
+      -15
     ]
   }
 }

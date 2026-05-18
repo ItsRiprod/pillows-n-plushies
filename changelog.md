@@ -1,2 +1,3 @@
-- added block tagging back to body pillows
-- updated futon texture
+- made staff craftable and usable as vanilla staff
+- made onesie armor craftable and usable as high mana regen
+- updated body pillow icons

@@ -15,36 +15,25 @@
       "Pants"
     ],
     "StatModifiers": {
-      "Health": [
-        {
-          "Amount": 13,
-          "CalculationType": "Additive"
-        }
-      ],
-      "Mana": [
-        {
-          "Amount": 54,
-          "CalculationType": "Additive"
-        }
-      ],
       "Volatility": [
         {
-          "Amount": 7,
+          "Amount": 25,
           "CalculationType": "Additive"
         }
       ]
     },
-    "DamageResistance": {
-      "Physical": [
+    "Regenerating": {
+      "Mana": [
         {
-          "Amount": 0.07,
-          "CalculationType": "Multiplicative"
-        }
-      ],
-      "Projectile": [
-        {
-          "Amount": 0.07,
-          "CalculationType": "Multiplicative"
+          "Amount": 8,
+          "Interval": 8,
+          "RegenType": "Additive",
+          "Conditions": [
+            {
+              "Id": "NoDamageTaken",
+              "Delay": 16
+            }
+          ]
         }
       ]
     }
@@ -55,6 +44,36 @@
     ],
     "Family": [
       "Cloth_Linen"
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Armor_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Armor_Legs"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 60
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 64
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Orange_Light",
+        "Quantity": 32
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 4
+      }
     ]
   },
   "MaxDurability": 120,
