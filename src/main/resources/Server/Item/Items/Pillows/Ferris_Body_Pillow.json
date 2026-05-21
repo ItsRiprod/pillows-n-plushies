@@ -26,7 +26,10 @@
       }
     },
     "BlockParticleSetId": "Dust",
-    "HitboxType": "Block_Body_Pillow"
+    "HitboxType": "Block_Body_Pillow",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer"
+    }
   },
   "Recipe": {
     "Input": [

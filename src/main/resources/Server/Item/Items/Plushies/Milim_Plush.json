@@ -29,14 +29,14 @@
         "Weight": 1
       }
     ],
-    "Group": "Wood",
+    "Group": "Cloth",
     "Flags": {},
     "Gathering": {
       "Breaking": {
         "GatherType": "Woods"
       }
     },
-    "BlockParticleSetId": "Stone",
+    "BlockParticleSetId": "Dust",
     "BlockSoundSetId": "Plushie",
     "HitboxType": "Block_Plushie_Standing",
     "Interactions": {
@@ -50,6 +50,9 @@
           }
         ]
       }
+    },
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer"
     }
   },
   "Recipe": {

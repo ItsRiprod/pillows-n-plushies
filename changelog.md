@@ -1,1 +1,3 @@
-- first-party support for plushie tower
+- added carpet
+- made all pillows face player on placement
+- made all plushies face player on placement
