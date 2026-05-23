@@ -1,0 +1,15 @@
+{
+  "ItemId": "Void_Hexbook",
+  "MaxGlyphs": 6,
+  "CastingAuraParticles": [
+    {
+      "SystemId": "Shock_Spawner",
+      "TargetEntityPart": "Self",
+      "TargetNodeName": "",
+      "Color": "#4A148C"
+    }
+  ],
+  "Style": {
+    "SecondaryColor": "#9C27B0"
+  }
+}

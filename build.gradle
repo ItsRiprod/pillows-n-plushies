@@ -7,7 +7,7 @@ plugins {
 }
 
 dependencies {
-    implementation(files("deps/Patchly-2.0.0.jar"))
+    implementation(files("deps/Patchly-2.0.1.jar"))
 }
 
 tasks.shadowJar {

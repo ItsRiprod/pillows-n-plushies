@@ -1,18 +1,14 @@
 {
   "$Requires": "Riprod:Hexcode",
-  "Parent": "Template_HexBook",
+  "Parent": "Hexcode_Pedestal_Arcane",
   "Categories": [
-    "Hexcode.Books",
-    "Items.Weapons"
+    "Hexcode.Pedestals"
   ],
   "Tags": {
-    "Type": [
-      "LifeHexBook"
+    "Family": [
+      "Hexcode"
     ]
   },
-  "MaxCapacity": 8,
-	"Weapon": {},
-	"ItemSoundSetId": "ISS_Weapons_Books",
   "Recipe": {
     "BenchRequirement": [
       {

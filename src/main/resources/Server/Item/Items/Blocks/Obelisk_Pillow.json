@@ -3,10 +3,13 @@
     "Name": "pillows_n_plushies.items.Obelisk_Pillow.name",
     "Description": "pillows_n_plushies.items.Obelisk_Pillow.description"
   },
-  "Categories": [
-    "Hexcode.Obelisks"
-  ],
+  "Quality": "Epic",
   "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
   "BlockType": {
     "DrawType": "Model",
     "Material": "Solid",
@@ -46,27 +49,48 @@
     "Looping": true,
     "CustomModelScale": 1.5
   },
-  "Tags": {
-    "Type": [
-      "Deco"
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
     ],
-    "Family": [
-      "Hexcode"
+    "Input": [
+      {
+        "ItemId": "Ingredient_Void_Essence_Concentrated",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ingredient_Bar_Adamantite",
+        "ResourceTypeId": "",
+        "Quantity": 30
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 30
+      },
+      {
+        "ItemId": "Rock_Volcanic_Cobble",
+        "Quantity": 100
+      }
     ]
   },
   "ItemSoundSetId": "ISS_Blocks_Stone",
-  "Quality": "Developer",
   "Icon": "Icons/ItemsGenerated/Obelisk_Pillow.png",
   "IconProperties": {
-    "Scale": 0.4,
+    "Scale": 0.5,
     "Rotation": [
-      22.5,
-      45,
+      39,
+      32,
       22.5
     ],
     "Translation": [
-      0,
-      -26
+      1,
+      -23
     ]
   }
 }

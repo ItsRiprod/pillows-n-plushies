@@ -1,3 +1,79 @@
 {
-  "Parent": "Template_HexStaff"
+  "$Requires": "Riprod:Hexcode",
+  "Parent": "Template_HexStaff",
+  "Categories": [
+    "Items.Weapons",
+    "Hexcode.Staves"
+  ],
+  "Tags": {
+    "Family": [
+      "HexStaff"
+    ],
+    "Type": [
+      "Weapon"
+    ]
+  },
+  "PlayerAnimationsId": "HexStaff",
+  "Utility": {
+    "Compatible": true
+  },
+  "Weapon": {
+    "StatModifiers": {
+      "Magic_Power": [
+        {
+          "Target": "Max",
+          "CalculationType": "Additive",
+          "Amount": 1.6
+        }
+      ],
+      "Volatility": [
+        {
+          "Target": "Max",
+          "CalculationType": "Additive",
+          "Amount": 200
+        }
+      ],
+      "MagicCharges": [
+        {
+          "CalculationType": "Additive",
+          "Amount": 8
+        }
+      ]
+    },
+    "EntityStatsToClear": [
+      "Magic_Power",
+      "MagicCharges",
+      "Volatility"
+    ]
+  },
+  "Interactions": {
+    "Primary": "Hexstaff_Primary",
+    "Secondary": "Hexstaff_Secondary",
+    "Ability1": "Hexstaff_Ability1",
+    "Ability3": "Hexstaff_Ability3"
+  },
+  "ItemAppearanceConditions": {
+    "SignatureEnergy": [
+      {
+        "Condition": [
+          100,
+          100
+        ],
+        "ConditionValueType": "Percent"
+      }
+    ]
+  },
+  "Weapon": {
+    "RenderDualWielded": false
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Categories": [
+          "Arcane_Hexcode"
+        ],
+        "Id": "Arcanebench"
+      }
+    ]
+  }
 }

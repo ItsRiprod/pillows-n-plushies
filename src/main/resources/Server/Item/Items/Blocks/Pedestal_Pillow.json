@@ -3,10 +3,13 @@
     "Name": "pillows_n_plushies.items.Pedestal_Pillow.name",
     "Description": "pillows_n_plushies.items.Pedestal_Pillow.description"
   },
-  "Categories": [
-    "Hexcode.Pedestals"
-  ],
+  "Quality": "Epic",
   "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
   "BlockType": {
     "DrawType": "Model",
     "Material": "Solid",
@@ -39,16 +42,35 @@
     "VariantRotation": "NESW",
     "CustomModelScale": 1
   },
-  "Tags": {
-    "Type": [
-      "Deco"
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
     ],
-    "Family": [
-      "Hexcode"
+    "Input": [
+      {
+        "ItemId": "Ingredient_Void_Essence_Concentrated"
+      },
+      {
+        "ItemId": "Rock_Crystal_Purple_Block",
+        "Quantity": 25
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 25
+      }
     ]
   },
   "ItemSoundSetId": "ISS_Blocks_Stone",
-  "Quality": "Developer",
   "Icon": "Icons/ItemsGenerated/Pedestal_Pillow.png",
   "IconProperties": {
     "Scale": 0.58823,
