@@ -15,8 +15,8 @@ tasks.shadowJar {
     mergeServiceFiles()
 }
 
-tasks.jar {enabled = false}
-tasks.build {dependsOn(tasks.shadowJar)}
+tasks.jar { enabled = false }
+tasks.build { dependsOn(tasks.shadowJar) }
 
 javadoc {
     options.addStringOption('Xdoclint:-missing', '-quiet')
