@@ -4,7 +4,7 @@
     "Description": "pillows_n_plushies.items.Armor_Onesie_Bear_Head.description"
   },
   "Parent": "Armor_Iron_Head",
-  "Quality": "Developer",
+  "Quality": "Epic",
   "ItemLevel": 15,
   "Model": "Items/Armors/Onesie/Bear/Head.blockymodel",
   "Texture": "Items/Armors/Onesie/Bear/Head_Texture.png",

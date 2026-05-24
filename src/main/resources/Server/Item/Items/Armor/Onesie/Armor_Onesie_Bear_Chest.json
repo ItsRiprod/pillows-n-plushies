@@ -4,7 +4,7 @@
     "Description": "pillows_n_plushies.items.Armor_Onesie_Bear_Chest.description"
   },
   "Parent": "Armor_Iron_Chest",
-  "Quality": "Developer",
+  "Quality": "Epic",
   "ItemLevel": 15,
   "Model": "Items/Armors/Onesie/Bear/Chest.blockymodel",
   "Texture": "Items/Armors/Onesie/Bear/Chest_Texture.png",

@@ -5,6 +5,7 @@
   "Categories": [
     "Blocks.Cloth"
   ],
+  "Quality": "Developer",
   "SubCategory": "RoofBlocks",
   "PlayerAnimationsId": "Block",
   "BlockType": {

@@ -4,7 +4,7 @@
     "Description": "pillows_n_plushies.items.Armor_Onesie_Bear_Legs.description"
   },
   "Parent": "Armor_Iron_Legs",
-  "Quality": "Developer",
+  "Quality": "Epic",
   "ItemLevel": 15,
   "Model": "Items/Armors/Onesie/Bear/Legs.blockymodel",
   "Texture": "Items/Armors/Onesie/Bear/Legs_Texture.png",

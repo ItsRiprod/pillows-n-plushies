@@ -4,7 +4,7 @@
     "Description": "pillows_n_plushies.items.Armor_Onesie_Bear_Hands.description"
   },
   "Parent": "Armor_Iron_Hands",
-  "Quality": "Developer",
+  "Quality": "Epic",
   "ItemLevel": 15,
   "Model": "Items/Armors/Onesie/Bear/Hands.blockymodel",
   "Texture": "Items/Armors/Onesie/Bear/Hands_Texture.png",
