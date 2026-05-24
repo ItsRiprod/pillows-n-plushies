@@ -16,7 +16,7 @@ import javax.annotation.Nonnull;
 import java.util.concurrent.CompletableFuture;
 import java.util.logging.Level;
 
-public class PillowsNPlushies extends JavaPlugin {
+public final class PillowsNPlushies extends JavaPlugin {
     private final PatchManager patchManager;
     private static PillowsNPlushies instance;
     public static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();

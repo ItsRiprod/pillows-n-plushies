@@ -1,0 +1,74 @@
+{
+  "Parent": "Template_Body_Pillow",
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Slushy_Body_Pillow.name",
+    "Description": "pillows_n_plushies.items.Slushy_Body_Pillow.description"
+  },
+  "Model": "Blocks/Pillows/Body_Pillow.blockymodel",
+  "Texture": "Blocks/Pillows/Slushy_Body_Pillow.png",
+  "Quality": "Common",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Pillows/Body_Pillow.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Pillows/Slushy_Body_Pillow.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "NESW",
+    "Group": "Cloth",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Dust",
+    "HitboxType": "Block_Body_Pillow",
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "BlockPreviewVisibility": "Default"
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Red",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 8
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Misc"
+        ]
+      }
+    ],
+    "TimeSeconds": 8
+  },
+  "IconProperties": {
+    "Scale": 1.4,
+    "Rotation": [
+      178,
+      72,
+      81
+    ],
+    "Translation": [
+      -10,
+      -15
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Slushy_Body_Pillow.png"
+}

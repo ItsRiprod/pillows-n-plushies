@@ -1,5 +1,2 @@
-- added hexcode extension patching via patchly
-- enabled use of staff and book wen hexcode is installed
-- made all pillows face player on placement
-- made all plushies face player on placement
-- various blocktype tweaks
+- added SlushyWater52 body pillow
+- updated description
