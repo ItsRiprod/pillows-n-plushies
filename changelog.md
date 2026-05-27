@@ -1,2 +1,1 @@
-- added SlushyWater52 body pillow
-- updated description
+- more tweaks to fumo model

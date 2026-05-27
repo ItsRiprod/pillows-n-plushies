@@ -9,7 +9,6 @@ import com.hypixel.hytale.server.core.asset.LoadAssetEvent;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore;
-import com.oruuke.pillow.states.TintBlockState;
 import com.riprod.patchly.PatchManager;
 
 import javax.annotation.Nonnull;
@@ -20,7 +19,6 @@ public final class PillowsNPlushies extends JavaPlugin {
     private final PatchManager patchManager;
     private static PillowsNPlushies instance;
     public static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
-    private ComponentType<ChunkStore, TintBlockState> tintBlockComponentType;
 
     public static PillowsNPlushies get() {
         return instance;
@@ -40,8 +38,6 @@ public final class PillowsNPlushies extends JavaPlugin {
     @Override
     protected void start() {
         LOGGER.at(Level.INFO).log("starting pillows n' plushies!");
-        //this.getChunkStoreRegistry().registerSystem(new TintSystem());
-        //this.getChunkStoreRegistry().registerSystem(new TintInitializer());
     }
     @Override
     protected void setup() {
@@ -58,18 +54,11 @@ public final class PillowsNPlushies extends JavaPlugin {
             if (PatchManager.isSyntheticOverridePack(e.getAssetPack().getName())) return;
             patchManager.rebuildAndApply("packUnregister:" + e.getAssetPack().getName());
         });
-
-        //this.getCodecRegistry(Interaction.CODEC).register("Tint_Interaction", TintInteraction.class, TintInteraction.CODEC);
-        //this.tintBlockComponentType = this.getChunkStoreRegistry().registerComponent(TintBlockState.class, "TintBlockState", TintBlockState.CODEC);
     }
 
     @Override
     protected void shutdown() {
         LOGGER.at(Level.INFO).log("shutting down pillows n' plushies!");
         patchManager.shutdown();
-    }
-
-    public ComponentType<ChunkStore, TintBlockState> getTintBlockComponentType() {
-        return this.tintBlockComponentType;
     }
 }
