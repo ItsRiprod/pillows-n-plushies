@@ -3,20 +3,23 @@
     "Name": "pillows_n_plushies.items.Milim_Plush.name",
     "Description": "pillows_n_plushies.items.Milim_Plush.description"
   },
-  "PlayerAnimationsId": "Block",
+  "PlayerAnimationsId": "Item",
   "MaxStack": 100,
   "Categories": [
-    "Blocks.Deco"
+    "Blocks.Deco",
+    "Items.Weapons"
   ],
   "Tags": {
     "Type": [
-      "Deco"
+      "Deco",
+      "Weapon"
     ]
   },
   "Set": "Furniture_Misc",
   "Icon": "Icons/ItemsGenerated/Milim_Plush.png",
   "Model": "Blocks/Plushies/Milim_Plush.blockymodel",
   "Texture": "Blocks/Plushies/Milim_Plush.png",
+  "Weapon": {},
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
@@ -33,7 +36,7 @@
     "Flags": {},
     "Gathering": {
       "Breaking": {
-        "GatherType": "Woods"
+        "GatherType": "SoftBlocks"
       }
     },
     "BlockParticleSetId": "Dust",

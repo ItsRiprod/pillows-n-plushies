@@ -43,7 +43,7 @@
     "Flags": {},
     "Gathering": {
       "Breaking": {
-        "GatherType": "Woods"
+        "GatherType": "SoftBlocks"
       }
     },
     "BlockParticleSetId": "Dust",
