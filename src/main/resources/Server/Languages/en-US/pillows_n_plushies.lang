@@ -1,7 +1,10 @@
 # ==== pillows ====
 
-items.Astolfo_Body_Pillow.name = template body pillow
-items.Astolfo_Body_Pillow.description = is template
+items.Template_Body_Pillow.name = template body pillow
+items.Template_Body_Pillow.description = is template
+
+items.Astolfo_Body_Pillow.name = astolfo body pillow
+items.Astolfo_Body_Pillow.description = player, is something wrong? you're making a weird face.
 
 items.Ferris_Body_Pillow.name = ferris body pillow
 items.Ferris_Body_Pillow.description = i swear, player-kun, you're so easy to read!

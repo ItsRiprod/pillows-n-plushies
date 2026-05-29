@@ -3,7 +3,7 @@
     "Name": "pillows_n_plushies.items.Slushy_Plush.name",
     "Description": "pillows_n_plushies.items.Slushy_Plush.description"
   },
-  "PlayerAnimationsId": "Block",
+  "PlayerAnimationsId": "Item",
   "MaxStack": 100,
   "Categories": [
     "Blocks.Deco"
@@ -14,8 +14,10 @@
     ]
   },
   "Set": "Furniture_Misc",
+  "Icon": "Icons/ItemsGenerated/Slushy_Plush.png",
   "Model": "Blocks/Plushies/Slushy_Plush.blockymodel",
   "Texture": "Blocks/Plushies/Slushy_Plush.png",
+  "Weapon": {},
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
@@ -87,6 +89,5 @@
       0,
       -14
     ]
-  },
-  "Icon": "Icons/ItemsGenerated/Slushy_Plush.png"
+  }
 }
