@@ -2,6 +2,7 @@
   "ItemId": "Hexbook_Pillow",
   "MaxGlyphs": 6,
   "Style": {
-    "SecondaryColor": "#9C27B0"
+    "SecondaryColor": "#015941",
+    "PrimaryColor": "#015941"
   }
 }
