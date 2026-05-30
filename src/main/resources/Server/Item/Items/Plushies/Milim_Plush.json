@@ -20,6 +20,13 @@
   "Model": "Blocks/Plushies/Milim_Plush.blockymodel",
   "Texture": "Blocks/Plushies/Milim_Plush.png",
   "Weapon": {},
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        "Block_Secondary"
+      ]
+    }
+  },
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",

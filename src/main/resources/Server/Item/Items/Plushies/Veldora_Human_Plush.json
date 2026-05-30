@@ -20,6 +20,13 @@
   "Model": "Blocks/Plushies/Veldora_Human_Plush.blockymodel",
   "Texture": "Blocks/Plushies/Veldora_Human_Plush.png",
   "Weapon": {},
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        "Block_Secondary"
+      ]
+    }
+  },
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
