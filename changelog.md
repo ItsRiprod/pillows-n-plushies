@@ -1,3 +1,1 @@
-- updated patchly to (hopefully) work better wit hexcode
-
-- tweaked plushie tagging
+- fixing cast mode in jar build
