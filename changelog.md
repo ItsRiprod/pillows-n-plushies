@@ -1,1 +1,1 @@
-- added glow halfblocks for technical tier
+- fixed model for glowing slab

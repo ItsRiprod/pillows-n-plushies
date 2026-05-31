@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Build_Lightsource_White.name"
+    "Name": "pillows_n_plushies.items.Build_Lightsource_Slab_White.name"
   },
   "ItemLevel": 10,
   "MaxStack": 100,
@@ -39,7 +39,7 @@
       "Radius": 0
     },
     "TextureComputedColor": "#FFFFF3",
-    "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
+    "CustomModel": "Blocks/Base_Shapes/HalfBlock.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "BlockTextures/Build_Lightsource_White.png"

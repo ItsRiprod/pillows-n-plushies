@@ -118,3 +118,8 @@ items.Pillow_Block_Yellow.name = yellow pillow block
 items.Pillow_Block_Yellow.description = looks sturdy enough for a fort!
 items.Pillow_Block_Yellow_Light.name = light yellow pillow block
 items.Pillow_Block_Yellow_Light.description = looks sturdy enough for a fort!
+
+
+# ==== technical ====
+
+items.Build_Lightsource_Slab_White.name = white build lightsource - half slab
