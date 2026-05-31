@@ -1,3 +1,1 @@
-- fixing cast mode in jar build
-- renamed animations
-- fixed plushie placement
+- added glow halfblocks for technical tier
