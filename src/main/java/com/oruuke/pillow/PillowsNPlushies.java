@@ -1,6 +1,5 @@
 package com.oruuke.pillow;
 
-import com.hypixel.hytale.component.ComponentType;
 import com.hypixel.hytale.event.EventPriority;
 import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.server.core.asset.AssetPackRegisterEvent;
@@ -8,7 +7,6 @@ import com.hypixel.hytale.server.core.asset.AssetPackUnregisterEvent;
 import com.hypixel.hytale.server.core.asset.LoadAssetEvent;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
-import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore;
 import com.riprod.patchly.PatchManager;
 
 import javax.annotation.Nonnull;

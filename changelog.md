@@ -1,1 +1,2 @@
-- fixed model for glowing slab
+- added colours of glowing slab
+- fixed interactions for glowing slab
