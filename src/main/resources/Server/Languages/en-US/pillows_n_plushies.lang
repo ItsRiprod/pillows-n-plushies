@@ -66,6 +66,9 @@ items.Armor_Onesie_Bear_Hands.description = attuned to the wired, high mana rege
 items.Armor_Onesie_Bear_Legs.name = onesie pillowmage bear slippers
 items.Armor_Onesie_Bear_Legs.description = attuned to the wired, high mana regen unless damaged
 
+items.Glyph_Stitching_All.name = glyph stitching
+items.Glyph_Stitching_All.description = essence-soaked threads take form as glyphs to light the way...
+
 
 # ==== blocks ====
 

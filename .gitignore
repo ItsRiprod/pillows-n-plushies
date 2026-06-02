@@ -7,6 +7,7 @@ run/
 *.ipr
 *.iws
 *.bbmodel
+*.aseprite
 .classpath
 .project
 .settings/

@@ -1,2 +1,1 @@
-- added colours of glowing slab
-- fixed interactions for glowing slab
+- added glyph drawing guide
