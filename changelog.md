@@ -1,1 +1,1 @@
-- added glyph drawing guide
+- added logo for in-game mod tab

@@ -1,0 +1,87 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "rimuru",
+      "position": {"x": 0, "y": 27, "z": 0},
+      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+      "shape": {
+        "type": "box",
+        "offset": {"x": 0, "y": -5, "z": 0},
+        "stretch": {"x": 1, "y": 1, "z": 1},
+        "settings": {
+          "isPiece": false,
+          "size": {"x": 24, "y": 16, "z": 24}
+        },
+        "textureLayout": {
+          "back": {
+            "offset": {"x": 92, "y": 83},
+            "mirror": {"x": false, "y": false},
+            "angle": 180
+          },
+          "right": {
+            "offset": {"x": 93, "y": 108},
+            "mirror": {"x": true, "y": true},
+            "angle": 90
+          },
+          "front": {
+            "offset": {"x": 68, "y": 109},
+            "mirror": {"x": false, "y": false},
+            "angle": 0
+          },
+          "left": {
+            "offset": {"x": 67, "y": 84},
+            "mirror": {"x": true, "y": true},
+            "angle": 270
+          },
+          "top": {
+            "offset": {"x": 68, "y": 84},
+            "mirror": {"x": true, "y": true},
+            "angle": 180
+          },
+          "bottom": {
+            "offset": {"x": 128, "y": 120},
+            "mirror": {"x": true, "y": false},
+            "angle": 0
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "2",
+          "name": "tag--C1",
+          "position": {"x": 12, "y": -5, "z": -1},
+          "orientation": {"x": 0, "y": 0.17365, "z": 0, "w": 0.98481},
+          "shape": {
+            "type": "quad",
+            "offset": {"x": 1.5, "y": 0, "z": 0},
+            "stretch": {"x": 1, "y": 1, "z": 1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 3, "y": 2},
+              "normal": "+Z",
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "front": {
+                "offset": {"x": 126, "y": 116},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": true,
+            "shadingMode": "flat"
+          }
+        }
+      ]
+    }
+  ],
+  "format": "prop",
+  "lod": "auto"
+}
