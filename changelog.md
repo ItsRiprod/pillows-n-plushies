@@ -1,1 +1,2 @@
-- added logo for in-game mod tab
+- fixed layering + colouring + placing glyph guide
+- fixed name of fumo to say fumo

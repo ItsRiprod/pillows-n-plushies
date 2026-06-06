@@ -87,11 +87,6 @@
               "Weight": 1
             }
           ],
-          "Supporting": {
-            "BlockSides": [
-              {}
-            ]
-          },
           "Gathering": {
             "Breaking": {
               "GatherType": "SoftBlocks",
@@ -113,6 +108,13 @@
     "PlacementSettings": {
       "RotationMode": "FacingPlayer",
       "BlockPreviewVisibility": "AlwaysVisible"
+    },
+    "Support": {
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
     }
   },
   "Tags": {
