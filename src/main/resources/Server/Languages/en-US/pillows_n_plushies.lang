@@ -39,6 +39,12 @@ items.Slushy_Plush.description = guyssss look who it is :D
 items.Bed_Futon_Purple.name = purple futon
 items.Bed_Futon_Purple.description = more comfy than it leads on
 
+items.Furniture_Pillow_Crate.name = pillow crate
+items.Furniture_Pillow_Crate.description = nicely packed up tight by upholstery webbing
+
+items.Furniture_Pillow_Chest_Small.name = small pillow chest
+
+items.Furniture_Pillow_Chest_Large.name = large pillow chest
 
 # ==== pillowcode ====
 

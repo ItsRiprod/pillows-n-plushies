@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Pillow_Block_White.name",
-    "Description": "pillows_n_plushies.items.Pillow_Block_White.description"
+    "Name": "pillows_n_plushies.items.Furniture_Pillow_Crate.name",
+    "Description": "pillows_n_plushies.items.Furniture_Pillow_Crate.description"
   },
   "ItemLevel": 2,
   "Recipe": {
@@ -44,7 +44,7 @@
     "BlockParticleSetId": "Dust",
     "Textures": [
       {
-        "All": "BlockTextures/Pillow_Block_White.png",
+        "All": "BlockTextures/Furniture_Pillow_Crate.png",
         "Weight": 4
       }
     ],
@@ -70,5 +70,5 @@
       -13.5
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Pillow_Block_White.png"
+  "Icon": "Icons/ItemsGenerated/Furniture_Pillow_Crate.png"
 }
