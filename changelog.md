@@ -1,2 +1,2 @@
-- fixed layering + colouring + placing glyph guide
-- fixed name of fumo to say fumo
+- added bunch of furniture
+- updated description
