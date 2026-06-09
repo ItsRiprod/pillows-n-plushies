@@ -35,19 +35,19 @@
       "Type": "CustomTemplate",
       "TemplateShapeAssetId": "ChestConnectedBlockTemplate",
       "TemplateShapeBlockPatterns": {
-        "Default": "Furniture_Tavern_Chest_Small",
-        "Double": "Furniture_Tavern_Chest_Large"
+        "Default": "Furniture_Pillow_Chest_Small",
+        "Double": "Furniture_Pillow_Chest_Large"
       }
     },
     "State": {
       "Definitions": {
         "CloseWindow": {
           "InteractionSoundEventId": "SFX_Chest_Wooden_Close",
-          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Close.blockyanim"
+          "CustomModelAnimation": "Blocks/Animations/Chest/Pillow_Chest_Close.blockyanim"
         },
         "OpenWindow": {
           "InteractionSoundEventId": "SFX_Chest_Wooden_Open",
-          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Open.blockyanim"
+          "CustomModelAnimation": "Blocks/Animations/Chest/Pillow_Chest_Open.blockyanim"
         }
       }
     },
