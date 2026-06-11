@@ -46,6 +46,8 @@ items.Furniture_Pillow_Chest_Small.name = small pillow chest
 
 items.Furniture_Pillow_Chest_Large.name = large pillow chest
 
+items.Furniture_Pillow_Barrel.name = pillow barrel
+
 # ==== pillowcode ====
 
 items.Hexbook_Pillow.name = pillow grimoire
