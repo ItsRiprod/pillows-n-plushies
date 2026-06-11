@@ -7,7 +7,7 @@
     "Furniture.Containers"
   ],
   "Set": "Furniture_Tavern",
-  "Icon": "Icons/ItemsGenerated/Furniture_Tavern_Chest_Large.png",
+  "Icon": "Icons/ItemsGenerated/Furniture_Pillow_Chest_Large.png",
   "IconProperties": {
     "Rotation": [
       22.5,
@@ -24,10 +24,10 @@
     "BlockParticleSetId": "Wood",
     "BlockSoundSetId": "Wood",
     "PhysicalMaterialId": "Wood",
-    "CustomModel": "Blocks/Decorative_Sets/Tavern/Chest.blockymodel",
+    "CustomModel": "Blocks/Furniture/Chest_Pillow_Large.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Decorative_Sets/Tavern/Chest_Texture.png",
+        "Texture": "Blocks/Furniture/Chest_Pillow_Large.png",
         "Weight": 1
       }
     ],
