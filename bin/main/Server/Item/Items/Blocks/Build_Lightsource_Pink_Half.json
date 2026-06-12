@@ -1,0 +1,136 @@
+{
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Build_Lightsource_Pink_Half.name"
+  },
+  "ItemLevel": 10,
+  "MaxStack": 100,
+  "Categories": [
+    "Tool.TechnicalBlocks"
+  ],
+  "SubCategory": "LightSources",
+  "PlayerAnimationsId": "Block",
+  "Set": "Build",
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Parent": "Half_Block",
+          "Matchers": [
+            {
+              "Block": {
+                "Id": "Build_Lightsource_Pink_Half",
+                "State": "default"
+              },
+              "Face": "Up",
+              "StaticFace": false
+            }
+          ]
+        }
+      ],
+      "Cooldown": {
+        "Id": "BlockInteraction",
+        "Cooldown": 0.3,
+        "ClickBypass": true
+      },
+      "Settings": {
+        "Creative": {
+          "AllowSkipChainOnClick": true
+        }
+      }
+    }
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "Group": "Dev",
+    "CustomModel": "Blocks/Base_Shapes/HalfBlock.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Build_Lightsource_Pink.png"
+      }
+    ],
+    "HitboxType": "Block_Half",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "VariantRotation": "DoublePipe",
+    "BlockParticleSetId": "Crystal",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Build_Lightsource_Pink.png"
+      }
+    ],
+    "ParticleColor": "#ff66bb",
+    "BlockSoundSetId": "Crystal",
+    "PhysicalMaterialId": "Stone",
+    "CubeShadingMode": "Fullbright",
+    "Light": {
+      "Color": "#618",
+      "Radius": 0
+    },
+    "TextureComputedColor": "#ff68b4",
+    "State": {
+      "Definitions": {
+        "Block": {
+          "Material": "Solid",
+          "DrawType": "Cube",
+          "HitboxType": "Full",
+          "Textures": [
+            {
+              "All": "BlockTextures/Build_Lightsource_Pink.png",
+              "Weight": 1
+            }
+          ],
+          "Supporting": {
+            "BlockSides": [
+              {}
+            ]
+          },
+          "Gathering": {
+            "Breaking": {
+              "GatherType": "SoftBlocks",
+              "DropList": {
+                "Container": {
+                  "Type": "Single",
+                  "Item": {
+                    "ItemId": "Build_Lightsource_Pink_Half",
+                    "QuantityMax": 2,
+                    "QuantityMin": 2
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Build"
+    ]
+  },
+  "Quality": "Technical",
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Build_Lightsource_Pink_Half.png"
+}

@@ -39,15 +39,9 @@
         "Weight": 1
       }
     ],
-    "Group": "Cloth",
-    "Flags": {},
-    "Gathering": {
-      "Breaking": {
-        "GatherType": "SoftBlocks"
-      }
+    "Flags": {
+      "IsUsable": true
     },
-    "BlockParticleSetId": "Dust",
-    "BlockSoundSetId": "Plushie",
     "HitboxType": "Block_Plushie_Slime",
     "Seats": [
       {
@@ -86,7 +80,17 @@
     },
     "PlacementSettings": {
       "RotationMode": "FacingPlayer"
-    }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "ParticleColor": "#f5f5f5",
+    "Group": "Cloth",
+    "BlockSoundSetId": "Plushie",
+    "PhysicalMaterialId": "Cloth",
+    "BlockParticleSetId": "Dust"
   },
   "Recipe": {
     "Input": [
