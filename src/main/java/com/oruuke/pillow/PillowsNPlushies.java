@@ -1,16 +1,11 @@
 package com.oruuke.pillow;
 
-import com.hypixel.hytale.event.EventPriority;
 import com.hypixel.hytale.logger.HytaleLogger;
-import com.hypixel.hytale.server.core.asset.AssetPackRegisterEvent;
-import com.hypixel.hytale.server.core.asset.AssetPackUnregisterEvent;
-import com.hypixel.hytale.server.core.asset.LoadAssetEvent;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.riprod.patchly.PatchManager;
 
 import javax.annotation.Nonnull;
-import java.util.concurrent.CompletableFuture;
 import java.util.logging.Level;
 
 public final class PillowsNPlushies extends JavaPlugin {
@@ -24,34 +19,16 @@ public final class PillowsNPlushies extends JavaPlugin {
 
     public PillowsNPlushies(@Nonnull JavaPluginInit init) {
         super(init);
-        this.patchManager = new PatchManager(this.getManifest());
+        patchManager = new PatchManager(this);
         //LOGGER.atInfo().log("welcome to " + this.getName() + " version " + this.getManifest().getVersion().toString());
-    }
-
-    @Override public CompletableFuture<Void> preLoad() {
-        patchManager.preLoad();
-        return super.preLoad();
     }
 
     @Override
     protected void start() {
         LOGGER.at(Level.INFO).log("starting pillows n' plushies!");
     }
-    @Override
-    protected void setup() {
-        instance = this;
-        LOGGER.at(Level.INFO).log("setting up pillows n' plushies!");
-
-        getEventRegistry().register(EventPriority.LAST, LoadAssetEvent.class,
-                e -> patchManager.rebuildAndApply("boot"));
-        getEventRegistry().register(AssetPackRegisterEvent.class, e -> {
-            if (PatchManager.isSyntheticOverridePack(e.getAssetPack().getName())) return;
-            patchManager.rebuildAndApply("packRegister:" + e.getAssetPack().getName());
-        });
-        getEventRegistry().register(AssetPackUnregisterEvent.class, e -> {
-            if (PatchManager.isSyntheticOverridePack(e.getAssetPack().getName())) return;
-            patchManager.rebuildAndApply("packUnregister:" + e.getAssetPack().getName());
-        });
+    @Override protected void setup() {
+        patchManager.install();
     }
 
     @Override
