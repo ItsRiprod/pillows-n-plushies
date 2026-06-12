@@ -79,13 +79,9 @@
         "GatherType": "SoftBlocks"
       }
     },
-    "BlockParticleSetId": "Dust",
-    "BlockSoundSetId": "Cloth",
-    "Group": "Cloth",
     "HitboxType": "Bed_Futon",
     "Material": "Solid",
     "Opacity": "Transparent",
-    "ParticleColor": "#b55088",
     "Support": {
       "Down": [
         {
@@ -98,7 +94,12 @@
       "Components": {
         "RespawnBlock": {}
       }
-    }
+    },
+    "ParticleColor": "#f5f5f5",
+    "Group": "Cloth",
+    "BlockSoundSetId": "Cloth",
+    "PhysicalMaterialId": "Cloth",
+    "BlockParticleSetId": "Dust"
   },
   "ResourceTypes": [
     {

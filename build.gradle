@@ -2,21 +2,36 @@ plugins {
     id 'idea'
     id 'java'
     id 'com.azuredoom.hytale-tools' version '1.0.37-alpha.1'
-    id 'com.azuredoom.hytalepublisher' version '1.1.1'
+    id 'com.azuredoom.hytalepublisher' version '1.1.6'
     id 'com.gradleup.shadow' version '8.3.5'
 }
 
+
+configurations {
+    shaded
+}
+
 dependencies {
-    implementation(files("deps/Patchly-2.1.0.jar"))
+    shaded files('deps/Patchly-3.1.1.jar')
+    implementation files('deps/Patchly-3.1.1.jar')
 }
 
-tasks.shadowJar {
-    archiveClassifier.set("")
+tasks.named('shadowJar') {
+    archiveClassifier.set('')
     mergeServiceFiles()
+
+    configurations = [
+            project.configurations.shaded
+    ]
 }
 
-tasks.jar { enabled = false }
-tasks.build { dependsOn(tasks.shadowJar) }
+tasks.named('jar') {
+    enabled = false
+}
+
+tasks.named('build') {
+    dependsOn tasks.named('shadowJar')
+}
 
 javadoc {
     options.addStringOption('Xdoclint:-missing', '-quiet')

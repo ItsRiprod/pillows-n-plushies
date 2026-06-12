@@ -1,3 +1,1 @@
-- fixing cast mode in jar build
-- renamed animations
-- fixed plushie placement
+- patchly fix (but fr dis time)
