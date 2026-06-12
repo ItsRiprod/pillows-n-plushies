@@ -1,8 +1,15 @@
 {
   "ItemId": "Hexbook_Pillow",
   "MaxGlyphs": 6,
+  "CastingAuraParticles": [
+    {
+      "SystemId": "Shock_Spawner",
+      "TargetEntityPart": "Self",
+      "TargetNodeName": "",
+      "Color": "#4A148C"
+    }
+  ],
   "Style": {
-    "SecondaryColor": "#015941",
-    "PrimaryColor": "#015941"
+    "SecondaryColor": "#9C27B0"
   }
 }
