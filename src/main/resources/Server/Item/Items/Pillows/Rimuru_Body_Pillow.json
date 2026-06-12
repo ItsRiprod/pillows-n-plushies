@@ -21,7 +21,9 @@
     "VariantRotation": "NESW",
     "HitboxType": "Block_Body_Pillow",
     "PlacementSettings": {
-      "RotationMode": "FacingPlayer"
+      "RotationMode": "FacingPlayer",
+      "BlockPreviewVisibility": "Default",
+      "AllowRotationKey": true
     },
     "Flags": {
       "IsUsable": true

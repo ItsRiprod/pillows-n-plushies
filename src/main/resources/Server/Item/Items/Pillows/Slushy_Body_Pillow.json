@@ -21,7 +21,8 @@
     "HitboxType": "Block_Body_Pillow",
     "PlacementSettings": {
       "RotationMode": "FacingPlayer",
-      "BlockPreviewVisibility": "Default"
+      "BlockPreviewVisibility": "Default",
+      "AllowRotationKey": true
     },
     "Flags": {
       "IsUsable": true

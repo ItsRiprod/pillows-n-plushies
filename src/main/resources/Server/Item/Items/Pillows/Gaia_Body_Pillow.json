@@ -21,7 +21,12 @@
     "VariantRotation": "NESW",
     "HitboxType": "Block_Body_Pillow",
     "PlacementSettings": {
-      "RotationMode": "FacingPlayer"
+      "RotationMode": "FacingPlayer",
+      "BlockPreviewVisibility": "Default",
+      "AllowRotationKey": true
+    },
+    "Flags": {
+      "IsUsable": true
     },
     "Seats": [
       {
@@ -33,9 +38,6 @@
         "Yaw": -45
       }
     ],
-    "Flags": {
-      "IsUsable": true
-    },
     "Interactions": {
       "Use": "Plush_Seat"
     },
