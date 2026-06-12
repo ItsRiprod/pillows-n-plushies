@@ -1,4 +1,5 @@
 {
+  "Parent": "Template_Hexstaff",
   "CastStyleId": "ring",
   "CastingAuraParticles": [
     {
@@ -24,18 +25,6 @@
       },
       "Color": "#f31ef3",
       "Scale": 1.2
-    },
-    {
-      "SystemId": "Mist_Spawner",
-      "DetachedFromModel": false,
-      "Scale": 1.5,
-      "Color": "#8ab",
-      "PositionOffset": {
-        "Y": -1.5
-      }
-    },
-    {
-      "SystemId": "Ring_Spawner"
     }
   ],
   "Style": {

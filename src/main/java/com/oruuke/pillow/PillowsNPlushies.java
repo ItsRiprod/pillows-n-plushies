@@ -13,10 +13,6 @@ public final class PillowsNPlushies extends JavaPlugin {
     private static PillowsNPlushies instance;
     public static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
 
-    public static PillowsNPlushies get() {
-        return instance;
-    }
-
     public PillowsNPlushies(@Nonnull JavaPluginInit init) {
         super(init);
         patchManager = new PatchManager(this);
@@ -24,11 +20,23 @@ public final class PillowsNPlushies extends JavaPlugin {
     }
 
     @Override
+    public java.util.concurrent.CompletableFuture<Void> preLoad() {
+        return super.preLoad();
+    }
+
+    @Override
+    protected void setup() {
+        patchManager.install();
+    }
+
+    @Override
     protected void start() {
+        instance = this;
         LOGGER.at(Level.INFO).log("starting pillows n' plushies!");
     }
-    @Override protected void setup() {
-        patchManager.install();
+
+    public static PillowsNPlushies get() {
+        return instance;
     }
 
     @Override
