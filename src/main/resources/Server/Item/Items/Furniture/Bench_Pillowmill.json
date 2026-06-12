@@ -1,0 +1,91 @@
+{
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Bench_Pillowmill.name",
+    "Description": "pillows_n_plushies.item.Bench_Pillowmill.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Bench_Lumbermill.png",
+  "Categories": [
+    "Furniture.Furniture"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 1
+      },
+      {
+        "ResourceTypeId": "Rubble",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Misc"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/Pillowmill.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/Pillowmill.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelScale": 1,
+    "VariantRotation": "NESW",
+    "HitboxType": "Bench_Lumbermill",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#6f462c",
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "TextureComputedColor": "#64462C"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.41,
+    "Translation": [
+      11.4,
+      -7.2
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

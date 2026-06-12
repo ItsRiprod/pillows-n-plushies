@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Furniture_Pillow_Barrel.name"
+    "Name": "pillows_n_plushies.items.Furniture_Pillow_Barrel.name",
+    "Description": "pillows_n_plushies.items.Furniture_Pillow_Table.description"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [

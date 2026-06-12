@@ -1,0 +1,97 @@
+{
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Furniture_Pillow_Table.name",
+    "Description": "pillows_n_plushies.items.Furniture_Pillow_Table.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Furniture"
+  ],
+  "Set": "Furniture_Tavern",
+  "Icon": "Icons/ItemsGenerated/Furniture_Pillow_Table.png",
+  "IconProperties": {
+    "Scale": 0.32,
+    "Rotation": [
+      22.5,
+      47,
+      22.5
+    ],
+    "Translation": [
+      -22,
+      -20
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Darkwood",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Table"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "CustomModel": "Blocks/Furniture/Table_Pillow.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/Table_Pillow.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Group": "Wood",
+    "HitboxType": "Table",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#543022",
+    "Supporting": {
+      "Up": [
+        {}
+      ]
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood",
+    "PhysicalMaterialId": "Wood",
+    "VariantRotation": "NESW",
+    "TextureComputedColor": "#392218"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Tavern"
+    ]
+  },
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

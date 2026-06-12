@@ -40,13 +40,22 @@ items.Bed_Futon_Purple.name = purple futon
 items.Bed_Futon_Purple.description = more comfy than it leads on
 
 items.Furniture_Pillow_Crate.name = pillow crate
-items.Furniture_Pillow_Crate.description = nicely packed up tight by upholstery webbing
+items.Furniture_Pillow_Crate.description = nicely packed up tight by upholstery
 
 items.Furniture_Pillow_Chest_Small.name = small pillow chest
+items.Furniture_Pillow_Chest_Small.description = soft and handy
 
 items.Furniture_Pillow_Chest_Large.name = large pillow chest
+items.Furniture_Pillow_Chest_Large.description = handier AND softier!
 
 items.Furniture_Pillow_Barrel.name = pillow barrel
+items.Furniture_Pillow_Barrel.description = whole barrel o' hugs!!
+
+items.Furniture_Pillow_Table.name = pillow table
+items.Furniture_Pillow_Table.description = b-but it's just a--
+
+items.Bench_Pillowmill.name = pillowcutter's block
+items.Bench_Pillowmill.description = oddly intimidating...
 
 # ==== pillowcode ====
 
