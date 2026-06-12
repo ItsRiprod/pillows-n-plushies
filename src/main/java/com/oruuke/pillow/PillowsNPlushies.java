@@ -9,19 +9,13 @@ import javax.annotation.Nonnull;
 import java.util.logging.Level;
 
 public final class PillowsNPlushies extends JavaPlugin {
-    private final PatchManager patchManager;
-    private static PillowsNPlushies instance;
     public static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
+    private final PatchManager patchManager;
 
     public PillowsNPlushies(@Nonnull JavaPluginInit init) {
         super(init);
         patchManager = new PatchManager(this);
         //LOGGER.atInfo().log("welcome to " + this.getName() + " version " + this.getManifest().getVersion().toString());
-    }
-
-    @Override
-    public java.util.concurrent.CompletableFuture<Void> preLoad() {
-        return super.preLoad();
     }
 
     @Override
@@ -31,12 +25,7 @@ public final class PillowsNPlushies extends JavaPlugin {
 
     @Override
     protected void start() {
-        instance = this;
         LOGGER.at(Level.INFO).log("starting pillows n' plushies!");
-    }
-
-    public static PillowsNPlushies get() {
-        return instance;
     }
 
     @Override
