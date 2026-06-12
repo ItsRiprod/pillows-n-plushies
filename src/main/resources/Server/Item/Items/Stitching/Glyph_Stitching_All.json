@@ -44,7 +44,6 @@
     "Material": "Empty",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "Group": "Dev",
     "CustomModel": "Blocks/Stitching/Stitching_Large.blockymodel",
     "CustomModelTexture": [
       {
@@ -52,23 +51,13 @@
       }
     ],
     "HitboxType": "Block_Stitching_Flat",
-    "Flags": {},
-    "Gathering": {
-      "Breaking": {
-        "GatherType": "Rocks"
-      }
-    },
     "VariantRotation": "NESW",
-    "BlockParticleSetId": "Crystal",
     "Textures": [
       {
         "Weight": 1,
         "All": "Blocks/Stitching/Glyph_Stitching_All.png"
       }
     ],
-    "ParticleColor": "#ff66bb",
-    "BlockSoundSetId": "Crystal",
-    "PhysicalMaterialId": "Stone",
     "CubeShadingMode": "Fullbright",
     "Light": {
       "Color": "#618",
@@ -115,7 +104,18 @@
           "FaceType": "Full"
         }
       ]
-    }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "ParticleColor": "#ff66bb",
+    "Flags": {},
+    "Group": "Cloth",
+    "BlockSoundSetId": "Plushie",
+    "PhysicalMaterialId": "Cloth",
+    "BlockParticleSetId": "Dust"
   },
   "Tags": {
     "Type": [
