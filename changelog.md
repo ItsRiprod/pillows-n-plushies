@@ -1,3 +1,4 @@
 - added bunch of furniture
+- added bolt of wool to recipes
 - updated patchly
 - updated description
