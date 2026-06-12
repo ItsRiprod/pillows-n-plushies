@@ -1,0 +1,57 @@
+{
+  "Parent": "Weapon_Spellbook_Grimoire_Purple",
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Hexbook_Pillow.name",
+    "Description": "pillows_n_plushies.items.Hexbook_Pillow.description"
+  },
+  "Quality": "Epic",
+  "ItemLevel": 40,
+  "Model": "Items/Tools/Book/Grimoire_Pillow.blockymodel",
+  "Texture": "Items/Tools/Book/Grimoire_Pillow.png",
+  "MaxStack": 1,
+  "Scale": 1.2,
+  "IconProperties": {
+    "Scale": 0.745,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -7.8,
+      -7.8
+    ]
+  },
+  "Utility": {
+    "Usable": true
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Recipe_Book_Magic_Void",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bar_Silver",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Plant_Petals_Purple",
+        "Quantity": 30
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Categories": [
+          "Arcane_Misc"
+        ],
+        "Id": "Arcanebench"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Hexbook_Pillow.png"
+}

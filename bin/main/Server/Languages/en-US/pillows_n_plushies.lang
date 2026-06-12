@@ -1,0 +1,120 @@
+# ==== pillows ====
+
+items.Template_Body_Pillow.name = template body pillow
+items.Template_Body_Pillow.description = is template
+
+items.Astolfo_Body_Pillow.name = astolfo body pillow
+items.Astolfo_Body_Pillow.description = player, is something wrong? you're making a weird face.
+
+items.Ferris_Body_Pillow.name = ferris body pillow
+items.Ferris_Body_Pillow.description = i swear, player-kun, you're so easy to read!
+
+items.Rimuru_Body_Pillow.name = rimuru body pillow
+items.Rimuru_Body_Pillow.description = hue hue hue~
+
+items.Gaia_Body_Pillow.name = gaia body pillow
+items.Gaia_Body_Pillow.description = ...
+
+items.Slushy_Body_Pillow.name = SlushyWater52 body pillow
+items.Slushy_Body_Pillow.description = i feel pillow-coded...
+
+
+# ==== plushies ====
+
+items.Rimuru_Slime_Plush.name = rimuru slime plushie
+items.Rimuru_Slime_Plush.description = i'm not a bad slime!
+
+items.Veldora_Human_Plush.name = veldora human plushie
+items.Veldora_Human_Plush.description = i am fully revived!
+
+items.Milim_Plush.name = milim plushie
+items.Milim_Plush.description = wh-what is all this?!
+
+items.Slushy_Plush.name = slushy plushie
+items.Slushy_Plush.description = guyssss look who it is :D
+
+
+# ==== furniture ====
+
+items.Bed_Futon_Purple.name = purple futon
+items.Bed_Futon_Purple.description = more comfy than it leads on
+
+
+# ==== pillowcode ====
+
+items.Hexbook_Pillow.name = pillow grimoire
+items.Hexbook_Pillow.description = softest book i ever held!
+
+items.Hexstaff_Pillow.name = pillow staff
+items.Hexstaff_Pillow.description = mrow! nya!!
+
+items.Pedestal_Pillow.name = pillow pedestal
+items.Pedestal_Pillow.description = oooo spinny!
+
+items.Obelisk_Pillow.name = pillow obelisk
+items.Obelisk_Pillow.description = a pillow so dense it could kill just by falling on you...
+
+items.Armor_Onesie_Bear_Head.name = onesie pillowmage bear hood
+items.Armor_Onesie_Bear_Head.description = attuned to the wired, high mana regen unless damaged
+
+items.Armor_Onesie_Bear_Chest.name = onesie pillowmage bear robe
+items.Armor_Onesie_Bear_Chest.description = attuned to the wired, high mana regen unless damaged
+
+items.Armor_Onesie_Bear_Hands.name = onesie pillowmage bear sleeves
+items.Armor_Onesie_Bear_Hands.description = attuned to the wired, high mana regen unless damaged
+
+items.Armor_Onesie_Bear_Legs.name = onesie pillowmage bear slippers
+items.Armor_Onesie_Bear_Legs.description = attuned to the wired, high mana regen unless damaged
+
+
+# ==== blocks ====
+
+items.Pillow_Block_Black.name = black pillow block
+items.Pillow_Block_Black.description = looks sturdy enough for a fort!
+items.Pillow_Block_White.name = white pillow block
+items.Pillow_Block_White.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Blue.name = blue pillow block
+items.Pillow_Block_Blue.description = looks sturdy enough for a fort!
+items.Pillow_Block_Blue_Light.name = light blue pillow block
+items.Pillow_Block_Blue_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Cyan.name = cyan pillow block
+items.Pillow_Block_Cyan.description = looks sturdy enough for a fort!
+items.Pillow_Block_Cyan_Light.name = light cyan pillow block
+items.Pillow_Block_Cyan_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Grey.name = grey pillow block
+items.Pillow_Block_Grey.description = looks sturdy enough for a fort!
+items.Pillow_Block_Grey_Light.name = light grey pillow block
+items.Pillow_Block_Grey_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Green.name = green pillow block
+items.Pillow_Block_Green.description = looks sturdy enough for a fort!
+items.Pillow_Block_Green_Light.name = light green pillow block
+items.Pillow_Block_Green_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Orange.name = orange pillow block
+items.Pillow_Block_Orange.description = looks sturdy enough for a fort!
+items.Pillow_Block_Orange_Light.name = light orange pillow block
+items.Pillow_Block_Orange_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Pink.name = pink pillow block
+items.Pillow_Block_Pink.description = looks sturdy enough for a fort!
+items.Pillow_Block_Pink_Light.name = light pink pillow block
+items.Pillow_Block_Pink_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Purple.name = purple pillow block
+items.Pillow_Block_Purple.description = looks sturdy enough for a fort!
+items.Pillow_Block_Purple_Light.name = light purple pillow block
+items.Pillow_Block_Purple_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Red.name = red pillow block
+items.Pillow_Block_Red.description = looks sturdy enough for a fort!
+items.Pillow_Block_Red_Light.name = light red pillow block
+items.Pillow_Block_Red_Light.description = looks sturdy enough for a fort!
+
+items.Pillow_Block_Yellow.name = yellow pillow block
+items.Pillow_Block_Yellow.description = looks sturdy enough for a fort!
+items.Pillow_Block_Yellow_Light.name = light yellow pillow block
+items.Pillow_Block_Yellow_Light.description = looks sturdy enough for a fort!

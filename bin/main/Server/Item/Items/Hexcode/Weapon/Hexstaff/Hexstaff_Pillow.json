@@ -1,0 +1,76 @@
+{
+  "Parent": "Weapon_Staff_Wizard",
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Hexstaff_Pillow.name",
+    "Description": "pillows_n_plushies.items.Hexstaff_Pillow.description"
+  },
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Tags": {
+    "Family": [
+      "Staff"
+    ],
+    "Type": [
+      "Weapon"
+    ]
+  },
+  "Quality": "Epic",
+  "ItemLevel": 40,
+  "Model": "Items/Weapons/Staff/Wand_Pillow.blockymodel",
+  "Texture": "Items/Weapons/Staff/Wand_Pillow.png",
+  "Scale": 1.3,
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      32,
+      23,
+      313
+    ],
+    "Translation": [
+      -49,
+      -45
+    ]
+  },
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "ItemSoundSetId": "ISS_Weapons_Wood",
+  "MaxStack": 1,
+  "Icon": "Icons/ItemsGenerated/Hexstaff_Pillow.png",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Void_Essence_Concentrated",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 15
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Pink",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Model": "Items/Rimuru/Rimuru_Slime_Projectile.blockymodel",
+  "Texture": "Items/Rimuru/Rimuru_Slime_Projectile.png",
+  "EyeHeight": 0.4,
+  "HitBox": {
+    "Max": {
+      "X": 0.4,
+      "Y": 0.4,
+      "Z": 0.4
+    },
+    "Min": {
+      "X": -0.4,
+      "Y": -0.4,
+      "Z": -0.4
+    }
+  },
+  "MinScale": 4,
+  "MaxScale": 4
+}

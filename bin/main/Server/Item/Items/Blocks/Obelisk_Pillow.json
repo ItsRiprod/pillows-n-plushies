@@ -1,0 +1,96 @@
+{
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Obelisk_Pillow.name",
+    "Description": "pillows_n_plushies.items.Obelisk_Pillow.description"
+  },
+  "Quality": "Developer",
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Hexcode/Obelisks/Obelisk_Pillow.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Hexcode/Obelisks/Obelisk_Pillow.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Full",
+    "BlockSoundSetId": "Stone",
+    "BlockParticleSetId": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Supporting": {
+      "Down": [
+        {}
+      ],
+      "Up": [
+        {}
+      ]
+    },
+    "VariantRotation": "NESW",
+    "Looping": true,
+    "CustomModelScale": 1.5
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Void_Essence_Concentrated",
+        "Quantity": 20
+      },
+      {
+        "ItemId": "Ingredient_Bar_Adamantite",
+        "ResourceTypeId": "",
+        "Quantity": 30
+      },
+      {
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 30
+      },
+      {
+        "ItemId": "Rock_Volcanic_Cobble",
+        "Quantity": 100
+      }
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Icon": "Icons/ItemsGenerated/Obelisk_Pillow.png",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      39,
+      32,
+      22.5
+    ],
+    "Translation": [
+      1,
+      -23
+    ]
+  }
+}

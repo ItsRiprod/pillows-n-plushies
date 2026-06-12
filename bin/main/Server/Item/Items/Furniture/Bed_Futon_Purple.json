@@ -1,0 +1,124 @@
+{
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Bed_Futon_Purple.name",
+    "Description": "pillows_n_plushies.items.Bed_Futon_Purple.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Beds"
+  ],
+  "Set": "Furniture_Tavern",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Purple",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_White"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Beds"
+        ]
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -33,
+      5
+    ]
+  },
+  "BlockType": {
+    "Beds": [
+      {
+        "Offset": {
+          "X": 0.4,
+          "Y": -0.3,
+          "Z": 1.0
+        },
+        "Yaw": 0
+      }
+    ],
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "Bed"
+          }
+        ]
+      },
+      "Primary": "Check_Can_Break_Respawn"
+    },
+    "CustomModel": "Blocks/Furniture/Bed_Futon.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Furniture/Bed_Futon_Purple.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Dust",
+    "BlockSoundSetId": "Cloth",
+    "Group": "Cloth",
+    "HitboxType": "Bed_Futon",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#b55088",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "RespawnBlock": {}
+      }
+    }
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Tavern"
+    ]
+  },
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 1,
+  "ItemLevel": 2,
+  "Icon": "Icons/ItemsGenerated/Bed_Futon_Purple.png"
+}

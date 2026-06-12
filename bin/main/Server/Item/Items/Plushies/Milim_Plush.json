@@ -1,0 +1,102 @@
+{
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Milim_Plush.name",
+    "Description": "pillows_n_plushies.items.Milim_Plush.description"
+  },
+  "PlayerAnimationsId": "Item",
+  "MaxStack": 100,
+  "Categories": [
+    "Blocks.Deco",
+    "Items.Weapons"
+  ],
+  "Tags": {
+    "Type": [
+      "Deco",
+      "Weapon"
+    ]
+  },
+  "Set": "Furniture_Misc",
+  "Icon": "Icons/ItemsGenerated/Milim_Plush.png",
+  "Model": "Blocks/Plushies/Milim_Plush.blockymodel",
+  "Texture": "Blocks/Plushies/Milim_Plush.png",
+  "Weapon": {},
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        "Block_Secondary"
+      ]
+    }
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Plushies/Milim_Plush.blockymodel",
+    "VariantRotation": "NESW",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Plushies/Milim_Plush.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Cloth",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "BlockParticleSetId": "Dust",
+    "BlockSoundSetId": "Plushie",
+    "HitboxType": "Block_Plushie_Standing",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "Simple",
+            "Effects": {
+              "WorldSoundEventId": "SFX_Plushie_Build"
+            }
+          }
+        ]
+      }
+    },
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer"
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_Pink",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Misc"
+        ]
+      }
+    ],
+    "TimeSeconds": 4
+  },
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -8
+    ]
+  }
+}

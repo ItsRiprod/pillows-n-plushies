@@ -1,0 +1,22 @@
+{
+  "$Requires": "Riprod:Hexcode",
+  "Parent": "Hexcode_Obelisk_Void",
+  "Categories": [
+    "Hexcode.Obelisks"
+  ],
+  "Tags": {
+    "Family": [
+      "Hexcode"
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Categories": [
+          "Arcane_Hexcode"
+        ],
+        "Id": "Arcanebench"
+      }
+    ]
+  }
+}

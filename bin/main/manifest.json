@@ -1,0 +1,27 @@
+{
+    "Group": "com.oruuke",
+    "Name": "pillows-n-plushies",
+    "Version": "4.3.3",
+    "Description": "weaponised femboy body pillows, colourful pillow fort blocks, squeezable plushies, futon bed, onesie mage robes, and pillow-themed hexcode items! features rider astolfo, ferris argyle, rimuru tempest, veldora, milim, goddess gaia, serial experiments lain!",
+    "Authors": [
+        {
+            "Name": "oruuke"
+        }
+    ],
+    "Website": "https://github.com/oruuke/pillows-n-plushies",
+    "ServerVersion": ">=0.5.0",
+    "Dependencies": {
+        "Hytale:AssetModule": "*",
+        "Hytale:EntityModule": "*",
+        "Hytale:BlockModule": "*"
+    },
+    "OptionalDependencies": {
+        "Riprod:Hexcode": "*"
+    },
+    "DisabledByDefault": false,
+    "Main": "com.oruuke.pillow.PillowsNPlushies",
+    "IncludesAssetPack": true,
+    "UpdateChecker": {
+        "CurseForge": ""
+    }
+}
