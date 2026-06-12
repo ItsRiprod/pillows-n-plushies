@@ -62,8 +62,12 @@
         "Quantity": 1
       },
       {
-        "ItemId": "Ingredient_Fibre",
+        "ItemId": "Ingredient_Bolt_Wool",
         "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 16
       }
     ],
     "BenchRequirement": [

@@ -11,6 +11,10 @@
         "Quantity": 1
       },
       {
+        "ItemId": "Ingredient_Bolt_Wool",
+        "Quantity": 4
+      },
+      {
         "ItemId": "Ingredient_Fibre",
         "Quantity": 8
       }

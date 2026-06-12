@@ -10,11 +10,15 @@
   "Recipe": {
     "Input": [
       {
-        "ResourceTypeId": "Pillow_Block_Pink",
+        "ItemId": "Pillow_Block_Pink",
         "Quantity": 1
       },
       {
-        "ResourceTypeId": "Tool_Shears_Basic",
+        "ItemId": "Ingredient_Bolt_Wool",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Tool_Shears_Basic",
         "Quantity": 1
       }
     ],

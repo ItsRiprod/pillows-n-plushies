@@ -24,16 +24,28 @@
   "Recipe": {
     "Input": [
       {
-        "ResourceTypeId": "Wood_Darkwood",
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Pillow_Block_Blue",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Pillow_Block_White",
         "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 16
       }
     ],
     "BenchRequirement": [
       {
-        "Id": "Builders",
-        "Type": "StructuralCrafting",
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
         "Categories": [
-          "Table"
+          "Furniture_Misc"
         ]
       }
     ]

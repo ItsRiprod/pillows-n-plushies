@@ -50,20 +50,45 @@
     "PhysicalMaterialId": "Cloth",
     "BlockParticleSetId": "Dust"
   },
-  "ResourceTypes": [
-    {
-      "Id": "Fuel"
-    },
-    {
-      "Id": "Charcoal"
-    }
-  ],
   "Tags": {
     "Type": [
       "Furniture"
     ],
     "Family": [
       "Tavern"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Pillow_Block_Orange_Light",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Red",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Misc"
+        ]
+      }
     ]
   },
   "ItemSoundSetId": "ISS_Blocks_Wood",

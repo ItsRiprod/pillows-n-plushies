@@ -96,14 +96,6 @@
     "PhysicalMaterialId": "Cloth",
     "BlockParticleSetId": "Dust"
   },
-  "ResourceTypes": [
-    {
-      "Id": "Fuel"
-    },
-    {
-      "Id": "Charcoal"
-    }
-  ],
   "Tags": {
     "Type": [
       "Furniture"

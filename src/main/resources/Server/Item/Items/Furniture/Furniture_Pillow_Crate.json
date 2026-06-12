@@ -7,12 +7,24 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Cloth_Block_Wool_White",
+        "ItemId": "Cloth_Block_Wool_Blue_Light",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Blue_Cyan",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Green_Light",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Green",
         "Quantity": 1
       },
       {
         "ItemId": "Ingredient_Fibre",
-        "Quantity": 8
+        "Quantity": 16
       }
     ],
     "BenchRequirement": [
@@ -20,7 +32,7 @@
         "Type": "Crafting",
         "Id": "Furniture_Bench",
         "Categories": [
-          "Furniture_Textiles"
+          "Furniture_Misc"
         ]
       }
     ],

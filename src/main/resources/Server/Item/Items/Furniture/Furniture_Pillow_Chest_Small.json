@@ -79,14 +79,6 @@
     "PhysicalMaterialId": "Cloth",
     "BlockParticleSetId": "Dust"
   },
-  "ResourceTypes": [
-    {
-      "Id": "Fuel"
-    },
-    {
-      "Id": "Charcoal"
-    }
-  ],
   "Tags": {
     "Type": [
       "Furniture"
@@ -110,12 +102,16 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Wood_Darkwood_Planks",
-        "Quantity": 3
+        "ItemId": "Pillow_Block_Cyan_Light",
+        "Quantity": 1
       },
       {
-        "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 2
+        "ItemId": "Cloth_Block_Wool_Black",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 16
       }
     ],
     "BenchRequirement": [
