@@ -1,10 +1,6 @@
 {
   "$Requires": "Riprod:Hexcode",
   "Parent": "Template_HexStaff",
-  "Categories": [
-    "Hexcode.Staves",
-    "Items.Weapons"
-  ],
   "Tags": {
     "Family": [
       "Staff"

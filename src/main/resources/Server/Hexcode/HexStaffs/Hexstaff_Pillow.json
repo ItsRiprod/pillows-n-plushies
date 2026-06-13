@@ -1,31 +1,4 @@
 {
-  "CastStyleId": "ring",
-  "CastingAuraParticles": [
-    {
-      "SystemId": "Hexstaff_Smoke_Wisp",
-      "PositionOffset": {
-        "Y": 1.5
-      },
-      "Color": "#eb23d6",
-      "Scale": 1.2
-    },
-    {
-      "SystemId": "Hexstaff_Sparks_Heavy",
-      "PositionOffset": {
-        "Y": 0.0
-      },
-      "Color": "#d32fd3",
-      "Scale": 1.1
-    },
-    {
-      "SystemId": "Hexstaff_Ember_Rise",
-      "PositionOffset": {
-        "Y": -1.0
-      },
-      "Color": "#f31ef3",
-      "Scale": 1.2
-    }
-  ],
   "Style": {
     "PrimaryColor": "#b55088",
     "SecondaryColor": "#b55088"

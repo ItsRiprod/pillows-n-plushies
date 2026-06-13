@@ -1,4 +1,4 @@
 {
 	"$Requires": "Riprod:Hexcode",
-	"Parent": "Template_Hexstaff"
+	"Parent": "Void_Hexbook"
 }
