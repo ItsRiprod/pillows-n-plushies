@@ -6,31 +6,23 @@ plugins {
     id 'com.gradleup.shadow' version '9.4.2'
 }
 
-
 configurations {
     shaded
+    implementation.extendsFrom(shaded)
 }
 
 dependencies {
-    shaded files('deps/Patchly-3.1.1.jar')
-    implementation files('deps/Patchly-3.1.1.jar')
+    shaded('curse.maven:patchly-1550889:8188362')
 }
 
-tasks.named('shadowJar') {
+shadowJar {
     archiveClassifier.set('')
     mergeServiceFiles()
-
-    configurations = [
-            project.configurations.shaded
-    ]
+    configurations = [project.configurations.shaded]
 }
 
-tasks.named('jar') {
-    enabled = false
-}
-
-tasks.named('build') {
-    dependsOn tasks.named('shadowJar')
+tasks.build {
+    dependsOn("shadowJar")
 }
 
 javadoc {
