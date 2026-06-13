@@ -1,0 +1,30 @@
+{
+	"$Requires": "Riprod:Hexcode",
+	"CastStyleId": "ring",
+  "CastingAuraParticles": [
+    {
+      "SystemId": "Hexstaff_Motes_Slow",
+      "PositionOffset": {
+        "Y": 1.5
+      },
+      "Color": "#FFFFFF",
+      "Scale": 1.3
+    },
+    {
+      "SystemId": "Hexstaff_Sparks_Mid",
+      "PositionOffset": {
+        "Y": 0.0
+      },
+      "Color": "#ECEFF1",
+      "Scale": 1.2
+    },
+    {
+      "SystemId": "Hexstaff_Generic_Mist",
+      "PositionOffset": {
+        "Y": -1.5
+      },
+      "Color": "#ECEFF1",
+      "Scale": 1.3
+    }
+  ]
+}

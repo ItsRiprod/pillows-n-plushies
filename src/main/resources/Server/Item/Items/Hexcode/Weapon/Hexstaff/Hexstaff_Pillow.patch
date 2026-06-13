@@ -17,7 +17,14 @@
   "Utility": {
     "Compatible": true
   },
+  "Interactions": {
+    "Primary": "Hexstaff_Primary",
+    "Secondary": "Hexstaff_Secondary",
+    "Ability1": "Hexstaff_Ability1",
+    "Ability3": "Hexstaff_Ability3"
+  },
   "Weapon": {
+    "RenderDualWielded": false,
     "StatModifiers": {
       "Magic_Power": [
         {
@@ -45,12 +52,6 @@
       "MagicCharges",
       "Volatility"
     ]
-  },
-  "Interactions": {
-    "Primary": "Hexstaff_Primary",
-    "Secondary": "Hexstaff_Secondary",
-    "Ability1": "Hexstaff_Ability1",
-    "Ability3": "Hexstaff_Ability3"
   },
   "ItemAppearanceConditions": {
     "SignatureEnergy": [
