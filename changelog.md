@@ -1,1 +1,2 @@
-- hexstaff fix for crafting mode
+- updated patchly groovy implementation
+- updated deployment method
