@@ -1,1 +1,1 @@
-- patchly fix (but fr dis time)
+- hexstaff fix for crafting mode
