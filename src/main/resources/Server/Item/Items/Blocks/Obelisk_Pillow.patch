@@ -1,6 +1,10 @@
 {
   "$Requires": "Riprod:Hexcode",
   "Parent": "Hexcode_Obelisk_Void",
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Obelisk_Pillow.name",
+    "Description": "pillows_n_plushies.pillowcode.Obelisk_Pillow.description"
+  },
   "Categories": [
     "Hexcode.Obelisks"
   ],

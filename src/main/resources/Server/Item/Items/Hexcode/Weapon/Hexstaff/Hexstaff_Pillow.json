@@ -48,6 +48,14 @@
     ],
     "Input": [
       {
+        "ItemId": "Pillow_Block_Pink",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Pillow_Block_White",
+        "Quantity": 1
+      },
+      {
         "ItemId": "Ingredient_Void_Essence_Concentrated",
         "Quantity": 1
       },
@@ -62,14 +70,6 @@
       {
         "ItemId": "Ingredient_Voidheart",
         "Quantity": 15
-      },
-      {
-        "ItemId": "Cloth_Block_Wool_Pink",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Cloth_Block_Wool_White",
-        "Quantity": 1
       }
     ]
   }

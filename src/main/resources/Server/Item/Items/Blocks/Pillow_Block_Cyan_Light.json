@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
     "Name": "pillows_n_plushies.items.Pillow_Block_Cyan_Light.name",
-    "Description": "pillows_n_plushies.items.Pillow_Block_Cyan_Light.description"
+    "Description": "pillows_n_plushies.items.Pillow_Block.description"
   },
   "ItemLevel": 2,
   "Recipe": {

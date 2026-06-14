@@ -28,19 +28,27 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Recipe_Book_Magic_Void",
+        "ItemId": "Pillow_Block_Cyan",
         "Quantity": 1
       },
       {
-        "ItemId": "Ingredient_Bar_Silver",
-        "Quantity": 10
+        "ItemId": "Pillow_Block_White",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Recipe_Book_Magic_Void",
+        "Quantity": 1
       },
       {
         "ItemId": "Ingredient_Void_Essence",
         "Quantity": 20
       },
       {
-        "ItemId": "Plant_Petals_Purple",
+        "ItemId": "Plant_Petals_Pink",
         "Quantity": 30
       }
     ],

@@ -1,4 +1,13 @@
 {
 	"$Requires": "Riprod:Hexcode",
 	"Parent": "Void_Hexbook"
+  "MaxGlyphs": 6,
+  "CastingAuraParticles": [
+    {
+      "SystemId": "Shock_Spawner",
+      "TargetEntityPart": "Self",
+      "TargetNodeName": "",
+      "Color": "#b55088"
+    }
+  ],
 }

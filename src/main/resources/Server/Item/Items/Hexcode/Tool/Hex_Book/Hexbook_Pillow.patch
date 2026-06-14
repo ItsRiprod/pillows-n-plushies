@@ -1,16 +1,17 @@
 {
   "$Requires": "Riprod:Hexcode",
   "Parent": "Template_HexBook",
-  "Categories": [
-    "Hexcode.Books",
-    "Items.Weapons"
-  ],
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Hexbook_Pillow.name",
+    "Description": "pillows_n_plushies.pillowcode.Hexbook_Pillow.description"
+  },
+  "Categories": null,
   "Tags": {
     "Type": [
       "LifeHexBook"
     ]
   },
-  "MaxCapacity": 8,
+  "MaxCapacity": 6,
 	"Weapon": {},
 	"ItemSoundSetId": "ISS_Weapons_Books",
   "Recipe": {

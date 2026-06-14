@@ -1,18 +1,12 @@
 {
   "$Requires": "Riprod:Hexcode",
   "Parent": "Template_HexStaff",
-  "Categories": [
-    "Hexcode.Staves",
-    "Items.Weapons"
-  ],
-  "Tags": {
-    "Family": [
-      "Staff"
-    ],
-    "Type": [
-      "Weapon"
-    ]
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Hexstaff_Pillow.name",
+    "Description": "pillows_n_plushies.pillowcode.Hexstaff_Pillow.description"
   },
+  "Categories": null,
+  "Tags": null,
   "PlayerAnimationsId": "HexStaff",
   "Utility": {
     "Compatible": true
