@@ -24,10 +24,6 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 1
-      },
-      {
         "ItemId": "Pillow_Block_Blue",
         "Quantity": 2
       },
@@ -38,6 +34,10 @@
       {
         "ItemId": "Ingredient_Fibre",
         "Quantity": 16
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
       }
     ],
     "BenchRequirement": [

@@ -1,2 +1,1 @@
-- updated patchly groovy implementation
-- updated deployment method
+- fixed categories, descriptions, and recipes
