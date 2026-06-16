@@ -131,3 +131,10 @@ items.Pillow_Block.description = <color is="#b55088"><b>looks sturdy enough for 
 items.Build_Lightsource_White_Half.name = white build lightsource - half slab
 items.Build_Lightsource_Pink_Half.name = pink build lightsource - half slab
 items.Build_Lightsource_Cyan_Half.name = cyan build lightsource - half slab
+
+
+# ==== user interface ====
+
+ui.PillowsNPlushies.name = pillows n' plushies
+ui.Pillows.name = pillows
+ui.Plushies.name = plushies
