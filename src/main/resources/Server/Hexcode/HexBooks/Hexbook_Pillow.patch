@@ -1,6 +1,6 @@
 {
 	"$Requires": "Riprod:Hexcode",
-	"Parent": "Void_Hexbook"
+	"Parent": "Void_Hexbook",
   "MaxGlyphs": 6,
   "CastingAuraParticles": [
     {
@@ -9,5 +9,5 @@
       "TargetNodeName": "",
       "Color": "#b55088"
     }
-  ],
+  ]
 }

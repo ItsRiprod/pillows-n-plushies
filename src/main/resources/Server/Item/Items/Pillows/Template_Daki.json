@@ -13,16 +13,18 @@
   "MaxDurability": 69,
   "DurabilityLossOnHit": 0.5,
   "Categories": [
+    "Blocks.Deco",
     "Items.Weapons",
-    "Blocks.Deco"
+    "Furniture.Furniture"
   ],
+  "SubCategory": "daki",
   "Tags": {
+    "Family": [
+      "Mace"
+    ],
     "Type": [
       "Weapon",
       "Deco"
-    ],
-    "Family": [
-      "Mace"
     ]
   },
   "Weapon": {

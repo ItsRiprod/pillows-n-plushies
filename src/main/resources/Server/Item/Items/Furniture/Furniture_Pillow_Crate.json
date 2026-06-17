@@ -39,9 +39,9 @@
     "TimeSeconds": 8
   },
   "Categories": [
-    "Blocks.Cloth"
+    "Furniture.Containers"
   ],
-  "SubCategory": "BlockSets",
+  "SubCategory": "pillow",
   "Set": "Cloth_Wool_White",
   "BlockType": {
     "Material": "Solid",

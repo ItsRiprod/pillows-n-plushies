@@ -41,6 +41,10 @@
       ]
     }
   },
+  "Categories": [
+    "Items.Armors"
+  ],
+  "SubCategory": "onesie",
   "Tags": {
     "Type": [
       "Armor"

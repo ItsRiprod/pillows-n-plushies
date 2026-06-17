@@ -7,6 +7,7 @@
   "Categories": [
     "Furniture.Containers"
   ],
+  "SubCategory": "pillow",
   "Set": "Furniture_Tavern",
   "Icon": "Icons/ItemsGenerated/Furniture_Pillow_Chest_Small.png",
   "BlockType": {

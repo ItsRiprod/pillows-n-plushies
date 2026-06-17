@@ -1,1 +1,1 @@
-- fixed categories, descriptions, and recipes
+- fixed subcategories for all items

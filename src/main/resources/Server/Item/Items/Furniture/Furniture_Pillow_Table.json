@@ -7,6 +7,7 @@
   "Categories": [
     "Furniture.Furniture"
   ],
+  "SubCategory": "pillow",
   "Set": "Furniture_Tavern",
   "Icon": "Icons/ItemsGenerated/Furniture_Pillow_Table.png",
   "IconProperties": {
