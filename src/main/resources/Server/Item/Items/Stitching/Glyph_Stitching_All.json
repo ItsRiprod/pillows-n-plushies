@@ -130,12 +130,14 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Arcanebench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Arcane_Misc"
-        ]
+          "Pillow_Stitching"
+        ],
+        "RequiredTierLevel": 4
       }
     ],
+    "TimeSeconds": 32,
     "Input": [
       {
         "ItemId": "Ingredient_Fire_Essence_Concentrated",

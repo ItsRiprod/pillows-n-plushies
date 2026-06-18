@@ -1,1 +1,2 @@
-- fixed subcategories for all items
+- made pillowcutter's block functional as pillow bench
+- modified recipes, bench level requirements, and wait times

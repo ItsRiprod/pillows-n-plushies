@@ -23,13 +23,13 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Furniture_Bench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Furniture_Textiles"
+          "Pillow_Blocks"
         ]
       }
     ],
-    "TimeSeconds": 8
+    "TimeSeconds": 4
   },
   "BlockType": {
     "Material": "Solid",

@@ -101,13 +101,14 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Furniture_Bench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Furniture_Misc"
-        ]
+          "Pillow_Plushies"
+        ],
+        "RequiredTierLevel": 2
       }
     ],
-    "TimeSeconds": 4
+    "TimeSeconds": 16
   },
   "IconProperties": {
     "Scale": 0.8,

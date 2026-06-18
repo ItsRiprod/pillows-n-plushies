@@ -1,0 +1,201 @@
+{
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Bench_Pillowmill.name",
+    "Description": "pillows_n_plushies.items.Bench_Pillowmill.description"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_Pink",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bolt_Wool",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Tool_Shears_Basic",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Bench_Pillowmill.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "SubCategory": "pillow",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/Pillowmill.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/Pillowmill.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelScale": 1,
+    "VariantRotation": "NESW",
+    "HitboxType": "Bench_Lumbermill",
+    "Bench": {
+      "Type": "Crafting",
+      "Categories": [
+        {
+          "Id": "Pillow_Blocks",
+          "Icon": "Icons/CraftingCategories/Furniture/Blocks.png",
+          "Name": "pillows_n_plushies.ui.Blocks.name"
+        },
+        {
+          "Id": "Pillow_Furniture",
+          "Icon": "Icons/CraftingCategories/Furniture/Furniture.png",
+          "Name": "pillows_n_plushies.ui.Furniture.name"
+        },
+        {
+          "Id": "Pillow_Plushies",
+          "Icon": "Icons/CraftingCategories/Furniture/Plushies.png",
+          "Name": "pillows_n_plushies.ui.Plushies.name"
+        },
+        {
+          "Id": "Pillow_Daki",
+          "Icon": "Icons/CraftingCategories/Furniture/Daki.png",
+          "Name": "pillows_n_plushies.ui.Daki.name"
+        },
+        {
+          "Id": "Pillow_Onesies",
+          "Icon": "Icons/CraftingCategories/Furniture/Onesies.png",
+          "Name": "pillows_n_plushies.ui.Onesies.name"
+        },
+        {
+          "Id": "Pillow_Stitching",
+          "Icon": "Icons/CraftingCategories/Furniture/Stitching.png",
+          "Name": "pillows_n_plushies.ui.Stitching.name"
+        }
+      ],
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "CompletedSoundEventId": "SFX_Workbench_Craft",
+      "FailedSoundEventId": "SFX_Generic_Crafting_Failed",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Id": "Pillow_Bench",
+      "TierLevels": [
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Furniture_Pillow_Barrel",
+                "Quantity": 1
+              }
+            ],
+            "TimeSeconds": 4
+          },
+          "CraftingTimeReductionModifier": 0.0
+        },
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Rimuru_Slime_Plush",
+                "Quantity": 1
+              }
+            ],
+            "TimeSeconds": 8
+          },
+          "CraftingTimeReductionModifier": 0.15
+        },
+        {
+          "UpgradeRequirement": {
+            "Material": [
+              {
+                "ItemId": "Astolfo_Body_Pillow",
+                "Quantity": 1
+              },
+              {
+                "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
+                "Quantity": 40
+              },
+              {
+                "ItemId": "Ingredient_Voidheart",
+                "Quantity": 3
+              }
+            ],
+            "TimeSeconds": 16
+          },
+          "CraftingTimeReductionModifier": 0.30
+        },
+        {
+          "CraftingTimeReductionModifier": 0.60
+        }
+      ]
+    },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {}
+      }
+    },
+    "State": {
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Carpenter_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/Carpenter_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "TextureComputedColor": "#64462C",
+    "ParticleColor": "#f5f5f5",
+    "Group": "Cloth",
+    "BlockSoundSetId": "Cloth",
+    "PhysicalMaterialId": "Cloth",
+    "BlockParticleSetId": "Dust"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.41,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      11.4,
+      -7.2
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 7,
+  "ItemSoundSetId": "ISS_Items_Cloth"
+}

@@ -73,13 +73,14 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Furniture_Bench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Furniture_Misc"
-        ]
+          "Pillow_Daki"
+        ],
+        "RequiredTierLevel": 3
       }
     ],
-    "TimeSeconds": 8
+    "TimeSeconds": 16
   },
   "IconProperties": {
     "Scale": 1.4,

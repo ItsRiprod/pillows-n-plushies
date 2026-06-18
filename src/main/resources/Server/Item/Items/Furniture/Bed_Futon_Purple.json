@@ -26,12 +26,13 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Furniture_Bench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Furniture_Beds"
+          "Pillow_Furniture"
         ]
       }
-    ]
+    ],
+    "TimeSeconds": 8
   },
   "IconProperties": {
     "Scale": 0.4,

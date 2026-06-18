@@ -136,5 +136,9 @@ items.Build_Lightsource_Cyan_Half.name = cyan build lightsource - half slab
 # ==== user interface ====
 
 ui.PillowsNPlushies.name = pillows n' plushies
-ui.Pillows.name = pillows
+ui.Furniture.name = furniture
+ui.Blocks.name = blocks
+ui.Daki.name = daki
 ui.Plushies.name = plushies
+ui.Onesies.name = onesies
+ui.Stitching.name = stitching

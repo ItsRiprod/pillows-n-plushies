@@ -44,12 +44,13 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Furniture_Bench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Furniture_Misc"
+          "Pillow_Furniture"
         ]
       }
-    ]
+    ],
+    "TimeSeconds": 8
   },
   "BlockType": {
     "CustomModel": "Blocks/Furniture/Table_Pillow.blockymodel",

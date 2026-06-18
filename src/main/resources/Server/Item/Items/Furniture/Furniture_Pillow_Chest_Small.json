@@ -122,12 +122,13 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Furniture_Bench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Furniture_Storage"
+          "Pillow_Furniture"
         ]
       }
-    ]
+    ],
+    "TimeSeconds": 8
   },
   "ItemSoundSetId": "ISS_Blocks_Wood",
   "ItemLevel": 6,
