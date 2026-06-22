@@ -13,7 +13,7 @@ configurations {
 }
 
 dependencies {
-    shaded('curse.maven:patchly-1550889:8188362')
+    shaded('curse.maven:patchly-1550889:8282627')
 }
 
 shadowJar {

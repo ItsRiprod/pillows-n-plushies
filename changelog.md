@@ -1,2 +1,2 @@
-- made pillowcutter's block functional as pillow bench
-- modified recipes, bench level requirements, and wait times
+- fixed recipe for glyph guide
+- updated patchly
