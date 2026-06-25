@@ -1,2 +1,2 @@
-- fixed recipe for glyph guide
-- updated patchly
+- new SlushyWater52 daki design
+- updated texture paths

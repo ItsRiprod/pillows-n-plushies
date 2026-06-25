@@ -5,16 +5,16 @@
     "Description": "pillows_n_plushies.items.Rimuru_Body_Pillow.description"
   },
   "Icon": "Icons/ItemsGenerated/Rimuru_Body_Pillow.png",
-  "Model": "Blocks/Pillows/Body_Pillow.blockymodel",
-  "Texture": "Blocks/Pillows/Rimuru_Body_Pillow.png",
+  "Model": "Items/Blocks/Pillows/Body_Pillow.blockymodel",
+  "Texture": "Items/Blocks/Pillows/Rimuru_Body_Pillow.png",
   "Quality": "Common",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/Pillows/Body_Pillow.blockymodel",
+    "CustomModel": "Items/Blocks/Pillows/Body_Pillow.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Pillows/Rimuru_Body_Pillow.png",
+        "Texture": "Items/Blocks/Pillows/Rimuru_Body_Pillow.png",
         "Weight": 1
       }
     ],

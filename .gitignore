@@ -7,7 +7,6 @@ updater/
 *.iml
 *.ipr
 *.iws
-*.bbmodel
 .classpath
 .project
 .settings/

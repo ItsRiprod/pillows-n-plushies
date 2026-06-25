@@ -8,8 +8,8 @@
   "MaxStack": 100,
   "Set": "Furniture_Misc",
   "Icon": "Icons/ItemsGenerated/Slushy_Plush.png",
-  "Model": "Blocks/Plushies/Slushy_Plush.blockymodel",
-  "Texture": "Blocks/Plushies/Slushy_Plush.png",
+  "Model": "Items/Blocks/Plushies/Slushy_Plush.blockymodel",
+  "Texture": "Items/Blocks/Plushies/Slushy_Plush.png",
   "Weapon": {},
   "Interactions": {
     "Secondary": {
@@ -22,11 +22,11 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Plushies/Slushy_Plush.blockymodel",
+    "CustomModel": "Items/Blocks/Plushies/Slushy_Plush.blockymodel",
     "VariantRotation": "NESW",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Plushies/Slushy_Plush.png",
+        "Texture": "Items/Blocks/Plushies/Slushy_Plush.png",
         "Weight": 1
       }
     ],
