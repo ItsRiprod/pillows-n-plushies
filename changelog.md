@@ -1,2 +1,1 @@
-- new SlushyWater52 daki design
-- updated texture paths
+- new SlushyWater52 fumo design
