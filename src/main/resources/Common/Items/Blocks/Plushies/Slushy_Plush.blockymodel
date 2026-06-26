@@ -157,16 +157,16 @@
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
                 "type": "quad",
-                "offset": {"x": -1, "y": -9.5, "z": -12.05},
+                "offset": {"x": 0, "y": -7.5, "z": -12.05},
                 "stretch": {"x": 1.05, "y": 1, "z": 1},
                 "settings": {
                   "isPiece": false,
-                  "size": {"x": 25, "y": 19},
+                  "size": {"x": 27, "y": 23},
                   "normal": "-Z"
                 },
                 "textureLayout": {
                   "front": {
-                    "offset": {"x": 25, "y": 15},
+                    "offset": {"x": 27, "y": 12},
                     "mirror": {"x": true, "y": false},
                     "angle": 0
                   }
@@ -180,7 +180,7 @@
                 {
                   "id": "6",
                   "name": "hair-front--C1",
-                  "position": {"x": 1, "y": 9.5, "z": 12.05},
+                  "position": {"x": 0, "y": 7.5, "z": 12.05},
                   "orientation": {"x": -0.13053, "y": 0, "z": 0, "w": 0.99144},
                   "shape": {
                     "type": "quad",
@@ -208,7 +208,7 @@
                 {
                   "id": "7",
                   "name": "hair-front-left--C2",
-                  "position": {"x": -9, "y": 9.5, "z": 12.05},
+                  "position": {"x": -10, "y": 7.5, "z": 12.05},
                   "orientation": {"x": -0.08052, "y": -0.38123, "z": -0.03335, "w": 0.92036},
                   "shape": {
                     "type": "quad",
@@ -236,7 +236,7 @@
                 {
                   "id": "8",
                   "name": "hair-front-right--C3",
-                  "position": {"x": 9, "y": 9.5, "z": 12.05},
+                  "position": {"x": 8, "y": 7.5, "z": 12.05},
                   "orientation": {"x": -0.08052, "y": 0.38123, "z": 0.03335, "w": 0.92036},
                   "shape": {
                     "type": "quad",
@@ -264,7 +264,7 @@
                 {
                   "id": "9",
                   "name": "hair-right--C4",
-                  "position": {"x": 10, "y": 9.5, "z": 7.05},
+                  "position": {"x": 9, "y": 7.5, "z": 7.05},
                   "orientation": {"x": -0.06163, "y": 0.70442, "z": 0.06163, "w": 0.70442},
                   "shape": {
                     "type": "quad",
@@ -292,7 +292,7 @@
                 {
                   "id": "10",
                   "name": "hair-left--C5",
-                  "position": {"x": -10, "y": 9.5, "z": 7.05},
+                  "position": {"x": -11, "y": 7.5, "z": 7.05},
                   "orientation": {"x": -0.06163, "y": -0.70442, "z": -0.06163, "w": 0.70442},
                   "shape": {
                     "type": "quad",

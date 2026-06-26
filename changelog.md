@@ -1,1 +1,1 @@
-- new SlushyWater52 fumo design
+- tweaked SlushyWater52 designs
