@@ -1,8 +1,8 @@
 {
   "Parent": "Template_Plushie",
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Veldora_Human_Plush.name",
-    "Description": "pillows_n_plushies.items.Veldora_Human_Plush.description"
+    "Name": "pillow.items.Veldora_Human_Plush.name",
+    "Description": "pillow.items.Veldora_Human_Plush.description"
   },
   "PlayerAnimationsId": "Item",
   "MaxStack": 100,

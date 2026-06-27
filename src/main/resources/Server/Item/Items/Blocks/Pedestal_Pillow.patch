@@ -2,7 +2,7 @@
   "$Requires": "Riprod:Hexcode",
   "Parent": "Hexcode_Pedestal_Arcane",
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Pedestal_Pillow.name",
+    "Name": "pillow.blocks.Pedestal_Pillow.name",
     "Description": "pillows_n_plushies.pillowcode.Pedestal_Pillow.description"
   },
   "Categories": [

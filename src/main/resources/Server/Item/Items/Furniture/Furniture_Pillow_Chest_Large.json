@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Furniture_Pillow_Chest_Large.name",
-    "Description": "pillows_n_plushies.items.Furniture_Pillow_Chest_Large.description"
+    "Name": "pillow.items.Furniture_Pillow_Chest_Large.name",
+    "Description": "pillow.items.Furniture_Pillow_Chest_Large.description"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [

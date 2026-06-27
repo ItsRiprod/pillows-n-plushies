@@ -1,0 +1,60 @@
+# ==== pillows ====
+
+Astolfo_Body_Pillow.name = astolfo body pillow
+Astolfo_Body_Pillow.description = <color is="#b55088"><b>player, is something wrong? you're making a weird face.</b></color>
+
+Ferris_Body_Pillow.name = ferris body pillow
+Ferris_Body_Pillow.description = <color is="#b55088"><b>i swear, player-kun, you're so easy to read!</b></color>
+
+Rimuru_Body_Pillow.name = rimuru body pillow
+Rimuru_Body_Pillow.description = <color is="#b55088"><b>hue hue hue~</b></color>
+
+Gaia_Body_Pillow.name = gaia body pillow
+Gaia_Body_Pillow.description = <color is="#b55088"><b>...</b></color>
+
+Slushy_Body_Pillow.name = SlushyWater52 body pillow
+Slushy_Body_Pillow.description = <color is="#b55088"><b>i feel pillow-coded...</b></color>
+
+
+# ==== plushies ====
+
+Rimuru_Slime_Plush.name = rimuru slime plushie
+Rimuru_Slime_Plush.description = <color is="#b55088"><b>i'm not a bad slime!</b></color>
+
+Veldora_Human_Plush.name = veldora human plushie
+Veldora_Human_Plush.description = <color is="#b55088"><b>i am fully revived!</b></color>
+
+Milim_Plush.name = milim plushie
+Milim_Plush.description = <color is="#b55088"><b>wh-what is all this?!</b></color>
+
+Slushy_Plush.name = slushy fumo plushie
+Slushy_Plush.description = <color is="#b55088"><b>guyssss look who it is :D</b></color>
+
+
+# ==== furniture ====
+
+Bed_Futon_Purple.name = purple futon
+Bed_Futon_Purple.description = <color is="#b55088"><b>more comfy than it leads on</b></color>
+
+Furniture_Pillow_Crate.name = pillow crate
+Furniture_Pillow_Crate.description = <color is="#b55088"><b>nicely packed up tight by upholstery</b></color>
+
+Furniture_Pillow_Chest_Small.name = small pillow chest
+Furniture_Pillow_Chest_Small.description = <color is="#b55088"><b>soft and handy</b></color>
+
+Furniture_Pillow_Chest_Large.name = large pillow chest
+Furniture_Pillow_Chest_Large.description = <color is="#b55088"><b>handier AND softier!</b></color>
+
+Furniture_Pillow_Barrel.name = pillow barrel
+Furniture_Pillow_Barrel.description = <color is="#b55088"><b>whole barrel o' hugs!!</b></color>
+
+Furniture_Pillow_Table.name = pillow table
+Furniture_Pillow_Table.description = <color is="#b55088"><b>b-but it's just a--</b></color>
+
+Bench_Pillowmill.name = pillowcutter's block
+Bench_Pillowmill.description = <color is="#b55088"><b>oddly intimidating...</b></color>
+
+
+# ==== carpet ====
+
+Carpet_Checkered_Flat.name = flat checkered carpet

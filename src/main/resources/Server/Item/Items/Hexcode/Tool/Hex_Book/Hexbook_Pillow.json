@@ -1,8 +1,8 @@
 {
   "Parent": "Weapon_Spellbook_Grimoire_Purple",
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Hexbook_Pillow.name",
-    "Description": "pillows_n_plushies.items.Hexbook_Pillow.description"
+    "Name": "pillow.pillowcode.Hexbook_Pillow.name",
+    "Description": "pillow.pillowcode.Hexbook_Pillow.description"
   },
   "Quality": "Epic",
   "ItemLevel": 40,

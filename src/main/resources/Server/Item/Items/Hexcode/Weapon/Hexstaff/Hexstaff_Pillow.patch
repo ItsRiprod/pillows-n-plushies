@@ -2,8 +2,8 @@
   "$Requires": "Riprod:Hexcode",
   "Parent": "Template_HexStaff",
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Hexstaff_Pillow.name",
-    "Description": "pillows_n_plushies.pillowcode.Hexstaff_Pillow.description"
+    "Name": "pillow.pillowcode.Hexstaff_Pillow.name",
+    "Description": "pillow.pillowcode.Hexstaff_Pillow.description.patch"
   },
   "Categories": null,
   "Tags": null,

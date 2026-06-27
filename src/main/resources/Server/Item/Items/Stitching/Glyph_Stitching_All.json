@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Glyph_Stitching_All.name",
-    "Description": "pillows_n_plushies.items.Glyph_Stitching_All.description"
+    "Name": "pillow.pillowcode.Glyph_Stitching_All.name",
+    "Description": "pillow.pillowcode.Glyph_Stitching_All.description"
   },
   "ItemLevel": 10,
   "MaxStack": 100,

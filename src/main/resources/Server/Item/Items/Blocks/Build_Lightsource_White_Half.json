@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Build_Lightsource_White_Half.name"
+    "Name": "pillow.blocks.Build_Lightsource_White_Half.name"
   },
   "ItemLevel": 10,
   "MaxStack": 100,

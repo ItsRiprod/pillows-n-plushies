@@ -1,8 +1,8 @@
 {
   "Parent": "Template_Pillow_Block",
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Pillow_Block_Cyan_Light.name",
-    "Description": "pillows_n_plushies.items.Pillow_Block.description"
+    "Name": "pillow.blocks.Pillow_Block_Cyan_Light.name",
+    "Description": "pillow.blocks.Pillow_Block.description"
   },
   "ItemLevel": 2,
   "Recipe": {

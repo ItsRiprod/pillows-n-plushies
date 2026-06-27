@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Furniture_Pillow_Crate.name",
-    "Description": "pillows_n_plushies.items.Furniture_Pillow_Crate.description"
+    "Name": "pillow.items.Furniture_Pillow_Crate.name",
+    "Description": "pillow.items.Furniture_Pillow_Crate.description"
   },
   "ItemLevel": 2,
   "Recipe": {

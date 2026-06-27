@@ -1,8 +1,8 @@
 {
   "Parent": "Template_Plushie",
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Slushy_Plush.name",
-    "Description": "pillows_n_plushies.items.Slushy_Plush.description"
+    "Name": "pillow.items.Slushy_Plush.name",
+    "Description": "pillow.items.Slushy_Plush.description"
   },
   "PlayerAnimationsId": "Item",
   "MaxStack": 100,

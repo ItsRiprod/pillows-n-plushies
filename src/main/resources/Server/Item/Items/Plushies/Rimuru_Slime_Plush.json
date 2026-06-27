@@ -1,8 +1,8 @@
 {
   "Parent": "Template_Plushie",
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Rimuru_Slime_Plush.name",
-    "Description": "pillows_n_plushies.items.Rimuru_Slime_Plush.description"
+    "Name": "pillow.items.Rimuru_Slime_Plush.name",
+    "Description": "pillow.items.Rimuru_Slime_Plush.description"
   },
   "Categories": [
     "Blocks.Deco",

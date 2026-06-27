@@ -1,9 +1,5 @@
 {
   "Parent": "Template_Weapon_Mace",
-  "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Template_Body_Pillow.name",
-    "Description": "pillows_n_plushies.items.Template_Body_Pillow.description"
-  },
   "Quality": "Template",
   "Set": "Furniture_Misc",
   "ItemSoundSetId": "ISS_Weapon_Blunt_Large",

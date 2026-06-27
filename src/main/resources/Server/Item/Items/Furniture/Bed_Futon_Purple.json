@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Bed_Futon_Purple.name",
-    "Description": "pillows_n_plushies.items.Bed_Futon_Purple.description"
+    "Name": "pillow.items.Bed_Futon_Purple.name",
+    "Description": "pillow.items.Bed_Futon_Purple.description"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [

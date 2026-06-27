@@ -1,0 +1,40 @@
+# ==== blocks ====
+
+Pillow_Block_Black.name = black pillow block
+Pillow_Block_White.name = white pillow block
+
+Pillow_Block_Blue.name = blue pillow block
+Pillow_Block_Blue_Light.name = light blue pillow block
+
+Pillow_Block_Cyan.name = cyan pillow block
+Pillow_Block_Cyan_Light.name = light cyan pillow block
+
+Pillow_Block_Grey.name = grey pillow block
+Pillow_Block_Grey_Light.name = light grey pillow block
+
+Pillow_Block_Green.name = green pillow block
+Pillow_Block_Green_Light.name = light green pillow block
+
+Pillow_Block_Orange.name = orange pillow block
+Pillow_Block_Orange_Light.name = light orange pillow block
+
+Pillow_Block_Pink.name = pink pillow block
+Pillow_Block_Pink_Light.name = light pink pillow block
+
+Pillow_Block_Purple.name = purple pillow block
+Pillow_Block_Purple_Light.name = light purple pillow block
+
+Pillow_Block_Red.name = red pillow block
+Pillow_Block_Red_Light.name = light red pillow block
+
+Pillow_Block_Yellow.name = yellow pillow block
+Pillow_Block_Yellow_Light.name = light yellow pillow block
+
+Pillow_Block.description = <color is="#b55088"><b>looks sturdy enough for a fort!</b></color>
+
+
+# ==== technical ====
+
+Build_Lightsource_White_Half.name = white build lightsource - half slab
+Build_Lightsource_Pink_Half.name = pink build lightsource - half slab
+Build_Lightsource_Cyan_Half.name = cyan build lightsource - half slab

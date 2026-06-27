@@ -1,8 +1,8 @@
 {
   "Parent": "Template_Daki",
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Rimuru_Body_Pillow.name",
-    "Description": "pillows_n_plushies.items.Rimuru_Body_Pillow.description"
+    "Name": "pillow.items.Rimuru_Body_Pillow.name",
+    "Description": "pillow.items.Rimuru_Body_Pillow.description"
   },
   "Icon": "Icons/ItemsGenerated/Rimuru_Body_Pillow.png",
   "Model": "Items/Blocks/Pillows/Body_Pillow.blockymodel",

@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Bench_Pillowmill.name",
-    "Description": "pillows_n_plushies.items.Bench_Pillowmill.description"
+    "Name": "pillow.items.Bench_Pillowmill.name",
+    "Description": "pillow.items.Bench_Pillowmill.description"
   },
   "Recipe": {
     "Input": [
