@@ -1,19 +1,15 @@
 {
   "Parent": "Template_Plush",
   "TranslationProperties": {
-    "Name": "pillow.items.Rimuru_Slime_Plush.name",
-    "Description": "pillow.items.Rimuru_Slime_Plush.description"
+    "Name": "pillow.items.Shark_Kitty_Plush.name",
+    "Description": "pillow.items.Shark_Kitty_Plush.description"
   },
-  "Categories": [
-    "Blocks.Deco",
-    "Furniture.Furniture"
-  ],
   "PlayerAnimationsId": "Item",
   "MaxStack": 100,
   "Set": "Furniture_Misc",
-  "Icon": "Icons/ItemsGenerated/Rimuru_Slime_Plush.png",
-  "Model": "Items/Blocks/Plushies/Rimuru_Slime_Plush.blockymodel",
-  "Texture": "Items/Blocks/Plushies/Rimuru_Slime_Plush.png",
+  "Icon": "Icons/ItemsGenerated/Shark_Kitty_Plush.png",
+  "Model": "Items/Blocks/Plushies/Shark_Kitty_Plush.blockymodel",
+  "Texture": "Items/Blocks/Plushies/Shark_Kitty_Plush.png",
   "Weapon": {},
   "Interactions": {
     "Secondary": {
@@ -26,52 +22,29 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Items/Blocks/Plushies/Rimuru_Slime_Plush.blockymodel",
+    "CustomModel": "Items/Blocks/Plushies/Shark_Kitty_Plush.blockymodel",
     "VariantRotation": "NESW",
     "CustomModelTexture": [
       {
-        "Texture": "Items/Blocks/Plushies/Rimuru_Slime_Plush.png",
+        "Texture": "Items/Blocks/Plushies/Shark_Kitty_Plush.png",
         "Weight": 1
       }
     ],
     "Flags": {
       "IsUsable": true
     },
-    "HitboxType": "Block_Plushie_Slime",
-    "Seats": [
-      {
-        "Offset": {
-          "X": 0,
-          "Y": 0.08,
-          "Z": 0.2
-        },
-        "Yaw": 0
-      }
-    ],
+    "HitboxType": "Block_Plushie_Shark_Kitty",
     "Interactions": {
-      "Use": "Plush_Seat"
-    },
-    "Support": {
-      "Down": [
-        {
-          "FaceType": "Full"
-        }
-      ],
-      "Up": [
-        {
-          "FaceType": "Full"
-        }
-      ],
-      "East": [
-        {
-          "FaceType": "Full"
-        }
-      ],
-      "West": [
-        {
-          "FaceType": "Full"
-        }
-      ]
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "Simple",
+            "Effects": {
+              "WorldSoundEventId": "SFX_Plushie_Build"
+            }
+          }
+        ]
+      }
     },
     "PlacementSettings": {
       "RotationMode": "FacingPlayer"
@@ -90,7 +63,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Cloth_Block_Wool_Blue_Light",
+        "ItemId": "Cloth_Block_Wool_Blue",
         "Quantity": 2
       },
       {
@@ -111,15 +84,15 @@
     "TimeSeconds": 16
   },
   "IconProperties": {
-    "Scale": 0.8,
+    "Scale": 0.7,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
     "Translation": [
-      0,
-      -8
+      -2,
+      -12
     ]
   }
 }

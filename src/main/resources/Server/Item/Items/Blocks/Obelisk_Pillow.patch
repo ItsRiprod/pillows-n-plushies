@@ -3,7 +3,7 @@
   "Parent": "Hexcode_Obelisk_Void",
   "TranslationProperties": {
     "Name": "pillow.blocks.Obelisk_Pillow.name",
-    "Description": "pillows_n_plushies.pillowcode.Obelisk_Pillow.description"
+    "Description": "pillow.pillowcode.Obelisk_Pillow.description.patch"
   },
   "Categories": [
     "Hexcode.Obelisks"

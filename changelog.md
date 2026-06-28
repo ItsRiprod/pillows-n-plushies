@@ -1,1 +1,2 @@
-- tweaked SlushyWater52 designs
+- added shark kitty
+- updated rimuru plush recipe

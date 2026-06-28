@@ -57,32 +57,32 @@
         {
           "Id": "Pillow_Blocks",
           "Icon": "Icons/CraftingCategories/Furniture/Blocks.png",
-          "Name": "pillows_n_plushies.ui.Blocks.name"
+          "Name": "server.Blocks.name"
         },
         {
           "Id": "Pillow_Furniture",
           "Icon": "Icons/CraftingCategories/Furniture/Furniture.png",
-          "Name": "pillows_n_plushies.ui.Furniture.name"
+          "Name": "server.Furniture.name"
         },
         {
           "Id": "Pillow_Plushies",
           "Icon": "Icons/CraftingCategories/Furniture/Plushies.png",
-          "Name": "pillows_n_plushies.ui.Plushies.name"
+          "Name": "server.Plushies.name"
         },
         {
           "Id": "Pillow_Daki",
           "Icon": "Icons/CraftingCategories/Furniture/Daki.png",
-          "Name": "pillows_n_plushies.ui.Daki.name"
+          "Name": "server.Daki.name"
         },
         {
           "Id": "Pillow_Onesies",
           "Icon": "Icons/CraftingCategories/Furniture/Onesies.png",
-          "Name": "pillows_n_plushies.ui.Onesies.name"
+          "Name": "server.Onesies.name"
         },
         {
           "Id": "Pillow_Stitching",
           "Icon": "Icons/CraftingCategories/Furniture/Stitching.png",
-          "Name": "pillows_n_plushies.ui.Stitching.name"
+          "Name": "server.Stitching.name"
         }
       ],
       "LocalOpenSoundEventId": "SFX_Workbench_Open",
