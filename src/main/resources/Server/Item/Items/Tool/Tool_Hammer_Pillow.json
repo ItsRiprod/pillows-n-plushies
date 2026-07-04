@@ -4,37 +4,49 @@
     "Description": "pillow.items.Tool_Hammer_Pillow.description"
   },
   "Parent": "Tool_Hammer_Crude",
-  "Icon": "Icons/ItemsGenerated/Tool_Hammer_Iron.png",
   "Quality": "Uncommon",
   "ItemLevel": 20,
-  "Model": "Items/Tools/Hammer/Iron.blockymodel",
-  "Texture": "Items/Tools/Hammer/Iron_Texture.png",
+  "Model": "Items/Tools/Hammer/Tool_Hammer_Pillow.blockymodel",
+  "Texture": "Items/Tools/Hammer/Tool_Hammer_Pillow.png",
   "MaxStack": 1,
   "Recipe": {
-    "TimeSeconds": 3.5,
+    "TimeSeconds": 8,
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 6
+        "ItemId": "Pillow_Block_Red",
+        "Quantity": 1
       },
       {
-        "ItemId": "Ingredient_Leather_Light",
-        "Quantity": 3
+        "ItemId": "Pillow_Block_Yellow",
+        "Quantity": 1
       },
       {
-        "ItemId": "Ingredient_Fabric_Scrap_Linen",
-        "Quantity": 2
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 16
       }
     ],
     "BenchRequirement": [
       {
-        "Id": "Workbench",
         "Type": "Crafting",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Workbench_Tools"
+          "Pillow_Furniture"
         ]
       }
     ]
   },
-  "MaxDurability": 500
+  "MaxDurability": 500,
+  "Icon": "Icons/ItemsGenerated/Tool_Hammer_Pillow.png",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      40,
+      297,
+      345
+    ],
+    "Translation": [
+      18,
+      -26
+    ]
+  }
 }

@@ -1,0 +1,7 @@
+{
+  "$Requires": "Riprod:Hexcode",
+  "TranslationProperties": {
+    "Name": "pillow.pillowcode.Glyph_Stitching_All.name",
+    "Description": "pillow.pillowcode.Glyph_Stitching_All.description.patch"
+  }
+}

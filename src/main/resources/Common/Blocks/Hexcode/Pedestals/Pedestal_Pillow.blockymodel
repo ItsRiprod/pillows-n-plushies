@@ -1473,7 +1473,7 @@
                       "id": "40",
                       "name": "cube--C7",
                       "position": {"x": -5.67737, "y": 1, "z": -28.03883},
-                      "orientation": {"x": -0.21263, "y": -0.67438, "z": -0.67438, "w": 0.21263},
+                      "orientation": {"x": 0.21263, "y": 0.67438, "z": 0.67438, "w": -0.21263},
                       "shape": {
                         "type": "quad",
                         "offset": {"x": 8, "y": -3.7, "z": 0},
@@ -1618,12 +1618,12 @@
                     "angle": 0
                   },
                   "top": {
-                    "offset": {"x": 129, "y": -87},
+                    "offset": {"x": 137, "y": 1},
                     "mirror": {"x": false, "y": false},
                     "angle": 0
                   },
                   "bottom": {
-                    "offset": {"x": 129, "y": -87},
+                    "offset": {"x": 137, "y": 1},
                     "mirror": {"x": false, "y": false},
                     "angle": 0
                   }
