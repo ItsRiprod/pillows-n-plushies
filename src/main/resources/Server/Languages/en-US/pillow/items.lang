@@ -1,5 +1,8 @@
 # ==== pillows ====
 
+Blank_Body_Pillow.name = blank body pillow
+Blank_Body_Pillow.description = <color is="#b55088"><b>freedom to restyle as you choose!</b></color> \n<color is="#ffffff">try mod like "live painter & editor" for custom in-game styling</color>
+
 Astolfo_Body_Pillow.name = astolfo body pillow
 Astolfo_Body_Pillow.description = <color is="#b55088"><b>player, is something wrong? you're making a weird face.</b></color>
 
@@ -61,3 +64,7 @@ Bench_Pillowmill.description = <color is="#b55088"><b>oddly intimidating...</b><
 # ==== carpet ====
 
 Carpet_Checkered_Flat.name = flat checkered carpet
+
+# ==== util ====
+Tool_Hammer_Pillow.name = pillow builder's hammer
+Tool_Hammer_Pillow.description = <color is="#b55088"><b>bam-bam-bam!</b></color> \n<color is="#ffffff">is normal hammer :3</color>

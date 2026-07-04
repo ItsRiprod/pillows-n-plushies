@@ -1,2 +1,3 @@
-- added shark kitty
-- updated rimuru plush recipe
+- fixed plushie z-fighting
+- added pillow hammer
+- added blank daki
