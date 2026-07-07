@@ -1,3 +1,2 @@
-- fixed plushie z-fighting
-- added pillow hammer
-- added blank daki
+- added bunch of creator plushies
+- added plushie sound to hammer

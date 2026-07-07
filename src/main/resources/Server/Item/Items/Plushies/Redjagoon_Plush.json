@@ -60,29 +60,6 @@
     "PhysicalMaterialId": "Cloth",
     "BlockParticleSetId": "Dust"
   },
-  "Recipe": {
-    "Input": [
-      {
-        "ItemId": "Cloth_Block_Wool_Cyan",
-        "Quantity": 2
-      },
-      {
-        "ItemId": "Ingredient_Fibre",
-        "Quantity": 4
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Type": "Crafting",
-        "Id": "Pillow_Bench",
-        "Categories": [
-          "Pillow_Plushies"
-        ],
-        "RequiredTierLevel": 2
-      }
-    ],
-    "TimeSeconds": 16
-  },
   "IconProperties": {
     "Scale": 0.75,
     "Rotation": [

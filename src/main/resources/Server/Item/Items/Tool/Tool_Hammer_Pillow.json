@@ -9,6 +9,34 @@
   "Model": "Items/Tools/Hammer/Tool_Hammer_Pillow.blockymodel",
   "Texture": "Items/Tools/Hammer/Tool_Hammer_Pillow.png",
   "MaxStack": 1,
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "CycleBlockGroup",
+          "RunTime": 0.1,
+          "Effects": {
+            "ItemAnimationId": "Mine",
+            "WorldSoundEventId": "SFX_Plushie_Build",
+            "LocalSoundEventId": "SFX_Plushie_Build"
+          }
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "CycleBlockGroup",
+          "RunTime": 0.1,
+          "Effects": {
+            "ItemAnimationId": "Mine",
+            "WorldSoundEventId": "SFX_Plushie_Build",
+            "LocalSoundEventId": "SFX_Plushie_Build"
+          }
+        }
+      ]
+    }
+  },
   "Recipe": {
     "TimeSeconds": 8,
     "Input": [
@@ -48,5 +76,6 @@
       18,
       -26
     ]
-  }
+  },
+  "ItemSoundSetId": "ISS_Armor_Cloth"
 }

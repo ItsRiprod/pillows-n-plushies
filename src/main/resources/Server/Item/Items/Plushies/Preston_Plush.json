@@ -1,15 +1,14 @@
 {
   "Parent": "Template_Plush",
   "TranslationProperties": {
-    "Name": "pillow.items.Slushy_Plush.name",
-    "Description": "pillow.items.Slushy_Plush.description"
+    "Name": "pillow.items.Preston_Plush.name",
+    "Description": "pillow.items.Preston_Plush.description"
   },
   "PlayerAnimationsId": "Item",
   "MaxStack": 100,
   "Set": "Furniture_Misc",
-  "Icon": "Icons/ItemsGenerated/Slushy_Plush.png",
-  "Model": "Items/Blocks/Plushies/Slushy_Plush.blockymodel",
-  "Texture": "Items/Blocks/Plushies/Slushy_Plush.png",
+  "Model": "Items/Blocks/Plushies/Preston_Plush.blockymodel",
+  "Texture": "Items/Blocks/Plushies/Preston_Plush.png",
   "Weapon": {},
   "Interactions": {
     "Secondary": {
@@ -22,11 +21,11 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Items/Blocks/Plushies/Slushy_Plush.blockymodel",
+    "CustomModel": "Items/Blocks/Plushies/Preston_Plush.blockymodel",
     "VariantRotation": "NESW",
     "CustomModelTexture": [
       {
-        "Texture": "Items/Blocks/Plushies/Slushy_Plush.png",
+        "Texture": "Items/Blocks/Plushies/Preston_Plush.png",
         "Weight": 1
       }
     ],
@@ -63,7 +62,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Cloth_Block_Wool_Cyan",
+        "ItemId": "Cloth_Block_Wool_Brown",
         "Quantity": 2
       },
       {
@@ -94,5 +93,6 @@
       0,
       -14
     ]
-  }
+  },
+  "Icon": "Icons/ItemsGenerated/Preston_Plush.png"
 }

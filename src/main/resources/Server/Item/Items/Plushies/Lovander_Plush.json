@@ -1,14 +1,14 @@
 {
   "Parent": "Template_Plush",
   "TranslationProperties": {
-    "Name": "pillow.items.Ikari_Plush.name",
-    "Description": "pillow.items.Ikari_Plush.description"
+    "Name": "pillow.items.Lovander_Plush.name",
+    "Description": "pillow.items.Lovander_Plush.description"
   },
   "PlayerAnimationsId": "Item",
   "MaxStack": 100,
   "Set": "Furniture_Misc",
-  "Model": "Items/Blocks/Plushies/Ikari_Plush.blockymodel",
-  "Texture": "Items/Blocks/Plushies/Ikari_Plush.png",
+  "Model": "Items/Blocks/Plushies/Lovander_Plush.blockymodel",
+  "Texture": "Items/Blocks/Plushies/Lovander_Plush.png",
   "Weapon": {},
   "Interactions": {
     "Secondary": {
@@ -21,18 +21,18 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Items/Blocks/Plushies/Ikari_Plush.blockymodel",
+    "CustomModel": "Items/Blocks/Plushies/Lovander_Plush.blockymodel",
     "VariantRotation": "NESW",
     "CustomModelTexture": [
       {
-        "Texture": "Items/Blocks/Plushies/Ikari_Plush.png",
+        "Texture": "Items/Blocks/Plushies/Lovander_Plush.png",
         "Weight": 1
       }
     ],
     "Flags": {
       "IsUsable": true
     },
-    "HitboxType": "Block_Plushie_Fumo",
+    "HitboxType": "Block_Plushie_Standing",
     "Interactions": {
       "Use": {
         "Interactions": [
@@ -62,7 +62,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Cloth_Block_Wool_Orange",
+        "ItemId": "Cloth_Block_Wool_Pink_Light",
         "Quantity": 2
       },
       {
@@ -83,16 +83,16 @@
     "TimeSeconds": 16
   },
   "IconProperties": {
-    "Scale": 0.75,
+    "Scale": 0.7,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
     "Translation": [
-      0,
-      -14
+      2,
+      -19
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Ikari_Plush.png"
+  "Icon": "Icons/ItemsGenerated/Lovander_Plush.png"
 }
