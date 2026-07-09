@@ -5,6 +5,7 @@
     "Description": "pillow.items.Slushy_Plush.description"
   },
   "PlayerAnimationsId": "Item",
+  "Quality": "Developer",
   "MaxStack": 100,
   "Set": "Furniture_Misc",
   "Icon": "Icons/ItemsGenerated/Slushy_Plush.png",

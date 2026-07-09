@@ -15,8 +15,8 @@ Rimuru_Body_Pillow.description = <color is="#b55088"><b>hue hue hue~</b></color>
 Gaia_Body_Pillow.name = gaia body pillow
 Gaia_Body_Pillow.description = <color is="#b55088"><b>...</b></color>
 
-Slushy_Body_Pillow.name = SlushyWater52 body pillow
-Slushy_Body_Pillow.description = <color is="#b55088"><b>i feel pillow-coded...</b></color>
+Slushy_Body_Pillow.name = slushy body pillow
+Slushy_Body_Pillow.description = <color is="#b55088"><b>i feel pillow-coded...</b></color> \n<color is="#99cccc">@SlushyWater52</color>
 
 
 # ==== plushies ====
@@ -30,16 +30,23 @@ Veldora_Human_Plush.description = <color is="#b55088"><b>i am fully revived!</b>
 Milim_Plush.name = milim plushie
 Milim_Plush.description = <color is="#b55088"><b>wh-what is all this?!</b></color>
 
-Slushy_Plush.name = slushy fumo plushie
-Slushy_Plush.description = <color is="#b55088"><b>guyssss look who it is :D</b></color>
-
 Shark_Kitty_Plush.name = shark kitty plush
 Shark_Kitty_Plush.description = <color is="#b55088"><b>act of wearing... or swallowing? hard to tell.</b></color>
 
-Ikari_Plush.name = ikari fumo plushie
-Preston_Plush.name = preston fumo plushie
-Lordimass_Plush.name = lordimass fumo plushie
 Lovander_Plush.name = lovander plushie
+Lovander_Plush.description = <color is="#b55088"><b>pal on the prowl</b></color>
+
+Slushy_Plush.name = slushy fumo plushie
+Slushy_Plush.description = <color is="#b55088"><b>guyssss look who it is :D</b></color> \n<color is="#99cccc">@SlushyWater52</color>
+
+Ikari_Plush.name = ikari fumo plushie
+Ikari_Plush.description = <color is="#b55088"><b>make WAY the fish king RETURNS!</b></color> \n<color is="#99cccc">@IkarinoKuni</color>
+
+Preston_Plush.name = preston fumo plushie
+Preston_Plush.description = <color is="#b55088"><b>WELCOME TO THE GAUNTLET!</b></color> \n<color is="#99cccc">@OrbisArchitect</color>
+
+Lordimass_Plush.name = lordimass fumo plushie
+Lordimass_Plush.description = <color is="#b55088"><b>just an imp.</b></color> \n<color is="#99cccc">@Lordimass</color>
 
 
 # ==== furniture ====

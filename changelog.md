@@ -1,2 +1,1 @@
-- added bunch of creator plushies
-- added plushie sound to hammer
+- fixed all new fumo
