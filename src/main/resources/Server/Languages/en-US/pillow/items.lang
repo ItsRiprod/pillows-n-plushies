@@ -80,3 +80,5 @@ Carpet_Checkered_Flat.name = flat checkered carpet
 # ==== util ====
 Tool_Hammer_Pillow.name = pillow builder's hammer
 Tool_Hammer_Pillow.description = <color is="#b55088"><b>bam-bam-bam!</b></color> \n<color is="#ffffff">is normal hammer :3</color>
+Cross_Stitching.name = cross stitching
+Cross_Stitching.description = <color is="#b55088"><b>paraphrased from legendary streamer proverb</b></color> \n<color is="#99cccc">@EdilanTV</color>

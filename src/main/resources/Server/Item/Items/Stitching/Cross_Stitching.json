@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillow.pillowcode.Glyph_Stitching_All.name",
-    "Description": "pillow.pillowcode.Glyph_Stitching_All.description"
+    "Name": "pillow.items.Cross_Stitching.name",
+    "Description": "pillow.items.Cross_Stitching.description"
   },
   "ItemLevel": 10,
   "MaxStack": 100,
@@ -19,7 +19,7 @@
           "Matchers": [
             {
               "Block": {
-                "Id": "Glyph_Stitching_All",
+                "Id": "Cross_Stitching",
                 "State": "default"
               },
               "Face": "Up",
@@ -44,25 +44,20 @@
     "Material": "Empty",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Stitching/Glyph_Stitching_All.blockymodel",
+    "CustomModel": "Blocks/Stitching/Cross_Stitching.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Stitching/Glyph_Stitching_All.png"
+        "Texture": "Blocks/Stitching/Cross_Stitching.png"
       }
     ],
-    "HitboxType": "Block_Stitching_Flat_3x3",
+    "HitboxType": "Block_Stitching_Flat_2x1",
     "VariantRotation": "NESW",
     "Textures": [
       {
         "Weight": 1,
-        "All": "Blocks/Stitching/Glyph_Stitching_All.png"
+        "All": "Blocks/Stitching/Cross_Stitching.png"
       }
     ],
-    "CubeShadingMode": "Fullbright",
-    "Light": {
-      "Color": "#618",
-      "Radius": 0
-    },
     "TextureComputedColor": "#ff68b4",
     "State": {
       "Definitions": {
@@ -72,7 +67,7 @@
           "HitboxType": "Full",
           "Textures": [
             {
-              "All": "Blocks/Stitching/Glyph_Stitching_All.png",
+              "All": "Blocks/Stitching/Cross_Stitching.png",
               "Weight": 1
             }
           ],
@@ -83,7 +78,7 @@
                 "Container": {
                   "Type": "Single",
                   "Item": {
-                    "ItemId": "Glyph_Stitching_All",
+                    "ItemId": "Cross_Stitching",
                     "QuantityMax": 2,
                     "QuantityMin": 2
                   }
@@ -125,7 +120,6 @@
       "Build"
     ]
   },
-  "Quality": "Rare",
   "Recipe": {
     "BenchRequirement": [
       {
@@ -144,43 +138,23 @@
         "Quantity": 32
       },
       {
-        "ItemId": "Ingredient_Life_Essence",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Ingredient_Fire_Essence",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Ingredient_Water_Essence",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Ingredient_Lightning_Essence",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Ingredient_Void_Essence",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Ingredient_Ice_Essence",
-        "Quantity": 1
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 4
       }
     ]
   },
   "ItemSoundSetId": "ISS_Blocks_Stone",
   "IconProperties": {
-    "Scale": 1,
+    "Scale": 0.7,
     "Rotation": [
-      13,
-      56,
-      18
+      352,
+      308,
+      10
     ],
     "Translation": [
-      -18,
-      -86
+      -21,
+      -16
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Glyph_Stitching_All.png"
+  "Icon": "Icons/ItemsGenerated/Cross_Stitching.png"
 }
