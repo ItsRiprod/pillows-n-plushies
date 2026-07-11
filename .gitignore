@@ -2,11 +2,11 @@
 build/
 out/
 run/
+updater/
 .idea/
 *.iml
 *.ipr
 *.iws
-*.bbmodel
 .classpath
 .project
 .settings/

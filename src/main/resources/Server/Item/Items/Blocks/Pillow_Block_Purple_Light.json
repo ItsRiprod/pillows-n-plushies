@@ -1,7 +1,8 @@
 {
+  "Parent": "Template_Pillow_Block",
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Pillow_Block_Purple_Light.name",
-    "Description": "pillows_n_plushies.items.Pillow_Block_Purple_Light.description"
+    "Name": "pillow.blocks.Pillow_Block_Purple_Light.name",
+    "Description": "pillow.blocks.Pillow_Block.description"
   },
   "ItemLevel": 2,
   "Recipe": {
@@ -22,19 +23,14 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Furniture_Bench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Furniture_Textiles"
+          "Pillow_Blocks"
         ]
       }
     ],
-    "TimeSeconds": 8
+    "TimeSeconds": 4
   },
-  "Categories": [
-    "Blocks.Cloth"
-  ],
-  "SubCategory": "BlockSets",
-  "Set": "Cloth_Wool_Purple_Light",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Cube",

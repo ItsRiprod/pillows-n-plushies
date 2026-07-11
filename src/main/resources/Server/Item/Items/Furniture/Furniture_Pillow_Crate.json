@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Furniture_Pillow_Crate.name",
-    "Description": "pillows_n_plushies.items.Furniture_Pillow_Crate.description"
+    "Name": "pillow.items.Furniture_Pillow_Crate.name",
+    "Description": "pillow.items.Furniture_Pillow_Crate.description"
   },
   "ItemLevel": 2,
   "Recipe": {
@@ -30,18 +30,18 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Furniture_Bench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Furniture_Misc"
+          "Pillow_Furniture"
         ]
       }
     ],
     "TimeSeconds": 8
   },
   "Categories": [
-    "Blocks.Cloth"
+    "Furniture.Containers"
   ],
-  "SubCategory": "BlockSets",
+  "SubCategory": "pillow",
   "Set": "Cloth_Wool_White",
   "BlockType": {
     "Material": "Solid",

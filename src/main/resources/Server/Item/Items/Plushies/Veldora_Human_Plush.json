@@ -1,24 +1,15 @@
 {
+  "Parent": "Template_Plush",
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Veldora_Human_Plush.name",
-    "Description": "pillows_n_plushies.items.Veldora_Human_Plush.description"
+    "Name": "pillow.items.Veldora_Human_Plush.name",
+    "Description": "pillow.items.Veldora_Human_Plush.description"
   },
   "PlayerAnimationsId": "Item",
   "MaxStack": 100,
-  "Categories": [
-    "Blocks.Deco",
-    "Items.Weapons"
-  ],
-  "Tags": {
-    "Type": [
-      "Deco",
-      "Weapon"
-    ]
-  },
   "Set": "Furniture_Misc",
   "Icon": "Icons/ItemsGenerated/Veldora_Human_Plush.png",
-  "Model": "Blocks/Plushies/Veldora_Human_Plush.blockymodel",
-  "Texture": "Blocks/Plushies/Veldora_Human_Plush.png",
+  "Model": "Items/Blocks/Plushies/Veldora_Human_Plush.blockymodel",
+  "Texture": "Items/Blocks/Plushies/Veldora_Human_Plush.png",
   "Weapon": {},
   "Interactions": {
     "Secondary": {
@@ -31,11 +22,11 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Plushies/Veldora_Human_Plush.blockymodel",
+    "CustomModel": "Items/Blocks/Plushies/Veldora_Human_Plush.blockymodel",
     "VariantRotation": "NESW",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Plushies/Veldora_Human_Plush.png",
+        "Texture": "Items/Blocks/Plushies/Veldora_Human_Plush.png",
         "Weight": 1
       }
     ],
@@ -83,13 +74,14 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Furniture_Bench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Furniture_Misc"
-        ]
+          "Pillow_Plushies"
+        ],
+        "RequiredTierLevel": 2
       }
     ],
-    "TimeSeconds": 4
+    "TimeSeconds": 16
   },
   "IconProperties": {
     "Scale": 0.8,

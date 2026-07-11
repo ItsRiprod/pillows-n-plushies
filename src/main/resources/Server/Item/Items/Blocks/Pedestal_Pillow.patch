@@ -1,6 +1,10 @@
 {
   "$Requires": "Riprod:Hexcode",
   "Parent": "Hexcode_Pedestal_Arcane",
+  "TranslationProperties": {
+    "Name": "pillow.blocks.Pedestal_Pillow.name",
+    "Description": "pillow.pillowcode.Pedestal_Pillow.description.patch"
+  },
   "Categories": [
     "Hexcode.Pedestals"
   ],

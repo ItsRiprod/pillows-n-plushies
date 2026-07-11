@@ -1,0 +1,81 @@
+{
+  "TranslationProperties": {
+    "Name": "pillow.items.Tool_Hammer_Pillow.name",
+    "Description": "pillow.items.Tool_Hammer_Pillow.description"
+  },
+  "Parent": "Tool_Hammer_Crude",
+  "Quality": "Uncommon",
+  "ItemLevel": 20,
+  "Model": "Items/Tools/Hammer/Tool_Hammer_Pillow.blockymodel",
+  "Texture": "Items/Tools/Hammer/Tool_Hammer_Pillow.png",
+  "MaxStack": 1,
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "CycleBlockGroup",
+          "RunTime": 0.1,
+          "Effects": {
+            "ItemAnimationId": "Mine",
+            "WorldSoundEventId": "SFX_Plushie_Build",
+            "LocalSoundEventId": "SFX_Plushie_Build"
+          }
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "CycleBlockGroup",
+          "RunTime": 0.1,
+          "Effects": {
+            "ItemAnimationId": "Mine",
+            "WorldSoundEventId": "SFX_Plushie_Build",
+            "LocalSoundEventId": "SFX_Plushie_Build"
+          }
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "TimeSeconds": 8,
+    "Input": [
+      {
+        "ItemId": "Pillow_Block_Red",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Pillow_Block_Yellow",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 16
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Pillow_Bench",
+        "Categories": [
+          "Pillow_Furniture"
+        ]
+      }
+    ]
+  },
+  "MaxDurability": 500,
+  "Icon": "Icons/ItemsGenerated/Tool_Hammer_Pillow.png",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      40,
+      297,
+      345
+    ],
+    "Translation": [
+      18,
+      -26
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Cloth"
+}

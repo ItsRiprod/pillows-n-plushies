@@ -1,0 +1,76 @@
+{
+  "Parent": "Template_Plush",
+  "TranslationProperties": {
+    "Name": "pillow.items.Slushy_Plush.name",
+    "Description": "pillow.items.Slushy_Plush.description"
+  },
+  "PlayerAnimationsId": "Item",
+  "Quality": "Developer",
+  "MaxStack": 100,
+  "Set": "Furniture_Misc",
+  "Icon": "Icons/ItemsGenerated/Slushy_Plush.png",
+  "Model": "Items/Blocks/Plushies/Slushy_Plush.blockymodel",
+  "Texture": "Items/Blocks/Plushies/Slushy_Plush.png",
+  "Weapon": {},
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        "Block_Secondary"
+      ]
+    }
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Items/Blocks/Plushies/Slushy_Plush.blockymodel",
+    "VariantRotation": "NESW",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Blocks/Plushies/Slushy_Plush.png",
+        "Weight": 1
+      }
+    ],
+    "Flags": {
+      "IsUsable": true
+    },
+    "HitboxType": "Block_Plushie_Fumo",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "Simple",
+            "Effects": {
+              "WorldSoundEventId": "SFX_Plushie_Build"
+            }
+          }
+        ]
+      }
+    },
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer"
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "ParticleColor": "#f5f5f5",
+    "Group": "Cloth",
+    "BlockSoundSetId": "Plushie",
+    "PhysicalMaterialId": "Cloth",
+    "BlockParticleSetId": "Dust"
+  },
+  "IconProperties": {
+    "Scale": 0.75,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -14
+    ]
+  }
+}

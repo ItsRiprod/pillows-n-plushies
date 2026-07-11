@@ -1,0 +1,42 @@
+# ==== items ====
+
+Hexbook_Pillow.name = pillow hex book
+Hexbook_Pillow.description = <color is="#b55088"><b>mrrrp... mrrrrrrrrrp~</b> \n<color is="#ffffff">try alongside "hexcode" mod for new functionality!</color>
+Hexbook_Pillow.description.patch = <color is="#b55088"><b>mrrrp... mrrrrrrrrrp~</b></color>\n\n<color is="#ffcc00"><b>6</b></color> <color is="#aaaaaa">Hex Slots</color> - <color is="#cc88ff"><b>+Void Damage</b></color> - <color is="#aaaaaa">+Spell Power</color>\n\n<b>To write spells</b>\nPlace into a <b>Pedestal</b> to draw Hexes into the Book\n\n<b>To cast spells</b>\nHold in your <b>Offhand</b> alongside a Hex Staff\nPress and Hold <b>Secondary</b> on the Staff to select from saved Hexes
+
+Hexstaff_Pillow.name = pillow hex staff
+Hexstaff_Pillow.description = <color is="#b55088"><b>mrow! nya!!</b></color> \n<color is="#ffffff">try alongside "hexcode" mod for new functionality!</color>
+Hexstaff_Pillow.description.patch = <color is="#b55088"><b>mrow! nya!!</b></color>\n\n<color is="#ffcc00"><b>+200</b></color> <color is="#aaaaaa">Volatility</color> - <color is="#55ff55"><b>+1.6</b></color> <color is="#aaaaaa">Power</color> - <color is="#8888ff"><b>8</b></color> <color is="#aaaaaa">Charges</color> - <color is="#cc88ff"><b>Sphere</b></color> <color is="#aaaaaa">Style</color>\n\n<b>To draw spells</b>\nPress and Hold <b>Secondary</b> to enter <b>Drawing Mode</b>\nUse <b>Primary</b> to draw shapes in Drawing Mode\nRelease <b>Secondary</b> to submit Drawing\n\n<b>To cast spells</b>\nPress and Hold <b>Secondary</b> to view Drawn or Crafted Hexes\nHover over Hex to Select\nRelease <b>Secondary</b> to finalize Selection\n<b>Primary</b> to execute Hex\n\nPress <b>Ability 1</b> to Clear Active Spells\nPress <b>Ability 3</b> to Delete Hexes
+
+
+# ==== blocks ====
+
+Pedestal_Pillow.name = pillow pedestal
+Pedestal_Pillow.description = <color is="#b55088"><b>oooo spinny!</b></color> \n<color is="#ffffff">try alongside "hexcode" mod for new functionality!</color>
+Pedestal_Pillow.description.patch = <color is="#b55088"><b>oooo spinny!</b></color>\n\n<color is="#aaaaaa">Crafting station for hexcode spells.\nPlace a hex book to begin.</color>\n\n<color is="#aaaaaa">Supports <b>8</b> obelisks within <b>8</b> blocks\nCrafting radius <b>35</b> blocks</color>
+
+Obelisk_Pillow.name = pillow obelisk
+Obelisk_Pillow.description = <color is="#b55088"><b>a pillow so dense it could kill just by falling on you...</b></color>
+Obelisk_Pillow.description.patch = <color is="#b55088"><b>a pillow so dense it could kill just by falling on you...</b></color>\n\n<color is="#aaaaaa">Place near a pedestal to augment crafting.\n\nAllows <b>importing</b> and <b>exporting</b> hex blueprints.\nSave your spells or load shared designs.</color>
+
+
+# ==== onesies ====
+
+Armor_Onesie_Bear_Head.name = onesie pillowmage bear hood
+Armor_Onesie_Bear_Head.description = <color is="#b55088"><b>attuned to the wired, high mana regen unless damaged</b></color>
+
+Armor_Onesie_Bear_Chest.name = onesie pillowmage bear robe
+Armor_Onesie_Bear_Chest.description = <color is="#b55088"><b>attuned to the wired, high mana regen unless damaged</b></color>
+
+Armor_Onesie_Bear_Hands.name = onesie pillowmage bear sleeves
+Armor_Onesie_Bear_Hands.description = <color is="#b55088"><b>attuned to the wired, high mana regen unless damaged</b></color>
+
+Armor_Onesie_Bear_Legs.name = onesie pillowmage bear slippers
+Armor_Onesie_Bear_Legs.description = <color is="#b55088"><b>attuned to the wired, high mana regen unless damaged</b></color>
+
+
+# ==== utility ====
+
+Glyph_Stitching_All.name = glyph stitching
+Glyph_Stitching_All.description = <color is="#b55088"><b>essence-soaked threads take form as glyphs to light the way...</b></color> \n<color is="#ffffff">try alongside "hexcode" mod to help draw glyphs!</color>
+Glyph_Stitching_All.description.patch = <color is="#b55088"><b>essence-soaked threads take form as glyphs to light the way...</b></color>

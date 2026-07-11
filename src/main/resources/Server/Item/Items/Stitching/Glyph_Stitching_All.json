@@ -1,14 +1,14 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Glyph_Stitching_All.name",
-    "Description": "pillows_n_plushies.items.Glyph_Stitching_All.description"
+    "Name": "pillow.pillowcode.Glyph_Stitching_All.name",
+    "Description": "pillow.pillowcode.Glyph_Stitching_All.description"
   },
   "ItemLevel": 10,
   "MaxStack": 100,
   "Categories": [
     "Blocks.Deco"
   ],
-  "SubCategory": "LightSources",
+  "SubCategory": "stitching",
   "PlayerAnimationsId": "Block",
   "Set": "Build",
   "Interactions": {
@@ -44,13 +44,13 @@
     "Material": "Empty",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Stitching/Stitching_Large.blockymodel",
+    "CustomModel": "Blocks/Stitching/Glyph_Stitching_All.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/Stitching/Glyph_Stitching_All.png"
       }
     ],
-    "HitboxType": "Block_Stitching_Flat",
+    "HitboxType": "Block_Stitching_Flat_3x3",
     "VariantRotation": "NESW",
     "Textures": [
       {
@@ -130,28 +130,42 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Arcanebench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Arcane_Misc"
-        ]
+          "Pillow_Stitching"
+        ],
+        "RequiredTierLevel": 4
       }
     ],
+    "TimeSeconds": 32,
     "Input": [
-      {
-        "ItemId": "Ingredient_Fire_Essence_Concentrated",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Ingredient_Ice_Essence_Concentrated",
-        "Quantity": 1
-      },
-      {
-        "ItemId": "Ingredient_Void_Essence_Concentrated",
-        "Quantity": 1
-      },
       {
         "ItemId": "Ingredient_Fibre",
         "Quantity": 32
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Water_Essence",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Lightning_Essence",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Ice_Essence",
+        "Quantity": 1
       }
     ]
   },

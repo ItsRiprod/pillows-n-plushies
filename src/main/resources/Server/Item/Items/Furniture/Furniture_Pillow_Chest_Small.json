@@ -1,12 +1,13 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Furniture_Pillow_Chest_Small.name",
-    "Description": "pillows_n_plushies.items.Furniture_Pillow_Chest_Small.description"
+    "Name": "pillow.items.Furniture_Pillow_Chest_Small.name",
+    "Description": "pillow.items.Furniture_Pillow_Chest_Small.description"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
     "Furniture.Containers"
   ],
+  "SubCategory": "pillow",
   "Set": "Furniture_Tavern",
   "Icon": "Icons/ItemsGenerated/Furniture_Pillow_Chest_Small.png",
   "BlockType": {
@@ -106,6 +107,10 @@
         "Quantity": 1
       },
       {
+        "ItemId": "Pillow_Block_Green_Light",
+        "Quantity": 1
+      },
+      {
         "ItemId": "Cloth_Block_Wool_Black",
         "Quantity": 1
       },
@@ -117,12 +122,13 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Furniture_Bench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Furniture_Storage"
+          "Pillow_Furniture"
         ]
       }
-    ]
+    ],
+    "TimeSeconds": 8
   },
   "ItemSoundSetId": "ISS_Blocks_Wood",
   "ItemLevel": 6,

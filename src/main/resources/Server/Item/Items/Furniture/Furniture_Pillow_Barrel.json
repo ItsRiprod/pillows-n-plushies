@@ -1,12 +1,13 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Furniture_Pillow_Barrel.name",
-    "Description": "pillows_n_plushies.items.Furniture_Pillow_Table.description"
+    "Name": "pillow.items.Furniture_Pillow_Barrel.name",
+    "Description": "pillow.items.Furniture_Pillow_Barrel.description"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
     "Furniture.Containers"
   ],
+  "SubCategory": "pillow",
   "Set": "Furniture_Tavern",
   "Icon": "Icons/ItemsGenerated/Furniture_Pillow_Barrel.png",
   "BlockType": {
@@ -84,12 +85,13 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Furniture_Bench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Furniture_Misc"
+          "Pillow_Furniture"
         ]
       }
-    ]
+    ],
+    "TimeSeconds": 8
   },
   "ItemSoundSetId": "ISS_Blocks_Wood",
   "IconProperties": {

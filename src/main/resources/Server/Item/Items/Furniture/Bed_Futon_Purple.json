@@ -1,12 +1,13 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Bed_Futon_Purple.name",
-    "Description": "pillows_n_plushies.items.Bed_Futon_Purple.description"
+    "Name": "pillow.items.Bed_Futon_Purple.name",
+    "Description": "pillow.items.Bed_Futon_Purple.description"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
     "Furniture.Beds"
   ],
+  "SubCategory": "pillow",
   "Set": "Furniture_Tavern",
   "Recipe": {
     "Input": [
@@ -25,12 +26,13 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Furniture_Bench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Furniture_Beds"
+          "Pillow_Furniture"
         ]
       }
-    ]
+    ],
+    "TimeSeconds": 8
   },
   "IconProperties": {
     "Scale": 0.4,

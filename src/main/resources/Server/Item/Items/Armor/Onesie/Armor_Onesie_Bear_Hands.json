@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Armor_Onesie_Bear_Hands.name",
-    "Description": "pillows_n_plushies.items.Armor_Onesie_Bear_Hands.description"
+    "Name": "pillow.pillowcode.Armor_Onesie_Bear_Hands.name",
+    "Description": "pillow.pillowcode.Armor_Onesie_Bear_Hands.description"
   },
   "Parent": "Armor_Iron_Hands",
   "Quality": "Epic",
@@ -35,6 +35,10 @@
       ]
     }
   },
+  "Categories": [
+    "Items.Armors"
+  ],
+  "SubCategory": "onesie",
   "Tags": {
     "Type": [
       "Armor"
@@ -46,14 +50,15 @@
   "Recipe": {
     "BenchRequirement": [
       {
-        "Id": "Armor_Bench",
+        "Id": "Pillow_Bench",
         "Type": "Crafting",
         "Categories": [
-          "Armor_Hands"
+          "Pillow_Onesies"
         ],
-        "RequiredTierLevel": 3
+        "RequiredTierLevel": 4
       }
     ],
+    "TimeSeconds": 16,
     "Input": [
       {
         "ItemId": "Ingredient_Void_Essence",

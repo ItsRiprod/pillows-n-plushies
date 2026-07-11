@@ -1,12 +1,13 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Furniture_Pillow_Table.name",
-    "Description": "pillows_n_plushies.items.Furniture_Pillow_Table.description"
+    "Name": "pillow.items.Furniture_Pillow_Table.name",
+    "Description": "pillow.items.Furniture_Pillow_Table.description"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
     "Furniture.Furniture"
   ],
+  "SubCategory": "pillow",
   "Set": "Furniture_Tavern",
   "Icon": "Icons/ItemsGenerated/Furniture_Pillow_Table.png",
   "IconProperties": {
@@ -24,10 +25,6 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 1
-      },
-      {
         "ItemId": "Pillow_Block_Blue",
         "Quantity": 2
       },
@@ -38,17 +35,22 @@
       {
         "ItemId": "Ingredient_Fibre",
         "Quantity": 16
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
       }
     ],
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Furniture_Bench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Furniture_Misc"
+          "Pillow_Furniture"
         ]
       }
-    ]
+    ],
+    "TimeSeconds": 8
   },
   "BlockType": {
     "CustomModel": "Blocks/Furniture/Table_Pillow.blockymodel",

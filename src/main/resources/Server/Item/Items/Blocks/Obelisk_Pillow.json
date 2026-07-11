@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Obelisk_Pillow.name",
-    "Description": "pillows_n_plushies.items.Obelisk_Pillow.description"
+    "Name": "pillow.blocks.Obelisk_Pillow.name",
+    "Description": "pillow.blocks.Obelisk_Pillow.description"
   },
   "Quality": "Developer",
   "PlayerAnimationsId": "Block",

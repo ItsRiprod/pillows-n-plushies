@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Armor_Onesie_Bear_Head.name",
-    "Description": "pillows_n_plushies.items.Armor_Onesie_Bear_Head.description"
+    "Name": "pillow.pillowcode.Armor_Onesie_Bear_Head.name",
+    "Description": "pillow.pillowcode.Armor_Onesie_Bear_Head.description"
   },
   "Parent": "Armor_Iron_Head",
   "Quality": "Epic",
@@ -41,6 +41,10 @@
       ]
     }
   },
+  "Categories": [
+    "Items.Armors"
+  ],
+  "SubCategory": "onesie",
   "Tags": {
     "Type": [
       "Armor"
@@ -52,14 +56,15 @@
   "Recipe": {
     "BenchRequirement": [
       {
-        "Id": "Armor_Bench",
+        "Id": "Pillow_Bench",
         "Type": "Crafting",
         "Categories": [
-          "Armor_Head"
+          "Pillow_Onesies"
         ],
-        "RequiredTierLevel": 3
+        "RequiredTierLevel": 4
       }
     ],
+    "TimeSeconds": 16,
     "Input": [
       {
         "ItemId": "Ingredient_Void_Essence",

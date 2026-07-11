@@ -1,20 +1,20 @@
 {
-  "Parent": "Template_Body_Pillow",
+  "Parent": "Template_Daki",
   "TranslationProperties": {
-    "Name": "pillows_n_plushies.items.Gaia_Body_Pillow.name",
-    "Description": "pillows_n_plushies.items.Gaia_Body_Pillow.description"
+    "Name": "pillow.items.Gaia_Body_Pillow.name",
+    "Description": "pillow.items.Gaia_Body_Pillow.description"
   },
   "Icon": "Icons/ItemsGenerated/Gaia_Body_Pillow.png",
-  "Model": "Blocks/Pillows/Body_Pillow.blockymodel",
-  "Texture": "Blocks/Pillows/Gaia_Body_Pillow.png",
+  "Model": "Items/Blocks/Pillows/Body_Pillow.blockymodel",
+  "Texture": "Items/Blocks/Pillows/Gaia_Body_Pillow.png",
   "Quality": "Common",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "CustomModel": "Blocks/Pillows/Body_Pillow.blockymodel",
+    "CustomModel": "Items/Blocks/Pillows/Body_Pillow.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Pillows/Gaia_Body_Pillow.png",
+        "Texture": "Items/Blocks/Pillows/Gaia_Body_Pillow.png",
         "Weight": 1
       }
     ],
@@ -74,13 +74,14 @@
     "BenchRequirement": [
       {
         "Type": "Crafting",
-        "Id": "Furniture_Bench",
+        "Id": "Pillow_Bench",
         "Categories": [
-          "Furniture_Misc"
-        ]
+          "Pillow_Daki"
+        ],
+        "RequiredTierLevel": 3
       }
     ],
-    "TimeSeconds": 8
+    "TimeSeconds": 16
   },
   "IconProperties": {
     "Scale": 1.4,

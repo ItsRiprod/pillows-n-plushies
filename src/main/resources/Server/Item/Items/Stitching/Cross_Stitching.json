@@ -1,0 +1,160 @@
+{
+  "TranslationProperties": {
+    "Name": "pillow.items.Cross_Stitching.name",
+    "Description": "pillow.items.Cross_Stitching.description"
+  },
+  "ItemLevel": 10,
+  "MaxStack": 100,
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "SubCategory": "stitching",
+  "PlayerAnimationsId": "Block",
+  "Set": "Build",
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Parent": "Half_Block",
+          "Matchers": [
+            {
+              "Block": {
+                "Id": "Cross_Stitching",
+                "State": "default"
+              },
+              "Face": "Up",
+              "StaticFace": false
+            }
+          ]
+        }
+      ],
+      "Cooldown": {
+        "Id": "BlockInteraction",
+        "Cooldown": 0.3,
+        "ClickBypass": true
+      },
+      "Settings": {
+        "Creative": {
+          "AllowSkipChainOnClick": true
+        }
+      }
+    }
+  },
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Stitching/Cross_Stitching.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Stitching/Cross_Stitching.png"
+      }
+    ],
+    "HitboxType": "Block_Stitching_Flat_2x1",
+    "VariantRotation": "NESW",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "Blocks/Stitching/Cross_Stitching.png"
+      }
+    ],
+    "TextureComputedColor": "#ff68b4",
+    "State": {
+      "Definitions": {
+        "Block": {
+          "Material": "Solid",
+          "DrawType": "Cube",
+          "HitboxType": "Full",
+          "Textures": [
+            {
+              "All": "Blocks/Stitching/Cross_Stitching.png",
+              "Weight": 1
+            }
+          ],
+          "Gathering": {
+            "Breaking": {
+              "GatherType": "SoftBlocks",
+              "DropList": {
+                "Container": {
+                  "Type": "Single",
+                  "Item": {
+                    "ItemId": "Cross_Stitching",
+                    "QuantityMax": 2,
+                    "QuantityMin": 2
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "BlockPreviewVisibility": "AlwaysVisible"
+    },
+    "Support": {
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "ParticleColor": "#ff66bb",
+    "Flags": {},
+    "Group": "Cloth",
+    "BlockSoundSetId": "Plushie",
+    "PhysicalMaterialId": "Cloth",
+    "BlockParticleSetId": "Dust"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Build"
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Pillow_Bench",
+        "Categories": [
+          "Pillow_Stitching"
+        ],
+        "RequiredTierLevel": 4
+      }
+    ],
+    "TimeSeconds": 32,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 32
+      },
+      {
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 4
+      }
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      352,
+      308,
+      10
+    ],
+    "Translation": [
+      -21,
+      -16
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Cross_Stitching.png"
+}
