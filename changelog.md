@@ -1,1 +1,3 @@
-- no eep till progress
+- added oatman fumo
+- touched up all fumo textures
+- fixed preston fumo recipe
