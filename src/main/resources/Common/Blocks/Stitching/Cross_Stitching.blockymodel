@@ -36,8 +36,8 @@
           },
           "top": {
             "offset": {"x": 63, "y": 0},
-            "mirror": {"x": true, "y": true},
-            "angle": 270
+            "mirror": {"x": false, "y": false},
+            "angle": 90
           },
           "bottom": {
             "offset": {"x": 0, "y": 0},
@@ -88,8 +88,8 @@
               },
               "top": {
                 "offset": {"x": 63, "y": 0},
-                "mirror": {"x": true, "y": true},
-                "angle": 270
+                "mirror": {"x": false, "y": false},
+                "angle": 90
               },
               "bottom": {
                 "offset": {"x": 0, "y": 0},
