@@ -32,7 +32,7 @@
     "Flags": {
       "IsUsable": true
     },
-    "HitboxType": "Block_Plushie_Fumo",
+    "HitboxType": "Block_Plushie_Fish",
     "Interactions": {
       "Use": {
         "Interactions": [

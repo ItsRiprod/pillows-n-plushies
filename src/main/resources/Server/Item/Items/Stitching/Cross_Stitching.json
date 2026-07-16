@@ -108,7 +108,7 @@
     "ParticleColor": "#ff66bb",
     "Flags": {},
     "Group": "Cloth",
-    "BlockSoundSetId": "Plushie",
+    "BlockSoundSetId": "Cloth",
     "PhysicalMaterialId": "Cloth",
     "BlockParticleSetId": "Dust"
   },

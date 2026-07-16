@@ -1,1 +1,1 @@
-- added mkoutlaw plush
+- fixed outlaw hitbox and 
