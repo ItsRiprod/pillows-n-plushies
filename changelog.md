@@ -1,1 +1,2 @@
-- fixed outlaw hitbox and 
+- added farren plush
+- shoved all plushies forward
