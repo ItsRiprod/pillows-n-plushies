@@ -30,6 +30,9 @@ Pillow_Block_Red_Light.name = light red pillow block
 Pillow_Block_Yellow.name = yellow pillow block
 Pillow_Block_Yellow_Light.name = light yellow pillow block
 
+Pillow_Block_Modifold.name = modifold pillow block
+Pillow_Block_Modifold.description = <color is="#b55088"><b>the home for your hytale mods</b></color> \n<color is="#99cccc">@modifold</color>
+
 Pillow_Block.description = <color is="#b55088"><b>looks sturdy enough for a fort!</b></color>
 
 
