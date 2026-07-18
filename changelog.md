@@ -1,2 +1,2 @@
-- added farren plush
-- shoved all plushies forward
+- fixed recipe for pillow crate
+- texture touchups for farren and outlaw
