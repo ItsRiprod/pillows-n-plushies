@@ -1,15 +1,13 @@
 {
-  "Parent": "Template_Plush",
   "TranslationProperties": {
     "Name": "pillow.blocks.Letter_Pillow_K.name",
     "Description": "pillow.blocks.Letter_Pillow_K.description"
   },
-  "PlayerAnimationsId": "Item",
+  "PlayerAnimationsId": "Block",
   "MaxStack": 100,
   "Set": "Furniture_Misc",
-  "Model": "Blocks/Letters/Letter_Pillow_K.blockymodel",
-  "Texture": "Blocks/Letters/Letter_Pillow.png",
-  "Weapon": {},
+  "Model": "Items/Blocks/Letters/Letter_Pillow_K.blockymodel",
+  "Texture": "Items/Blocks/Letters/Letter_Pillow.png",
   "Interactions": {
     "Secondary": {
       "Interactions": [
@@ -21,30 +19,15 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Letters/Letter_Pillow_K.blockymodel",
+    "CustomModel": "Items/Blocks/Letters/Letter_Pillow_K.blockymodel",
     "VariantRotation": "NESW",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Letters/Letter_Pillow.png",
+        "Texture": "Items/Blocks/Letters/Letter_Pillow.png",
         "Weight": 1
       }
     ],
-    "Flags": {
-      "IsUsable": true
-    },
     "HitboxType": "Block_Letter",
-    "Interactions": {
-      "Use": {
-        "Interactions": [
-          {
-            "Type": "Simple",
-            "Effects": {
-              "WorldSoundEventId": "SFX_Plushie_Build"
-            }
-          }
-        ]
-      }
-    },
     "PlacementSettings": {
       "RotationMode": "FacingPlayer"
     },
@@ -76,8 +59,7 @@
         "Id": "Pillow_Bench",
         "Categories": [
           "Pillow_Letters"
-        ],
-        "RequiredTierLevel": 1
+        ]
       }
     ],
     "TimeSeconds": 16
