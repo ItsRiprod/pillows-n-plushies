@@ -1,13 +1,13 @@
 {
   "Parent": "Template_Plush",
   "TranslationProperties": {
-    "Name": "pillow.blocks.Letter_Pillow_G.name",
-    "Description": "pillow.blocks.Letter_Pillow_G.description"
+    "Name": "pillow.blocks.Letter_Pillow_T.name",
+    "Description": "pillow.blocks.Letter_Pillow_T.description"
   },
   "PlayerAnimationsId": "Item",
   "MaxStack": 100,
   "Set": "Furniture_Misc",
-  "Model": "Blocks/Letters/Letter_Pillow_G.blockymodel",
+  "Model": "Blocks/Letters/Letter_Pillow_T.blockymodel",
   "Texture": "Blocks/Letters/Letter_Pillow.png",
   "Weapon": {},
   "Interactions": {
@@ -21,7 +21,7 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Letters/Letter_Pillow_G.blockymodel",
+    "CustomModel": "Blocks/Letters/Letter_Pillow_T.blockymodel",
     "VariantRotation": "NESW",
     "CustomModelTexture": [
       {
@@ -94,5 +94,5 @@
       -17
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Letter_Pillow_G.png"
+  "Icon": "Icons/ItemsGenerated/Letter_Pillow_T.png"
 }
