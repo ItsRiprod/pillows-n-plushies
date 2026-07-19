@@ -1,1 +1,1 @@
-- added alphabet
+- fixed alphabet

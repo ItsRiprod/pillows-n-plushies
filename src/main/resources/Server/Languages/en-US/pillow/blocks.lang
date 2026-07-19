@@ -39,57 +39,57 @@ Pillow_Block.description = <color is="#b55088"><b>looks sturdy enough for a fort
 # ==== letters ====
 
 Letter_Pillow_A.name = letter a
-Letter_Pillow_A.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_B.name = letter a
-Letter_Pillow_B.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_C.name = letter a
-Letter_Pillow_C.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_D.name = letter a
-Letter_Pillow_D.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_E.name = letter a
-Letter_Pillow_E.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_F.name = letter a
-Letter_Pillow_F.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_G.name = letter a
-Letter_Pillow_G.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_H.name = letter a
-Letter_Pillow_H.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_I.name = letter a
-Letter_Pillow_I.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_J.name = letter a
-Letter_Pillow_J.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_K.name = letter a
-Letter_Pillow_K.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_L.name = letter a
-Letter_Pillow_L.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_M.name = letter a
-Letter_Pillow_M.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_N.name = letter a
-Letter_Pillow_N.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_O.name = letter a
-Letter_Pillow_O.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_P.name = letter a
-Letter_Pillow_P.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_Q.name = letter a
-Letter_Pillow_Q.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_R.name = letter a
-Letter_Pillow_R.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_S.name = letter a
-Letter_Pillow_S.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_T.name = letter a
-Letter_Pillow_T.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_U.name = letter a
-Letter_Pillow_U.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_V.name = letter a
-Letter_Pillow_V.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_W.name = letter a
-Letter_Pillow_W.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_X.name = letter a
-Letter_Pillow_X.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_Y.name = letter a
-Letter_Pillow_Y.description = <color is="#b55088"><b>literally the letter</b></color>
-Letter_Pillow_Z.name = letter a
-Letter_Pillow_Z.description = <color is="#b55088"><b>literally the letter</b></color>
+Letter_Pillow_A.description = <color is="#b55088"><b>literally the letter a</b></color>
+Letter_Pillow_B.name = letter b
+Letter_Pillow_B.description = <color is="#b55088"><b>literally the letter b</b></color>
+Letter_Pillow_C.name = letter c
+Letter_Pillow_C.description = <color is="#b55088"><b>literally the letter c</b></color>
+Letter_Pillow_D.name = letter d
+Letter_Pillow_D.description = <color is="#b55088"><b>literally the letter d</b></color>
+Letter_Pillow_E.name = letter e
+Letter_Pillow_E.description = <color is="#b55088"><b>literally the letter e</b></color>
+Letter_Pillow_F.name = letter f
+Letter_Pillow_F.description = <color is="#b55088"><b>literally the letter f</b></color>
+Letter_Pillow_G.name = letter g
+Letter_Pillow_G.description = <color is="#b55088"><b>literally the letter g</b></color>
+Letter_Pillow_H.name = letter h
+Letter_Pillow_H.description = <color is="#b55088"><b>literally the letter h</b></color>
+Letter_Pillow_I.name = letter i
+Letter_Pillow_I.description = <color is="#b55088"><b>literally the letter i</b></color>
+Letter_Pillow_J.name = letter j
+Letter_Pillow_J.description = <color is="#b55088"><b>literally the letter j</b></color>
+Letter_Pillow_K.name = letter k
+Letter_Pillow_K.description = <color is="#b55088"><b>literally the letter k</b></color>
+Letter_Pillow_L.name = letter l
+Letter_Pillow_L.description = <color is="#b55088"><b>literally the letter l</b></color>
+Letter_Pillow_M.name = letter m
+Letter_Pillow_M.description = <color is="#b55088"><b>literally the letter m</b></color>
+Letter_Pillow_N.name = letter n
+Letter_Pillow_N.description = <color is="#b55088"><b>literally the letter n</b></color>
+Letter_Pillow_O.name = letter o
+Letter_Pillow_O.description = <color is="#b55088"><b>literally the letter o</b></color>
+Letter_Pillow_P.name = letter p
+Letter_Pillow_P.description = <color is="#b55088"><b>literally the letter p</b></color>
+Letter_Pillow_Q.name = letter q
+Letter_Pillow_Q.description = <color is="#b55088"><b>literally the letter q</b></color>
+Letter_Pillow_R.name = letter r
+Letter_Pillow_R.description = <color is="#b55088"><b>literally the letter r</b></color>
+Letter_Pillow_S.name = letter s
+Letter_Pillow_S.description = <color is="#b55088"><b>literally the letter s</b></color>
+Letter_Pillow_T.name = letter t
+Letter_Pillow_T.description = <color is="#b55088"><b>literally the letter t</b></color>
+Letter_Pillow_U.name = letter u
+Letter_Pillow_U.description = <color is="#b55088"><b>literally the letter u</b></color>
+Letter_Pillow_V.name = letter v
+Letter_Pillow_V.description = <color is="#b55088"><b>literally the letter v</b></color>
+Letter_Pillow_W.name = letter w
+Letter_Pillow_W.description = <color is="#b55088"><b>literally the letter w</b></color>
+Letter_Pillow_X.name = letter x
+Letter_Pillow_X.description = <color is="#b55088"><b>literally the letter x</b></color>
+Letter_Pillow_Y.name = letter y
+Letter_Pillow_Y.description = <color is="#b55088"><b>literally the letter y</b></color>
+Letter_Pillow_Z.name = letter z
+Letter_Pillow_Z.description = <color is="#b55088"><b>literally the letter z</b></color>
 
 
 # ==== technical ====
