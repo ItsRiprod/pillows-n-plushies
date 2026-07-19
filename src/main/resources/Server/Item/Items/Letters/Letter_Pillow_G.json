@@ -62,7 +62,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Cloth_Block_Wool_Orange",
+        "ItemId": "Cloth_Block_Wool_Pink",
         "Quantity": 2
       },
       {
@@ -75,9 +75,9 @@
         "Type": "Crafting",
         "Id": "Pillow_Bench",
         "Categories": [
-          "Pillow_Plushies"
+          "Pillow_Letters"
         ],
-        "RequiredTierLevel": 2
+        "RequiredTierLevel": 1
       }
     ],
     "TimeSeconds": 16
