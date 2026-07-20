@@ -1,1 +1,1 @@
-- fixed alphabet
+- changed text colour and recipe
