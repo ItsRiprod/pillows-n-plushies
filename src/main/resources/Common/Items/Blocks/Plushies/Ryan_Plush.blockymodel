@@ -233,16 +233,16 @@
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
                 "type": "quad",
-                "offset": {"x": -1, "y": -5.5, "z": -12.1},
+                "offset": {"x": -1, "y": -6, "z": -12.1},
                 "stretch": {"x": 1.05, "y": 1, "z": 1},
                 "settings": {
                   "isPiece": false,
-                  "size": {"x": 29, "y": 19},
+                  "size": {"x": 29, "y": 18},
                   "normal": "-Z"
                 },
                 "textureLayout": {
                   "front": {
-                    "offset": {"x": 29, "y": 12},
+                    "offset": {"x": 29, "y": 13},
                     "mirror": {"x": true, "y": false},
                     "angle": 0
                   }
@@ -256,7 +256,7 @@
                 {
                   "id": "7",
                   "name": "ear-left",
-                  "position": {"x": -6.21095, "y": 10.28154, "z": 5.09396},
+                  "position": {"x": -6.21095, "y": 10.78154, "z": 6.09396},
                   "orientation": {"x": 0.00006, "y": 0.00074, "z": 0.17566, "w": 0.98445},
                   "shape": {
                     "type": "box",
@@ -413,7 +413,7 @@
                 {
                   "id": "10",
                   "name": "ear-right",
-                  "position": {"x": 6.21095, "y": 10.28154, "z": 5.09396},
+                  "position": {"x": 6.21095, "y": 10.78154, "z": 6.09396},
                   "orientation": {"x": 0.00006, "y": -0.00074, "z": -0.17566, "w": 0.98445},
                   "shape": {
                     "type": "box",
@@ -570,7 +570,7 @@
                 {
                   "id": "13",
                   "name": "hair-front--C1",
-                  "position": {"x": 1, "y": 5.5, "z": 12.1},
+                  "position": {"x": 1, "y": 6, "z": 12.1},
                   "orientation": {"x": -0.13053, "y": 0, "z": 0, "w": 0.99144},
                   "shape": {
                     "type": "quad",
@@ -598,7 +598,7 @@
                 {
                   "id": "14",
                   "name": "hair-front-left--C2",
-                  "position": {"x": -9, "y": 5.5, "z": 12.1},
+                  "position": {"x": -9, "y": 6, "z": 12.1},
                   "orientation": {"x": -0.0403, "y": -0.38232, "z": -0.01669, "w": 0.923},
                   "shape": {
                     "type": "quad",
@@ -626,7 +626,7 @@
                 {
                   "id": "15",
                   "name": "hair-front-right--C3",
-                  "position": {"x": 9, "y": 5.5, "z": 12.1},
+                  "position": {"x": 9, "y": 6, "z": 12.1},
                   "orientation": {"x": -0.0403, "y": 0.38232, "z": 0.01669, "w": 0.923},
                   "shape": {
                     "type": "quad",
@@ -654,7 +654,7 @@
                 {
                   "id": "16",
                   "name": "hair-right--C4",
-                  "position": {"x": 10, "y": 5.5, "z": 7.1},
+                  "position": {"x": 10, "y": 6, "z": 7.1},
                   "orientation": {"x": -0.03084, "y": 0.70643, "z": 0.03084, "w": 0.70643},
                   "shape": {
                     "type": "quad",
@@ -682,7 +682,7 @@
                 {
                   "id": "17",
                   "name": "hair-left--C5",
-                  "position": {"x": -10, "y": 5.5, "z": 7.1},
+                  "position": {"x": -10, "y": 6, "z": 7.1},
                   "orientation": {"x": -0.03084, "y": -0.70643, "z": -0.03084, "w": 0.70643},
                   "shape": {
                     "type": "quad",
