@@ -7,7 +7,6 @@
   "PlayerAnimationsId": "Item",
   "MaxStack": 100,
   "Set": "Furniture_Misc",
-  "Icon": "Icons/ItemsGenerated/Edilan_Plush.png",
   "Model": "Items/Blocks/Plushies/Edilan_Plush.blockymodel",
   "Texture": "Items/Blocks/Plushies/Edilan_Plush.png",
   "Weapon": {},
@@ -86,13 +85,14 @@
   "IconProperties": {
     "Scale": 0.75,
     "Rotation": [
-      22.5,
-      45,
-      22.5
+      30,
+      35,
+      18
     ],
     "Translation": [
-      0,
-      -14
+      -2,
+      -13
     ]
-  }
+  },
+  "Icon": "Icons/ItemsGenerated/Edilan_Plush.png"
 }
