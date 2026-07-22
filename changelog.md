@@ -1,1 +1,1 @@
-- added heru plush
+- updated heru name and desc
