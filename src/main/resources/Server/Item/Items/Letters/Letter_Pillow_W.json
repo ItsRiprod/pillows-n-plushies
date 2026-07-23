@@ -8,6 +8,28 @@
   "BlockType": {
     "CustomModel": "Items/Blocks/Letters/Letter_Pillow_W.blockymodel"
   },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_Cyan_Light",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Pillow_Bench",
+        "Categories": [
+          "Pillow_Letters"
+        ]
+      }
+    ],
+    "TimeSeconds": 16
+  },
   "IconProperties": {
     "Scale": 1,
     "Rotation": [

@@ -1,2 +1,1 @@
-- updated letter textures
-- updated heru name and desc
+- hotfix alphabet cus i broke it :<

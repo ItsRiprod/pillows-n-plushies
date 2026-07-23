@@ -1,5 +1,5 @@
 {
-  "Texture": "BlockTextures/Letter_Pillow.png",
+  "Texture": "Items/Blocks/Letters/Letter_Pillow.png",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
@@ -7,7 +7,7 @@
     "VariantRotation": "NESW",
     "CustomModelTexture+": [
       {
-        "Texture": "BlockTextures/Letter_Pillow.png",
+        "Texture": "Items/Blocks/Letters/Letter_Pillow.png",
         "Weight": 1
       }
     ],
