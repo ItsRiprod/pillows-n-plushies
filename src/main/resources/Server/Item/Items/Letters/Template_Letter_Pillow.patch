@@ -1,5 +1,5 @@
 {
-  "Texture": "BlockTextures/Rock_Marble_Brick_Top.png",
+  "Texture": "BlockTextures/Letter_Pillow.png",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
@@ -7,7 +7,7 @@
     "VariantRotation": "NESW",
     "CustomModelTexture+": [
       {
-        "Texture": "BlockTextures/Rock_Marble_Brick_Top.png",
+        "Texture": "BlockTextures/Letter_Pillow.png",
         "Weight": 1
       }
     ],
