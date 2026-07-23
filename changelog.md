@@ -1,1 +1,2 @@
+- updated letter textures
 - updated heru name and desc
