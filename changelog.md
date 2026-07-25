@@ -1,1 +1,2 @@
-- hotfix alphabet cus i broke it :<
+- fixed "b" letter mapping
+- fixed ikari earring placement
