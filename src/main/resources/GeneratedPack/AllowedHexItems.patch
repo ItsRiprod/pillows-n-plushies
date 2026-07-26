@@ -1,8 +1,48 @@
 {
   "AllowedHexItems+": [
-    {
+		{
       "BlockId": "Rimuru_Slime_Plush",
       "EntityId": "Hex_Rimuru"
+    },
+    {
+      "BlockId": "Edilan_Plush",
+      "EntityId": "Hex_Edilan"
+    },
+    {
+      "BlockId": "Farren_Plush",
+      "EntityId": "Hex_Farren"
+    },
+    {
+      "BlockId": "Heru_Plush",
+      "EntityId": "Hex_Heru"
+    },
+    {
+      "BlockId": "Ikari_Plush",
+      "EntityId": "Hex_Ikari"
+    },
+    {
+      "BlockId": "Lordimass_Plush",
+      "EntityId": "Hex_Lordimass"
+    },
+    {
+      "BlockId": "Oatman_Plush",
+      "EntityId": "Hex_Oatman"
+    },
+    {
+      "BlockId": "Outlaw_Fish_Plush",
+      "EntityId": "Hex_Outlaw"
+    },
+    {
+      "BlockId": "Preston_Plush",
+      "EntityId": "Hex_Preston"
+    },
+    {
+      "BlockId": "Ryan_Plush",
+      "EntityId": "Hex_Ryan"
+    },
+    {
+      "BlockId": "Slushy_Plush",
+      "EntityId": "Hex_Slushy"
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Hex_Creature_Walk_Basic",
+  "Modify": {
+    "Appearance": "Hex_Outlaw",
+    "DropHexItem": "Outlaw_Fish_Plush",
+    "NameTranslationKey": { "Compute": "NameTranslationKey" }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "Outlaw",
+      "Description": "Outlaw"
+    }
+  }
+}

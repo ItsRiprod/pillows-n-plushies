@@ -1,0 +1,15 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Hex_Creature_Walk_Basic",
+  "Modify": {
+    "Appearance": "Hex_Farren",
+    "DropHexItem": "Farren_Plush",
+    "NameTranslationKey": { "Compute": "NameTranslationKey" }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "Farren",
+      "Description": "Farren"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Hex_Creature_Walk_Basic",
+  "Modify": {
+    "Appearance": "Hex_Preston",
+    "DropHexItem": "Preston_Plush",
+    "NameTranslationKey": { "Compute": "NameTranslationKey" }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "Preston",
+      "Description": "Preston"
+    }
+  }
+}
