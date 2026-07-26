@@ -1,7 +1,7 @@
 {
   "Parent": "Player",
-  "Model": "Items/Blocks/Plushies/Outlaw_Fish_Plush.blockymodel",
-  "Texture": "Items/Blocks/Plushies/Outlaw_Fish_Plush.png",
+  "Model": "Items/Blocks/Plushies/Veldora_Human_Plush.blockymodel",
+  "Texture": "Items/Blocks/Plushies/Veldora_Human_Plush.png",
   "EyeHeight": 1,
   "CrouchOffset": -0.2,
   "HitBox": {
@@ -24,7 +24,7 @@
     "Walk": {
       "Animations": [
         {
-          "Animation": "Items/Blocks/Plushies/Animations/Fumo/Walk.blockyanim",
+          "Animation": "Items/Blocks/Plushies/Animations/Standing/Walk.blockyanim",
           "Speed": 0.85
         }
       ]
@@ -32,11 +32,11 @@
     "Run": {
       "Animations": [
         {
-          "Animation": "Items/Blocks/Plushies/Animations/Fumo/Walk.blockyanim",
+          "Animation": "Items/Blocks/Plushies/Animations/Standing/Walk.blockyanim",
           "Speed": 2.0
         }
       ]
     }
   },
-  "Icon": "Icons/ModelsGenerated/Rimuru_Slime_Plush.png"
+  "Icon": "Icons/ModelsGenerated/Veldora_Human_Plush.png"
 }

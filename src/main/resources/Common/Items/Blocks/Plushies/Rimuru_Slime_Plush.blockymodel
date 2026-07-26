@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "1",
-      "name": "rimuru",
+      "name": "slime",
       "position": {"x": 0, "y": 8, "z": -12},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
@@ -21,8 +21,8 @@
           },
           "right": {
             "offset": {"x": 93, "y": 108},
-            "mirror": {"x": false, "y": false},
-            "angle": 270
+            "mirror": {"x": true, "y": true},
+            "angle": 90
           },
           "front": {
             "offset": {"x": 68, "y": 109},
@@ -31,8 +31,8 @@
           },
           "left": {
             "offset": {"x": 67, "y": 84},
-            "mirror": {"x": false, "y": false},
-            "angle": 90
+            "mirror": {"x": true, "y": true},
+            "angle": 270
           },
           "top": {
             "offset": {"x": 68, "y": 84},

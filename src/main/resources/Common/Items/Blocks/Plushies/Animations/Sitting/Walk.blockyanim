@@ -3,7 +3,7 @@
   "duration": 30,
   "holdLastKeyframe": false,
   "nodeAnimations": {
-    "slime": {
+    "sitting": {
       "position": [
         {
           "time": 0,

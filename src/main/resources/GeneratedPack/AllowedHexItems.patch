@@ -5,6 +5,18 @@
       "EntityId": "Hex_Rimuru"
     },
     {
+      "BlockId": "Milim_Plush",
+      "EntityId": "Hex_Milim"
+    },
+    {
+      "BlockId": "Veldora_Human_Plush",
+      "EntityId": "Hex_Veldora"
+    },
+    {
+      "BlockId": "Shark_Kitty_Plush",
+      "EntityId": "Hex_Kitty"
+    },
+    {
       "BlockId": "Edilan_Plush",
       "EntityId": "Hex_Edilan"
     },
