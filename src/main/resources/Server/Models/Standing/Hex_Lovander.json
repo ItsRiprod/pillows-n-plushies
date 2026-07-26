@@ -1,7 +1,7 @@
 {
   "Parent": "Template_Plush",
-  "Model": "Items/Blocks/Plushies/Rimuru_Slime_Plush.blockymodel",
-  "Texture": "Items/Blocks/Plushies/Rimuru_Slime_Plush.png",
+  "Model": "Items/Blocks/Plushies/Lovander_Plush.blockymodel",
+  "Texture": "Items/Blocks/Plushies/Lovander_Plush.png",
   "EyeHeight": 1,
   "CrouchOffset": -0.2,
   "HitBox": {
@@ -24,7 +24,7 @@
     "Walk": {
       "Animations": [
         {
-          "Animation": "Items/Blocks/Plushies/Animations/Slime/Walk.blockyanim",
+          "Animation": "Items/Blocks/Plushies/Animations/Standing/Walk.blockyanim",
           "Speed": 0.85
         }
       ]
@@ -32,11 +32,11 @@
     "Run": {
       "Animations": [
         {
-          "Animation": "Items/Blocks/Plushies/Animations/Slime/Walk.blockyanim",
+          "Animation": "Items/Blocks/Plushies/Animations/Standing/Walk.blockyanim",
           "Speed": 2.0
         }
       ]
     }
   },
-  "Icon": "Icons/ModelsGenerated/Rimuru_Slime_Plush.png"
+  "Icon": "Icons/ModelsGenerated/Lovander_Plush.png"
 }

@@ -17,6 +17,10 @@
       "EntityId": "Hex_Kitty"
     },
     {
+      "BlockId": "Lovander_Plush",
+      "EntityId": "Hex_Lovander"
+    },
+    {
       "BlockId": "Edilan_Plush",
       "EntityId": "Hex_Edilan"
     },

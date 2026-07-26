@@ -1,9 +1,7 @@
 {
-  "Parent": "Player",
+  "Parent": "Template_Plush",
   "Model": "Items/Blocks/Plushies/Farren_Plush.blockymodel",
   "Texture": "Items/Blocks/Plushies/Farren_Plush.png",
-  "GradientSet": null,
-  "GradientId": null,
   "EyeHeight": 1,
   "CrouchOffset": -0.2,
   "HitBox": {
