@@ -124,77 +124,15 @@
       },
       "Instructions": [
         {
-          "$Comment": "Despawn the entity",
-          "Sensor": {
-            "Type": "Not",
-            "Sensor": {
-              "Type": "Self",
-              "Filters": [
-                {
-                  "Type": "Inventory",
-                  "Items": { "Compute": "holdableItems" }
-                }
-              ]
-            }
-          },
-          "Instructions": [
-            {
-              "$Comment": "Despawn the entity",
-              "Reference": "Component_Hex_Despawn",
-              "Modify": {
-                "DropHexItem": {"Compute": "DropHexItem"}
-              }
-            }
-          ]
-        },
-        {
-          "$Comment": "Give back the hold item",
-          "Sensor": {
-            "Type": "Self",
-            "Filters": [
-              {
-                "Type": "Inventory",
-                "CountRange": [ 0, 100 ],
-                "FreeSlotRange": [ 3, 3 ]
-              }
-            ]
-          },
-          "Instructions": [
-            {
-              "Sensor": {
-                "Type": "Player",
-                "Range": 20,
-                "Filters": [
-                  {
-                    "Type": "Flock",
-                    "FlockStatus": "Leader"
-                  }
-                ]
-              },
-              "Actions": [
-                {
-                  "Type": "Inventory",
-                  "UseTarget": false,
-                  "Operation": "Remove",
-                  "Count": 1,
-                  "Item": { "Compute": "holdableItem" }
-                },
-                {
-                  "Type": "DropItem",
-                  "Item": { "Compute": "holdableItem" },
-                  "Distance": [ 0.2, 0.4 ],
-                  "ThrowSpeed": 15
-                }
-              ]
-            }
-          ]
-        },
-        {
           "$Comment": "Returns to the Following state",
           "Sensor": {
             "Type": "Any"
           },
           "Actions": [
+            {
+              "Type": "PlaySound",
+              "SoundEventId": "SFX_Plushie_Build"
+            },
             {
               "Type": "State",
               "State": "Following"

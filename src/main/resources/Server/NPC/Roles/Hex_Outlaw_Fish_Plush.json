@@ -2,7 +2,7 @@
   "Type": "Variant",
   "Reference": "Template_Hex_Plush",
   "Modify": {
-    "Appearance": "Hex_Outlaw_Plush",
+    "Appearance": "Hex_Outlaw_Fish_Plush",
     "DropHexItem": "Outlaw_Fish_Plush",
     "NameTranslationKey": { "Compute": "NameTranslationKey" }
   },
