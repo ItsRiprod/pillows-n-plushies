@@ -1,8 +1,8 @@
 {
   "Type": "Variant",
-  "Reference": "Template_Hex_Creature_Walk_Basic",
+  "Reference": "Template_Hex_Plush",
   "Modify": {
-    "Appearance": "Hex_Ikari",
+    "Appearance": "Hex_Ikari_Plush",
     "DropHexItem": "Ikari_Plush",
     "NameTranslationKey": { "Compute": "NameTranslationKey" }
   },

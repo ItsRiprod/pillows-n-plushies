@@ -1,2 +1,1 @@
-- fixed "b" letter mapping
-- fixed ikari earring placement
+- gave plushies sentience

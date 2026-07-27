@@ -1,0 +1,432 @@
+{
+  "StartState": "Following",
+  "Type": "Abstract",
+  "Invulnerable": true,
+  "BusyStates": [ "$Interaction" ],
+  "Parameters": {
+    "Appearance": {
+      "Value": "Mannequin",
+      "Description": "Model to be used."
+    },
+    "FlockArray": {
+      "Value": [],
+      "TypeHint": "String",
+      "Description": "Array containing NPCs for this flock type."
+    },
+    "DropHexItem": {
+      "Value": "Hex_Mannequin_Block",
+      "Description": "Drop from Hex Creature"
+    },
+    "holdableItem": {
+      "Value": "Furniture_Crude_Candle",
+      "Description": "Items that can be held in the hand"
+    },
+    "holdableItems": {
+      "Value": [ "Furniture_Crude_Candle", "Tool_Hammer_Pillow" ],
+      "Description": "Items that can be held in the hand"
+    },
+    "NameTranslationKey": {
+      "Value": "Hex Creature",
+      "Description": "Translation key for NPC name display"
+    }
+  },
+  "IsMemory": false,
+  "BreathesInWater": true,
+  "Appearance": {"Compute": "Appearance"},
+  "DisableDamageFlock": true,
+  "DefaultNPCAttitude": "Ignore",
+  "DefaultPlayerAttitude": "Ignore",
+  "FlockSpawnTypes": {"Compute": "FlockArray"},
+  "FlockAllowedNPC": {"Compute": "FlockArray"},
+  "ApplySeparation": true,
+  "SeparationDistance": 2,
+  "SeparationWeight": 1,
+  "SeparationDistanceTarget": 0.5,
+  "SeparationNearRadiusTarget": 1.2,
+  "InventorySize": 0,
+  "HotbarSize": 3,
+  "OffHandSlots": 1,
+  "PickupDropOnDeath": true,
+  "NameTranslationKey": {"Compute": "NameTranslationKey"},
+  "MotionControllerList": [
+    {
+      "Type": "Walk",
+      "MaxWalkSpeed": 12,
+      "Gravity": 10,
+      "RunThreshold": 0.3,
+      "MaxFallSpeed": 15,
+      "MaxRotationSpeed": 360,
+      "Acceleration": 10,
+      "MaxClimbHeight": 3,
+      "MaxDropHeight": 5
+    }
+  ],
+  "MaxHealth": 100,
+  "StateTransitions": [
+    {
+      "$Comment": "Clear",
+      "States": [
+        {
+          "From": [ ],
+          "To": [ ]
+        }
+      ],
+      "Actions": [
+        {
+          "Type": "ReleaseTarget"
+        },
+        {
+          "Type": "ResetInstructions"
+        }
+      ]
+    }
+  ],
+  "Instructions": [
+    {
+      "$Comment": "Adds the entity to the flock of the first player it finds",
+      "Continue": true,
+      "Instructions": [
+        {
+          "$Comment": "Add creature to flock",
+          "Continue": true,
+          "Sensor": {
+            "Type": "Self",
+            "Filters": [
+              {
+                "Type": "Flock",
+                "FlockStatus": "NotMember"
+              }
+            ]
+          },
+          "Instructions": [
+            {
+              "Sensor": {
+                "Type": "Player",
+                "Range": 15
+              },
+              "Actions": [
+                {
+                  "Type": "JoinFlock",
+                  "ForceJoin": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$Comment": "Activate when the interaction is triggered",
+      "Continue": true,
+      "Sensor": {
+        "Type": "State",
+        "State": "$Interaction"
+      },
+      "Instructions": [
+        {
+          "$Comment": "Despawn the entity",
+          "Sensor": {
+            "Type": "Not",
+            "Sensor": {
+              "Type": "Self",
+              "Filters": [
+                {
+                  "Type": "Inventory",
+                  "Items": { "Compute": "holdableItems" }
+                }
+              ]
+            }
+          },
+          "Instructions": [
+            {
+              "$Comment": "Despawn the entity",
+              "Reference": "Component_Hex_Despawn",
+              "Modify": {
+                "DropHexItem": {"Compute": "DropHexItem"}
+              }
+            }
+          ]
+        },
+        {
+          "$Comment": "Give back the hold item",
+          "Sensor": {
+            "Type": "Self",
+            "Filters": [
+              {
+                "Type": "Inventory",
+                "CountRange": [ 0, 100 ],
+                "FreeSlotRange": [ 3, 3 ]
+              }
+            ]
+          },
+          "Instructions": [
+            {
+              "Sensor": {
+                "Type": "Player",
+                "Range": 20,
+                "Filters": [
+                  {
+                    "Type": "Flock",
+                    "FlockStatus": "Leader"
+                  }
+                ]
+              },
+              "Actions": [
+                {
+                  "Type": "Inventory",
+                  "UseTarget": false,
+                  "Operation": "Remove",
+                  "Count": 1,
+                  "Item": { "Compute": "holdableItem" }
+                },
+                {
+                  "Type": "DropItem",
+                  "Item": { "Compute": "holdableItem" },
+                  "Distance": [ 0.2, 0.4 ],
+                  "ThrowSpeed": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$Comment": "Returns to the Following state",
+          "Sensor": {
+            "Type": "Any"
+          },
+          "Actions": [
+            {
+              "Type": "State",
+              "State": "Following"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$Comment": "Pick up item",
+      "Continue": true,
+      "Instructions": [
+        {
+          "Continue": true,
+          "Sensor": {
+            "Type": "Self",
+            "Filters": [
+              {
+                "Type": "Inventory",
+                "CountRange": [ 0, 100 ],
+                "FreeSlotRange": [ 4, 4 ]
+              }
+            ]
+          },
+          "Instructions": [
+            {
+              "Sensor": {
+                "Type": "DroppedItem",
+                "Range": 2,
+                "Items": { "Compute": "holdableItems" }
+              },
+              "Actions": [
+                {
+                  "Type": "PickUpItem",
+                  "Items": { "Compute": "holdableItems" },
+                  "Hoover": true
+                }
+              ],
+              "BodyMotion": {
+                "Type": "Seek",
+                "StopDistance": 0.5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$Comment": "Change the state",
+      "Continue": true,
+      "Instructions": [
+        {
+          "Continue": true,
+          "Sensor": {
+            "Type": "FlockLeader"
+          },
+          "Instructions": [
+            {
+              "$Comment": "Store target position",
+              "Sensor": {
+                "Type": "Beacon",
+                "Message": "EvokeTargetPosition",
+                "Range": 90
+              },
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "SeekPosition"
+                }
+              ]
+            },
+            {
+              "$Comment": "Follow the leader",
+              "Sensor": {
+                "Type": "Beacon",
+                "Message": "EvokeFollowLeader",
+                "Range": 100
+              },
+              "Actions": [
+                {
+                  "Type": "State",
+                  "State": "Following"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$Comment": "Go to target position",
+      "Sensor": {
+        "Type": "State",
+        "State": "SeekPosition"
+      },
+      "Instructions": [
+        {
+          "Sensor": {
+            "Type": "EvokeReadPosition",
+            "Range": 30
+          },
+          "BodyMotion": {
+            "Type": "Seek",
+            "SlowDownDistance": 3,
+            "StopDistance": 1,
+            "RelativeSpeed": 0.8,
+            "RecomputeDistance": 0
+          }
+        },
+        {
+          "Sensor": {
+            "Type": "Any"
+          },
+          "Actions": [
+            {
+              "Type": "State",
+              "State": "Idle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$Comment": "Idle state",
+      "Sensor": {
+        "Type": "State",
+        "State": "Idle"
+      }
+    },
+    {
+      "$Comment": "Entity movement",
+      "Instructions": [
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "Following"
+          },
+          "Instructions": [
+            {
+              "$Comment": "Less than 1 block away from the leader",
+              "Sensor": {
+                "Type": "Player",
+                "Range": 1,
+                "LockOnTarget": true,
+                "Filters": [
+                  {
+                    "Type": "Flock",
+                    "FlockStatus": "Leader"
+                  }
+                ]
+              },
+              "HeadMotion": {
+                "Type": "Aim",
+                "Deflection": true,
+                "Spread": 1
+              },
+              "BodyMotion": {
+                "Type": "MaintainDistance",
+                "DesiredDistanceRange": [1.5, 1.5],
+                "MoveThreshold": 0.2,
+                "RelativeForwardsSpeed": 0.6,
+                "RelativeBackwardsSpeed": 0.3
+              }
+            },
+            {
+              "$Comment": "Less than 40 blocks away from the leader",
+              "Sensor": {
+                "Type": "Player",
+                "Range": 40,
+                "LockOnTarget": true,
+                "Filters": [
+                  {
+                    "Type": "Flock",
+                    "FlockStatus": "Leader"
+                  }
+                ]
+              },
+              "Instructions": [
+                {
+                  "Sensor": {
+                    "Type": "Target"
+                  },
+                  "BodyMotion": {
+                    "Type": "Seek",
+                    "SlowDownDistance": 5,
+                    "StopDistance": 3,
+                    "RelativeSpeed": 0.5
+                  }
+                }
+              ]
+            },
+            {
+              "$Comment": "Teleports to the leader if more than 40 blocks away",
+              "Sensor": {
+                "Type": "Target",
+                "Filters": [
+                  {
+                    "Type": "Flock",
+                    "FlockStatus": "Leader"
+                  }
+                ]
+              },
+              "BodyMotion": {
+                "Type": "Teleport",
+                "OffsetRange": [2, 3],
+                "OffsetSector": 2,
+                "Orientation": "TowardsTarget"
+              },
+              "Actions": [
+                {
+                  "Type": "SpawnParticles",
+                  "Offset": [ 0, 0.5, 0 ],
+                  "ParticleSystem": "Effect_Death",
+                  "Once": true
+                },
+                {
+                  "Type": "Timeout",
+                  "Delay": [ 2, 2 ],
+                  "DelayAfter": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "InteractionInstruction": {
+    "$Comment": "Controls the activation of the interaction",
+    "Reference": "Component_Hex_Plush_Interaction",
+    "Modify": {
+      "_ExportStates": [ "$Interaction" ]
+    }
+  }
+}

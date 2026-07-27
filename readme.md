@@ -68,6 +68,7 @@ body pillow / dakimakura, pillow / cushion, plushie / plushy, onesie / kigurumi,
 - [ ] custom sound effects
 - [ ] bendy pillow animations
 - [ ] crafting overhaul
+- [x] make plushies transform into npcs
 - [ ] make plushies throwable
 - [ ] expand on pillow weaponry
 - [ ] custom body pillow designs
