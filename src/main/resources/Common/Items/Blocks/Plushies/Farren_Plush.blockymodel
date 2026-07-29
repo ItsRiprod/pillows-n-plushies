@@ -979,8 +979,8 @@
                 {
                   "id": "29",
                   "name": "R-Attachment",
-                  "position": {"x": -10, "y": -2, "z": 1},
-                  "orientation": {"x": 0, "y": 0, "z": 0.30071, "w": 0.95372},
+                  "position": {"x": -13.07818, "y": 6.45723, "z": 1},
+                  "orientation": {"x": 0, "y": 0, "z": 0.17365, "w": 0.98481},
                   "shape": {
                     "type": "none",
                     "offset": {"x": 0, "y": 0, "z": 0},

@@ -1,7 +1,6 @@
 {
   "StartState": "Following",
   "Type": "Abstract",
-  "Invulnerable": true,
   "BusyStates": [ "$Interaction" ],
   "Parameters": {
     "Appearance": {
@@ -17,12 +16,8 @@
       "Value": "Hex_Mannequin_Block",
       "Description": "Drop from Hex Creature"
     },
-    "holdableItem": {
-      "Value": "Furniture_Crude_Candle",
-      "Description": "Items that can be held in the hand"
-    },
     "holdableItems": {
-      "Value": [ "Furniture_Crude_Candle", "Tool_Hammer_Pillow" ],
+      "Value": [ "Furniture_Crude_Candle", "Tool_Hammer*" ],
       "Description": "Items that can be held in the hand"
     },
     "NameTranslationKey": {
@@ -33,7 +28,7 @@
   "IsMemory": false,
   "BreathesInWater": true,
   "Appearance": {"Compute": "Appearance"},
-  "DisableDamageFlock": true,
+  "DisableDamageFlock": false,
   "DefaultNPCAttitude": "Ignore",
   "DefaultPlayerAttitude": "Ignore",
   "FlockSpawnTypes": {"Compute": "FlockArray"},
