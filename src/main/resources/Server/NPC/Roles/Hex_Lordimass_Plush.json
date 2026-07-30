@@ -4,6 +4,7 @@
   "Modify": {
     "Appearance": "Hex_Lordimass_Plush",
     "DropHexItem": "Lordimass_Plush",
+    "DropList": "Drop_Plush",
     "NameTranslationKey": { "Compute": "NameTranslationKey" }
   },
   "Parameters": {
