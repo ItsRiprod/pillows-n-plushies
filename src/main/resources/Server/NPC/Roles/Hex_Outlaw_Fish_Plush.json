@@ -4,6 +4,7 @@
   "Modify": {
     "Appearance": "Hex_Outlaw_Fish_Plush",
     "DropHexItem": "Outlaw_Fish_Plush",
+    "DropList": "Drop_Plush",
     "NameTranslationKey": { "Compute": "NameTranslationKey" }
   },
   "Parameters": {

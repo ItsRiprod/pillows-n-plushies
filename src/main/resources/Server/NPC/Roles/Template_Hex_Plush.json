@@ -20,6 +20,10 @@
       "Value": [ "Furniture_Crude_Candle", "Tool_Hammer*" ],
       "Description": "Items that can be held in the hand"
     },
+    "DropList": {
+      "Value": "Empty",
+      "Description": "Drop Items"
+    },
     "NameTranslationKey": {
       "Value": "Hex Creature",
       "Description": "Translation key for NPC name display"
@@ -27,6 +31,7 @@
   },
   "IsMemory": false,
   "BreathesInWater": true,
+  "DropList": { "Compute": "DropList" },
   "Appearance": {"Compute": "Appearance"},
   "DisableDamageFlock": false,
   "DefaultNPCAttitude": "Ignore",

@@ -4,6 +4,7 @@
   "Modify": {
     "Appearance": "Hex_Rimuru_Slime_Plush",
     "DropHexItem": "Rimuru_Slime_Plush",
+    "DropList": "Drop_Plush",
     "NameTranslationKey": { "Compute": "NameTranslationKey" }
   },
   "Parameters": {
