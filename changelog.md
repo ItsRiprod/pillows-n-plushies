@@ -1,1 +1,1 @@
-- gave plushies sentience
+- added plushie sentience
