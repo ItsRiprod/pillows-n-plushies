@@ -1,0 +1,42 @@
+{
+	"$Requires": "Lexem:HexcodeEvoke",
+	"Quality": "Rare",
+	"Parent": "Evoke_Book",
+  "Recipe": {
+    "TimeSeconds": 1,
+    "Input": [
+      {
+        "ItemId": "Pillow_Block_Blue_Light",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Pillow_Block_Blue",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Categories": [
+          "Arcane_Hexcode_Evoke"
+        ],
+        "Id": "Arcanebench"
+      }
+    ]
+  }
+}

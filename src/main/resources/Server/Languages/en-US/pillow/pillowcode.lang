@@ -1,4 +1,6 @@
 # ==== items ====
+Evoke_Book_Plush.name = plushie evoke book
+Evoke_Book_Plush.description = <color is="#b55088"><b>it trembles before you.</b> \n<color is="#ffffff">seems compatible with certain woven goods.</color>
 
 Hexbook_Pillow.name = pillow hex book
 Hexbook_Pillow.description = <color is="#b55088"><b>mrrrp... mrrrrrrrrrp~</b> \n<color is="#ffffff">try alongside "hexcode" mod for new functionality!</color>

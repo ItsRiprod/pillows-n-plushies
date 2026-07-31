@@ -1,0 +1,23 @@
+{
+  "Parent": "Weapon_Spellbook_Grimoire_Purple",
+  "TranslationProperties": {
+    "Name": "pillow.pillowcode.Evoke_Book_Plush.name",
+    "Description": "pillow.pillowcode.Evoke_Book_Plush.description"
+  },
+  "Quality": "Developer",
+  "Model": "Items/Tools/Book/Grimoire_Plush.blockymodel",
+  "Texture": "Items/Tools/Book/Grimoire_Plush.png",
+  "Icon": "Icons/ItemsGenerated/Evoke_Book_Plush.png",
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      33,
+      100,
+      6
+    ],
+    "Translation": [
+      -9,
+      -13.5
+    ]
+  }
+}
