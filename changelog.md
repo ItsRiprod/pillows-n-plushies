@@ -1,1 +1,1 @@
-- added plushie sentience
+- made evoke optional in manifest
