@@ -38,5 +38,78 @@
         "Id": "Arcanebench"
       }
     ]
-  }
+  },
+    "Interactions": {
+      "Primary": {
+        "Interactions": [
+          {
+            "Type": "Charging",
+            "Effects": {
+              "WorldSoundEventId": "SFX_Skeleton_Mage_Spellbook_Charge",
+              "ItemAnimationId": "CastHurlCharging"
+            },
+            "AllowIndefiniteHold": true,
+            "HorizontalSpeedMultiplier": 0.8,
+            "CancelOnItemChange": true,
+            "RunTime": 0,
+            "Next": {
+              "0": {
+                "Type": "Simple",
+                "Effects": {
+                  "ItemAnimationId": "Interact"
+                }
+              },
+              "0.8": {
+                "Type": "EvokeHexCreature",
+                "Next": {
+                  "Type": "Serial",
+                  "Interactions": [
+                    {
+                      "Type": "Simple",
+                      "RunTime": 0.5,
+                      "Effects": {
+                        "ItemAnimationId": "CastHurlCharged",
+                        "ClearAnimationOnFinish": true
+                      }
+                    }
+                  ]
+                },
+                "Failed": {
+                  "Type": "Simple",
+                  "Effects": {
+                    "ItemAnimationId": "Interact"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "Secondary": {
+        "Interactions": [
+          {
+            "Type": "OpenEvokeBook",
+            "PageName": "EvokeBookPlushPage",
+            "Next": {
+              "Type": "Serial",
+              "Interactions": [
+                {
+                  "Type": "Simple",
+                  "RunTime": 0.5,
+                  "Effects": {
+                    "WorldSoundEventId": "SFX_Skeleton_Mage_Spellbook_Charge"
+                  }
+                }
+              ]
+            },
+            "Failed": {
+              "Type": "Simple",
+              "Effects": {
+                "ItemAnimationId": "Interact"
+              }
+            }
+          }
+        ]
+      }
+    }
 }
