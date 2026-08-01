@@ -17,7 +17,7 @@
       "Description": "Drop from Hex Creature"
     },
     "holdableItems": {
-      "Value": [ "Furniture_Crude_Candle", "Tool_Hammer*" ],
+      "Value": [ "Furniture_Crude_Candle", "Tool_Hammer*", "Weapon_Assault_Rifle", "*Gun*", "*Handgun*" ],
       "Description": "Items that can be held in the hand"
     },
     "DropList": {

@@ -1,1 +1,1 @@
-- made evoke optional in manifest
+- gave the plushies access to guns
