@@ -13,7 +13,8 @@
     "Dependencies": {
         "Hytale:AssetModule": "*",
         "Hytale:EntityModule": "*",
-        "Hytale:BlockModule": "*"
+        "Hytale:BlockModule": "*",
+        "Lexem:HexcodeEvoke": "*"
     },
     "OptionalDependencies": {
         "Riprod:Patchly": "*",
