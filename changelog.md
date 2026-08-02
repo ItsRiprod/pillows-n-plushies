@@ -1,1 +1,2 @@
-- gave the plushies access to guns
+- made plushie book cuter :3
+- updated plushie npc hitboxes
