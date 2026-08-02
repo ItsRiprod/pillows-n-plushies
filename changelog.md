@@ -1,2 +1,1 @@
-- made plushie book cuter :3
-- updated plushie npc hitboxes
+- double-fixed hitbox and camera
