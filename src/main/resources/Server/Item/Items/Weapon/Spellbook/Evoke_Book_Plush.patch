@@ -90,6 +90,7 @@
           {
             "Type": "OpenEvokeBook",
             "PageName": "EvokeBookPlushPage",
+            "CardName": "CardHexCreaturesPlush",
             "Next": {
               "Type": "Serial",
               "Interactions": [

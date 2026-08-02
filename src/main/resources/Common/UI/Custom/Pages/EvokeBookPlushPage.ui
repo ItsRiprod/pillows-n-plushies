@@ -1,17 +1,17 @@
 @EditButtonStyle = TextButtonStyle(
-  Default: (Background: (TexturePath: "../Icons/editIcon.png")),
-  Hovered: (Background: (TexturePath: "../Icons/editIcon.png", Area: (Full: 6)))
+  Default: (Background: (TexturePath: "../Icons/editIconPlush.png")),
+  Hovered: (Background: (TexturePath: "../Icons/editIconPlush.png", Area: (Full: 6)))
 );
 
 @CloseButtonStyle = TextButtonStyle(
-    Default: (LabelStyle: (FontSize: 20, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
-    Hovered: (LabelStyle: (FontSize: 26, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
-    Pressed: (LabelStyle: (FontSize: 26, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+    Default: (LabelStyle: (FontSize: 20, TextColor: #B55088, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Hovered: (LabelStyle: (FontSize: 26, TextColor: #B55088, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Pressed: (LabelStyle: (FontSize: 26, TextColor: #B55088, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
 );
 
 Group {
     Anchor: (Width: 900, Height: 600);
-    Background: (TexturePath: "../Images/EvokeBookBackground.png");
+    Background: (TexturePath: "../Images/EvokeBookPlushBackground.png");
     LayoutMode: Left;
 
     Group #LeftPanel {
@@ -25,9 +25,9 @@ Group {
             LayoutMode: Center;
 
             Label {
-                Text: "Plush Book";
+                Text: "~ plushie evoke book ~";
                 Anchor: (Height: 30);
-                Style: (FontSize: 24, TextColor: #000000, RenderBold: true);
+                Style: (FontSize: 24, TextColor: #B55088, RenderBold: true);
             }
         }
 
@@ -39,7 +39,7 @@ Group {
                      Text: "?/?";
                      Anchor: (Height: 32);
                      Padding: (Left: 32);
-                     Style: (FontSize: 22, TextColor: #000000, RenderBold: true);
+                     Style: (FontSize: 22, TextColor: #B55088, RenderBold: true);
                 }
             }
             Group {
@@ -68,11 +68,11 @@ Group {
 
         Group {
             LayoutMode: Right;
-            Anchor: (Height: 25);
+            Anchor: (Width: 355, Height: 75);
 
             TextButton #CloseButton {
                 Text: "X";
-                Anchor: (Width: 25, Height: 25);
+                Anchor: (Width: 20, Height: 20);
                 Style: @CloseButtonStyle;
             }
         }
