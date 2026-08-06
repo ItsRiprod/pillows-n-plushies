@@ -1,7 +1,6 @@
 {
   "StartState": "Following",
   "Type": "Abstract",
-  "BusyStates": [ "$Interaction" ],
   "Parameters": {
     "Appearance": {
       "Value": "Mannequin",
@@ -102,7 +101,12 @@
             {
               "Sensor": {
                 "Type": "Player",
-                "Range": 15
+                "Range": 15,
+                "Filters": [
+                  {
+                    "Type": "IsEvoker"
+                  }
+                ]
               },
               "Actions": [
                 {
@@ -110,32 +114,6 @@
                   "ForceJoin": true
                 }
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "$Comment": "Activate when the interaction is triggered",
-      "Continue": true,
-      "Sensor": {
-        "Type": "State",
-        "State": "$Interaction"
-      },
-      "Instructions": [
-        {
-          "$Comment": "Returns to the Following state",
-          "Sensor": {
-            "Type": "Any"
-          },
-          "Actions": [
-            {
-              "Type": "PlaySound",
-              "SoundEventId": "SFX_Plushie_Build"
-            },
-            {
-              "Type": "State",
-              "State": "Following"
             }
           ]
         }
@@ -279,8 +257,7 @@
                 "LockOnTarget": true,
                 "Filters": [
                   {
-                    "Type": "Flock",
-                    "FlockStatus": "Leader"
+                    "Type": "IsEvoker"
                   }
                 ]
               },
@@ -305,8 +282,7 @@
                 "LockOnTarget": true,
                 "Filters": [
                   {
-                    "Type": "Flock",
-                    "FlockStatus": "Leader"
+                    "Type": "IsEvoker"
                   }
                 ]
               },
@@ -330,8 +306,7 @@
                 "Type": "Target",
                 "Filters": [
                   {
-                    "Type": "Flock",
-                    "FlockStatus": "Leader"
+                    "Type": "IsEvoker"
                   }
                 ]
               },
@@ -361,10 +336,35 @@
     }
   ],
   "InteractionInstruction": {
-    "$Comment": "Controls the activation of the interaction",
-    "Reference": "Component_Hex_Plush_Interaction",
-    "Modify": {
-      "_ExportStates": [ "$Interaction" ]
-    }
+    "$Comment": "Opens the Hex Creature profile when interacted with",
+    "Instructions": [
+      {
+        "Continue": true,
+        "Sensor": {
+          "Type": "Any"
+        },
+        "Actions": [
+          {
+            "Type": "SetInteractable",
+            "Interactable": true
+          }
+        ]
+      },
+      {
+        "Sensor": {
+          "Type": "HasInteracted"
+        },
+        "Instructions": [
+          {
+            "Actions": [
+              {
+                "Type": "PlaySound",
+                "SoundEventId": "SFX_Plushie_Build"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

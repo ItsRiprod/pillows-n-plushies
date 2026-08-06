@@ -1,1 +1,1 @@
-- double-fixed hitbox and camera
+- aligned wit evoke on multiplayer fix

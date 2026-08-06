@@ -1,0 +1,9 @@
+[
+  {
+    "Id": "BlowKiss",
+    "Animation": "Characters/Animations/Emote/Blow_Kiss.blockyanim",
+    "Name": "avatarCustomization.emotes.BlowKiss.name",
+    "Icon": "Icons/Emotes/Blow_Kiss.png",
+    "HideItemInHand": true
+  }
+]
