@@ -2,5 +2,6 @@
   "Name": "Pray",
   "Animation": "Characters/Animations/Emote/Pillow_Pray.blockyanim",
   "Icon": "Icons/Emotes/PillowsNPlushies.png",
-  "IsLooping": false
+  "IsLooping": false,
+  "HideItemInHand": true
 }
