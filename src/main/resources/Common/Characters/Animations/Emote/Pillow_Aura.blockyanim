@@ -477,42 +477,6 @@
       "shapeVisible": [],
       "shapeUvOffset": []
     },
-    "CatEar2": {
-      "position": [],
-      "orientation": [
-        {
-          "time": 0,
-          "delta": {"x": 0, "y": 0, "z": 0, "w": 1},
-          "interpolationType": "linear"
-        },
-        {
-          "time": 22,
-          "delta": {"x": 0, "y": 0, "z": 0, "w": 1},
-          "interpolationType": "linear"
-        }
-      ],
-      "shapeStretch": [],
-      "shapeVisible": [],
-      "shapeUvOffset": []
-    },
-    "CatEar1": {
-      "position": [],
-      "orientation": [
-        {
-          "time": 0,
-          "delta": {"x": 0, "y": 0, "z": 0, "w": 1},
-          "interpolationType": "linear"
-        },
-        {
-          "time": 22,
-          "delta": {"x": 0, "y": 0, "z": 0, "w": 1},
-          "interpolationType": "linear"
-        }
-      ],
-      "shapeStretch": [],
-      "shapeVisible": [],
-      "shapeUvOffset": []
-    },
     "Cape3": {
       "position": [],
       "orientation": [
