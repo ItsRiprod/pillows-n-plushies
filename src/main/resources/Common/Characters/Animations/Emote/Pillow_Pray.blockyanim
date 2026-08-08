@@ -469,6 +469,16 @@
           "time": 225,
           "delta": {"x": -0.04362, "y": 0, "z": 0, "w": 0.99905},
           "interpolationType": "smooth"
+        },
+        {
+          "time": 409,
+          "delta": {"x": -0.04362, "y": 0, "z": 0, "w": 0.99905},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 479,
+          "delta": {"x": -0.03115, "y": 0, "z": 0, "w": 0.99951},
+          "interpolationType": "linear"
         }
       ],
       "shapeStretch": [],
@@ -562,29 +572,29 @@
           "interpolationType": "smooth"
         },
         {
-          "time": 305,
+          "time": 351,
           "delta": {"x": 0.15212, "y": 0, "z": 0, "w": 0.98836},
           "interpolationType": "smooth"
         },
         {
-          "time": 350,
-          "delta": {"x": 0.34587, "y": 0, "z": 0, "w": 0.93828},
+          "time": 385,
+          "delta": {"x": 0.07863, "y": 0, "z": 0, "w": 0.9969},
           "interpolationType": "smooth"
         },
         {
-          "time": 383,
-          "delta": {"x": 0.33833, "y": 0, "z": 0, "w": 0.94103},
-          "interpolationType": "smooth"
-        },
-        {
-          "time": 410,
-          "delta": {"x": 0.26177, "y": 0, "z": 0, "w": 0.96513},
-          "interpolationType": "smooth"
-        },
-        {
-          "time": 428,
+          "time": 397,
           "delta": {"x": 0, "y": 0, "z": 0, "w": 1},
           "interpolationType": "smooth"
+        },
+        {
+          "time": 409,
+          "delta": {"x": -0.18429, "y": 0, "z": 0, "w": 0.98287},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 479,
+          "delta": {"x": -0.18429, "y": 0, "z": 0, "w": 0.98287},
+          "interpolationType": "linear"
         }
       ],
       "shapeStretch": [],
@@ -775,7 +785,7 @@
         },
         {
           "time": 90,
-          "delta": {"x": 0.2535, "y": 0, "z": 0, "w": 0.96733},
+          "delta": {"x": 0.2535, "y": 0, "z": 0, "w": 0.96734},
           "interpolationType": "smooth"
         },
         {
@@ -795,7 +805,7 @@
         },
         {
           "time": 340,
-          "delta": {"x": 0.2535, "y": 0, "z": 0, "w": 0.96733},
+          "delta": {"x": 0.2535, "y": 0, "z": 0, "w": 0.96734},
           "interpolationType": "smooth"
         },
         {
