@@ -1,0 +1,7 @@
+{
+  "Name": "Dagger Tricks",
+  "Animation": "Characters/Animations/Emote/Pillow_Bounce.blockyanim",
+  "Icon": "Icons/Emotes/PillowsNPlushies.png",
+  "IsLooping": false,
+  "HideItemInHand": false
+}
