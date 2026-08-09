@@ -1,7 +1,0 @@
-{
-  "Name": "Roll",
-  "Animation": "Characters/Animations/Emote/Pillow_Roll.blockyanim",
-  "Icon": "Icons/Emotes/PillowsNPlushies.png",
-  "IsLooping": true,
-  "HideItemInHand": true
-}
