@@ -1,0 +1,7 @@
+{
+  "Name": "Dance",
+  "Animation": "Characters/Animations/Emote/Pillow_Dance.blockyanim",
+  "Icon": "Icons/Emotes/PillowsNPlushies.png",
+  "IsLooping": true,
+  "HideItemInHand": true
+}
