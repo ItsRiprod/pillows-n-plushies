@@ -9,6 +9,11 @@
     Pressed: (LabelStyle: (FontSize: 26, TextColor: #B55088, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
 );
 
+@SaveButtonStyle = TextButtonStyle(
+    Default: (Background: #e6e6f1, LabelStyle: (FontSize: 16, TextColor: #B55088, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center, OutlineColor: #007f7f)),
+    Hovered: (Background: #e6e6f1, LabelStyle: (FontSize: 18, TextColor: #B55088, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center, OutlineColor: #007f7f)),
+    Pressed: (Background: #e6e6f1, LabelStyle: (FontSize: 18, TextColor: #B55088, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center, OutlineColor: #007f7f))
+);
 Group {
     Anchor: (Width: 900, Height: 600);
     Background: (TexturePath: "../Images/EvokeBookPlushBackground.png");
@@ -45,6 +50,16 @@ Group {
             Group {
                 LayoutMode: Right;
                 Padding: (Right: 32);
+
+                TextButton #SaveButton {
+                   Anchor: (Width: 50, Height: 30);
+                   Text: "Save";
+                   Visible: true;
+                   Style: @SaveButtonStyle;
+                }
+
+                Group { Anchor: (Width: 4); }
+
                 TextButton #EditButton {
                      Text: "";
                      Anchor: (Width: 24, Height: 24);
