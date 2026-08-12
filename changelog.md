@@ -1,1 +1,1 @@
-- updated compatibility for evoke
+- finished first pass of animations
