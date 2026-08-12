@@ -1,1 +1,1 @@
-- finished first pass of animations
+- fixed barrel from breaking witout drops

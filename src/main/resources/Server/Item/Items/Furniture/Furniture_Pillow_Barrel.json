@@ -21,8 +21,8 @@
     "DrawType": "Model",
     "Flags": {},
     "Gathering": {
-      "Soft": {
-        "DropList": "Barrels"
+      "Breaking": {
+        "GatherType": "SoftBlocks"
       }
     },
     "HitboxType": "Chest_Small",
@@ -30,11 +30,6 @@
     "Opacity": "Transparent",
     "RandomRotation": "YawStep1",
     "Support": {
-      "Up": [
-        {
-          "FaceType": "Branch"
-        }
-      ],
       "Down": [
         {
           "FaceType": "Full"
