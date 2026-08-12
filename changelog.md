@@ -1,1 +1,1 @@
-- fixed crash from missing animation
+- updated compatibility for evoke
