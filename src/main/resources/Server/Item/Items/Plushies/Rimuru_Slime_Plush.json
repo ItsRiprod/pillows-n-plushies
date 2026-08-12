@@ -47,6 +47,9 @@
         "Yaw": 0
       }
     ],
+    "Interactions": {
+      "Use": "Plush_Seat"
+    },
     "Support": {
       "Down": [
         {
