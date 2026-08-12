@@ -1,6 +1,7 @@
 {
   "StartState": "Following",
   "Type": "Abstract",
+  "Invulnerable": false,
   "Parameters": {
     "Appearance": {
       "Value": "Mannequin",
@@ -45,7 +46,10 @@
   "InventorySize": 0,
   "HotbarSize": 3,
   "OffHandSlots": 1,
+  "DefaultOffHandSlot": 0,
   "PickupDropOnDeath": true,
+  "MaxHealth": 100,
+  "KnockbackScale": 0.5,
   "NameTranslationKey": {"Compute": "NameTranslationKey"},
   "MotionControllerList": [
     {
@@ -60,7 +64,6 @@
       "MaxDropHeight": 5
     }
   ],
-  "MaxHealth": 100,
   "StateTransitions": [
     {
       "$Comment": "Clear",
@@ -82,7 +85,7 @@
   ],
   "Instructions": [
     {
-      "$Comment": "Adds the entity to the flock of the first player it finds",
+      "$Comment": "Adds the entity to the player flock",
       "Continue": true,
       "Instructions": [
         {
@@ -126,14 +129,16 @@
         {
           "Continue": true,
           "Sensor": {
-            "Type": "Self",
-            "Filters": [
-              {
-                "Type": "Inventory",
-                "CountRange": [ 0, 100 ],
-                "FreeSlotRange": [ 4, 4 ]
-              }
-            ]
+            "Type": "Not",
+            "Sensor": {
+              "Type": "Self",
+              "Filters": [
+                {
+                  "Type": "EvokeIsInventoryFull",
+                  "Inventories": ["Hotbar", "Storage"]
+                }
+              ]
+            }
           },
           "Instructions": [
             {
@@ -144,7 +149,7 @@
               },
               "Actions": [
                 {
-                  "Type": "PickUpItem",
+                  "Type": "HCPickUpItem",
                   "Items": { "Compute": "holdableItems" },
                   "Hoover": true
                 }
@@ -351,15 +356,38 @@
         ]
       },
       {
+        "Continue": true,
         "Sensor": {
           "Type": "HasInteracted"
         },
         "Instructions": [
           {
+            "Continue": true,
             "Actions": [
               {
                 "Type": "PlaySound",
                 "SoundEventId": "SFX_Plushie_Build"
+              }
+            ]
+          },
+          {
+            "Sensor": {
+              "Type": "Player",
+              "Range": 5,
+              "Filters": [
+                {
+                  "Type": "ItemInHand",
+                  "Items": [ "Evoke_Book*" ]
+                }
+              ]
+            },
+            "Instructions": [
+              {
+                "Actions": [
+                  {
+                    "Type": "OpenHCProfile"
+                  }
+                ]
               }
             ]
           }
