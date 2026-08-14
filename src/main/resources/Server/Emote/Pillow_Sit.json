@@ -1,6 +1,6 @@
 {
-  "Name": "Shield Sit",
-  "Animation": "Characters/Animations/Emote/Pillow_Shield.blockyanim",
+  "Name": "Sit",
+  "Animation": "Characters/Animations/Emote/Pillow_Sit.blockyanim",
   "Icon": "Icons/Emotes/PillowsNPlushies.png",
   "IsLooping": true,
   "HideItemInHand": false
