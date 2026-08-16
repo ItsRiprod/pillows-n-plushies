@@ -1,7 +1,7 @@
 {
   "Name": "Weapon Helicopter",
   "Animation": "Characters/Animations/Emote/Pillowcopter.blockyanim",
-  "Icon": "Icons/Emotes/PillowsNPlushies.png",
+  "Icon": "Icons/Emotes/Pillowcopter.png",
   "IsLooping": false,
   "HideItemInHand": false
 }

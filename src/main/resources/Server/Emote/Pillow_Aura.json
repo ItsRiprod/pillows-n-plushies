@@ -1,7 +1,7 @@
 {
   "Name": "Aura",
   "Animation": "Characters/Animations/Emote/Pillow_Aura.blockyanim",
-  "Icon": "Icons/Emotes/PillowsNPlushies.png",
+  "Icon": "Icons/Emotes/Pillow_Aura.png",
   "IsLooping": true,
   "HideItemInHand": true
 }

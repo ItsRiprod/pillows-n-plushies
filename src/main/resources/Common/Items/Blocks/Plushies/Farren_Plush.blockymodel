@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "1",
-      "name": "fumo",
+      "name": "Pelvis",
       "position": {"x": 0, "y": 23.2, "z": -3},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {

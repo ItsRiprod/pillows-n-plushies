@@ -1,1 +1,1 @@
-- fixed barrel from breaking witout drops
+- fixed some bone mapping for fumos

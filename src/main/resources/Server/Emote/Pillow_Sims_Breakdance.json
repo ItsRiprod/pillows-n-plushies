@@ -1,7 +1,7 @@
 {
   "Name": "Breakdance",
   "Animation": "Characters/Animations/Emote/Pillow_Sims_Breakdance.blockyanim",
-  "Icon": "Icons/Emotes/PillowsNPlushies.png",
+  "Icon": "Icons/Emotes/Pillow_Breakdance.png",
   "IsLooping": true,
   "HideItemInHand": true
 }

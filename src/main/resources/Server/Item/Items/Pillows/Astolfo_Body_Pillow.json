@@ -41,7 +41,7 @@
       "Use": "Plush_Seat"
     },
     "Gathering": {
-      "Breaking": {n
+      "Breaking": {
         "GatherType": "SoftBlocks"
       }
     },

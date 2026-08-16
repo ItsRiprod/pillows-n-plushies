@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "1",
-      "name": "fumo",
+      "name": "Pelvis",
       "position": {"x": 0, "y": 23.2, "z": -3},
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
@@ -465,8 +465,8 @@
                     "textureLayout": {
                       "back": {
                         "offset": {"x": 84, "y": 54},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 90
+                        "mirror": {"x": false, "y": false},
+                        "angle": 270
                       },
                       "right": {
                         "offset": {"x": 88, "y": 54},
@@ -485,8 +485,8 @@
                       },
                       "top": {
                         "offset": {"x": 92, "y": 45},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 90
+                        "mirror": {"x": true, "y": true},
+                        "angle": 270
                       },
                       "bottom": {
                         "offset": {"x": 92, "y": 45},
@@ -562,13 +562,13 @@
                       },
                       "right": {
                         "offset": {"x": 88, "y": 45},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 90
+                        "mirror": {"x": false, "y": false},
+                        "angle": 270
                       },
                       "front": {
                         "offset": {"x": 84, "y": 54},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 90
+                        "mirror": {"x": false, "y": false},
+                        "angle": 270
                       },
                       "left": {
                         "offset": {"x": 92, "y": 54},
@@ -582,8 +582,8 @@
                       },
                       "bottom": {
                         "offset": {"x": 92, "y": 54},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 90
+                        "mirror": {"x": false, "y": false},
+                        "angle": 270
                       }
                     },
                     "unwrapMode": "custom",
