@@ -1,1 +1,5 @@
-- fixed some bone mapping for fumos
+- shifted all base plushie bones
+- added plushie dance
+- added full page of emotes
+- changed particle colour of all pillow blocks
+- other stuff i forgor
