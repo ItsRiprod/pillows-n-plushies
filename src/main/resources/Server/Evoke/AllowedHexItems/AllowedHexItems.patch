@@ -21,6 +21,10 @@
       "EntityId": "Hex_Lovander_Plush"
     },
     {
+      "BlockId": "Gaia_Plush",
+      "EntityId": "Hex_Gaia_Plush"
+    },
+    {
       "BlockId": "Edilan_Plush",
       "EntityId": "Hex_Edilan_Plush"
     },
