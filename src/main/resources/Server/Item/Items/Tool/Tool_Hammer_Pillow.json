@@ -35,6 +35,14 @@
           }
         }
       ]
+    },
+    "Ability2": {
+      "Interactions": [
+        {
+          "Type": "RadialMenuInteraction",
+          "CommandId": "OpenMenu"
+        }
+      ]
     }
   },
   "Recipe": {

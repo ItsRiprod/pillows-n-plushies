@@ -369,8 +369,7 @@
                 "SoundEventId": "SFX_Plushie_Build"
               },
               {
-                "Type": "PlayAnimation",
-                "Slot": "Action",
+                "Type": "PlushPlayAnimation",
                 "Animation": "Breakdance"
               }
             ]
