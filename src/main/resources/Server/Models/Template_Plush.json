@@ -65,10 +65,55 @@
     ]
   },
   "AnimationSets": {
+    "Aura": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Emote/Pillow_Aura.blockyanim",
+          "Looping": false,
+          "Speed": 1.0
+        }
+      ]
+    },
+    "Pray": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Emote/Pillow_Pray.blockyanim",
+          "Looping": false,
+          "Speed": 1.0
+        }
+      ]
+    },
     "Breakdance": {
       "Animations": [
         {
           "Animation": "Characters/Animations/Plush/Pillow_Sims_Breakdance_Plush.blockyanim",
+          "Looping": false,
+          "Speed": 1.0
+        }
+      ]
+    },
+    "EmoteSit": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Emote/Pillow_Sit.blockyanim",
+          "Looping": false,
+          "Speed": 1.0
+        }
+      ]
+    },
+    "Smug": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Emote/Pillow_Smug.blockyanim",
+          "Looping": false,
+          "Speed": 1.0
+        }
+      ]
+    },
+    "Pillowcopter": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Emote/Pillowcopter.blockyanim",
           "Looping": false,
           "Speed": 1.0
         }

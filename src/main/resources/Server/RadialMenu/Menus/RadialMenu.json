@@ -1,0 +1,48 @@
+{
+  "$Comment": "Menu radial",
+  "Enabled": true,
+  "ItemIds": [
+    "Tool_Hammer_Pillow",
+    "Evoke_Book_Plush"
+  ],
+  "ExecutionMode": "SelectAndRun",
+  "DefaultOptionId": "breakdance",
+  "Options": [
+    {
+      "Type": "ExecuteCommand",
+      "Id": "aura",
+      "Label": "Aura",
+      "Command": "/plushemote Aura"
+    },
+    {
+      "Type": "ExecuteCommand",
+      "Id": "pray",
+      "Label": "Pray",
+      "Command": "/plushemote Pray"
+    },
+    {
+      "Type": "ExecuteCommand",
+      "Id": "breakdance",
+      "Label": "Breakdance",
+      "Command": "/plushemote Breakdance"
+    },
+    {
+      "Type": "ExecuteCommand",
+      "Id": "emoteSit",
+      "Label": "EmoteSit",
+      "Command": "/plushemote EmoteSit"
+    },
+    {
+      "Type": "ExecuteCommand",
+      "Id": "smug",
+      "Label": "Smug",
+      "Command": "/plushemote Smug"
+    },
+    {
+      "Type": "ExecuteCommand",
+      "Id": "pillowcopter",
+      "Label": "Pillowcopter",
+      "Command": "/plushemote Pillowcopter"
+    }
+  ]
+}
