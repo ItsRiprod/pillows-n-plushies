@@ -1121,7 +1121,7 @@
               "id": "28",
               "name": "hair5",
               "position": {"x": -13, "y": 7.8, "z": -0.35},
-              "orientation": {"x": -0.65289, "y": -0.49215, "z": -0.37896, "w": 0.43349},
+              "orientation": {"x": -0.65289, "y": -0.49215, "z": -0.37897, "w": 0.43349},
               "shape": {
                 "type": "none",
                 "offset": {"x": 0, "y": 0, "z": 0},
@@ -1326,7 +1326,7 @@
               "id": "33",
               "name": "hair6",
               "position": {"x": 11, "y": 5.8, "z": -6.35},
-              "orientation": {"x": 0.47713, "y": -0.65878, "z": -0.53797, "w": -0.22123},
+              "orientation": {"x": 0.47713, "y": -0.65878, "z": -0.53797, "w": -0.22124},
               "shape": {
                 "type": "none",
                 "offset": {"x": 0, "y": 0, "z": 0},
@@ -1898,111 +1898,7 @@
             },
             {
               "id": "48",
-              "name": "leg-left--C4",
-              "position": {"x": -4, "y": -7.1, "z": 4},
-              "orientation": {"x": 0, "y": -0.13053, "z": 0, "w": 0.99144},
-              "shape": {
-                "type": "box",
-                "offset": {"x": 0, "y": 2, "z": 8.5},
-                "stretch": {"x": 1, "y": 1, "z": 1},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 2, "y": 4, "z": 1},
-                  "isStaticBox": true
-                },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 12, "y": 71},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "right": {
-                    "offset": {"x": 11, "y": 71},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 15, "y": 71},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "left": {
-                    "offset": {"x": 14, "y": 71},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  },
-                  "top": {
-                    "offset": {"x": 14, "y": 71},
-                    "mirror": {"x": true, "y": true},
-                    "angle": 0
-                  },
-                  "bottom": {
-                    "offset": {"x": 16, "y": 70},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  }
-                },
-                "unwrapMode": "custom",
-                "visible": false,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "49",
-              "name": "leg-right--C5",
-              "position": {"x": 4, "y": -7.1, "z": 4},
-              "orientation": {"x": 0, "y": 0.13053, "z": 0, "w": 0.99144},
-              "shape": {
-                "type": "box",
-                "offset": {"x": 0, "y": 2, "z": 8.5},
-                "stretch": {"x": 1, "y": 1, "z": 1},
-                "settings": {
-                  "isPiece": false,
-                  "size": {"x": 2, "y": 4, "z": 1},
-                  "isStaticBox": true
-                },
-                "textureLayout": {
-                  "back": {
-                    "offset": {"x": 14, "y": 71},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  },
-                  "right": {
-                    "offset": {"x": 15, "y": 71},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  },
-                  "front": {
-                    "offset": {"x": 17, "y": 71},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  },
-                  "left": {
-                    "offset": {"x": 12, "y": 71},
-                    "mirror": {"x": true, "y": false},
-                    "angle": 0
-                  },
-                  "top": {
-                    "offset": {"x": 12, "y": 71},
-                    "mirror": {"x": false, "y": true},
-                    "angle": 0
-                  },
-                  "bottom": {
-                    "offset": {"x": 14, "y": 70},
-                    "mirror": {"x": false, "y": false},
-                    "angle": 0
-                  }
-                },
-                "unwrapMode": "custom",
-                "visible": false,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "50",
-              "name": "clothes-top--C6",
+              "name": "clothes-top--C4",
               "position": {"x": 0, "y": -3, "z": 4},
               "orientation": {"x": 0.70711, "y": 0, "z": 0, "w": 0.70711},
               "shape": {
@@ -2029,8 +1925,8 @@
               }
             },
             {
-              "id": "51",
-              "name": "clothes-top--C7",
+              "id": "49",
+              "name": "clothes-top--C5",
               "position": {"x": 7, "y": -3.2, "z": 4},
               "orientation": {"x": 0.43046, "y": -0.43046, "z": -0.56099, "w": 0.56099},
               "shape": {
@@ -2057,8 +1953,8 @@
               }
             },
             {
-              "id": "52",
-              "name": "clothes-top--C8",
+              "id": "50",
+              "name": "clothes-top--C6",
               "position": {"x": -7, "y": -3.2, "z": 4},
               "orientation": {"x": 0.43046, "y": 0.43046, "z": 0.56099, "w": 0.56099},
               "shape": {
@@ -2085,8 +1981,8 @@
               }
             },
             {
-              "id": "53",
-              "name": "clothes-top--C9",
+              "id": "51",
+              "name": "clothes-top--C7",
               "position": {"x": 0, "y": -3, "z": 4},
               "orientation": {"x": 0.70711, "y": 0, "z": 0, "w": 0.70711},
               "shape": {
@@ -2113,8 +2009,8 @@
               }
             },
             {
-              "id": "54",
-              "name": "clothes-top--C10",
+              "id": "52",
+              "name": "clothes-top--C8",
               "position": {"x": 0, "y": -3, "z": 4},
               "orientation": {"x": 0.70711, "y": 0, "z": 0, "w": 0.70711},
               "shape": {
@@ -2137,63 +2033,6 @@
                 "unwrapMode": "custom",
                 "visible": true,
                 "doubleSided": true,
-                "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "55",
-              "name": "straw",
-              "position": {"x": -4.5, "y": -2.3, "z": 4.5},
-              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
-              "shape": {
-                "type": "none",
-                "offset": {"x": 0, "y": 0, "z": 0},
-                "stretch": {"x": 1, "y": 1, "z": 1},
-                "settings": {
-                  "isPiece": false
-                },
-                "textureLayout": {},
-                "unwrapMode": "custom",
-                "visible": true,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "56",
-              "name": "straw2",
-              "position": {"x": -3.5, "y": -2.3, "z": 4.5},
-              "orientation": {"x": 0, "y": 0.38268, "z": 0, "w": 0.92388},
-              "shape": {
-                "type": "none",
-                "offset": {"x": 0, "y": 0, "z": 0},
-                "stretch": {"x": 1, "y": 1, "z": 1},
-                "settings": {
-                  "isPiece": false
-                },
-                "textureLayout": {},
-                "unwrapMode": "custom",
-                "visible": true,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
-            },
-            {
-              "id": "57",
-              "name": "straw3",
-              "position": {"x": -2.5, "y": -2.3, "z": 4.5},
-              "orientation": {"x": 0, "y": 0.70711, "z": 0, "w": 0.70711},
-              "shape": {
-                "type": "none",
-                "offset": {"x": 0, "y": 0, "z": 0},
-                "stretch": {"x": 1, "y": 1, "z": 1},
-                "settings": {
-                  "isPiece": false
-                },
-                "textureLayout": {},
-                "unwrapMode": "custom",
-                "visible": true,
-                "doubleSided": false,
                 "shadingMode": "flat"
               }
             }

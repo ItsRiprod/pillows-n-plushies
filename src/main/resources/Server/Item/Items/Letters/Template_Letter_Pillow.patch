@@ -1,29 +1,16 @@
 {
-  "Texture": "Items/Blocks/Letters/Letter_Pillow.png",
+	"$Requires": "com.gaiagauntlet:GG Assets",
+  "Categories": [
+    "GG_Items.GG_Items2"
+  ],
+  "Quality": "Legendary",
+  "Texture": "Items/Blocks/Letters/Letter_Gold.png",
   "BlockType": {
-    "Material": "Solid",
-    "DrawType": "Model",
-    "Opacity": "Transparent",
-    "VariantRotation": "NESW",
-    "CustomModelTexture+": [
+    "CustomModelTexture": [
       {
-        "Texture": "Items/Blocks/Letters/Letter_Pillow.png",
+        "Texture": "Items/Blocks/Letters/Letter_Gold.png",
         "Weight": 1
       }
-    ],
-    "HitboxType": "Block_Letter",
-    "PlacementSettings": {
-      "RotationMode": "FacingPlayer"
-    },
-    "Gathering": {
-      "Breaking": {
-        "GatherType": "SoftBlocks"
-      }
-    },
-    "ParticleColor": "#f5f5f5",
-    "Group": "Cloth",
-    "BlockSoundSetId": "Cloth",
-    "PhysicalMaterialId": "Cloth",
-    "BlockParticleSetId": "Dust"
+    ]
   }
 }
