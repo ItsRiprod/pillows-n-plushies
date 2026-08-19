@@ -3,7 +3,6 @@
   "Categories": [
     "GG_Items.GG_Items2"
   ],
-  "Quality": "Legendary",
   "Texture": "Items/Blocks/Letters/Letter_Gold.png",
   "BlockType": {
     "CustomModelTexture": [
