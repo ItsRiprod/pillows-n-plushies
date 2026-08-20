@@ -6,38 +6,14 @@
   "Options": [
     {
       "Type": "EmitNpcResult",
-      "Id": "aura",
-      "Label": "Aura",
-      "ResultId": "aura"
-    },
-    {
-      "Type": "EmitNpcResult",
-      "Id": "pray",
-      "Label": "Pray",
-      "ResultId": "pray"
-    },
-    {
-      "Type": "EmitNpcResult",
       "Id": "breakdance",
       "Label": "Breakdance",
       "ResultId": "breakdance"
     },
     {
       "Type": "EmitNpcResult",
-      "Id": "emoteSit",
-      "Label": "EmoteSit",
-      "ResultId": "emoteSit"
-    },
-    {
-      "Type": "EmitNpcResult",
-      "Id": "smug",
-      "Label": "Smug",
-      "ResultId": "smug"
-    },
-    {
-      "Type": "EmitNpcResult",
       "Id": "pillowcopter",
-      "Label": "Pillowcopter",
+      "Label": "Weapon Helicopter",
       "ResultId": "pillowcopter"
     }
   ]

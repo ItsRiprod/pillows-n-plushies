@@ -360,73 +360,13 @@
         "Sensor": {
           "Type": "RadialMenuResult",
           "MenuId": "RadialMenu",
-          "ResultId": "aura"
-        },
-        "Actions": [
-          {
-            "Type": "PlayAnimation",
-            "Slot": "Status",
-            "Animation": "Aura"
-          }
-        ]
-      },
-      {
-        "$Comment": "Radial menu result",
-        "Sensor": {
-          "Type": "RadialMenuResult",
-          "MenuId": "RadialMenu",
-          "ResultId": "pray"
-        },
-        "Actions": [
-          {
-            "Type": "PlayAnimation",
-            "Slot": "Status",
-            "Animation": "Pray"
-          }
-        ]
-      },
-      {
-        "$Comment": "Radial menu result",
-        "Sensor": {
-          "Type": "RadialMenuResult",
-          "MenuId": "RadialMenu",
           "ResultId": "breakdance"
         },
         "Actions": [
           {
             "Type": "PlayAnimation",
-            "Slot": "Status",
+            "Slot": "Action",
             "Animation": "Breakdance"
-          }
-        ]
-      },
-      {
-        "$Comment": "Radial menu result",
-        "Sensor": {
-          "Type": "RadialMenuResult",
-          "MenuId": "RadialMenu",
-          "ResultId": "emoteSit"
-        },
-        "Actions": [
-          {
-            "Type": "PlayAnimation",
-            "Slot": "Status",
-            "Animation": "EmoteSit"
-          }
-        ]
-      },
-      {
-        "$Comment": "Radial menu result",
-        "Sensor": {
-          "Type": "RadialMenuResult",
-          "MenuId": "RadialMenu",
-          "ResultId": "smug"
-        },
-        "Actions": [
-          {
-            "Type": "PlayAnimation",
-            "Slot": "Status",
-            "Animation": "Smug"
           }
         ]
       },
@@ -440,7 +380,7 @@
         "Actions": [
           {
             "Type": "PlayAnimation",
-            "Slot": "Status",
+            "Slot": "Action",
             "Animation": "Pillowcopter"
           }
         ]
