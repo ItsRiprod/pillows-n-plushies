@@ -1,48 +1,44 @@
 {
   "$Comment": "Menu radial",
   "Enabled": true,
-  "ItemIds": [
-    "Tool_Hammer_Pillow",
-    "Evoke_Book_Plush"
-  ],
   "ExecutionMode": "SelectAndRun",
   "DefaultOptionId": "breakdance",
   "Options": [
     {
-      "Type": "ExecuteCommand",
+      "Type": "EmitNpcResult",
       "Id": "aura",
       "Label": "Aura",
-      "Command": "/plushemote Aura"
+      "ResultId": "aura"
     },
     {
-      "Type": "ExecuteCommand",
+      "Type": "EmitNpcResult",
       "Id": "pray",
       "Label": "Pray",
-      "Command": "/plushemote Pray"
+      "ResultId": "pray"
     },
     {
-      "Type": "ExecuteCommand",
+      "Type": "EmitNpcResult",
       "Id": "breakdance",
       "Label": "Breakdance",
-      "Command": "/plushemote Breakdance"
+      "ResultId": "breakdance"
     },
     {
-      "Type": "ExecuteCommand",
+      "Type": "EmitNpcResult",
       "Id": "emoteSit",
       "Label": "EmoteSit",
-      "Command": "/plushemote EmoteSit"
+      "ResultId": "emoteSit"
     },
     {
-      "Type": "ExecuteCommand",
+      "Type": "EmitNpcResult",
       "Id": "smug",
       "Label": "Smug",
-      "Command": "/plushemote Smug"
+      "ResultId": "smug"
     },
     {
-      "Type": "ExecuteCommand",
+      "Type": "EmitNpcResult",
       "Id": "pillowcopter",
       "Label": "Pillowcopter",
-      "Command": "/plushemote Pillowcopter"
+      "ResultId": "pillowcopter"
     }
   ]
 }
