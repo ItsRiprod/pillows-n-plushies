@@ -65,24 +65,6 @@
     ]
   },
   "AnimationSets": {
-    "Aura": {
-      "Animations": [
-        {
-          "Animation": "Characters/Animations/Emote/Pillow_Aura.blockyanim",
-          "Looping": false,
-          "Speed": 1.0
-        }
-      ]
-    },
-    "Pray": {
-      "Animations": [
-        {
-          "Animation": "Characters/Animations/Emote/Pillow_Pray.blockyanim",
-          "Looping": false,
-          "Speed": 1.0
-        }
-      ]
-    },
     "Breakdance": {
       "Animations": [
         {
@@ -92,28 +74,10 @@
         }
       ]
     },
-    "EmoteSit": {
-      "Animations": [
-        {
-          "Animation": "Characters/Animations/Emote/Pillow_Sit.blockyanim",
-          "Looping": false,
-          "Speed": 1.0
-        }
-      ]
-    },
-    "Smug": {
-      "Animations": [
-        {
-          "Animation": "Characters/Animations/Emote/Pillow_Smug.blockyanim",
-          "Looping": false,
-          "Speed": 1.0
-        }
-      ]
-    },
     "Pillowcopter": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/Emote/Pillowcopter.blockyanim",
+          "Animation": "Characters/Animations/Plush/Pillowcopter_Plush.blockyanim",
           "Looping": false,
           "Speed": 1.0
         }

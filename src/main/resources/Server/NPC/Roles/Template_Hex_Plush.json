@@ -371,21 +371,6 @@
         ]
       },
       {
-        "$Comment": "Radial menu result",
-        "Sensor": {
-          "Type": "RadialMenuResult",
-          "MenuId": "RadialMenu",
-          "ResultId": "pillowcopter"
-        },
-        "Actions": [
-          {
-            "Type": "PlayAnimation",
-            "Slot": "Action",
-            "Animation": "Pillowcopter"
-          }
-        ]
-      },
-      {
         "Continue": true,
         "Sensor": {
           "Type": "HasInteracted"

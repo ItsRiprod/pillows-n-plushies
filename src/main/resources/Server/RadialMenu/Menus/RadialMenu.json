@@ -9,12 +9,6 @@
       "Id": "breakdance",
       "Label": "Breakdance",
       "ResultId": "breakdance"
-    },
-    {
-      "Type": "EmitNpcResult",
-      "Id": "pillowcopter",
-      "Label": "Weapon Helicopter",
-      "ResultId": "pillowcopter"
     }
   ]
 }
