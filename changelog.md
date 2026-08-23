@@ -1,1 +1,1 @@
-- fixed gaia texture
+- added radial menu as dependency
