@@ -255,6 +255,31 @@
           },
           "Instructions": [
             {
+              "$Comment": "Less than 1 block away from the leader",
+              "Sensor": {
+                "Type": "Player",
+                "Range": 1,
+                "LockOnTarget": true,
+                "Filters": [
+                  {
+                    "Type": "IsEvoker"
+                  }
+                ]
+              },
+              "HeadMotion": {
+                "Type": "Aim",
+                "Deflection": true,
+                "Spread": 1
+              },
+              "BodyMotion": {
+                "Type": "MaintainDistance",
+                "DesiredDistanceRange": [1.5, 1.5],
+                "MoveThreshold": 0.2,
+                "RelativeForwardsSpeed": 0.6,
+                "RelativeBackwardsSpeed": 0.3
+              }
+            },
+            {
               "$Comment": "Less than 40 blocks away from the leader",
               "Sensor": {
                 "Type": "Player",
