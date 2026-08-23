@@ -1,1 +1,1 @@
-- added radial menu as dependency
+- improved plushie-to-plushie collision
