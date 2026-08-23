@@ -65,11 +65,29 @@
     ]
   },
   "AnimationSets": {
+    "Overdrive": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Plush/Pillow_Overdrive_Plush.blockyanim",
+          "Looping": true,
+          "Speed": 1.0
+        }
+      ]
+    },
+    "Padoru_Spin": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Plush/Pillow_Padoru_Spin_Plush.blockyanim",
+          "Looping": true,
+          "Speed": 1.0
+        }
+      ]
+    },
     "Breakdance": {
       "Animations": [
         {
           "Animation": "Characters/Animations/Plush/Pillow_Sims_Breakdance_Plush.blockyanim",
-          "Looping": false,
+          "Looping": true,
           "Speed": 1.0
         }
       ]
@@ -78,7 +96,7 @@
       "Animations": [
         {
           "Animation": "Characters/Animations/Plush/Pillowcopter_Plush.blockyanim",
-          "Looping": false,
+          "Looping": true,
           "Speed": 1.0
         }
       ]

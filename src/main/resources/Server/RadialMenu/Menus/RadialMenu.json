@@ -6,6 +6,24 @@
   "Options": [
     {
       "Type": "EmitNpcResult",
+      "Id": "follow",
+      "Label": "Follow",
+      "ResultId": "follow"
+    },
+    {
+      "Type": "EmitNpcResult",
+      "Id": "overdrive",
+      "Label": "Overdrive",
+      "ResultId": "overdrive"
+    },
+    {
+      "Type": "EmitNpcResult",
+      "Id": "padoru-spin",
+      "Label": "Padoru Spin",
+      "ResultId": "padoru-spin"
+    },
+    {
+      "Type": "EmitNpcResult",
       "Id": "breakdance",
       "Label": "Breakdance",
       "ResultId": "breakdance"

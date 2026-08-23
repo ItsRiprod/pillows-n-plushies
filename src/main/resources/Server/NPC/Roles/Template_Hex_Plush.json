@@ -356,7 +356,65 @@
         ]
       },
       {
-        "$Comment": "Radial menu result",
+        "$Comment": "Follow radial menu result",
+        "Sensor": {
+          "Type": "RadialMenuResult",
+          "MenuId": "RadialMenu",
+          "ResultId": "follow"
+        },
+        "Actions": [
+          {
+            "Type": "PlayAnimation",
+            "Slot": "Action",
+            "Animation": "Walk",
+            "Once": true
+          },
+          {
+            "Type": "State",
+            "State": "Following"
+          }
+        ]
+      },
+      {
+        "$Comment": "Overdrive radial menu result",
+        "Sensor": {
+          "Type": "RadialMenuResult",
+          "MenuId": "RadialMenu",
+          "ResultId": "overdrive"
+        },
+        "Actions": [
+          {
+            "Type": "PlayAnimation",
+            "Slot": "Action",
+            "Animation": "Overdrive"
+          },
+          {
+            "Type": "State",
+            "State": "Idle"
+          }
+        ]
+      },
+      {
+        "$Comment": "Padoru spin radial menu result",
+        "Sensor": {
+          "Type": "RadialMenuResult",
+          "MenuId": "RadialMenu",
+          "ResultId": "padoru-spin"
+        },
+        "Actions": [
+          {
+            "Type": "PlayAnimation",
+            "Slot": "Action",
+            "Animation": "Padoru_Spin"
+          },
+          {
+            "Type": "State",
+            "State": "Idle"
+          }
+        ]
+      },
+      {
+        "$Comment": "Breakdance radial menu result",
         "Sensor": {
           "Type": "RadialMenuResult",
           "MenuId": "RadialMenu",
@@ -367,6 +425,10 @@
             "Type": "PlayAnimation",
             "Slot": "Action",
             "Animation": "Breakdance"
+          },
+          {
+            "Type": "State",
+            "State": "Idle"
           }
         ]
       },
