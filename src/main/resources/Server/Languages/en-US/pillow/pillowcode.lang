@@ -1,7 +1,9 @@
 # ==== items ====
+Evoke_Book_Plush.name = plushie evoke book
+Evoke_Book_Plush.description = <color is="#b55088"><b>it trembles before you.</b></color> \n<color is="#ffffff">seems compatible with certain woven goods...</color> \n\n<b>To evoke</b>\nCast by holding <b>Primary</b> and releasing on target within close range \n\n<b>To manage</b>\nUse <b>Secondary</b> and edit names, show names, or despawn for any evoke to receive the original item you cast it on
 
 Hexbook_Pillow.name = pillow hex book
-Hexbook_Pillow.description = <color is="#b55088"><b>mrrrp... mrrrrrrrrrp~</b> \n<color is="#ffffff">try alongside "hexcode" mod for new functionality!</color>
+Hexbook_Pillow.description = <color is="#b55088"><b>mrrrp... mrrrrrrrrrp~</b></color> \n<color is="#ffffff">try alongside "hexcode" mod for new functionality!</color>
 Hexbook_Pillow.description.patch = <color is="#b55088"><b>mrrrp... mrrrrrrrrrp~</b></color>\n\n<color is="#ffcc00"><b>6</b></color> <color is="#aaaaaa">Hex Slots</color> - <color is="#cc88ff"><b>+Void Damage</b></color> - <color is="#aaaaaa">+Spell Power</color>\n\n<b>To write spells</b>\nPlace into a <b>Pedestal</b> to draw Hexes into the Book\n\n<b>To cast spells</b>\nHold in your <b>Offhand</b> alongside a Hex Staff\nPress and Hold <b>Secondary</b> on the Staff to select from saved Hexes
 
 Hexstaff_Pillow.name = pillow hex staff

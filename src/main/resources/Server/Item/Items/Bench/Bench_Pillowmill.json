@@ -60,6 +60,11 @@
           "Name": "server.Blocks.name"
         },
         {
+          "Id": "Pillow_Letters",
+          "Icon": "Icons/CraftingCategories/Furniture/Letters.png",
+          "Name": "server.Letters.name"
+        },
+        {
           "Id": "Pillow_Furniture",
           "Icon": "Icons/CraftingCategories/Furniture/Furniture.png",
           "Name": "server.Furniture.name"

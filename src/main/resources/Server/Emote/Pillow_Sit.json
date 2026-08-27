@@ -1,0 +1,7 @@
+{
+  "Name": "Sit",
+  "Animation": "Characters/Animations/Emote/Pillow_Sit.blockyanim",
+  "Icon": "Icons/Emotes/Pillow_Sit.png",
+  "IsLooping": true,
+  "HideItemInHand": false
+}

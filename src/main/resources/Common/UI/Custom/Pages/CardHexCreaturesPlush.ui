@@ -1,0 +1,80 @@
+$C = "../Common.ui";
+
+@DespawnButtonStyle = TextButtonStyle(
+  Default: (Background: "../Icons/despawnIconPlush.png"),
+  Hovered: (Background: (TexturePath: "../Icons/despawnIconPlush.png", Area: (Full: 6)))
+);
+
+@InputFieldStyle = InputFieldDecorationStyle(
+    Default: (OutlineSize: 2, OutlineColor: #007f7f, Background: #e6e6f1),
+    Focused: (OutlineSize: 3, OutlineColor: #007f7f, Background: #e6e6f1)
+);
+
+@CustomCheckBoxStyle = CheckBoxStyle(
+    Unchecked: (
+        DefaultBackground: (Color: #e6e6f1),
+        HoveredBackground: (Color: #e6e6f1),
+        PressedBackground: (Color: #e6e6f1),
+        DisabledBackground: (Color: #e6e6f1)
+    ),
+    Checked: (
+       DefaultBackground: (Color: #e6e6f1, TexturePath: "../Icons/checkIconPlush.png", Area: (Full: 8))
+    )
+);
+
+Group {
+    Anchor: (Height: 74);
+    Group {
+
+        Group {
+            LayoutMode: Left;
+            ItemIcon #HCIcon {
+                ItemId: "Hex_Mannequin_Block";
+                Anchor: (Width: 64, Height: 64);
+            }
+
+            Group { Anchor: (Width: 8); }
+
+            Label #HCName {
+              Text: "Hex Creature Name";
+              Anchor: (Width: 250, Height: 30);
+              Visible: true;
+              Style: (FontSize: 18, TextColor: #B55088, RenderBold: true, VerticalAlignment: Center);
+              Padding: (Left: 12);
+            }
+
+            $C.@TextField #NameInput {
+               Anchor: (Width: 200, Height: 30);
+               PlaceholderText: "Name";
+               MaxLength: 20;
+               Visible: false;
+               Decoration: @InputFieldStyle;
+               Style: InputFieldStyle(TextColor: #B55088);
+            }
+        }
+
+        Group {
+            LayoutMode: Right;
+            Padding: (Right: 32);
+
+            $C.@CheckBox #ShowName {
+                Value: false;
+                Anchor: (Width: 18, Height: 18);
+                Style: @CustomCheckBoxStyle;
+                Visible: true;
+                OutlineColor: #007f7f;
+                OutlineSize: 2;
+                TooltipText: "Show name";
+            }
+
+            Group { Anchor: (Width: 8); }
+
+            TextButton #DespawnButton {
+                Text: "";
+                Anchor: (Width: 24, Height: 24);
+                Style: @DespawnButtonStyle;
+                TooltipText: "Despawn";
+            }
+        }
+    }
+}

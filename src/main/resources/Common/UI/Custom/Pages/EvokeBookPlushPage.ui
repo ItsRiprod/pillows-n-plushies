@@ -1,0 +1,95 @@
+@EditButtonStyle = TextButtonStyle(
+  Default: (Background: (TexturePath: "../Icons/editIconPlush.png")),
+  Hovered: (Background: (TexturePath: "../Icons/editIconPlush.png", Area: (Full: 6)))
+);
+
+@CloseButtonStyle = TextButtonStyle(
+    Default: (LabelStyle: (FontSize: 20, TextColor: #B55088, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Hovered: (LabelStyle: (FontSize: 26, TextColor: #B55088, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+    Pressed: (LabelStyle: (FontSize: 26, TextColor: #B55088, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center))
+);
+
+@SaveButtonStyle = TextButtonStyle(
+    Default: (Background: #e6e6f1, LabelStyle: (FontSize: 16, TextColor: #B55088, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center, OutlineColor: #007f7f)),
+    Hovered: (Background: #e6e6f1, LabelStyle: (FontSize: 18, TextColor: #B55088, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center, OutlineColor: #007f7f)),
+    Pressed: (Background: #e6e6f1, LabelStyle: (FontSize: 18, TextColor: #B55088, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center, OutlineColor: #007f7f))
+);
+Group {
+    Anchor: (Width: 900, Height: 600);
+    Background: (TexturePath: "../Images/EvokeBookPlushBackground.png");
+    LayoutMode: Left;
+
+    Group #LeftPanel {
+        Anchor: (Width: 450);
+
+        LayoutMode: Top;
+        Padding: (Full: 16);
+        Group { Anchor: (Height: 14); }
+
+        Group {
+            LayoutMode: Center;
+
+            Label {
+                Text: "~ plushie evoke book ~";
+                Anchor: (Height: 30);
+                Style: (FontSize: 24, TextColor: #B55088, RenderBold: true);
+            }
+        }
+
+         Group {
+            Padding: (Top: 16, Bottom: 8);
+            Group {
+                LayoutMode: Left;
+                Label #HexCount {
+                     Text: "?/?";
+                     Anchor: (Height: 32);
+                     Padding: (Left: 32);
+                     Style: (FontSize: 22, TextColor: #B55088, RenderBold: true);
+                }
+            }
+            Group {
+                LayoutMode: Right;
+                Padding: (Right: 32);
+
+                TextButton #SaveButton {
+                   Anchor: (Width: 50, Height: 30);
+                   Text: "Save";
+                   Visible: true;
+                   Style: @SaveButtonStyle;
+                }
+
+                Group { Anchor: (Width: 4); }
+
+                TextButton #EditButton {
+                     Text: "";
+                     Anchor: (Width: 24, Height: 24);
+                     Style: @EditButtonStyle;
+                     TooltipText: "Edit names";
+                }
+            }
+         }
+
+          Group #ItemList{
+             FlexWeight: 1;
+             LayoutMode: Top;
+             Padding: (Left: 14);
+          }
+    }
+
+    Group #RightPanel {
+        FlexWeight: 1;
+        LayoutMode: Top;
+        Padding: (Full: 20);
+
+        Group {
+            LayoutMode: Right;
+            Anchor: (Width: 355, Height: 75);
+
+            TextButton #CloseButton {
+                Text: "X";
+                Anchor: (Width: 20, Height: 20);
+                Style: @CloseButtonStyle;
+            }
+        }
+    }
+}

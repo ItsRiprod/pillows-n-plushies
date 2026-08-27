@@ -3,11 +3,12 @@
 ## interchangable phrases for the sake of a brief description
 body pillow / dakimakura, pillow / cushion, plushie / plushy, onesie / kigurumi, tensura / slime isekai / that time i got reincarnated as a slime, ferris / felis / felix
 
-# content origins
+# references
 
 ## assistance
 
 - riprod for all round genius ([ded birb app](https://x.com/ItsRiprod))  
+- lexem for assistance wit plushie sentience ([ded birb app](https://x.com/_Lexem_))
 - octarock for advice and bein amazing ([cursieforge](https://www.curseforge.com/members/octarock/projects) / [twitch](https://www.twitch.tv/octarock))
 
 ## anime
@@ -17,6 +18,9 @@ body pillow / dakimakura, pillow / cushion, plushie / plushy, onesie / kigurumi,
 - fate (rider astolfo)  
 - gaia (hytale goddess)  
 - lain onesie (serial experiments lain)
+
+## required dependency
+- [(evoke by lexem)](https://www.curseforge.com/hytale/mods/hexcode-evoke)
 
 ## other mods
 
@@ -68,6 +72,7 @@ body pillow / dakimakura, pillow / cushion, plushie / plushy, onesie / kigurumi,
 - [ ] custom sound effects
 - [ ] bendy pillow animations
 - [ ] crafting overhaul
+- [x] make plushies transform into npcs
 - [ ] make plushies throwable
 - [ ] expand on pillow weaponry
 - [ ] custom body pillow designs

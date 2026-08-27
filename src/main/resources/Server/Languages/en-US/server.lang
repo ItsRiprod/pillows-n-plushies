@@ -3,7 +3,18 @@
 PillowsNPlushies.name = pillows n' plushies
 Furniture.name = furniture
 Blocks.name = blocks
+Letters.name = letters
 Daki.name = daki
 Plushies.name = plushies
 Onesies.name = onesies
 Stitching.name = stitching
+
+
+# ==== radial menu ====
+
+radialmenu.ui.button.close=Close
+radialmenu.ui.title=Radial Menu
+radialmenu.ui.subtitle=Select an option
+radialmenu.ui.current.none=Select an option
+radialmenu.ui.current.value=Current: {0}
+radialmenu.ui.unknownOption=Unknown

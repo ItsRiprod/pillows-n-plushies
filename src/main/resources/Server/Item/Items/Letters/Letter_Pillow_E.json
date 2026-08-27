@@ -1,0 +1,46 @@
+{
+  "Parent": "Template_Letter_Pillow",
+  "TranslationProperties": {
+    "Name": "pillow.blocks.Letter_Pillow_E.name",
+    "Description": "pillow.blocks.Letter_Pillow_E.description"
+  },
+  "Model": "Items/Blocks/Letters/Letter_Pillow_E.blockymodel",
+  "BlockType": {
+    "CustomModel": "Items/Blocks/Letters/Letter_Pillow_E.blockymodel"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Cloth_Block_Wool_Cyan_Light",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Pillow_Bench",
+        "Categories": [
+          "Pillow_Letters"
+        ]
+      }
+    ],
+    "TimeSeconds": 16
+  },
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      24,
+      45,
+      22.5
+    ],
+    "Translation": [
+      9,
+      -16
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Letter_Pillow_E.png"
+}

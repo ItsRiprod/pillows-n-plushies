@@ -1,0 +1,7 @@
+{
+  "Name": "Smug",
+  "Animation": "Characters/Animations/Emote/Pillow_Smug.blockyanim",
+  "Icon": "Icons/Emotes/Pillow_Smug.png",
+  "IsLooping": true,
+  "HideItemInHand": true
+}

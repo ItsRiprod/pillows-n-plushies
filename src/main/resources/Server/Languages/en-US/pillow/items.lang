@@ -36,6 +36,9 @@ Shark_Kitty_Plush.description = <color is="#b55088"><b>act of wearing... or swal
 Lovander_Plush.name = lovander plushie
 Lovander_Plush.description = <color is="#b55088"><b>pal on the prowl</b></color>
 
+Gaia_Plush.name = gaia plushie
+Gaia_Plush.description = <color is="#b55088"><b>...</b></color>
+
 Slushy_Plush.name = slushy fumo plushie
 Slushy_Plush.description = <color is="#b55088"><b>guyssss look who it is :D</b></color> \n<color is="#99cccc">@SlushyWater52</color>
 
@@ -47,6 +50,21 @@ Preston_Plush.description = <color is="#b55088"><b>WELCOME TO THE GAUNTLET!</b><
 
 Lordimass_Plush.name = lordimass fumo plushie
 Lordimass_Plush.description = <color is="#b55088"><b>just an imp.</b></color> \n<color is="#99cccc">@Lordimass</color>
+
+Oatman_Plush.name = oatman fumo plushie
+Oatman_Plush.description = <color is="#b55088"><b>right on.</b></color> \n<color is="#99cccc">@oatman5000</color>
+
+Outlaw_Fish_Plush.name = mkoutlaw fish plushie
+Outlaw_Fish_Plush.description = <color is="#b55088"><b>must build more dungeons!</b></color> \n<color is="#99cccc">@MKOutlaw87</color>
+
+Farren_Plush.name = farren fumo plushie
+Farren_Plush.description = <color is="#b55088"><b>a builder at heart</b></color> \n<color is="#99cccc">@Farrens_Tale</color>
+
+Heru_Plush.name = heru edhel fumo plushie
+Heru_Plush.description = <color is="#b55088"><b>block game lover</b></color> \n<color is="#99cccc">@Heru_Edhel</color>
+
+Edilan_Plush.name = edilan fumo plushie
+Edilan_Plush.description = <color is="#b55088"><b>absolute automation</b></color> \n<color is="#99cccc">@EdilanTV</color>
 
 
 # ==== furniture ====

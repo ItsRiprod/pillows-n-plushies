@@ -1,0 +1,116 @@
+{
+	"$Requires": "Lexem:HexcodeEvoke",
+	"Quality": "Rare",
+	"Parent": "Evoke_Book",
+  "Recipe": {
+    "TimeSeconds": 1,
+    "Input": [
+      {
+        "ItemId": "Pillow_Block_Blue_Light",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Pillow_Block_Blue",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Categories": [
+          "Arcane_Hexcode_Evoke"
+        ],
+        "Id": "Arcanebench"
+      }
+    ]
+  },
+    "Interactions": {
+      "Primary": {
+        "Interactions": [
+          {
+            "Type": "Charging",
+            "Effects": {
+              "WorldSoundEventId": "SFX_Skeleton_Mage_Spellbook_Charge",
+              "ItemAnimationId": "CastHurlCharging"
+            },
+            "AllowIndefiniteHold": true,
+            "HorizontalSpeedMultiplier": 0.8,
+            "CancelOnItemChange": true,
+            "RunTime": 0,
+            "Next": {
+              "0": {
+                "Type": "Simple",
+                "Effects": {
+                  "ItemAnimationId": "Interact"
+                }
+              },
+              "0.8": {
+                "Type": "EvokeHexCreature",
+                "Next": {
+                  "Type": "Serial",
+                  "Interactions": [
+                    {
+                      "Type": "Simple",
+                      "RunTime": 0.5,
+                      "Effects": {
+                        "ItemAnimationId": "CastHurlCharged",
+                        "ClearAnimationOnFinish": true
+                      }
+                    }
+                  ]
+                },
+                "Failed": {
+                  "Type": "Simple",
+                  "Effects": {
+                    "ItemAnimationId": "Interact"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "Secondary": {
+        "Interactions": [
+          {
+            "Type": "OpenEvokeBook",
+            "PageName": "EvokeBookPlushPage",
+            "CardName": "CardHexCreaturesPlush",
+            "Next": {
+              "Type": "Serial",
+              "Interactions": [
+                {
+                  "Type": "Simple",
+                  "RunTime": 0.5,
+                  "Effects": {
+                    "WorldSoundEventId": "SFX_Skeleton_Mage_Spellbook_Charge"
+                  }
+                }
+              ]
+            },
+            "Failed": {
+              "Type": "Simple",
+              "Effects": {
+                "ItemAnimationId": "Interact"
+              }
+            }
+          }
+        ]
+      }
+    }
+}

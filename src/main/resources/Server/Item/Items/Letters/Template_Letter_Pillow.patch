@@ -1,0 +1,15 @@
+{
+	"$Requires": "com.gaiagauntlet:GG Assets",
+  "Categories": [
+    "GG_Items.GG_Items2"
+  ],
+  "Texture": "Items/Blocks/Letters/Letter_Gold.png",
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Blocks/Letters/Letter_Gold.png",
+        "Weight": 1
+      }
+    ]
+  }
+}

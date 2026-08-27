@@ -1,1 +1,2 @@
-- no eep till progress
+- improved plushie-to-plushie collision
+- updated logo for mod browser

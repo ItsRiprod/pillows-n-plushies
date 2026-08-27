@@ -1,0 +1,30 @@
+{
+  "Parent": "Template_Slime_Plush",
+  "Model": "Items/Blocks/Plushies/Rimuru_Slime_Plush.blockymodel",
+  "Texture": "Items/Blocks/Plushies/Rimuru_Slime_Plush.png",
+  "EyeHeight": 1,
+  "CrouchOffset": -0.2,
+  "MinScale": 2,
+  "MaxScale": 2,
+  "DetailBoxes": {},
+  "DefaultAttachments": [],
+  "AnimationSets": {
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "Items/Blocks/Plushies/Animations/Slime/Walk.blockyanim",
+          "Speed": 0.85
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "Items/Blocks/Plushies/Animations/Slime/Walk.blockyanim",
+          "Speed": 2.0
+        }
+      ]
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Rimuru_Slime_Plush.png"
+}

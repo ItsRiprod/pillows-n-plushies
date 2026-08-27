@@ -86,13 +86,13 @@
   "IconProperties": {
     "Scale": 0.8,
     "Rotation": [
-      22.5,
-      45,
-      22.5
+      15,
+      48,
+      16
     ],
     "Translation": [
-      0,
-      -8
+      -1,
+      -16
     ]
   }
 }

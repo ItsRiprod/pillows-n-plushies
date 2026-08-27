@@ -12,7 +12,8 @@ configurations {
 }
 
 dependencies {
-    shaded('curse.maven:patchly-1550889:8282627')
+    shaded('com.riprod:patchly:3.+')
+    implementation 'curse.maven:alecs-radial-menu-1502691:8696748'
 }
 
 shadowJar {
