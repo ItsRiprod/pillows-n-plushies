@@ -11,5 +11,41 @@
       "Y": 0,
       "Z": -0.3
     }
-  }
+  },
+  "EyeHeight": 1,
+  "CrouchOffset": -0.2,
+  "MinScale": 2,
+  "MaxScale": 2,
+  "DetailBoxes": {},
+  "DefaultAttachments": [],
+  "AnimationSets": {
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "Items/Blocks/Plushies/Animations/Fumo/Walk.blockyanim",
+          "Speed": 0.85,
+          "Looping": true
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "Items/Blocks/Plushies/Animations/Fumo/Walk.blockyanim",
+          "Speed": 2.0,
+          "Looping": true
+        }
+      ]
+    },
+    "Jump": {
+      "Animations": [
+        {
+          "Animation": "Items/Blocks/Plushies/Animations/Fumo/Walk.blockyanim",
+          "Speed": 0.85,
+          "Looping": false
+        }
+      ]
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Veldora_Human_Plush.png"
 }

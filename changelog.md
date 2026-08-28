@@ -1,2 +1,1 @@
-- improved plushie-to-plushie collision
-- updated logo for mod browser
+- fixed plushies follow command
