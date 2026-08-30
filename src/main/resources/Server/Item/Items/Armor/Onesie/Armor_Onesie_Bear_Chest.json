@@ -16,18 +16,31 @@
       "Cape"
     ],
     "StatModifiers": {
+      "Mana": [
+        {
+          "Amount": 32,
+          "CalculationType": "Additive"
+        }
+      ],
       "Volatility": [
         {
-          "Amount": 33,
+          "Amount": -16,
           "CalculationType": "Additive"
+        }
+      ],
+      "Affinity_Void": [
+        {
+          "Target": "Max",
+          "CalculationType": "Additive",
+          "Amount": 32
         }
       ]
     },
     "Regenerating": {
       "Mana": [
         {
-          "Amount": 8,
-          "Interval": 8,
+          "Amount": 0.4,
+          "Interval": 0.4,
           "RegenType": "Additive",
           "Conditions": [
             {
