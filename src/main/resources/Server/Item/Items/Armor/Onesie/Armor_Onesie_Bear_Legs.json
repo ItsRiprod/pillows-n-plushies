@@ -28,26 +28,11 @@
           "CalculationType": "Additive"
         }
       ],
-      "Affinity_Void": [
+      "Affinity_Ice": [
         {
           "Target": "Max",
           "CalculationType": "Additive",
-          "Amount": 64
-        }
-      ]
-    },
-    "Regenerating": {
-      "Mana": [
-        {
-          "Amount": 0.4,
-          "Interval": 0.4,
-          "RegenType": "Additive",
-          "Conditions": [
-            {
-              "Id": "NoDamageTaken",
-              "Delay": 16
-            }
-          ]
+          "Amount": 32
         }
       ]
     }

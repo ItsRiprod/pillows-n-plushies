@@ -1,7 +1,7 @@
 {
 	"$Requires": "Riprod:Hexcode",
-	"Parent": "Void_Hexbook",
-  "MaxGlyphs": 6,
+	"Parent": "Life_Hexbook",
+  "MaxGlyphs": 10,
   "CastingAuraParticles": [
     {
       "SystemId": "Shock_Spawner",

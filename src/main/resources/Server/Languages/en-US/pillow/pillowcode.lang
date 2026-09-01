@@ -4,7 +4,7 @@ Evoke_Book_Plush.description = <color is="#b55088"><b>it trembles before you.</b
 
 Hexbook_Pillow.name = pillow hex book
 Hexbook_Pillow.description = <color is="#b55088"><b>mrrrp... mrrrrrrrrrp~</b></color> \n<color is="#ffffff">try alongside "hexcode" mod for new functionality!</color>
-Hexbook_Pillow.description.patch = <color is="#b55088"><b>mrrrp... mrrrrrrrrrp~</b></color>\n\n<color is="#ffcc00"><b>6</b></color> <color is="#aaaaaa">Hex Slots</color> - <color is="#cc88ff"><b>+Void Damage</b></color> - <color is="#aaaaaa">+Spell Power</color>\n\n<b>To write spells</b>\nPlace into a <b>Pedestal</b> to draw Hexes into the Book\n\n<b>To cast spells</b>\nHold in your <b>Offhand</b> alongside a Hex Staff\nPress and Hold <b>Secondary</b> on the Staff to select from saved Hexes
+Hexbook_Pillow.description.patch = <color is="#b55088"><b>mrrrp... mrrrrrrrrrp~</b></color>\n\n<color is="#ffcc00"><b>6</b></color> <color is="#aaaaaa">Hex Slots</color> - <color is="#007f7f"><b>+Life Damage</b></color> - <color is="#aaaaaa">+Spell Power</color>\n\n<b>To write spells</b>\nPlace into a <b>Pedestal</b> to draw Hexes into the Book\n\n<b>To cast spells</b>\nHold in your <b>Offhand</b> alongside a Hex Staff\nPress and Hold <b>Secondary</b> on the Staff to select from saved Hexes
 
 Hexstaff_Pillow.name = pillow hex staff
 Hexstaff_Pillow.description = <color is="#b55088"><b>mrow! nya!!</b></color> \n<color is="#ffffff">try alongside "hexcode" mod for new functionality!</color>
@@ -25,16 +25,16 @@ Obelisk_Pillow.description.patch = <color is="#b55088"><b>a pillow so dense it c
 # ==== onesies ====
 
 Armor_Onesie_Bear_Head.name = onesie pillowmage bear hood
-Armor_Onesie_Bear_Head.description = <color is="#b55088"><b>attuned to the wired, high mana regen unless damaged</b></color>
+Armor_Onesie_Bear_Head.description = <color is="#b55088"><b>attuned to the wired, the cold recluse acquires wealth of mana</b></color>
 
 Armor_Onesie_Bear_Chest.name = onesie pillowmage bear robe
-Armor_Onesie_Bear_Chest.description = <color is="#b55088"><b>attuned to the wired, high mana regen unless damaged</b></color>
+Armor_Onesie_Bear_Chest.description = <color is="#b55088"><b>attuned to the wired, the cold recluse acquires wealth of mana</b></color>
 
 Armor_Onesie_Bear_Hands.name = onesie pillowmage bear sleeves
-Armor_Onesie_Bear_Hands.description = <color is="#b55088"><b>attuned to the wired, high mana regen unless damaged</b></color>
+Armor_Onesie_Bear_Hands.description = <color is="#b55088"><b>attuned to the wired, the cold recluse acquires wealth of mana</b></color>
 
 Armor_Onesie_Bear_Legs.name = onesie pillowmage bear slippers
-Armor_Onesie_Bear_Legs.description = <color is="#b55088"><b>attuned to the wired, high mana regen unless damaged</b></color>
+Armor_Onesie_Bear_Legs.description = <color is="#b55088"><b>attuned to the wired, the cold recluse acquires wealth of mana</b></color>
 
 
 # ==== utility ====
