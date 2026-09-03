@@ -12,25 +12,17 @@
     "ArmorSlot": "Hands",
     "BaseDamageResistance": 0,
     "StatModifiers": {
-      "Volatility": [
-        {
-          "Amount": 8,
-          "CalculationType": "Additive"
-        }
-      ]
-    },
-    "Regenerating": {
       "Mana": [
         {
-          "Amount": 8,
-          "Interval": 8,
-          "RegenType": "Additive",
-          "Conditions": [
-            {
-              "Id": "NoDamageTaken",
-              "Delay": 16
-            }
-          ]
+          "Amount": 64,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Affinity_Ice": [
+        {
+          "Target": "Max",
+          "CalculationType": "Additive",
+          "Amount": 32
         }
       ]
     }

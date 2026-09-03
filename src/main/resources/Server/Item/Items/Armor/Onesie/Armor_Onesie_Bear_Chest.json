@@ -16,25 +16,17 @@
       "Cape"
     ],
     "StatModifiers": {
-      "Volatility": [
-        {
-          "Amount": 33,
-          "CalculationType": "Additive"
-        }
-      ]
-    },
-    "Regenerating": {
       "Mana": [
         {
-          "Amount": 8,
-          "Interval": 8,
-          "RegenType": "Additive",
-          "Conditions": [
-            {
-              "Id": "NoDamageTaken",
-              "Delay": 16
-            }
-          ]
+          "Amount": 32,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Affinity_Ice": [
+        {
+          "Target": "Max",
+          "CalculationType": "Additive",
+          "Amount": 16
         }
       ]
     }

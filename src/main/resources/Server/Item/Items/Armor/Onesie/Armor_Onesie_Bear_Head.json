@@ -18,25 +18,24 @@
       "HeadAccessory"
     ],
     "StatModifiers": {
-      "Volatility": [
-        {
-          "Amount": 15,
-          "CalculationType": "Additive"
-        }
-      ]
-    },
-    "Regenerating": {
       "Mana": [
         {
-          "Amount": 8,
-          "Interval": 8,
-          "RegenType": "Additive",
-          "Conditions": [
-            {
-              "Id": "NoDamageTaken",
-              "Delay": 16
-            }
-          ]
+          "Amount": 32,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Volatility": [
+        {
+          "Target": "Max",
+          "CalculationType": "Multiplicative",
+          "Amount": -0.04
+        }
+      ],
+      "Affinity_Ice": [
+        {
+          "Target": "Max",
+          "CalculationType": "Additive",
+          "Amount": 16
         }
       ]
     }

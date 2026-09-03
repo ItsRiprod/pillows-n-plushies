@@ -1,7 +1,7 @@
 {
     "Group": "com.oruuke",
     "Name": "pillows-n-plushies",
-    "Version": "5.2.3",
+    "Version": "6.1.0",
     "Description": "weaponised femboy body pillows (dakimakura), cushion blocks, plushies, fumo, futon bed, lain onesie mage robes, pillow hexstaff, pillow hexbook, and hexcode glyph guide for hex magic via patchly! astolfo, ferris, rimuru, and lain!",
     "Authors": [
         {
@@ -13,13 +13,13 @@
     "Dependencies": {
         "Hytale:AssetModule": "*",
         "Hytale:EntityModule": "*",
-        "Hytale:BlockModule": "*"
+        "Hytale:BlockModule": "*",
+        "Lexem:HexcodeEvoke": "*",
+        "Alechilles:Alec's Radial Menu": "*",
+        "Riprod:Hexcode": "*"
     },
     "OptionalDependencies": {
-        "Riprod:Patchly": "*",
-        "Riprod:Hexcode": "*",
-        "Lexem:HexcodeEvoke": "*",
-        "Alechilles:Alec's Radial Menu": "*"
+        "Riprod:Patchly": "*"
     },
     "DisabledByDefault": false,
     "Main": "com.oruuke.pillow.PillowsNPlushies",

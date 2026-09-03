@@ -1,9 +1,12 @@
 package com.oruuke.pillow;
 
+import com.hypixel.hytale.component.ComponentRegistryProxy;
 import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
+import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import com.riprod.patchly.PatchManager;
+import com.oruuke.pillow.system.CastSpellLimiterSystem;
 
 import java.util.logging.Level;
 
@@ -22,6 +25,7 @@ public class PillowsNPlushies extends JavaPlugin {
     @Override
     protected void setup() {
         patchManager.install();
+        this.registerEntityComponents();
     }
 
     @Override
@@ -37,5 +41,10 @@ public class PillowsNPlushies extends JavaPlugin {
     protected void shutdown() {
         LOGGER.at(Level.INFO).log("shutting down pillows n' plushies!");
         patchManager.shutdown();
+    }
+
+    private void registerEntityComponents() {
+        ComponentRegistryProxy<EntityStore> entityStoreRegistry = this.getEntityStoreRegistry();
+        entityStoreRegistry.registerSystem(new CastSpellLimiterSystem());
     }
 }

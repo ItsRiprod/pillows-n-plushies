@@ -366,7 +366,7 @@
           {
             "Type": "PlayAnimation",
             "Slot": "Action",
-            "Animation": "Walk",
+            "Animation": "Jump",
             "Once": true
           },
           {
