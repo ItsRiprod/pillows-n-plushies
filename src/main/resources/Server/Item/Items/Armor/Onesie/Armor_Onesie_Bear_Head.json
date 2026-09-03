@@ -26,8 +26,9 @@
       ],
       "Volatility": [
         {
-          "Amount": -16,
-          "CalculationType": "Additive"
+          "Target": "Max",
+          "CalculationType": "Multiplicative",
+          "Amount": -0.04
         }
       ],
       "Affinity_Ice": [

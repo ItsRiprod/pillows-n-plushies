@@ -27,13 +27,6 @@
           "Amount": 1.6
         }
       ],
-      "Volatility": [
-        {
-          "Target": "Max",
-          "CalculationType": "Additive",
-          "Amount": 200
-        }
-      ],
       "MagicCharges": [
         {
           "CalculationType": "Additive",
