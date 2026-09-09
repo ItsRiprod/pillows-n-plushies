@@ -12,10 +12,10 @@ Stitching.name = stitching
 
 # ==== interaction hints ====
 
-interaction.squeeze = Press [{key}] to squeeze!
-interaction.offset = Press [{key}] to offset!
-interaction.align = Press [{key}] to align!
-interaction.sit = Press [{key}] to sit!
+interaction.squeeze = mash [{key}] to squeeze!
+interaction.offset = try [{key}] to offset!
+interaction.align = press [{key}] again to realign!
+interaction.sit = press [{key}] to have a sit!
 
 
 # ==== radial menu ====

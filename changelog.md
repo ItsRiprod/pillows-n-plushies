@@ -1,1 +1,3 @@
-- added pillow lettering offset
+- changed interaction hints
+- fixed missing interact hint
+- removed unused flags
