@@ -15,6 +15,7 @@ Stitching.name = stitching
 interaction.squeeze = Press [{key}] to squeeze!
 interaction.offset = Press [{key}] to offset!
 interaction.align = Press [{key}] to align!
+interaction.sit = Press [{key}] to sit!
 
 
 # ==== radial menu ====
