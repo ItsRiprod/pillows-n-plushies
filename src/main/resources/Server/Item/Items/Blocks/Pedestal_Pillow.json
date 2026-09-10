@@ -22,9 +22,6 @@
       }
     ],
     "HitboxType": "Full",
-    "Flags": {
-      "IsUsable": true
-    },
     "Gathering": {
       "Breaking": {
         "GatherType": "SoftBlocks"

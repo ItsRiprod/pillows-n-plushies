@@ -1,1 +1,3 @@
-- reworked onesie robes and pillow book :3
+- changed interaction hints
+- fixed missing interact hint
+- removed unused flags

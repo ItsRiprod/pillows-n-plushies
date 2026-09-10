@@ -24,9 +24,6 @@
       "BlockPreviewVisibility": "Default",
       "AllowRotationKey": true
     },
-    "Flags": {
-      "IsUsable": true
-    },
     "Seats": [
       {
         "Offset": {

@@ -57,8 +57,12 @@
       "EntityId": "Hex_Preston_Plush"
     },
     {
-      "BlockId": "Ryan_Plush",
-      "EntityId": "Hex_Ryan_Plush"
+      "BlockId": "Syprus_Plush",
+      "EntityId": "Hex_Syprus_Plush"
+    },
+    {
+      "BlockId": "Foxy_Plush",
+      "EntityId": "Hex_Foxy_Plush"
     },
     {
       "BlockId": "Slushy_Plush",
