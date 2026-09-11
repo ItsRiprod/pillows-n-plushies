@@ -595,7 +595,7 @@
               "shape": {
                 "type": "box",
                 "offset": {"x": -1, "y": -8.3, "z": -6.1},
-                "stretch": {"x": 0.81, "y": 0.675, "z": 1.01},
+                "stretch": {"x": 0.815, "y": 0.675, "z": 1.015},
                 "settings": {
                   "isPiece": false,
                   "size": {"x": 25, "y": 9, "z": 12},
@@ -1076,13 +1076,13 @@
                       },
                       "right": {
                         "offset": {"x": 88, "y": 45},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 270
+                        "mirror": {"x": true, "y": true},
+                        "angle": 90
                       },
                       "front": {
                         "offset": {"x": 84, "y": 54},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 270
+                        "mirror": {"x": true, "y": true},
+                        "angle": 90
                       },
                       "left": {
                         "offset": {"x": 92, "y": 54},
@@ -1096,8 +1096,8 @@
                       },
                       "bottom": {
                         "offset": {"x": 92, "y": 54},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 270
+                        "mirror": {"x": true, "y": true},
+                        "angle": 90
                       }
                     },
                     "unwrapMode": "custom",
@@ -1163,8 +1163,8 @@
                     "textureLayout": {
                       "back": {
                         "offset": {"x": 84, "y": 54},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 270
+                        "mirror": {"x": true, "y": true},
+                        "angle": 90
                       },
                       "right": {
                         "offset": {"x": 88, "y": 54},
@@ -1183,8 +1183,8 @@
                       },
                       "top": {
                         "offset": {"x": 92, "y": 45},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 270
+                        "mirror": {"x": false, "y": false},
+                        "angle": 90
                       },
                       "bottom": {
                         "offset": {"x": 92, "y": 45},
