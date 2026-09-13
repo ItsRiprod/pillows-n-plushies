@@ -1,0 +1,10 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Hex_Plush_Dancing",
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "Oruuke Plush Dancing",
+      "Description": "Oruuke Plush Dancing"
+    }
+  }
+}

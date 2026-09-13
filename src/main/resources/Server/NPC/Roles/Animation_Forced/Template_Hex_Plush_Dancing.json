@@ -1,0 +1,38 @@
+{
+  "$Comment": "DisplayState",
+  "Type": "Abstract",
+  "Parameters": {
+    "MaxHealth": {
+      "Value": 100,
+      "Description": "Max health for the NPC"
+    },
+    "NameTranslationKey": {
+      "Value": "Avatar Template",
+      "Description": "Translation key for NPC name display"
+    }
+  },
+  "MotionControllerList": [
+    {
+      "Type": "Walk",
+      "MaxWalkSpeed": 3,
+      "Gravity": 10,
+      "MaxFallSpeed": 8,
+      "Acceleration": 10
+    }
+  ],
+  "Appearance": "Hex_Oruuke_Plush_Dancing",
+  "MaxHealth": { "Compute": "MaxHealth" },
+  "StartState": "Idle",
+  "Instructions": [
+    {
+      "Sensor": {
+        "Type": "State",
+        "State": "Idle"
+      },
+      "BodyMotion": {
+        "Type": "Nothing"
+      }
+    }
+  ],
+  "NameTranslationKey": { "Compute": "NameTranslationKey" }
+}

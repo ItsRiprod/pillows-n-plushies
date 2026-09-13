@@ -6,10 +6,10 @@
   "ParticleRotateWithSpawner": true,
   "TrailSpawnerPositionMultiplier": 1.0,
   "TrailSpawnerRotationMultiplier": 1.0,
-  "MaxConcurrentParticles": 10,
+  "MaxConcurrentParticles": 4,
   "ParticleLifeSpan": {
-    "Min": 0.5,
-    "Max": 2.0
+    "Min": 2.0,
+    "Max": 4.0
   },
   "Particle": {
     "Texture": "Particles/Textures/Needle/RingThread.png",
@@ -54,8 +54,8 @@
       },
       "Scale": {
         "X": {
-          "Min": 0.5,
-          "Max": 1.3
+          "Min": 1.2,
+          "Max": 1.4
         }
       },
       "Rotation": {

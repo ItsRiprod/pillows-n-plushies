@@ -15,8 +15,7 @@
         "Hytale:EntityModule": "*",
         "Hytale:BlockModule": "*",
         "Lexem:HexcodeEvoke": "*",
-        "Alechilles:Alec's Radial Menu": "*",
-        "Riprod:Hexcode": "*"
+        "Alechilles:Alec's Radial Menu": "*"
     },
     "OptionalDependencies": {
         "Riprod:Patchly": "*"
