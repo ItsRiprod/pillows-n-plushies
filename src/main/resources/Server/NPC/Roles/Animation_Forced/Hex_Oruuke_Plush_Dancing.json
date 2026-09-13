@@ -6,5 +6,8 @@
       "Value": "Oruuke Plush Dancing",
       "Description": "Oruuke Plush Dancing"
     }
+  },
+  "Modify": {
+    "Appearance": "Hex_Oruuke_Plush_Dancing"
   }
 }

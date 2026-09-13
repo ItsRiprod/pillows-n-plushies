@@ -3,6 +3,10 @@
   "Type": "Abstract",
   "Invulnerable": true,
   "Parameters": {
+    "Appearance": {
+      "Value": "Mannequin",
+      "Description": "Model to be used."
+    },
     "MaxHealth": {
       "Value": 100,
       "Description": "Max health for the NPC"
@@ -21,7 +25,7 @@
       "Acceleration": 10
     }
   ],
-  "Appearance": "Hex_Oruuke_Plush_Dancing",
+  "Appearance": {"Compute": "Appearance"},
   "MaxHealth": { "Compute": "MaxHealth" },
   "StartState": "Idle",
   "Instructions": [
