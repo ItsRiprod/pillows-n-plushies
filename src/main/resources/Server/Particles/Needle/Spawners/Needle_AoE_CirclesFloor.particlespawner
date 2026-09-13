@@ -25,24 +25,24 @@
         "Color": "#ffafff",
         "Scale": {
           "X": {
-            "Min": 0.2,
-            "Max": 0.2
+            "Min": 1,
+            "Max": 1
           }
         }
       },
       "50": {
-        "Opacity": 1.0
+        "Opacity": 0.8
       },
       "80": {
-        "Opacity": 0.672
+        "Opacity": 0.4
       },
       "100": {
         "Opacity": 0.0,
         "Color": "#b55088",
         "Scale": {
           "X": {
-            "Min": 1.0,
-            "Max": 1.0
+            "Min": 0.2,
+            "Max": 0.2
           }
         }
       }
