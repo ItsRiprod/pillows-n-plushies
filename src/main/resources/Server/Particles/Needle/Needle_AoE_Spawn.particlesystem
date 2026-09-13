@@ -1,0 +1,28 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Needle_AoE_Spawn_Flash"
+    },
+    {
+      "SpawnerId": "Needle_AoE_Spawn_Sparks",
+      "FixedRotation": false,
+      "PositionOffset": {
+        "Y": 0.2
+      }
+    },
+    {
+      "SpawnerId": "Needle_AoE_Spawn_Spawn2",
+      "PositionOffset": {
+        "Y": 0.2
+      }
+    },
+    {
+      "SpawnerId": "Needle_AoE_Spawn_Spawn",
+      "PositionOffset": {
+        "Y": 0.2
+      }
+    }
+  ],
+  "BoundingRadius": 10,
+  "IsImportant": true
+}

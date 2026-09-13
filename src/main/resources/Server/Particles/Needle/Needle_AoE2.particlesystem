@@ -1,0 +1,35 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Needle_AoE_Sparks",
+      "FixedRotation": false,
+      "StartDelay": 3.5
+    },
+    {
+      "SpawnerId": "Needle_AoE_FireFloor",
+      "PositionOffset": {
+        "Y": 0.2
+      },
+      "FixedRotation": true,
+      "StartDelay": 3.5
+    },
+    {
+      "SpawnerId": "Needle_AoE2_FireFloor2",
+      "PositionOffset": {
+        "Y": 0.2
+      },
+      "FixedRotation": true,
+      "StartDelay": 3.5
+    },
+    {
+      "SpawnerId": "Needle_AoE_CirclesFloor",
+      "PositionOffset": {
+        "Y": 0.05
+      },
+      "FixedRotation": true,
+      "StartDelay": 3.5
+    }
+  ],
+  "BoundingRadius": 10,
+  "IsImportant": true
+}
