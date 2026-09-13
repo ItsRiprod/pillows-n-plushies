@@ -1315,8 +1315,8 @@
                           },
                           "left": {
                             "offset": {"x": 79, "y": 0},
-                            "mirror": {"x": false, "y": false},
-                            "angle": 90
+                            "mirror": {"x": true, "y": true},
+                            "angle": 270
                           },
                           "top": {
                             "offset": {"x": 48, "y": 0},

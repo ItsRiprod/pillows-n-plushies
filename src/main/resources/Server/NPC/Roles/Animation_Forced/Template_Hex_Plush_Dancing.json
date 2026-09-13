@@ -1,6 +1,7 @@
 {
   "$Comment": "DisplayState",
   "Type": "Abstract",
+  "Invulnerable": true,
   "Parameters": {
     "MaxHealth": {
       "Value": 100,
