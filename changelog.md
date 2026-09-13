@@ -1,1 +1,1 @@
-- added oruuke plushie
+- minor fixes :3

@@ -6,6 +6,7 @@ import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.universe.world.storage.EntityStore;
 import com.riprod.patchly.PatchManager;
+import com.oruuke.pillow.system.CastSpellLimiterSystem;
 
 import java.util.logging.Level;
 
@@ -44,5 +45,6 @@ public class PillowsNPlushies extends JavaPlugin {
 
     private void registerEntityComponents() {
         ComponentRegistryProxy<EntityStore> entityStoreRegistry = this.getEntityStoreRegistry();
+        entityStoreRegistry.registerSystem(new CastSpellLimiterSystem());
     }
 }
