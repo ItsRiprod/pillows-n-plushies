@@ -1,0 +1,19 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Music_Notes",
+      "PositionOffset": {
+        "Z": 0.0
+      },
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "Music_Sparks",
+      "PositionOffset": {
+        "Y": -0.2
+      }
+    }
+  ],
+  "IsImportant": false,
+  "CullDistance": 40.0
+}
