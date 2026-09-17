@@ -1,3 +1,1 @@
-- changed interaction hints
-- fixed missing interact hint
-- removed unused flags
+- even more minor fixes :3

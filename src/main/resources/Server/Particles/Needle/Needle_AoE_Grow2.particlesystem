@@ -1,0 +1,30 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Needle_AoE_Grow2_CirclesFloor",
+      "LifeSpan": {
+        "Min": 3.0,
+        "Max": 3.0
+      },
+      "FixedRotation": true
+    },
+    {
+      "SpawnerId": "Needle_AoE_Grow_Sparks",
+      "FixedRotation": false,
+      "LifeSpan": {
+        "Min": 3.0,
+        "Max": 3.0
+      }
+    },
+    {
+      "SpawnerId": "Needle_AoE_Grow_FloorFire",
+      "LifeSpan": {
+        "Min": 3.0,
+        "Max": 3.0
+      },
+      "FixedRotation": true
+    }
+  ],
+  "BoundingRadius": 10,
+  "IsImportant": true
+}

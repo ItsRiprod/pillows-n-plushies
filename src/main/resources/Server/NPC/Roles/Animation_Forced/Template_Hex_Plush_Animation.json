@@ -1,0 +1,43 @@
+{
+  "$Comment": "DisplayState",
+  "Type": "Abstract",
+  "Invulnerable": true,
+  "Parameters": {
+    "Appearance": {
+      "Value": "Mannequin",
+      "Description": "Model to be used."
+    },
+    "MaxHealth": {
+      "Value": 100,
+      "Description": "Max health for the NPC"
+    },
+    "NameTranslationKey": {
+      "Value": "Avatar Template",
+      "Description": "Translation key for NPC name display"
+    }
+  },
+  "MotionControllerList": [
+    {
+      "Type": "Walk",
+      "MaxWalkSpeed": 3,
+      "Gravity": 10,
+      "MaxFallSpeed": 8,
+      "Acceleration": 10
+    }
+  ],
+  "Appearance": {"Compute": "Appearance"},
+  "MaxHealth": { "Compute": "MaxHealth" },
+  "StartState": "Idle",
+  "Instructions": [
+    {
+      "Sensor": {
+        "Type": "State",
+        "State": "Idle"
+      },
+      "BodyMotion": {
+        "Type": "Nothing"
+      }
+    }
+  ],
+  "NameTranslationKey": { "Compute": "NameTranslationKey" }
+}

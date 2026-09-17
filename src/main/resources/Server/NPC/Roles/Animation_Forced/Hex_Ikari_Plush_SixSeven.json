@@ -1,0 +1,13 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Hex_Plush_Animation",
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "Ikari Plush Six Seven",
+      "Description": "Ikari Plush Six Seven"
+    }
+  },
+  "Modify": {
+    "Appearance": "Hex_Ikari_Plush_SixSeven"
+  }
+}

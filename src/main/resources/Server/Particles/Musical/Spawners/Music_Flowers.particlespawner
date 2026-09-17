@@ -1,0 +1,154 @@
+{
+  "RenderMode": "BlendLinear",
+  "EmitOffset": {
+    "X": {
+      "Min": 0.2,
+      "Max": 0.5
+    },
+    "Y": {
+      "Min": 0.2,
+      "Max": 0.5
+    },
+    "Z": {
+      "Min": 0.2,
+      "Max": 0.5
+    }
+  },
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": false,
+  "ParticleRotateWithSpawner": false,
+  "TrailSpawnerPositionMultiplier": 1.0,
+  "TrailSpawnerRotationMultiplier": 1.0,
+  "MaxConcurrentParticles": 4,
+  "ParticleLifeSpan": {
+    "Min": 0.5,
+    "Max": 2.5
+  },
+  "SpawnRate": {
+    "Min": 60,
+    "Max": 60
+  },
+  "Attractors": [
+    {
+      "RadialAxis": {
+        "X": 0,
+        "Y": 1,
+        "Z": 0
+      },
+      "DampingMultiplier": {
+        "X": 0.9,
+        "Y": 0.8,
+        "Z": 0.9
+      },
+      "LinearAcceleration": {
+        "Y": -2
+      },
+      "LinearImpulse": {
+        "Y": 1
+      }
+    }
+  ],
+  "Particle": {
+    "Texture": "Particles/Textures/Shapes/Flower_GS.png",
+    "ScaleRatioConstraint": "OneToOne",
+    "Animation": {
+      "0": {
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 1
+          },
+          "Y": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        "Rotation": {
+          "X": {
+            "Min": 0,
+            "Max": 0
+          },
+          "Y": {
+            "Min": 0,
+            "Max": 0
+          },
+          "Z": {
+            "Min": 0,
+            "Max": 0
+          }
+        },
+        "Opacity": 1
+      },
+      "10": {
+        "Opacity": 1
+      },
+      "30": {
+        "Opacity": 0.9
+      },
+      "100": {
+        "Scale": {
+          "X": {
+            "Min": 0.5,
+            "Max": 0.5
+          },
+          "Y": {
+            "Min": 0.2,
+            "Max": 0.3
+          }
+        },
+        "Opacity": 0,
+        "Rotation": {
+          "Z": {
+            "Max": 90,
+            "Min": 15
+          }
+        }
+      }
+    },
+    "UVOption": "RandomFlipU",
+    "InitialAnimationFrame": {
+      "Rotation": {
+        "X": {
+          "Min": 0,
+          "Max": 360
+        },
+        "Y": {
+          "Min": 90,
+          "Max": 90
+        },
+        "Z": {
+          "Min": 360,
+          "Max": 0
+        }
+      },
+      "Scale": {
+        "X": {
+          "Min": 0.4,
+          "Max": 0.6
+        }
+      },
+      "Opacity": 0.556,
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Color": "#00ffeb"
+    }
+  },
+  "SpawnBurst": true,
+  "TotalParticles": {
+    "Min": 4,
+    "Max": 4
+  },
+  "UseEmitDirection": true,
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 0.3,
+      "Max": 0.6
+    }
+  }
+}
