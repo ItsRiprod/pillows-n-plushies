@@ -58,7 +58,7 @@
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
           "shape": {
             "type": "box",
-            "offset": {"x": -12, "y": 0, "z": 0},
+            "offset": {"x": -12, "y": 4, "z": 0},
             "stretch": {"x": 1, "y": 1, "z": 1},
             "settings": {
               "isPiece": false,
@@ -67,7 +67,7 @@
             },
             "textureLayout": {
               "back": {
-                "offset": {"x": 16, "y": 16},
+                "offset": {"x": 16, "y": 12},
                 "mirror": {"x": true, "y": false},
                 "angle": 0
               },
@@ -77,7 +77,7 @@
                 "angle": 0
               },
               "front": {
-                "offset": {"x": 8, "y": 16},
+                "offset": {"x": 8, "y": 12},
                 "mirror": {"x": false, "y": false},
                 "angle": 0
               },
