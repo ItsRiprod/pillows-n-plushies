@@ -1,14 +1,14 @@
 {
   "Parent": "Template_Plush",
   "TranslationProperties": {
-    "Name": "pillow.items.Farren_Plush.name",
-    "Description": "pillow.items.Farren_Plush.description"
+    "Name": "pillow.items.Riprod_Plush.name",
+    "Description": "pillow.items.Riprod_Plush.description"
   },
   "PlayerAnimationsId": "Item",
   "MaxStack": 100,
   "Set": "Furniture_Misc",
-  "Model": "Items/Blocks/Plushies/Farren_Plush.blockymodel",
-  "Texture": "Items/Blocks/Plushies/Farren_Plush.png",
+  "Model": "Items/Blocks/Plushies/Riprod_Plush.blockymodel",
+  "Texture": "Items/Blocks/Plushies/Riprod_Plush.png",
   "Weapon": {},
   "Interactions": {
     "Secondary": {
@@ -21,11 +21,11 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Items/Blocks/Plushies/Farren_Plush.blockymodel",
+    "CustomModel": "Items/Blocks/Plushies/Riprod_Plush.blockymodel",
     "VariantRotation": "NESW",
     "CustomModelTexture": [
       {
-        "Texture": "Items/Blocks/Plushies/Farren_Plush.png",
+        "Texture": "Items/Blocks/Plushies/Riprod_Plush.png",
         "Weight": 1
       }
     ],
@@ -60,7 +60,7 @@
   "Recipe": {
     "Input": [
       {
-        "ItemId": "Cloth_Block_Wool_Purple",
+        "ItemId": "Cloth_Block_Wool_Purple_Light",
         "Quantity": 2
       },
       {
@@ -92,5 +92,5 @@
       -12
     ]
   },
-  "Icon": "Icons/ItemsGenerated/Farren_Plush.png"
+  "Icon": "Icons/ItemsGenerated/Riprod_Plush.png"
 }
