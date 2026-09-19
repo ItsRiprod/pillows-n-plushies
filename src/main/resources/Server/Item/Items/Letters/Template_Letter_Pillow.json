@@ -10,7 +10,7 @@
       ]
     }
   },
-  "Texture": "Items/Blocks/Letters/Letter_Pillow.png",
+  "Texture": "Items/Blocks/Letters/Letter_Gold.png",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
@@ -18,7 +18,7 @@
     "VariantRotation": "NESW",
     "CustomModelTexture": [
       {
-        "Texture": "Items/Blocks/Letters/Letter_Pillow.png",
+        "Texture": "Items/Blocks/Letters/Letter_Gold.png",
         "Weight": 1
       }
     ],
