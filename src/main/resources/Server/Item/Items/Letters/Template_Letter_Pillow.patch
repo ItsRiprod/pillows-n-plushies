@@ -1,5 +1,5 @@
 {
-	"$Requires": "com.gaiagauntlet:GG Assets",
+  "$Requires": "com.gaiagauntlet_GGServerPlugin",
   "Categories": [
     "GG_Items.GG_Items2"
   ],
