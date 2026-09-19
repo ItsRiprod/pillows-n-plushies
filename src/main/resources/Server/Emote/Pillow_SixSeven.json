@@ -1,7 +1,7 @@
 {
-  "Name": "Pray",
+  "Name": "Six Seven",
   "Animation": "Characters/Animations/Emote/Pillow_SixSeven.blockyanim",
-  "Icon": "Icons/Emotes/Pillow_Pray.png",
+  "Icon": "Icons/Emotes/Pillow_SixSeven.png",
   "IsLooping": true,
   "HideItemInHand": true
 }
