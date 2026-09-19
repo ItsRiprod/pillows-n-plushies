@@ -1,0 +1,11 @@
+{
+  "Interactions": [
+    "Block_Seat",
+    {
+      "Type": "Simple",
+      "Effects": {
+        "WorldSoundEventId": "SFX_Plushie_Build"
+      }
+    }
+  ]
+}

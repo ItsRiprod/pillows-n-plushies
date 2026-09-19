@@ -1,0 +1,88 @@
+{
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Bench_Pillowmill.name",
+    "Description": "pillows_n_plushies.item.Bench_Pillowmill.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Bench_Pillowmill.png",
+  "Categories": [
+    "Furniture.Furniture"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Pillow_Block_Pink",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Bolt_Wool",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Tool_Shears_Basic",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Misc"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/Pillowmill.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/Pillowmill.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelScale": 1,
+    "VariantRotation": "NESW",
+    "HitboxType": "Bench_Lumbermill",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "TextureComputedColor": "#64462C",
+    "ParticleColor": "#f5f5f5",
+    "Group": "Cloth",
+    "BlockSoundSetId": "Cloth",
+    "PhysicalMaterialId": "Cloth",
+    "BlockParticleSetId": "Dust"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.41,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      11.4,
+      -7.2
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

@@ -1,0 +1,26 @@
+{
+  "$Requires": "Riprod:Hexcode",
+  "Parent": "Template_HexBook",
+  "Categories": [
+    "Hexcode.Books",
+    "Items.Weapons"
+  ],
+  "Tags": {
+    "Type": [
+      "LifeHexBook"
+    ]
+  },
+  "MaxCapacity": 8,
+	"Weapon": {},
+	"ItemSoundSetId": "ISS_Weapons_Books",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Categories": [
+          "Arcane_Hexcode"
+        ],
+        "Id": "Arcanebench"
+      }
+    ]
+  }
+}

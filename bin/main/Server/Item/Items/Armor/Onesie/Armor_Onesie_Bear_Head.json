@@ -1,0 +1,97 @@
+{
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Armor_Onesie_Bear_Head.name",
+    "Description": "pillows_n_plushies.items.Armor_Onesie_Bear_Head.description"
+  },
+  "Parent": "Armor_Iron_Head",
+  "Quality": "Epic",
+  "ItemLevel": 15,
+  "Model": "Items/Armors/Onesie/Bear/Head.blockymodel",
+  "Texture": "Items/Armors/Onesie/Bear/Head_Texture.png",
+  "Armor": {
+    "ArmorSlot": "Head",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "EarAccessory",
+      "Ear",
+      "Haircut",
+      "HeadAccessory"
+    ],
+    "StatModifiers": {
+      "Volatility": [
+        {
+          "Amount": 15,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "Regenerating": {
+      "Mana": [
+        {
+          "Amount": 8,
+          "Interval": 8,
+          "RegenType": "Additive",
+          "Conditions": [
+            {
+              "Id": "NoDamageTaken",
+              "Delay": 16
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Cloth_Linen"
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Armor_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Armor_Head"
+        ],
+        "RequiredTierLevel": 3
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Void_Essence",
+        "Quantity": 40
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 32
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_Orange_Light",
+        "Quantity": 16
+      },
+      {
+        "ItemId": "Cloth_Block_Wool_White",
+        "Quantity": 4
+      }
+    ]
+  },
+  "MaxDurability": 120,
+  "ItemSoundSetId": "ISS_Armor_Cloth",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -4,
+      -3
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Armor_Onesie_Bear_Head.png"
+}

@@ -6,7 +6,6 @@ plugins {
     id 'com.gradleup.shadow' version '9.4.2'
 }
 
-
 configurations {
     shaded
     implementation.extendsFrom(shaded)

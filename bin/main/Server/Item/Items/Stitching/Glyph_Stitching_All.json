@@ -1,0 +1,172 @@
+{
+  "TranslationProperties": {
+    "Name": "pillows_n_plushies.items.Glyph_Stitching_All.name",
+    "Description": "pillows_n_plushies.items.Glyph_Stitching_All.description"
+  },
+  "ItemLevel": 10,
+  "MaxStack": 100,
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "SubCategory": "LightSources",
+  "PlayerAnimationsId": "Block",
+  "Set": "Build",
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Parent": "Half_Block",
+          "Matchers": [
+            {
+              "Block": {
+                "Id": "Glyph_Stitching_All",
+                "State": "default"
+              },
+              "Face": "Up",
+              "StaticFace": false
+            }
+          ]
+        }
+      ],
+      "Cooldown": {
+        "Id": "BlockInteraction",
+        "Cooldown": 0.3,
+        "ClickBypass": true
+      },
+      "Settings": {
+        "Creative": {
+          "AllowSkipChainOnClick": true
+        }
+      }
+    }
+  },
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Stitching/Stitching_Large.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Stitching/Glyph_Stitching_All.png"
+      }
+    ],
+    "HitboxType": "Block_Stitching_Flat",
+    "VariantRotation": "NESW",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "Blocks/Stitching/Glyph_Stitching_All.png"
+      }
+    ],
+    "CubeShadingMode": "Fullbright",
+    "Light": {
+      "Color": "#618",
+      "Radius": 0
+    },
+    "TextureComputedColor": "#ff68b4",
+    "State": {
+      "Definitions": {
+        "Block": {
+          "Material": "Solid",
+          "DrawType": "Cube",
+          "HitboxType": "Full",
+          "Textures": [
+            {
+              "All": "Blocks/Stitching/Glyph_Stitching_All.png",
+              "Weight": 1
+            }
+          ],
+          "Gathering": {
+            "Breaking": {
+              "GatherType": "SoftBlocks",
+              "DropList": {
+                "Container": {
+                  "Type": "Single",
+                  "Item": {
+                    "ItemId": "Glyph_Stitching_All",
+                    "QuantityMax": 2,
+                    "QuantityMin": 2
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "PlacementSettings": {
+      "RotationMode": "FacingPlayer",
+      "BlockPreviewVisibility": "AlwaysVisible"
+    },
+    "Support": {
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "ParticleColor": "#ff66bb",
+    "Flags": {},
+    "Group": "Cloth",
+    "BlockSoundSetId": "Plushie",
+    "PhysicalMaterialId": "Cloth",
+    "BlockParticleSetId": "Dust"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Build"
+    ]
+  },
+  "Quality": "Rare",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Fire_Essence_Concentrated",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Ice_Essence_Concentrated",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Void_Essence_Concentrated",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 32
+      }
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      13,
+      56,
+      18
+    ],
+    "Translation": [
+      -18,
+      -86
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Glyph_Stitching_All.png"
+}

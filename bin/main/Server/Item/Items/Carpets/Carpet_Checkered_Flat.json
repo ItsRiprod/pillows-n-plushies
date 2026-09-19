@@ -1,0 +1,78 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Cloth_Modern_Blue_Roof_Flat.name"
+  },
+  "Categories": [
+    "Blocks.Cloth"
+  ],
+  "Quality": "Developer",
+  "SubCategory": "RoofBlocks",
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Carpets/Carpet_Checkered_Flat.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Carpets/Carpet_Checkered_Flat.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Block_Carpet_Flat",
+    "VariantRotation": "None",
+    "Supporting": {},
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "East": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "West": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "PlacementSettings": {
+      "BlockPreviewVisibility": "AlwaysVisible"
+    },
+    "AllowsMultipleUsers": false,
+    "ParticleColor": "#f5f5f5",
+    "Group": "Cloth",
+    "BlockSoundSetId": "Cloth",
+    "PhysicalMaterialId": "Cloth",
+    "BlockParticleSetId": "Dust"
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -2.7
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Cloth"
+    ],
+    "SubType": [
+      "Roof"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Cloth",
+  "Icon": "Icons/ItemsGenerated/Carpet_Checkered_Flat.png"
+}
