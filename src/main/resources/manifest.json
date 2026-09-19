@@ -9,13 +9,11 @@
         }
     ],
     "Website": "https://github.com/oruuke/pillows-n-plushies",
-    "ServerVersion": ">=0.6.0",
+    "ServerVersion": ">=0.6.7",
     "Dependencies": {
         "Hytale:AssetModule": "*",
         "Hytale:EntityModule": "*",
-        "Hytale:BlockModule": "*",
-        "Lexem:HexcodeEvoke": "*",
-        "Alechilles:Alec's Radial Menu": "*"
+        "Hytale:BlockModule": "*"
     },
     "OptionalDependencies": {
         "Riprod:Patchly": "*"
