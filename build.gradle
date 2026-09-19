@@ -12,7 +12,7 @@ configurations {
 }
 
 dependencies {
-    // vineImplementation 'curse.maven:hexcode-1448311:8758841'
+    vineImplementation 'curse.maven:hexcode-1448311:8758841'
     shaded('com.riprod:patchly:3.+')
 }
 
