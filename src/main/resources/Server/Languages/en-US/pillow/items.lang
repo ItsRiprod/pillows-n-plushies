@@ -108,6 +108,11 @@ Bench_Pillowmill.description = <color is="#b55088"><b>oddly intimidating...</b><
 Potion_Morph_Plushie.name = potion of plushie morphing
 
 
+# ==== canons ====
+
+Weapon_Canon_Pillow.name = pillow canon
+
+
 # ==== carpet ====
 
 Carpet_Checkered_Flat.name = flat checkered carpet

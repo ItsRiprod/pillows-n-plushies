@@ -6,9 +6,35 @@
   "ApplicationEffects": {
     "Particles": [
       {
-        "SystemId": "Potion_Morph_Burst"
+        "SystemId": "Needle_AoE2",
+        "TargetNodeName": "G1",
+        "Scale": 1.0,
+        "PositionOffset": {
+          "X": 0,
+          "Y": 0.2,
+          "Z": 0
+        }
+      },
+      {
+        "SystemId": "Needle_AoE_Grow2",
+        "TargetNodeName": "G1",
+        "Scale": 1.0,
+        "PositionOffset": {
+          "X": 0,
+          "Y": 0.2,
+          "Z": 0
+        }
+      },
+      {
+        "SystemId": "Needle_AoE_Spawn",
+        "TargetNodeName": "G1",
+        "PositionOffset": {
+          "X": 0,
+          "Y": 0.2,
+          "Z": 0
+        }
       }
     ],
-    "WorldSoundEventId": "SFX_Pigeon_Death"
+    "WorldSoundEventId": "SFX_Cloth_Break"
   }
 }

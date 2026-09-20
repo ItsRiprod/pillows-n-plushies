@@ -1,0 +1,63 @@
+{
+  "HitBox": {
+    "Max": {
+      "X": 0.1,
+      "Y": 0.1,
+      "Z": 0.3
+    },
+    "Min": {
+      "X": -0.1,
+      "Y": -0.1,
+      "Z": -0.3
+    }
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "Trails": [
+    {
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "TargetNodeName": "Handle",
+      "TrailId": "Arrow",
+      "RotationOffset": {
+        "Yaw": 90,
+        "Pitch": 0,
+        "Roll": 45
+      }
+    },
+    {
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "TargetNodeName": "Handle",
+      "TrailId": "Arrow",
+      "RotationOffset": {
+        "Yaw": 0,
+        "Pitch": 45,
+        "Roll": 90
+      }
+    }
+  ],
+  "DefaultAttachments": [
+    {
+      "Model": "Items/Blocks/Pillows/Body_Pillow_Straight.blockymodel",
+      "Texture": "Items/Blocks/Pillows/Gaia_Body_Pillow.png"
+    }
+  ],
+  "Model": "Items/Blocks/Pillows/Body_Pillow_Straight.blockymodel",
+  "Texture": "Items/Blocks/Pillows/Gaia_Body_Pillow.png",
+  "AnimationSets": {
+    "FlyIdle": {
+      "Animations": [
+        {
+          "Animation": "Items/Animations/Fly/Fly_Vertical.blockyanim"
+        }
+      ]
+    }
+  }
+}
