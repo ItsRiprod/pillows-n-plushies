@@ -107,7 +107,7 @@
                 "Range": 15,
                 "Filters": [
                   {
-                    "Type": "IsEvoker"
+                    "Type": "Evoke:IsEvoker"
                   }
                 ]
               },
@@ -134,7 +134,7 @@
               "Type": "Self",
               "Filters": [
                 {
-                  "Type": "EvokeIsInventoryFull",
+                  "Type": "Evoke:IsInventoryFull",
                   "Inventories": ["Hotbar", "Storage"]
                 }
               ]
@@ -149,7 +149,7 @@
               },
               "Actions": [
                 {
-                  "Type": "HCPickUpItem",
+                  "Type": "Evoke:HCPickUpItem",
                   "Items": { "Compute": "holdableItems" },
                   "Hoover": true
                 }
@@ -214,7 +214,7 @@
       "Instructions": [
         {
           "Sensor": {
-            "Type": "EvokeReadPosition",
+            "Type": "Evoke:ReadPosition",
             "Range": 30
           },
           "BodyMotion": {
@@ -262,7 +262,7 @@
                 "LockOnTarget": true,
                 "Filters": [
                   {
-                    "Type": "IsEvoker"
+                    "Type": "Evoke:IsEvoker"
                   }
                 ]
               },
@@ -287,7 +287,7 @@
                 "LockOnTarget": true,
                 "Filters": [
                   {
-                    "Type": "IsEvoker"
+                    "Type": "Evoke:IsEvoker"
                   }
                 ]
               },
@@ -311,7 +311,7 @@
                 "Type": "Target",
                 "Filters": [
                   {
-                    "Type": "IsEvoker"
+                    "Type": "Evoke:IsEvoker"
                   }
                 ]
               },
@@ -466,7 +466,7 @@
               {
                 "Actions": [
                   {
-                    "Type": "OpenHCProfile"
+                    "Type": "Evoke:OpenHCProfile"
                   }
                 ]
               }
