@@ -1,5 +1,7 @@
 {
   "Parent": "Template_Plush_Dancing",
   "Model": "Items/Blocks/Plushies/Oruuke_Plush.blockymodel",
-  "Texture": "Items/Blocks/Plushies/Oruuke_Plush.png"
+  "Texture": "Items/Blocks/Plushies/Oruuke_Plush.png",
+  "MinScale": 2.0,
+  "MaxScale": 2.0
 }

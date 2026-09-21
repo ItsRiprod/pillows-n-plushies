@@ -4,8 +4,8 @@
   "Texture": "Items/Blocks/Plushies/Outlaw_Fish_Plush.png",
   "EyeHeight": 1,
   "CrouchOffset": -0.2,
-  "MinScale": 2,
-  "MaxScale": 2,
+  "MinScale": 2.0,
+  "MaxScale": 2.0,
   "DetailBoxes": {},
   "DefaultAttachments": [],
   "AnimationSets": {

@@ -1,5 +1,7 @@
 {
   "Parent": "Template_Fumo_Plush",
   "Model": "Items/Blocks/Plushies/Ikari_Plush.blockymodel",
-  "Texture": "Items/Blocks/Plushies/Ikari_Plush.png"
+  "Texture": "Items/Blocks/Plushies/Ikari_Plush.png",
+  "MinScale": 2.0,
+  "MaxScale": 2.0
 }

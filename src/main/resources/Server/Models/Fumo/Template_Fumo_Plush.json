@@ -1,5 +1,7 @@
 {
   "Parent": "Template_Penguin",
+  "MinScale": 2.0,
+  "MaxScale": 2.0,
   "AnimationSets": {
     "Walk": {
       "Animations": [

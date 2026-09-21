@@ -47,7 +47,7 @@
           "Type": "ModifyInventory",
           "RequiredGameMode": "Adventure",
           "ItemToRemove": {
-            "Id": "Weapon_Arrow_Crude",
+            "Id": "Gaia_Body_Pillow",
             "Quantity": 1
           }
         }
@@ -170,7 +170,7 @@
           "$Comment": "The item to consume for every iteration of reloading",
           "Parent": "Common_StatAmmoReload_ItemConsume",
           "ItemToRemove": {
-            "Id": "Weapon_Arrow_Crude",
+            "Id": "Gaia_Body_Pillow",
             "Quantity": 1
           }
         }

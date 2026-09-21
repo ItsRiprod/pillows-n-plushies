@@ -2,8 +2,8 @@
   "Parent": "Template_Plush",
   "EyeHeight": 1,
   "CrouchOffset": -0.2,
-  "MinScale": 2,
-  "MaxScale": 2,
+  "MinScale": 2.0,
+  "MaxScale": 2.0,
   "DetailBoxes": {},
   "DefaultAttachments": [],
   "AnimationSets": {

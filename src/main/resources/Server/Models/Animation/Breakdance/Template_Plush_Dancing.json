@@ -15,8 +15,8 @@
       "Z": -0.22
     }
   },
-  "MinScale": 1,
-  "MaxScale": 1,
+  "MinScale": 2.0,
+  "MaxScale": 2.0,
   "PhysicsValues": {
     "Mass": 4
   },

@@ -1,3 +1,5 @@
 {
-  "Parent": "Template_Plush"
+  "Parent": "Template_Plush",
+  "MinScale": 2.0,
+  "MaxScale": 2.0
 }
