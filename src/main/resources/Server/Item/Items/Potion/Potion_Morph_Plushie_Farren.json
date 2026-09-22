@@ -47,9 +47,6 @@
     "Effect": {
       "Interactions": [
         {
-          "Type": "ClearEntityEffect"
-        },
-        {
           "Type": "ApplyEffect",
           "EffectId": "Potion_Morph_Hex_Farren"
         }
