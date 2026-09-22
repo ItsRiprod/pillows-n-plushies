@@ -1,5 +1,6 @@
 {
-  "Parent": "Projectile_Config_Canon_Base",
+  "UseModelScale": true,
+  "Model": "Pillow_Gaia",
   "LaunchForce": 40,
   "Physics": {
     "Type": "Standard",
@@ -7,8 +8,11 @@
     "TerminalVelocityAir": 50,
     "TerminalVelocityWater": 15,
     "RotationMode": "VelocityDamped",
-    "Bounciness": 0.0,
-    "SticksVertically": true
+    "Bounciness": 0.5,
+    "SticksVertically": false,
+    "AllowRolling": true,
+    "ComputeYaw": true,
+    "ComputePitch": true
   },
   "LaunchLocalSoundEventId": "SFX_Bow_T2_Shoot_Local",
   "LaunchWorldSoundEventId": "SFX_Bow_T2_Shoot",
@@ -40,16 +44,8 @@
             ]
           }
         },
-        {
-          "Type": "PlaceBlock",
-          "RemoveItemInHand": false,
-          "BlockTypeToPlace": "Gaia_Body_Pillow",
-          "QuickReplace": true
-        },
         "Common_Projectile_Despawn"
       ]
     }
-  },
-  "UseModelScale": true,
-  "Model": "Pillow_Gaia"
+  }
 }

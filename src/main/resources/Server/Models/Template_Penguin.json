@@ -2,8 +2,8 @@
   "Model": "NPC/Wildlife/Penguin/Models/Model.blockymodel",
   "Texture": "NPC/Wildlife/Penguin/Models/Texture.png",
   "DefaultAttachments": [],
-  "EyeHeight": 0.6,
-  "CrouchOffset": -0.1,
+  "EyeHeight": 0.3,
+  "CrouchOffset": -0.05,
   "MinScale": 2.0,
   "MaxScale": 2.0,
   "HitBox": {

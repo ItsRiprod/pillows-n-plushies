@@ -13,9 +13,16 @@
       "Interactions": [
         {
           "Parent": "Weapon_Crossbow_Damage_Standard_Projectile",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Mace_T1_Impact",
+            "LocalSoundEventId": "SFX_Mace_T1_Impact",
+            "Knockback": {
+              "Force": 32
+            }
+          },
           "DamageCalculator": {
             "BaseDamage": {
-              "Projectile": 16
+              "Projectile": 0
             }
           }
         }
@@ -27,7 +34,7 @@
           "Parent": "Weapon_Crossbow_Damage_Combo_Projectile",
           "DamageCalculator": {
             "BaseDamage": {
-              "Projectile": 42
+              "Projectile": 0
             }
           }
         }
@@ -39,7 +46,7 @@
           "Parent": "Weapon_Crossbow_Damage_Signature_Projectile",
           "DamageCalculator": {
             "BaseDamage": {
-              "Projectile": 123
+              "Projectile": 0
             }
           }
         }
