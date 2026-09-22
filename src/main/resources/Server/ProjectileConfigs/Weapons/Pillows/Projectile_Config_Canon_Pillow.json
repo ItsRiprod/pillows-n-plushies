@@ -9,10 +9,7 @@
     "TerminalVelocityWater": 15,
     "RotationMode": "VelocityDamped",
     "Bounciness": 0.5,
-    "SticksVertically": false,
-    "AllowRolling": true,
-    "ComputeYaw": true,
-    "ComputePitch": true
+    "SticksVertically": false
   },
   "LaunchLocalSoundEventId": "SFX_Bow_T2_Shoot_Local",
   "LaunchWorldSoundEventId": "SFX_Bow_T2_Shoot",
@@ -29,7 +26,7 @@
             ]
           }
         },
-        "Common_Projectile_Despawn"
+        "Common_Projectile_Despawn_Pillow"
       ]
     },
     "ProjectileMiss": {
@@ -44,7 +41,7 @@
             ]
           }
         },
-        "Common_Projectile_Despawn"
+        "Common_Projectile_Despawn_Pillow"
       ]
     }
   }

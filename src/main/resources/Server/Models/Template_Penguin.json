@@ -4,6 +4,8 @@
   "DefaultAttachments": [],
   "EyeHeight": 0.3,
   "CrouchOffset": -0.05,
+  "SittingOffset": 0.0,
+  "SleepingOffset": 0.0,
   "MinScale": 2.0,
   "MaxScale": 2.0,
   "HitBox": {
