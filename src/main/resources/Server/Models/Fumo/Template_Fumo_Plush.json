@@ -6,7 +6,7 @@
     "Walk": {
       "Animations": [
         {
-          "Animation": "Items/Blocks/Plushies/Animations/Fumo/Walk.blockyanim",
+          "Animation": "Characters/Animations/Plush/Flavor/Walk_Plush.blockyanim",
           "Speed": 0.85,
           "Looping": true
         }
@@ -15,7 +15,7 @@
     "Run": {
       "Animations": [
         {
-          "Animation": "Items/Blocks/Plushies/Animations/Fumo/Walk.blockyanim",
+          "Animation": "Characters/Animations/Plush/Flavor/Walk_Plush.blockyanim",
           "Speed": 2.0,
           "Looping": true
         }
@@ -24,9 +24,32 @@
     "Jump": {
       "Animations": [
         {
-          "Animation": "Items/Blocks/Plushies/Animations/Fumo/Walk.blockyanim",
+          "Animation": "Characters/Animations/Plush/Flavor/Walk_Plush.blockyanim",
           "Speed": 0.85,
           "Looping": false
+        }
+      ]
+    },
+    "Sit": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Plush/Flavor/Sit_Plush.blockyanim",
+          "Looping": true,
+          "Speed": 0.5
+        }
+      ]
+    },
+    "Sleep": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Plush/Flavor/Sleep_Plush.blockyanim"
+        }
+      ]
+    },
+    "Sleep2": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Plush/Flavor/Sleep_Plush.blockyanim"
         }
       ]
     }

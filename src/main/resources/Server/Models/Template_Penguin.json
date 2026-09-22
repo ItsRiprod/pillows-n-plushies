@@ -2,8 +2,8 @@
   "Model": "NPC/Wildlife/Penguin/Models/Model.blockymodel",
   "Texture": "NPC/Wildlife/Penguin/Models/Texture.png",
   "DefaultAttachments": [],
-  "EyeHeight": 0.3,
-  "CrouchOffset": -0.05,
+  "EyeHeight": 0.4,
+  "CrouchOffset": 0.0,
   "SittingOffset": 0.0,
   "SleepingOffset": 0.0,
   "MinScale": 2.0,
@@ -18,6 +18,13 @@
       "X": -0.22,
       "Y": 0,
       "Z": -0.22
+    }
+  },
+  "Camera": {
+    "PositionOffset": {
+      "X": 0.15,
+      "Z": 1.75,
+      "Y": 0.20
     }
   },
   "PhysicsValues": {
