@@ -34,7 +34,7 @@
   },
   "Interactions": {
     "Primary": "Block_Primary",
-    "Secondary": "Root_Secondary_Consume_Potion_Morph_Plushie"
+    "Secondary": "Root_Secondary_Consume_Potion_Morph"
   },
   "InteractionVars": {
     "RemoveEffect": {

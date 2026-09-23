@@ -1,10 +1,10 @@
 {
   "Type": "Condition",
-  "RequiredGameMode": "Adventure",
+  "RequiredGameMode": null,
   "Crouching": false,
   "Next": {
     "Type": "EffectCondition",
-    "EntityEffectIds": [
+    "EntityEffectIds+": [
       "Potion_Morph_Hex_Farren",
       "Potion_Morph_Hex_Gaia",
       "Potion_Morph_Hex_Ikari",
@@ -16,5 +16,6 @@
     ],
     "Match": "None",
     "Next": "Consume_Charge_Potion_Fast"
-  }
+  },
+  "Failed": "Simple"
 }
