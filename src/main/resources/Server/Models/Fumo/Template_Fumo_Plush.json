@@ -7,7 +7,7 @@
       "Animations": [
         {
           "Animation": "Characters/Animations/Plush/Flavor/Walk_Plush.blockyanim",
-          "Speed": 0.85,
+          "Speed": 0.80,
           "Looping": true
         }
       ]
@@ -25,7 +25,7 @@
       "Animations": [
         {
           "Animation": "Characters/Animations/Plush/Flavor/Walk_Plush.blockyanim",
-          "Speed": 0.85,
+          "Speed": 0.80,
           "Looping": false
         }
       ]
@@ -50,6 +50,55 @@
       "Animations": [
         {
           "Animation": "Characters/Animations/Plush/Flavor/Sleep_Plush.blockyanim"
+        }
+      ]
+    },
+    "Crouch": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Plush/Default/Crouch_Plush.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 0.5,
+          "FootstepIntervals": [
+            25,
+            75
+          ]
+        }
+      ]
+    },
+    "CrouchWalk": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Plush/Default/Crouch_Walk_Plush.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 0.8,
+          "FootstepIntervals": [
+            25,
+            75
+          ]
+        }
+      ]
+    },
+    "CrouchWalkBackward": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Plush/Default/Crouch_Walk_Backward_Plush.blockyanim",
+          "BlendingDuration": 0.1,
+          "Speed": 0.8,
+          "FootstepIntervals": [
+            25,
+            75
+          ]
+        }
+      ]
+    },
+    "CrouchSlide": {
+      "Animations": [
+        {
+          "Animation": "Characters/Animations/Plush/Slide/Slide_Plush.blockyanim",
+          "BlendingDuration": 0.2,
+          "Speed": 1.0,
+          "SoundEventId": "SFX_Player_Slide"
         }
       ]
     }

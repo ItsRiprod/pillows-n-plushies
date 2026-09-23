@@ -21,46 +21,6 @@
       "children": [
         {
           "id": "2",
-          "name": "top",
-          "position": {"x": 0, "y": 15, "z": 0},
-          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
-          "shape": {
-            "type": "none",
-            "offset": {"x": 0, "y": -6, "z": 0},
-            "stretch": {"x": 1, "y": 1, "z": 1},
-            "settings": {
-              "isPiece": false
-            },
-            "textureLayout": {},
-            "unwrapMode": "custom",
-            "visible": true,
-            "doubleSided": false,
-            "shadingMode": "flat"
-          },
-          "children": [
-            {
-              "id": "3",
-              "name": "hair",
-              "position": {"x": 1, "y": -4, "z": 6},
-              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
-              "shape": {
-                "type": "none",
-                "offset": {"x": -1, "y": -5.5, "z": -12.1},
-                "stretch": {"x": 1, "y": 1, "z": 1},
-                "settings": {
-                  "isPiece": false
-                },
-                "textureLayout": {},
-                "unwrapMode": "custom",
-                "visible": true,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              }
-            }
-          ]
-        },
-        {
-          "id": "4",
           "name": "head",
           "position": {"x": 0, "y": 0, "z": 0},
           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -111,7 +71,7 @@
           },
           "children": [
             {
-              "id": "5",
+              "id": "3",
               "name": "mouth--C1",
               "position": {"x": 1, "y": 1.5, "z": 6.1},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -139,7 +99,7 @@
               }
             },
             {
-              "id": "6",
+              "id": "4",
               "name": "cube--C2",
               "position": {"x": 0, "y": 2.5, "z": 0},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -191,7 +151,7 @@
               }
             },
             {
-              "id": "7",
+              "id": "5",
               "name": "cube--C3",
               "position": {"x": 0, "y": 3.5, "z": -3},
               "orientation": {"x": 0.16043, "y": 0.06645, "z": -0.37687, "w": 0.90984},
@@ -243,7 +203,7 @@
               }
             },
             {
-              "id": "8",
+              "id": "6",
               "name": "cube--C4",
               "position": {"x": 0, "y": 12.25, "z": -6.25},
               "orientation": {"x": -0.25853, "y": -0.10709, "z": -0.3674, "w": 0.88697},
@@ -295,7 +255,7 @@
               }
             },
             {
-              "id": "9",
+              "id": "7",
               "name": "cube--C5",
               "position": {"x": 0, "y": 6.377, "z": -15.43391},
               "orientation": {"x": -0.56243, "y": -0.23296, "z": -0.3036, "w": 0.73296},
@@ -347,7 +307,7 @@
               }
             },
             {
-              "id": "10",
+              "id": "8",
               "name": "cube--C6",
               "position": {"x": 0, "y": -4.5, "z": 7},
               "orientation": {"x": 0.0654, "y": 0, "z": 0, "w": 0.99786},
@@ -399,7 +359,7 @@
               }
             },
             {
-              "id": "11",
+              "id": "9",
               "name": "cube--C7",
               "position": {"x": 0, "y": -0.2, "z": -14.75},
               "orientation": {"x": 0, "y": 0.70711, "z": 0, "w": 0.70711},
@@ -427,7 +387,7 @@
               }
             },
             {
-              "id": "12",
+              "id": "10",
               "name": "R-Ear-Attachment",
               "position": {"x": -7, "y": -1.7, "z": -2},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -446,7 +406,7 @@
               },
               "children": [
                 {
-                  "id": "13",
+                  "id": "11",
                   "name": "R-Ear",
                   "position": {"x": -3, "y": 1, "z": 0},
                   "orientation": {"x": 0, "y": 0, "z": -0.17365, "w": 0.98481},
@@ -497,7 +457,7 @@
                   },
                   "children": [
                     {
-                      "id": "14",
+                      "id": "12",
                       "name": "R-Ear--C1",
                       "position": {"x": -3.5, "y": 4.5, "z": 1},
                       "orientation": {"x": 0.04362, "y": 0, "z": 0, "w": 0.99905},
@@ -525,7 +485,7 @@
                       }
                     },
                     {
-                      "id": "15",
+                      "id": "13",
                       "name": "R-Ear2",
                       "position": {"x": -3.5, "y": 4.5, "z": 1},
                       "orientation": {"x": 0.04362, "y": 0, "z": 0, "w": 0.99905},
@@ -552,7 +512,7 @@
                       },
                       "children": [
                         {
-                          "id": "16",
+                          "id": "14",
                           "name": "R-Ear3--C1",
                           "position": {"x": 0, "y": 0, "z": 0},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -582,7 +542,7 @@
                       ]
                     },
                     {
-                      "id": "17",
+                      "id": "15",
                       "name": "R-Ear3",
                       "position": {"x": -3.5, "y": 4.5, "z": -1},
                       "orientation": {"x": -0.04362, "y": 0, "z": 0, "w": 0.99905},
@@ -609,7 +569,7 @@
                       }
                     },
                     {
-                      "id": "18",
+                      "id": "16",
                       "name": "R-Ear4",
                       "position": {"x": -7.5, "y": 4.5, "z": 0},
                       "orientation": {"x": -0.70711, "y": 0, "z": 0, "w": 0.70711},
@@ -640,7 +600,7 @@
               ]
             },
             {
-              "id": "19",
+              "id": "17",
               "name": "L-Ear-Attachment",
               "position": {"x": 7, "y": -1.7, "z": -2},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -659,7 +619,7 @@
               },
               "children": [
                 {
-                  "id": "20",
+                  "id": "18",
                   "name": "L-Ear",
                   "position": {"x": 3, "y": 1, "z": 0},
                   "orientation": {"x": 0, "y": 0, "z": 0.17365, "w": 0.98481},
@@ -710,7 +670,7 @@
                   },
                   "children": [
                     {
-                      "id": "21",
+                      "id": "19",
                       "name": "L-Ear--C1",
                       "position": {"x": 3.5, "y": 4.5, "z": 1},
                       "orientation": {"x": 0.04362, "y": 0, "z": 0, "w": 0.99905},
@@ -738,7 +698,7 @@
                       }
                     },
                     {
-                      "id": "22",
+                      "id": "20",
                       "name": "L-Ear2",
                       "position": {"x": 3.5, "y": 4.5, "z": 1},
                       "orientation": {"x": 0.04362, "y": 0, "z": 0, "w": 0.99905},
@@ -765,7 +725,7 @@
                       },
                       "children": [
                         {
-                          "id": "23",
+                          "id": "21",
                           "name": "L-Ear2--C1",
                           "position": {"x": 0, "y": 0, "z": 0.01},
                           "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -795,7 +755,7 @@
                       ]
                     },
                     {
-                      "id": "24",
+                      "id": "22",
                       "name": "L-Ear3",
                       "position": {"x": 3.5, "y": 4.5, "z": -1},
                       "orientation": {"x": -0.04362, "y": 0, "z": 0, "w": 0.99905},
@@ -822,7 +782,7 @@
                       }
                     },
                     {
-                      "id": "25",
+                      "id": "23",
                       "name": "L-Ear4",
                       "position": {"x": 7.5, "y": 4.5, "z": 0},
                       "orientation": {"x": -0.70711, "y": 0, "z": 0, "w": 0.70711},
@@ -849,6 +809,46 @@
                       }
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "id": "24",
+              "name": "top",
+              "position": {"x": 0, "y": 17.5, "z": 0},
+              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+              "shape": {
+                "type": "none",
+                "offset": {"x": 0, "y": -6, "z": 0},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false
+                },
+                "textureLayout": {},
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "flat"
+              },
+              "children": [
+                {
+                  "id": "25",
+                  "name": "hair",
+                  "position": {"x": 1, "y": -4, "z": 6},
+                  "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                  "shape": {
+                    "type": "none",
+                    "offset": {"x": -1, "y": -5.5, "z": -12.1},
+                    "stretch": {"x": 1, "y": 1, "z": 1},
+                    "settings": {
+                      "isPiece": false
+                    },
+                    "textureLayout": {},
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
+                  }
                 }
               ]
             }
@@ -946,13 +946,13 @@
                       },
                       "right": {
                         "offset": {"x": 88, "y": 45},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 90
+                        "mirror": {"x": false, "y": false},
+                        "angle": 270
                       },
                       "front": {
                         "offset": {"x": 84, "y": 54},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 90
+                        "mirror": {"x": false, "y": false},
+                        "angle": 270
                       },
                       "left": {
                         "offset": {"x": 92, "y": 54},
@@ -966,8 +966,8 @@
                       },
                       "bottom": {
                         "offset": {"x": 92, "y": 54},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 90
+                        "mirror": {"x": false, "y": false},
+                        "angle": 270
                       }
                     },
                     "unwrapMode": "custom",
@@ -1033,8 +1033,8 @@
                     "textureLayout": {
                       "back": {
                         "offset": {"x": 103, "y": 89},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 90
+                        "mirror": {"x": false, "y": false},
+                        "angle": 270
                       },
                       "right": {
                         "offset": {"x": 107, "y": 89},
@@ -1053,8 +1053,8 @@
                       },
                       "top": {
                         "offset": {"x": 111, "y": 80},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 90
+                        "mirror": {"x": true, "y": true},
+                        "angle": 270
                       },
                       "bottom": {
                         "offset": {"x": 111, "y": 80},

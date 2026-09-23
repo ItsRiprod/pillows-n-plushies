@@ -1,5 +1,5 @@
 {
-  "Parent": "Template_Weapon_Mace",
+  "Parent": "Template_Weapon_Mace_Block",
   "Quality": "Template",
   "Set": "Furniture_Misc",
   "ItemSoundSetId": "ISS_Weapon_Blunt_Large",
