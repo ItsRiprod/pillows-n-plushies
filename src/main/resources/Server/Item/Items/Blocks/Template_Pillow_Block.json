@@ -3,6 +3,27 @@
   "Categories": [
     "Blocks.Cloth"
   ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "SoftBlocks"
+      }
+    },
+    "Textures": [
+      {
+        "All": "BlockTextures/Pillow_Block_Pink_Light.png",
+        "Weight": 4
+      }
+    ],
+    "ParticleColor": "#ffafff",
+    "Group": "Cloth",
+    "BlockSoundSetId": "Cloth",
+    "PhysicalMaterialId": "Cloth",
+    "BlockParticleSetId": "Dust"
+  },
   "SubCategory": "pillow",
   "Set": "Cloth_Wool_Yellow_Light"
 }
