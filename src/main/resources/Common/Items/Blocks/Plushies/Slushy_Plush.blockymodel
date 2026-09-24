@@ -465,8 +465,8 @@
                     "textureLayout": {
                       "back": {
                         "offset": {"x": 84, "y": 54},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 90
+                        "mirror": {"x": false, "y": false},
+                        "angle": 270
                       },
                       "right": {
                         "offset": {"x": 88, "y": 54},
@@ -485,8 +485,8 @@
                       },
                       "top": {
                         "offset": {"x": 92, "y": 45},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 90
+                        "mirror": {"x": true, "y": true},
+                        "angle": 270
                       },
                       "bottom": {
                         "offset": {"x": 92, "y": 45},
@@ -523,98 +523,6 @@
             },
             {
               "id": "17",
-              "name": "R-Hand",
-              "position": {"x": -5.5, "y": 2, "z": -3.1},
-              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
-              "shape": {
-                "type": "none",
-                "offset": {"x": 0, "y": 0, "z": 0},
-                "stretch": {"x": 1, "y": 1, "z": 1},
-                "settings": {
-                  "isPiece": false
-                },
-                "textureLayout": {},
-                "unwrapMode": "custom",
-                "visible": true,
-                "doubleSided": false,
-                "shadingMode": "flat"
-              },
-              "children": [
-                {
-                  "id": "18",
-                  "name": "R-Hand--C1",
-                  "position": {"x": 0, "y": 0, "z": 0},
-                  "orientation": {"x": 0, "y": 0, "z": 0.17365, "w": 0.98481},
-                  "shape": {
-                    "type": "box",
-                    "offset": {"x": -3.5, "y": 0, "z": -1},
-                    "stretch": {"x": 1, "y": 1, "z": 1},
-                    "settings": {
-                      "isPiece": false,
-                      "size": {"x": 9, "y": 4, "z": 4},
-                      "isStaticBox": true
-                    },
-                    "textureLayout": {
-                      "back": {
-                        "offset": {"x": 80, "y": 45},
-                        "mirror": {"x": false, "y": true},
-                        "angle": 90
-                      },
-                      "right": {
-                        "offset": {"x": 88, "y": 45},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 90
-                      },
-                      "front": {
-                        "offset": {"x": 84, "y": 54},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 90
-                      },
-                      "left": {
-                        "offset": {"x": 92, "y": 54},
-                        "mirror": {"x": true, "y": false},
-                        "angle": 0
-                      },
-                      "top": {
-                        "offset": {"x": 92, "y": 54},
-                        "mirror": {"x": true, "y": false},
-                        "angle": 90
-                      },
-                      "bottom": {
-                        "offset": {"x": 92, "y": 54},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 90
-                      }
-                    },
-                    "unwrapMode": "custom",
-                    "visible": true,
-                    "doubleSided": false,
-                    "shadingMode": "flat"
-                  }
-                },
-                {
-                  "id": "19",
-                  "name": "R-Attachment",
-                  "position": {"x": -13.07818, "y": 6.45723, "z": 1},
-                  "orientation": {"x": 0, "y": 0, "z": 0.17365, "w": 0.98481},
-                  "shape": {
-                    "type": "none",
-                    "offset": {"x": 0, "y": 0, "z": 0},
-                    "stretch": {"x": 1, "y": 1, "z": 1},
-                    "settings": {
-                      "isPiece": false
-                    },
-                    "textureLayout": {},
-                    "unwrapMode": "custom",
-                    "visible": true,
-                    "doubleSided": false,
-                    "shadingMode": "flat"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "20",
               "name": "torso--C1",
               "position": {"x": 0.5, "y": -4, "z": -5.1},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -666,7 +574,7 @@
               }
             },
             {
-              "id": "21",
+              "id": "18",
               "name": "tag--C2",
               "position": {"x": 0.5, "y": -8, "z": -6.1},
               "orientation": {"x": 0, "y": 0.42262, "z": 0, "w": 0.90631},
@@ -694,7 +602,7 @@
               }
             },
             {
-              "id": "22",
+              "id": "19",
               "name": "leg-left--C3",
               "position": {"x": -3.5, "y": -10, "z": -0.1},
               "orientation": {"x": 0, "y": -0.13053, "z": 0, "w": 0.99144},
@@ -746,7 +654,7 @@
               }
             },
             {
-              "id": "23",
+              "id": "20",
               "name": "leg-right--C4",
               "position": {"x": 4.5, "y": -10, "z": -0.1},
               "orientation": {"x": 0, "y": 0.13053, "z": 0, "w": 0.99144},
@@ -798,7 +706,7 @@
               }
             },
             {
-              "id": "24",
+              "id": "21",
               "name": "leg-left--C5",
               "position": {"x": -3.5, "y": -10, "z": -0.1},
               "orientation": {"x": 0, "y": -0.13053, "z": 0, "w": 0.99144},
@@ -850,7 +758,7 @@
               }
             },
             {
-              "id": "25",
+              "id": "22",
               "name": "leg-right--C6",
               "position": {"x": 4.5, "y": -10, "z": -0.1},
               "orientation": {"x": 0, "y": 0.13053, "z": 0, "w": 0.99144},
@@ -902,7 +810,7 @@
               }
             },
             {
-              "id": "26",
+              "id": "23",
               "name": "clothes-top--C7",
               "position": {"x": 0.5, "y": -4, "z": -0.1},
               "orientation": {"x": 0.70711, "y": 0, "z": 0, "w": 0.70711},
@@ -930,7 +838,7 @@
               }
             },
             {
-              "id": "27",
+              "id": "24",
               "name": "clothes-top--C8",
               "position": {"x": 7.5, "y": -4.1, "z": -0.1},
               "orientation": {"x": 0.5, "y": -0.5, "z": -0.5, "w": 0.5},
@@ -958,7 +866,7 @@
               }
             },
             {
-              "id": "28",
+              "id": "25",
               "name": "clothes-top--C9",
               "position": {"x": -6.5, "y": -4.1, "z": -0.1},
               "orientation": {"x": 0.5, "y": 0.5, "z": 0.5, "w": 0.5},
@@ -986,7 +894,7 @@
               }
             },
             {
-              "id": "29",
+              "id": "26",
               "name": "clothes-top--C10",
               "position": {"x": 0.5, "y": -3.9, "z": -0.1},
               "orientation": {"x": 0.70711, "y": 0, "z": 0, "w": 0.70711},
@@ -1014,7 +922,7 @@
               }
             },
             {
-              "id": "30",
+              "id": "27",
               "name": "clothes-top--C11",
               "position": {"x": 0.5, "y": -3.9, "z": -0.1},
               "orientation": {"x": 0.70711, "y": 0, "z": 0, "w": 0.70711},
@@ -1042,7 +950,7 @@
               }
             },
             {
-              "id": "31",
+              "id": "28",
               "name": "holder--C12",
               "position": {"x": -4.5, "y": -6.2, "z": 0.9},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1094,7 +1002,7 @@
               }
             },
             {
-              "id": "32",
+              "id": "29",
               "name": "holder--C13",
               "position": {"x": 2.5, "y": -6.2, "z": 0.9},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1146,7 +1054,7 @@
               }
             },
             {
-              "id": "33",
+              "id": "30",
               "name": "holder--C14",
               "position": {"x": 2.5, "y": -5.2, "z": 1.4},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
@@ -1198,10 +1106,135 @@
               }
             },
             {
-              "id": "34",
+              "id": "31",
               "name": "straw",
               "position": {"x": -4, "y": -5.2, "z": 0.4},
               "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+              "shape": {
+                "type": "none",
+                "offset": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 1, "y": 1, "z": 1},
+                "settings": {
+                  "isPiece": false
+                },
+                "textureLayout": {},
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": false,
+                "shadingMode": "flat"
+              },
+              "children": [
+                {
+                  "id": "32",
+                  "name": "straw--C1",
+                  "position": {"x": 0, "y": 0, "z": 0},
+                  "orientation": {"x": 0, "y": -0.38268, "z": 0, "w": 0.92388},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": 1.8, "z": 0},
+                    "stretch": {"x": 1, "y": 1, "z": 1},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 1, "y": 3, "z": 1},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 6, "y": 78},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {"x": 5, "y": 78},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 8, "y": 78},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {"x": 7, "y": 78},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 7, "y": 78},
+                        "mirror": {"x": true, "y": true},
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {"x": 8, "y": 77},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
+                  }
+                },
+                {
+                  "id": "33",
+                  "name": "straw--C2",
+                  "position": {"x": 0, "y": 0, "z": 0},
+                  "orientation": {"x": -0.70773, "y": -0.24599, "z": -0.29315, "w": 0.59386},
+                  "shape": {
+                    "type": "box",
+                    "offset": {"x": 0, "y": -1.03335, "z": 2.91769},
+                    "stretch": {"x": 1.1, "y": 1.1, "z": 1.1},
+                    "settings": {
+                      "isPiece": false,
+                      "size": {"x": 1, "y": 2, "z": 1},
+                      "isStaticBox": true
+                    },
+                    "textureLayout": {
+                      "back": {
+                        "offset": {"x": 1, "y": 78},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "right": {
+                        "offset": {"x": 0, "y": 78},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "front": {
+                        "offset": {"x": 3, "y": 78},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "left": {
+                        "offset": {"x": 2, "y": 78},
+                        "mirror": {"x": false, "y": false},
+                        "angle": 0
+                      },
+                      "top": {
+                        "offset": {"x": 2, "y": 78},
+                        "mirror": {"x": true, "y": true},
+                        "angle": 0
+                      },
+                      "bottom": {
+                        "offset": {"x": 3, "y": 77},
+                        "mirror": {"x": true, "y": false},
+                        "angle": 0
+                      }
+                    },
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": false,
+                    "shadingMode": "flat"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "34",
+              "name": "straw2",
+              "position": {"x": -3, "y": -5.2, "z": 0.4},
+              "orientation": {"x": 0, "y": 0.38268, "z": 0, "w": 0.92388},
               "shape": {
                 "type": "none",
                 "offset": {"x": 0, "y": 0, "z": 0},
@@ -1324,9 +1357,9 @@
             },
             {
               "id": "37",
-              "name": "straw2",
-              "position": {"x": -3, "y": -5.2, "z": 0.4},
-              "orientation": {"x": 0, "y": 0.38268, "z": 0, "w": 0.92388},
+              "name": "straw3",
+              "position": {"x": -2, "y": -5.2, "z": 0.4},
+              "orientation": {"x": 0, "y": 0.70711, "z": 0, "w": 0.70711},
               "shape": {
                 "type": "none",
                 "offset": {"x": 0, "y": 0, "z": 0},
@@ -1449,9 +1482,9 @@
             },
             {
               "id": "40",
-              "name": "straw3",
-              "position": {"x": -2, "y": -5.2, "z": 0.4},
-              "orientation": {"x": 0, "y": 0.70711, "z": 0, "w": 0.70711},
+              "name": "R-Arm",
+              "position": {"x": -5.5, "y": 2, "z": -3.1},
+              "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
               "shape": {
                 "type": "none",
                 "offset": {"x": 0, "y": 0, "z": 0},
@@ -1468,107 +1501,116 @@
               "children": [
                 {
                   "id": "41",
-                  "name": "straw--C1",
+                  "name": "R-Forearm",
                   "position": {"x": 0, "y": 0, "z": 0},
-                  "orientation": {"x": 0, "y": -0.38268, "z": 0, "w": 0.92388},
+                  "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
                   "shape": {
-                    "type": "box",
-                    "offset": {"x": 0, "y": 1.8, "z": 0},
+                    "type": "none",
+                    "offset": {"x": 0, "y": 0, "z": 0},
                     "stretch": {"x": 1, "y": 1, "z": 1},
                     "settings": {
-                      "isPiece": false,
-                      "size": {"x": 1, "y": 3, "z": 1},
-                      "isStaticBox": true
+                      "isPiece": false
                     },
-                    "textureLayout": {
-                      "back": {
-                        "offset": {"x": 6, "y": 78},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 0
-                      },
-                      "right": {
-                        "offset": {"x": 5, "y": 78},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 0
-                      },
-                      "front": {
-                        "offset": {"x": 8, "y": 78},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 0
-                      },
-                      "left": {
-                        "offset": {"x": 7, "y": 78},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 0
-                      },
-                      "top": {
-                        "offset": {"x": 7, "y": 78},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 0
-                      },
-                      "bottom": {
-                        "offset": {"x": 8, "y": 77},
-                        "mirror": {"x": true, "y": false},
-                        "angle": 0
-                      }
-                    },
+                    "textureLayout": {},
                     "unwrapMode": "custom",
                     "visible": true,
                     "doubleSided": false,
                     "shadingMode": "flat"
-                  }
-                },
-                {
-                  "id": "42",
-                  "name": "straw--C2",
-                  "position": {"x": 0, "y": 0, "z": 0},
-                  "orientation": {"x": -0.70773, "y": -0.24599, "z": -0.29315, "w": 0.59386},
-                  "shape": {
-                    "type": "box",
-                    "offset": {"x": 0, "y": -1.03335, "z": 2.91769},
-                    "stretch": {"x": 1.1, "y": 1.1, "z": 1.1},
-                    "settings": {
-                      "isPiece": false,
-                      "size": {"x": 1, "y": 2, "z": 1},
-                      "isStaticBox": true
-                    },
-                    "textureLayout": {
-                      "back": {
-                        "offset": {"x": 1, "y": 78},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 0
+                  },
+                  "children": [
+                    {
+                      "id": "42",
+                      "name": "R-Hand",
+                      "position": {"x": 0, "y": 0, "z": 0},
+                      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                      "shape": {
+                        "type": "none",
+                        "offset": {"x": 0, "y": 0, "z": 0},
+                        "stretch": {"x": 1, "y": 1, "z": 1},
+                        "settings": {
+                          "isPiece": false
+                        },
+                        "textureLayout": {},
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": false,
+                        "shadingMode": "flat"
                       },
-                      "right": {
-                        "offset": {"x": 0, "y": 78},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 0
-                      },
-                      "front": {
-                        "offset": {"x": 3, "y": 78},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 0
-                      },
-                      "left": {
-                        "offset": {"x": 2, "y": 78},
-                        "mirror": {"x": false, "y": false},
-                        "angle": 0
-                      },
-                      "top": {
-                        "offset": {"x": 2, "y": 78},
-                        "mirror": {"x": true, "y": true},
-                        "angle": 0
-                      },
-                      "bottom": {
-                        "offset": {"x": 3, "y": 77},
-                        "mirror": {"x": true, "y": false},
-                        "angle": 0
-                      }
-                    },
-                    "unwrapMode": "custom",
-                    "visible": true,
-                    "doubleSided": false,
-                    "shadingMode": "flat"
-                  }
+                      "children": [
+                        {
+                          "id": "43",
+                          "name": "R-Hand--C1",
+                          "position": {"x": 0, "y": 0, "z": 0},
+                          "orientation": {"x": 0, "y": 0, "z": 0.17365, "w": 0.98481},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": -3.5, "y": 0, "z": -1},
+                            "stretch": {"x": 1, "y": 1, "z": 1},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 9, "y": 4, "z": 4},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 80, "y": 45},
+                                "mirror": {"x": false, "y": true},
+                                "angle": 90
+                              },
+                              "right": {
+                                "offset": {"x": 88, "y": 45},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 270
+                              },
+                              "front": {
+                                "offset": {"x": 84, "y": 54},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 270
+                              },
+                              "left": {
+                                "offset": {"x": 92, "y": 54},
+                                "mirror": {"x": true, "y": false},
+                                "angle": 0
+                              },
+                              "top": {
+                                "offset": {"x": 92, "y": 54},
+                                "mirror": {"x": true, "y": false},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 92, "y": 54},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": false,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "44",
+                          "name": "R-Attachment",
+                          "position": {"x": -12.07818, "y": 3.45723, "z": 1},
+                          "orientation": {"x": 0.08583, "y": 0.01513, "z": 0.17299, "w": 0.98106},
+                          "shape": {
+                            "type": "none",
+                            "offset": {"x": 0, "y": 0, "z": 0},
+                            "stretch": {"x": 1, "y": 1, "z": 1},
+                            "settings": {
+                              "isPiece": false
+                            },
+                            "textureLayout": {},
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": false,
+                            "shadingMode": "flat"
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
