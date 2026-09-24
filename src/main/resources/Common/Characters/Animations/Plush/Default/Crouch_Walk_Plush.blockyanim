@@ -122,37 +122,6 @@
       "shapeVisible": [],
       "shapeUvOffset": []
     },
-    "R-Forearm": {
-      "position": [],
-      "orientation": [
-        {
-          "time": 0,
-          "delta": {"x": -0.60876, "y": 0, "z": 0, "w": 0.79335},
-          "interpolationType": "smooth"
-        }
-      ],
-      "shapeStretch": [],
-      "shapeVisible": [],
-      "shapeUvOffset": []
-    },
-    "R-Arm": {
-      "position": [],
-      "orientation": [
-        {
-          "time": 5,
-          "delta": {"x": 0.01204, "y": 0.07286, "z": -0.10821, "w": 0.99138},
-          "interpolationType": "smooth"
-        },
-        {
-          "time": 35,
-          "delta": {"x": -0.00682, "y": 0.06678, "z": -0.08571, "w": 0.99406},
-          "interpolationType": "smooth"
-        }
-      ],
-      "shapeStretch": [],
-      "shapeVisible": [],
-      "shapeUvOffset": []
-    },
     "R_Side_Cloth_1": {
       "position": [],
       "orientation": [
