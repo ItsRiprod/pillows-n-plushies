@@ -1,6 +1,0 @@
-{
-  "RequireNewClick": true,
-  "Interactions": [
-    "Condition_Consume_Potion_Morph"
-  ]
-}
