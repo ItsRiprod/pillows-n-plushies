@@ -16,37 +16,6 @@
       "shapeVisible": [],
       "shapeUvOffset": []
     },
-    "R-Arm": {
-      "position": [],
-      "orientation": [
-        {
-          "time": 0,
-          "delta": {"x": -0.01312, "y": 0.30042, "z": -0.12448, "w": 0.94556},
-          "interpolationType": "smooth"
-        }
-      ],
-      "shapeStretch": [],
-      "shapeVisible": [],
-      "shapeUvOffset": []
-    },
-    "R-Forearm": {
-      "position": [],
-      "orientation": [
-        {
-          "time": 0,
-          "delta": {"x": -0.59366, "y": 0, "z": 0, "w": 0.80472},
-          "interpolationType": "smooth"
-        },
-        {
-          "time": 30,
-          "delta": {"x": -0.55799, "y": 0, "z": 0, "w": 0.82985},
-          "interpolationType": "smooth"
-        }
-      ],
-      "shapeStretch": [],
-      "shapeVisible": [],
-      "shapeUvOffset": []
-    },
     "L-Forearm": {
       "position": [],
       "orientation": [
