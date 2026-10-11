@@ -8,6 +8,7 @@
   "Model": "Items/Tools/Book/Grimoire_Plush.blockymodel",
   "Texture": "Items/Tools/Book/Grimoire_Plush.png",
   "Icon": "Icons/ItemsGenerated/Evoke_Book_Plush.png",
+  "PlayerAnimationsId": "Spellbook",
   "IconProperties": {
     "Scale": 0.7,
     "Rotation": [
