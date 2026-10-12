@@ -1,84 +1,224 @@
 {
-  "AllowedHexItems+": [
-		{
-      "BlockId": "Rimuru_Slime_Plush",
-      "EntityId": "Hex_Rimuru_Slime_Plush"
-    },
-    {
-      "BlockId": "Milim_Plush",
-      "EntityId": "Hex_Milim_Plush"
-    },
-    {
-      "BlockId": "Veldora_Human_Plush",
-      "EntityId": "Hex_Veldora_Human_Plush"
-    },
-    {
-      "BlockId": "Shark_Kitty_Plush",
-      "EntityId": "Hex_Shark_Kitty_Plush"
-    },
-    {
-      "BlockId": "Lovander_Plush",
-      "EntityId": "Hex_Lovander_Plush"
-    },
-    {
-      "BlockId": "Gaia_Plush",
-      "EntityId": "Hex_Gaia_Plush"
-    },
-    {
-      "BlockId": "Edilan_Plush",
-      "EntityId": "Hex_Edilan_Plush"
-    },
-    {
-      "BlockId": "Riprod_Plush",
-      "EntityId": "Hex_Riprod_Plush"
-    },
-    {
-      "BlockId": "Farren_Plush",
-      "EntityId": "Hex_Farren_Plush"
-    },
-    {
-      "BlockId": "Heru_Plush",
-      "EntityId": "Hex_Heru_Plush"
-    },
-    {
-      "BlockId": "Ikari_Plush",
-      "EntityId": "Hex_Ikari_Plush"
-    },
-    {
-      "BlockId": "Lordimass_Plush",
-      "EntityId": "Hex_Lordimass_Plush"
-    },
-    {
-      "BlockId": "Oatman_Plush",
-      "EntityId": "Hex_Oatman_Plush"
-    },
-    {
-      "BlockId": "Outlaw_Fish_Plush",
-      "EntityId": "Hex_Outlaw_Fish_Plush"
-    },
-    {
-      "BlockId": "Preston_Plush",
-      "EntityId": "Hex_Preston_Plush"
-    },
-    {
-      "BlockId": "Syprus_Plush",
-      "EntityId": "Hex_Syprus_Plush"
-    },
-    {
-      "BlockId": "Foxy_Plush",
-      "EntityId": "Hex_Foxy_Plush"
-    },
-    {
-      "BlockId": "Oruuke_Plush",
-      "EntityId": "Hex_Oruuke_Plush"
-    },
-    {
-      "BlockId": "MelodicAlbuild_Plush",
-      "EntityId": "Hex_MelodicAlbuild_Plush"
-    },
-    {
-      "BlockId": "Slushy_Plush",
-      "EntityId": "Hex_Slushy_Plush"
-    }
-  ]
+    "AllowedHexItems+": [
+        {
+            "BlockId": "Rimuru_Slime_Plush",
+            "EntityId": "Hex_Rimuru_Slime_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Milim_Plush",
+            "EntityId": "Hex_Milim_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Veldora_Human_Plush",
+            "EntityId": "Hex_Veldora_Human_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Shark_Kitty_Plush",
+            "EntityId": "Hex_Shark_Kitty_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Lovander_Plush",
+            "EntityId": "Hex_Lovander_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Gaia_Plush",
+            "EntityId": "Hex_Gaia_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Edilan_Plush",
+            "EntityId": "Hex_Edilan_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Riprod_Plush",
+            "EntityId": "Hex_Riprod_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Farren_Plush",
+            "EntityId": "Hex_Farren_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Heru_Plush",
+            "EntityId": "Hex_Heru_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Ikari_Plush",
+            "EntityId": "Hex_Ikari_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Lordimass_Plush",
+            "EntityId": "Hex_Lordimass_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Oatman_Plush",
+            "EntityId": "Hex_Oatman_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Outlaw_Fish_Plush",
+            "EntityId": "Hex_Outlaw_Fish_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Preston_Plush",
+            "EntityId": "Hex_Preston_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Syprus_Plush",
+            "EntityId": "Hex_Syprus_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Foxy_Plush",
+            "EntityId": "Hex_Foxy_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Oruuke_Plush",
+            "EntityId": "Hex_Oruuke_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "MelodicAlbuild_Plush",
+            "EntityId": "Hex_MelodicAlbuild_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        },
+        {
+            "BlockId": "Slushy_Plush",
+            "EntityId": "Hex_Slushy_Plush",
+            "HasLeftHandSlot": true,
+            "HasRightHandSlot": true,
+            "HasArmorHeadSlot": true,
+            "HasArmorChestSlot": true,
+            "HasArmorHandsSlot": true,
+            "HasArmorLegSlot": true,
+            "HasHotbarSlot": true
+        }
+    ]
 }
