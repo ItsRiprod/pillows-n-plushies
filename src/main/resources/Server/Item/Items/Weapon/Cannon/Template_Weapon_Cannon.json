@@ -30,8 +30,8 @@
           "$Comment": "When the standard projectile hits an entity",
           "Parent": "Weapon_Crossbow_Effects_Standard_Projectile_Impact",
           "Effects": {
-            "LocalSoundEventId": "SFX_Plushie_Build",
-            "WorldSoundEventId": "SFX_Plushie_Build"
+            "LocalSoundEventId": "SFX_Soft_Break",
+            "WorldSoundEventId": "SFX_Soft_Break"
           }
         }
       ]
